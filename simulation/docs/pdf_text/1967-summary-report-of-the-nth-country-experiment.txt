@@ -1,0 +1,2063 @@
+# Source: 1967-Summary-Report-of-the-Nth-Country-Experiment.pdf
+# Method: extract_with_pymupdf
+
+===== PAGE 1 =====
+11 
+• 
+im 
+II 
+m 
+:.~ 
+{~l 
+""' .. 
+~" .... 
+=:~~ 
+--,~~ 
+:~~-
+., 
+·· ... -.,, 
+'-:?[ . 
+.... ,..,~ 
+• 
+UCRL-50249 
+. 
+SUMMARY REPORT 
+OF THE NTH COUNTRY EXPERIMENT- ~x7-;(?.14cr 
+(Title: Unclassified) 
+Edited by W. J. Frank 
+1\·larch 1967 
+. -·-=DIS t-R1 B-tff:fGN::::f.-1/rHJLD:~ 
+ATO:NliC \VEAPON DATA CATEGORY SIGMA)._ 
+UNIVERSITY 
+of 
+' 
+CAllFORNlA 
+
+===== PAGE 2 =====
+-.---
+. ·:, 
+. 
+' 
+.. 
+\( 
+ll 
+• 
+. • 
+. .... 
+'! 
+. 
+~ .. : 
+... ., ...... 
+.. 
+·"' 
+. ~--~ 
+. -·---..~. .. · ... 
+.... ~ 
+~ ... 
+~· .. 
+.... ,, .. _, ...... _ 
+
+===== PAGE 3 =====
+-t ' 
+_.<4. 
+• 
+This documen~ontains~ages. 
+This is copy_{J_of~Series~. 
+La.-vrr:re:n.c e 
+R.a.d:la.t:lo:n. La.bo:ra.to:ry 
+UNIVERSITY OF CALIFORNIA 
+LIVERMORE 
+UCRL-"50249 
+SUMMARY REPORT 
+OF THE NTH COUNTRY EXPERIMENT 
+(Title: Unclassified) 
+Edited by W. J. Frank 
+March 1967 
+0 TPD U€9 "WliiH P@H f'h!'H CA I EWR f 
+~IC3M:ft 1 
+-L 
+RESTRICTED DATA 
+xcluded from Automatic 
+ing and Declassification. 
+:JAl-
+-~ 81Jft~lff 
+..... ~,. 1._"• 
+
+===== PAGE 4 =====
+.. 
+. -· .. "' ... ---·-....::.c-
+• 
+.-.."" 
+. , 
+= '. -
+
+===== PAGE 5 =====
+• 
+'< 
+' 
+....... ·-·. -··- .... 
+. ........... . 
+.. ....... ·~·- .. ·-··-·· .. _. '9 
+·coNTENTS 
+Preface- W. J. Frank. 
+The Nth· Country Fission Weapo!l- Design- D. A. Dobson, D. N. Pipkorn, 
+and R. W. Selden 
+I. Basic Concepts 
+II. Early Design 
+III. 
+Bomb Physics 
+IV. 
+The Final Design 
+v. Test 
+VI. 
+The Continuing Program 
+VII. Conclusions 
+Page No. 
+v 
+1 
+4 
+9 
+9 
+13 
+13 
+15 
+Critique of the _!::!"th Country Weapon Design- F. S. Eby and L. S. Germain 
+20 
+Appendix A: The Operating Rules for the N~h Country Project-
+A. J. Hudgins 
+25 
+Appendix B: Biographical ~ketches 
+27 
+Appendix C: A Brief Chronology of the Experiment 
+29 
+Appendix D: Security Aspects of the Experiment- D. A. Dobson and 
+R. W. Selden 
+30 
+Appendix E: A Selected Bibliography. 
+40 
+Appendix F: High Explosive, Detonator and X-Unit Technology-
+E. James 
+Appendix G: Hydrodynamics Technology- M. L. Wilkins 
+_Appendix H: Neutronics Technology- W. C. Grayso~ 
+Appendix I: 
+Yield Calculations- W. C. Grayson . 
+Appendix J: Initiators- R. L. Remillard 
+Appendix K: Weapon Materials Technology- R. A. James . 
+Appendix L: Weapon Facility and Fabrication Costs- C. R. Henry 
+44 
+47 
+49 
+50 
+52 
+53 
+54 
+
+===== PAGE 6 =====
+--e··-~ 
+' . - .. ., .. 
+• 
+'! 
+
+===== PAGE 7 =====
+' . 
+D;>£ 
+h){!) 
+f 
+·..:---~ 
+PREFACE 
+W. J. FRANK 
+This report summarizes the LRL Nth Country Experiment. It contains a descrip-
+tion of the f.inal design (omitting the physics justification}. a critique of its performance 
+by two LRL physicists, and a series of short articles on the technology available in the 
+unclassified literature (Appendices F thru L). The full physics descriptiorfand history 
+of the Nth Country design, completed by the three Nth Country physicists on December 
+14, 1966, has been published separately (UCRL-50239). The correspondence between 
+the Nth Country designers and the LRL support committee is published in UCRL-50248. 
+Two major technical problems face a nation wishing to acquire a small stockpile 
+of nuclear weapons. The first concerns the manufacture of the source material- prob-
+ably with a plutonium production reactor. The second problem concerns the effort 
+required to design a nuclear weapon. r. . 
+. . 
+' 
+------------
+.. -------
+LRL started its Nth· Country Experiment in May 1964, to 
+--------
+see if a few capable physicists, unfamiliar with nuclear weapons and with access only 
+to the unclassified technology. could produce a credible weapon design. They were to 
+receive such unclassified computer and technical support as might be required. The 
+duration of the Experiment was .. to be one year, since the physicists who agreed to work 
+half-time on the Experiment (D. A. Dobson and D. N. Pipkorn) were post-graduate 
+students at the Laboratory on a one-year appointment. They were subsequently 
+appointed for a second year, and in March 1965, R. \V. Selden, an LRL Army Research 
+Associate, joined the design team. The designers' backgrounds and a brief chronology 
+of the Experiment are given in Appendices B and C. 
+There was only one contact, A. J. Hudgins, to provide good security control and 
+• 
+avoid contact with Laboratory personnel familiar with weapon design. Some security 
+aspects of the Experiment. as experienced by the designers themselves, are described in 
+Appendix D. All technical questions were handled via written documents coordinated 
+by W. J. Frank. The day-to::~.ciY "pi-·oblems ·and progress of the design were kept in 
+;35~· 
+...., 
+~ 
+/if) 
+
+===== PAGE 8 =====
+'! 
+,• 
+classified notebooks by the physicists, The operating rules for the ~th Country Project 
+-
+are given in Appendix A. 
+Several comments can be made about the manner in which the Experiment was 
+conducted. It proceeded on a relatively low-key basis (in all, only three man-years of 
+effort were spent over the two-and-a-half year period of the Experiment), While the 
+three designers had technical support, they were not allowed to interact or ~iscuss 
+their ideas with these people (except through written documents); they thus lacked the 
+vital feedback process of explaining and defending their work in the context of a larger 
+group of interested, equally talented but differently oriented technical staff members. 
+The Experiment was formally ended on April 10, 1967, f 
+r-- .. ---·-
+--~~---~..:..!·-------··-·· . ·--·----
+-.---·- .---------
+--- ----~---
+Ash~;rr-;;n~~-;::~~---E;~~;i~-~~t is now underway: the de-
+signers were given the ·results of the test and asked several questions about their cur-
+rent design, its possible extensions, and alternative design approaches. A report will 
+be issued later describing these postshot activities. 
+I would summarize the conclusions of the Exoeriment in two statements: 
+Appendix T, considers .the costs of building and running a small weapon laboratory 
+and production facility. These data, plus a typical estimate for a plutonium production 
+reacto_r, give a third conclusion: 
+• 
+' 
+,C:~. ' 
+_'~. 'I 
+' . . . 
+. '~ . ~ 
+· .. 
+~ ·,,_ 
+.Yo£" 
+(h)(? J 
+.:::DoC. 
+{b J{l) 
+__ yot; 
+(.b)Cj) 
+
+===== PAGE 9 =====
+/ 
+(?/. 
+• 
+'• 
+--
+I ,a 
+-
+THE NTH COUNTRY FISSION WEAPON DESIGN 
+D. A. DOBSON, D. N. PIPKORN AND R. W. SELDEN 
+(December 14, 1966) 
+I. BASIC CONCEPTS 
+The basic concept of how a bomb works, preliminary design considerations, and 
+our first complete design were significant stages in the evolution of our understanding 
+about nuclear explosives. We present the basic concepts as we understood them early 
+in the Experiment and not from our current knowledge. 
+1. A nuclear fission explosion results when a supercritical mass of fissile 
+material is assembled and held together long enough for the chain reaction 
+to take place. 
+2. Critical mass numbers are readily available from the literature (Paxton, 
+Los Alamos Critical-Mass Data and Paxton, Critical Dimensions of Systems 
+C. 
+t . . 
+L.235 P 239 
+d u233 
+on a1n1ng • 
+, 
+u 
+, an 
+. 
+Fissile material 
+u 235 (93.S~d. u 238 (6.5Vc> 
+(j233 
+a phase Pu239 (density 19.8 g/cc) 
+6 phase Pu2 39 (density 15.6 g/cc)a 
+acontaining 1 wt '!c gallium 
+Bare 
+sphere 
+48.0 
+14.5 
+9.5 
+15.5 
+Critical mass (kg) 
+Sphere surrounded by 
+4-cm-thick U reflector 
+26.0 
+8.5 
+6.2 
+8.0 
+4~ fheTrmel'O""r"~th-;;-~h;;i;:;·~~~-~ti'O~ to take place can be estimated. The neutron 
+multiplication time' a- 1, is the mean time a neutron s~nds in a supercritical 
+fissile assembly before producing a fissi~ 
+'.----- #-·~,.. .. -:-·-·· ' - .. 
+:@ ___ @·. 
+.::J)o £"" 
+~ b)(..3; 
+
+===== PAGE 10 =====
+-=-;-------:--~~~~-------:-:-:;:---------
+·.::c··~~ 
+;;; 
+·. 
+~· .. : L . ;::. 
+-"JJC"\ r 
+= ... :.. 
+:---... ·_. . . 
+_yvC. 
+=---
+. 
+~)l3) 
+5 
+;:poG"' I 
+b)c~J I 
+• 
+'! 
+. ·.J 
+The uranium in the 
+example above is both a neutron reflector and an inertial material. This 
+is the so-called tamper surroundins:r t.hf> fissile r.ore a!'; thf>v are nonularlv 
+describe~ 
+1 nere are two genera1 tecnmques lor assembling a supercritical mass 
+described in the literature: the gun method where subcritical masses are 
+"shot" together, and the implosion method where a subcritical mass is 
+made supercritical by compression. 
+~he Ilssile hemispheres become critical arid-the ____ _ 
+time they meet. 
+' 
+For an implosion assembly, suppose that 
+. ... . 
+. ----·, 
+. ... 
+--~---
+It appears that the implosion method can be made to give faster assem-
+bly times than the gun method . 
+·--r?- .. ,. 
+............. , .... ~- .... ; .... 
+''!,.,'f'>" 
+,· 
+
+===== PAGE 11 =====
+• 
+,, 
+-.c··- ~ 
+: SJY:QJJKiE::~ 
+====:::71 ... 
+7. The most important feature of the assembly times calculated in subsection 
+(6) above is that they are more than 10 times the total fission chain reaction 
+time. This means that it is essential for the fissile material to be neutron 
+free during the assembly or the reaction will take place prematurely. If 
+the fissile material is neutron free, then it is necessary to "turn on" neu-
+trons to initiate the chain reaction at the desired time. This is the role of 
+the so-called initiator 
+~:.~.~~::-'-:-:..:..:.:.:.:~ ·. 
+. .. 
+. .. 
+fS!WERU 
+~· 
+. ' 
+
+===== PAGE 12 =====
+'"--~ 
+·-' • .,1 -.s:• u.~ a"'--' 
+-·~ 
+······ .. 7 
+.
+... 
+-<~·.-· ... ~ ''ll_-. . 
+II. EARLY DESIGN 
+A. PRELIMINARY DESIGN CONSIDERATIONS· 
+Early in the Experiment it was decided that a choice had to be made about a fis-
+sile material and a method of assembly because of the time and effort it would take to 
+develop more than one type of explosive. This section outlines the important consider-
+ations which influenced our decision as to how to proceed, and describes those features 
+of the e:--:plosive which were recognized at the time the decision was made. 
+Fissile l\laterial Considerations 
+Economic and Political Considerations - u233 wa~ eliminated because of the 
+prohibitive cost of pro-duction (thorium breeder reactor). u235 and Pu239 cost about 
+the same to manufacture, but we were informed by the "Nth Country Treasury 
+II 
+1 
+h 
+I 
+ld 
+-
+. 
+23 9 
+Department that on y one or t e ot 1er cou 
+be produced. The produchon of Pu 
+has a long range economic advantage ove~ u235 because it requires the development 
+of reactor technology. 
+Physics Considerations - Pu23
+_9 has the advantage of a lower critical mass and a 
+low density phase (o phase) with a greater compressibility, both of which lead to a 
+235 
+. 
+h 
+shorter chain reaction time. 
+U 
+has t e advantage of a low neutron background, 
+while the Pu240 impurity produced in the Pu239 has a relatively high spontaneous 
+fission rate. 
+:ivtethod of Assembly Considerations 
+The gun method appeared easier to accomplish because it involved familiar tech-
+240 . 
+. 
+. 
+239 
+nology. The long assembly times and the Pu 
+1mpunty 1n Pu 
+rule out the use of 
+plutonium with this method. 
+The impl<>sion method appeared more difficult because of its unfamiliar technol-
+ogy, but it seemed to have a greater potential for future development and more effi-
+<:i<!nc:y bec:.~u::;e the I!J-15 implosion bombs gave greater yields. The development of the 
+implosion m<:thod seemed to be a more sophisticated, challenging, and hence appealing 
+prcJhlcm . 
+• 
+§E~Rfi?J-~ 
+.......... 
+• il'o 
+( .... 
+' '' 
+• •• ' ,., ~ 
+' 
+' 
+. -: .. 
+c-1-. 
+' 
+
+===== PAGE 13 =====
+. ·'-' 
+!A::)£ 
+...-; 
+-.c---~ 
+Preliminary Decisions 
+It was decided to design a spheri-
+cally symmetric plutonium implosion 
+explosive which would be compressed by 
+a spherically converging detonation wave. 
+Figure 1 shows our concept of this explo-
+sive. The features of this drawing are: 
+y::p)) 
+/ 
+1-
+B. THE INFLUENCE OF LITERATURE 
+A number of articles and books give some aspects of the basic concepts of bomb 
+design in a variety of contexts. We refer to these oublications as the "eeneral bomb 
+literature." 
+·------·-· .. 
+• 
+..:J)ot 
+fb)f 1 
+,_ 
+\. ) 
+\ 
+
+===== PAGE 14 =====
+'! 
+-. ..... 
+. 
+. - . -
+..... -... 
+•• ~ .. v •.•• 
+.. ··- ·-· -· ·• 
+.. ~. 
+C. THE EARLY DESIGN 
+This section ·is an historically accurate description of our first complete pluto-
+nium implosion design, which had evolved by December 1965. 
+Explosive Lenses 
+Detonators 
+Tamper 
+The tamper was: 
+The core wa!:. 
+--
+The following neutronics cal-
+culations were performed to establish thP <'C"'rP n::.r::>mPfPrc:· 
+1. The critical mas~. aLa 
+• 
+. - . ... . . 
+_y~c­
+Lb)(.?.J 
+
+===== PAGE 15 =====
+=SEI!R@!Jf :.::· 
+,_ 
+2. For the tam per and core Bof.c-i~<!Y·b'(;V'e:1 
+·- --- ----,.s:·:..;.o··c.=---------
+Initiator 
+_!he i!l~tiator was designed to produc4 
+·--J 
+D. ASSESSMENT 
+Three Phases of the Experiment 
+. _ ... _ _......... .. -----
+The evolution of our knowledge of nuclear explosives during the Experiment 
+seems to fall naturally into three principal levels of understanding. Thus the course 
+of the Experiment is divided into three phases, each representing the attainment of a 
+principal level of understanding. The phases are not completely distinct in time. 
+Phase I - Phase I represents our understanding of the basic concepts and the 
+design considerations described in Section A. This level of understanding was achieved 
+by Davidon, et al.' (Davidon, Hohenemser, and Kalkstein, 
+11The Nth Country Problem 
+11 ). 
+Phase II - Phase II was the extension of the basic concepts to a more quantitative 
+form by making neutronics calculations involving rudimentary compression numbers, 
+and engineering converging wave lenses, detonators, and an initiator. Quantitative -
+values for core mass and hole size, tamper thickness, and explosive thickness were 
+chosen. The Early Design described in Section C represents Phase II. 
+Phase III - Phase III was the extension of Phase II which involved doing meaning-
+ful implosion and iterative fission expansion calculations on plutonium-implosion 
+designs derived from the Early Design. The sections on the Final Design and Test 
+and the Continuing Progra~ were a result of our Phase III level of understanding. 
+
+===== PAGE 16 =====
+:!) ~~·•' •• ,-.•.. -.,.... ---
+::, ; ;;<ti( :: 
+- :: 
+-~ 
+Assessment of Early= Design 
+It is useful at this point to evaluate title t:arly De.~·it;n in 1'n~ Yq~'rn o1 v-.:.r \:.'~'i:'~~nt 
+knowledge. It should be pointed out that if a Phase H 4G~t~n 11;o.d ;)CH!n !JjJ.lm•i.tttia ;;;; ;;. 
+final design, it might not have been exactly the Ear1y Design. We believe that the 
+Early Design is representative of our Phase II understanding. There were no sound 
+reasons for changing any of the pararn..et.e.cs-
+~El1 
+. 
+3) l 
+~ 
+·.~ 
+2. 
+Phase III provides the understanding necessary to make this assessment. 
+• 
+iiS~!¥1'~ 
+• 0 
+• 
+. 
+1 
+J;! -~· .... 
+. • 
+"'· 
+
+===== PAGE 17 =====
+·---
+III. BOMB PHYSICS 
+This section of UCRL-50239 has been omitted. It discusses in detail the implo-
+sion process, the neutronics before and after initiation, the expansion of the core as 
+I 
+-
+fission proceedsl I 
+.;..t_ 
+-· -~-·-···· 
+· IV. THE FINAL DESIGN 
+Th~ __ F_in.al Design describes a 
+A. DESIGN 
+The Final Design is a spherical implosion design with a~ 
+These 
+(.;llctu~co were 1ncorporateo 1n tms report on JViarcn 1, ll:ftfi -alter the reportl had been 
+written and the Final Design submitted, but before the Experiment had formally ended 
+and this report published. 
+. · . 
+· · 
+~!~4EHI'f~: ;g 
+I 
+j$ 
+, = 
+
+===== PAGE 18 =====
+.•. ~:ta::PQ> I\· I '1 I 
+: 
+··.J 
+Fig. 2. A cross-section sketch of the 
+Final Design. 
+.. 
+. ...... -
+~ . 
+The iiTiportant specifications and 
+the basis for the choice of the specifica-
+tions are discussed below. (The design 
+drawings are contained in UCRL-50239.) 
+Detonators and Lenses 
+The detonators and lenses are 
+essentially those described i~ the Early 
+Design. There are two minor changes in 
+the lens design. 
+1. The test of the Early Design lens 
+showed that the shock wavei 
+comp tl interface then obeys the equation;' 
+,,. .......... 
+-~,..., 
+The barator--
+-~ 
+~e: 
+'p)(~) 
+~ 
+2. The Comp B; 
+(??\ 
+obeys the equa lion. 
+up to the top of the lens where the shell is modified to accept the de~onator. 
+The detonator simultaneity requirement and explosive tolerances have been 
+specified so that the total timing error that can bef 
+.. 
+• 
+• '::IC--
+.. 
+(b)(~ 
+::Do (
+(b)(3 
+
+===== PAGE 19 =====
+.. 
+yo,; 
+(_1)(~) 
+'"' 
+.. 
+-
+-
+•. 
+-
+.. . 
+. .A··-"_.,..,_,;,"._.., ___ ... 
+-
+.. 
+Tamper 
+--- ---·- .., ....... _ _ .............. -
+·-.,J 
+Core 
+The core isl 
+The assembled device is calculated to be 
+This value is to be checked by measurement. 
+
+===== PAGE 20 =====
+! 
+i i 
+:;.el 
+' 
+.... 
+3\ 
+~ 
+Initiator 
+The polonium-be.!:_Y!.!_ium initiator is 
+. \ 
+•.J 
+• 
+
+===== PAGE 21 =====
+y~c-
+V. TEST 
+This section of the report (UCRL-50239) describes the diagnostics measurements 
+to be made before and during a test of the Final Design. 
+VI. THE CONTINUING PROGRAM 
+The development of a nuclear explosive is an evolutionary process. Ideas for 
+future investigation have been a continuous part of the Experirnent. These ideas both 
+affect and are affected by whatever current work is being done, and new ideas for 
+future work are constantly generated. An important part of our understanding of 
+nuclear explosives is involved in our ideas for future investigation, both in the extent 
+to which a particular idea has been developed and in our judgment about the importance 
+and difficulty of the investigation. 
+The purpose of the Experiment was not to establish a long range development 
+. 
+. 
+program, and we have not attempted to do this. A real Nth Country would establish a 
+program (perhaps they would only build five copies of ~ur Final Design) which would 
+strongly influence the nature of the investigations pursued. 
+Establishment of this pro-
+gram would be influenced by judgments of the designers about feasible future develop-
+ments. Four general applications of future investigations which could serve as objec-
+tives in the Nth Country's nuclear explosive development program are: 
+1. Light, compact, low yield tactical weapons. 
+2. High yield fission weapons. 
+3. Thermonuclear explosives. 
+' 
+4. 
+Peaceful applications. 
+A \\·ide range oi ideas is discussed in this section ranging from dct.ailed pro-
+posals f~r ~~r.?~~~~1-~~-.~!~~r yield calcul_~tion to, 
+' 
+-
+. 
+·. 
+~· 
+_the design of a thermonuclear 
+.? )C.....~ 
+explosive. 
+We have attempted to assess the difficulty and importance of pursuing each 
+idea. (The importance in most cases has to be decided in terms of a long range devel-
+• 
+. 
+opment program.) General nondirected research int<:' areas such as explosives, hydro-
+dynamics, metallurgy, and nuclear physics is not included. Although such research is 
+~' . .. 
+. 
+~ 
+~ 
+~~;J.: 
+
+===== PAGE 22 =====
+--y 
+. 
+. ... ·,· 
+.... . . . ~ ·.·. _. .... 
+·-···=-< 
+an essential part of a comprehensive long range program for a country desiring to be 
+at the forefront of new advances as they are made, an Nth Country could be content to 
+use results as they become available and allow others to bear nearly all the expense 
+of maintaining research programs. 
+-· 
+:,PC;l:. 
+(The remainder of this section of UCRL-50239 has been omitted ~rom this report. 
+fr', )HI included no~sible improvements in[ 
+~ 
+fission weapon designs; and the desig!l of 
+...__/ 
+1 thermonuclear explosives. J 
+• 
+' 
+' 
+
+===== PAGE 23 =====
+• 
+'I 
+,. 
+~-·-
+VII. CONCLUSIONS 
+We hope that the _!ith Country Experiment is useful in assessing .the difficulty for. 
+an Nth Country to develop a nuclear explosives capability. Such an assessment is 
+clearly outside the scope of our part of the Experiment. This section contains a dis-
+cussion of some nontechnical aspects and some comments on the results which we 
+believe are an essential part of the Experiment and should be considered in extending 
+the results to an Nth Country. 
+It is inevitable that the Experiment will be compared with the early years at Los 
+Alamos. We are not in a position to make any valid comparison of the technical devel-
+opments. The people at Los Alamos had advantages of manpower and experience 
+(including the presence of some of the world's outstanding physicists) and the motiva-
+tional climate in which they worked. We had the advantages of knowing that a bomb 
+could be built and of having access to a large quantity of literature on shock waves, 
+explosives. nuclear physics and reactor technology which has been published since 1945. 
+A. FACTORS AFFECTING THE PROGRESS OF THE EXPERIMENT 
+The course of the Experiment f~lls naturally into two time periods: 
+The Early Period was the first year and a half (May 1964-December 1965). 
+Phases I and II were completed during this period. 
+The Late Period was the last year (1966}. Phase III was completed, the Final 
+Design established, and several drafts of the Nth Country Report written (including the 
+one submitted in UCRL-50239) during this period. 
+The goal of the Experiment was to design a credible nuclear explosive, but the 
+time and the state of development at which the Experiment would end was left up to the 
+experimenters (see Appendix A). It was assumed by the experimenters that a test 
+would be the end of the Experiment rather than a step in the development. 
+A total of three ·man-years has been spent on the Experiment, divided as follows: 
+1. Early Period: Dobson 1/4 time, Pipkorn 1/2 time, Seldenfull timeforlasthalfyear. 
+2. Late Period: Dobson 1/2 time, Selden full time. 
+. 
+. 
+.. 
+.. . 
+•n 
+•· ·• -.t" ·• 
+·--------------------------------
+
+===== PAGE 24 =====
+: 
+The informal structur·e and p .. <rt time nature of the experiment resulted in a lack 
+of continuity during the Early Period. (The periods of maximum effort were put in 
+when the committee wanted to see the notebooks.} We tended to work individually, 
+resulting in some duplication of effot·t. In the Late Period continuity was provided; 
+also, we worked together. 
+Since the Experiment was carried ?Ut inside a nuclear explosive design labora-
+tory, it was necessary to insure that we received no classified information including 
+any hints about our technical progress from anyone involved in the Experiment. Aside 
+from documents generated within the Experiment, we have never been exposed to any 
+classified information. (See Appendix D.) 
+In line with security requirements, all our communications with the committee 
+have been in writing. Such communications were essential since the committee simu-
+lated the support groups who would have carried out experiments and some computa-
+tions in the Nth Country. Written communication provides a complete record of 
+information exchange but has some serious disadvantages. Expression is inevitably 
+incomplete and some degree of misunderstanding results. A great deal of time is con-
+sumed deciding on the wording of requests and answers and trying to interpret them. 
+Other aspects o( communication peculiar to this experiment result from the fact that 
+our "support groups" are actually Laboratory senior staff members. 
+1. In the Early Period we were overly conscious of our lack of knowledge and were 
+reluctant to appear more foolish than necessary. This resulted in postponement 
+of some requests and the omission of others. 
+2. In the Late Period we spent a good deal of time preparing requests which pre-
+sented enough information about our understanding of what was being requested 
+so that a suitable reply could be obtained. 
+The transition from Phase II to Phase II! of the Experiment occurred during the 
+fall of _196~. At that time we felt that the completion of certain calculations was essen-
+tial, but we did not know that this would lead us to a completely new level of under-
+standing ... (Recall that the phases were identified much later during the writif!g of this 
+report.) ~o decision was made to embark on a new or different course of action, and 
+none of us ever proposed submitting a ~inal design based on our understanding at that 
+time. The1·e were several factors influencing the course of the Experiment during the 
+transition period: 
+• We fell that the design submitted had to work since the challenge was to design a 
+....-:> 
+c cedible explosive.· 
+• 
+
+===== PAGE 25 =====
+p)l'/ 
+:Jbc 
+.b..(_!) 
+.1' 
+yoE I 
+" 
+I J I 
+_b)_~ \ 
+. 
+\ 
+l 
+• 
+::SISMf·:~:; 
+/·· 
+• Our confidence in our ability to understand implosio~ 
+• We believed that we could make satisfactory calculations in 
+11a month or two
+11 to 
+be able to submit a final design. If we had known how long it would really take 
+to attain our current understanding we would have submitted a Phase II design. 
+There were several factors which affected the duration of the Late Period. 
+We felt increasingly concerned about drawing the Experiment to a close, 
+but we c.ontinued to greatly underestimate the time required to finish the Experiment 
+to our satisfaction throughout the Late Period. One consequence was that. in ordRr tn 
+try to finish sooner, we did not request: 
+-
+-·. 
+~nd ended up sp~nding considerably more time satisfying our-
+selves tnat our estimates were adequate . 
+Preparing this comprehensive report of our understanding of nuclear 
+explosives has taken about four months or half a man year during the last half of the 
+Late Period. This time cannot be entirely subtracted from the time necessary to 
+arrive at the Final Design, ho\\·ever, because the clarification of ideas associated with 
+report writing has improved our understanding of nuclear explosives. 
+There is a sense in which submitting our Final Design was more difficult 
+than it would be to prepare a fin.al design for a test in which we were participating. We 
+\\·ould r;eceive feedback during construction and preparation of the test, and have the 
+option of making changes based on this information . 
+
+===== PAGE 26 =====
+~ 
+..................... ~:!~-~·~!~i~i~£~&9~~~~~It~~~~~·~:=r-----------------
+;= ;r.:--' 
+: 
+B. SOME COMMENTS ABOUT THE EXPERIMENT 
+We could have designed a u235 gun explosive. Such a design would have been 
+submitted as a final design much sooner than our implosion design; There are two 
+main r~asons: 
+I 
+I 
+2. A test of the u235 gun mentioned above would likely play a similar role to a test 
+of the Early Desij!n. 
+It is not surprising that China has progressed so rapidly, and we believe they 
+may test a thermonuc.lear explosive· within about a year if the news reports about their 
+• 
+tests are accurate. 
+ycc 
+(b)Ll 
+
+===== PAGE 27 =====
+• 
+From our present understanding of nuclear explosives, we believe that ou1· Final 
+Design is credible without a test, but we see no way to design a credible thermonuclear 
+explosive without testing. However, our position on thermonudear design is ver·y 
+similar to our position on fission design in the Early Period, so it is possible that 
+further study of the thermonuclear problem would change our outlook . 
+
+===== PAGE 28 =====
+.... ~~-............ : 
+~- ·.·.-: ,, ·. 
+. . 
+,.~-
+~.. 
+. 
+. . 
+·.. 
+-.~ - . . 
+.. 
+. 
+CRITIQUE OF 
+THE NTH COUNTRY WEAPON DESIGN 
+F. S. EBY AND L. S. GERMAIN 
+1. 
+(The analysis of the Nth Country weapon lens system in this section was writtPn 
+about an early version of the Final Design. 
+·-···· 
+-~ 
+··.j 
+• 
+.~;:··~ 
+;~;;--=; '==:: 
+. ~ . 
+.. 
+•' 
+. 
+. 
+. 
+··---, 
+·. 1
+'\ 
+
+===== PAGE 29 =====
+• 
+'I 
+·..:c·"-~ 
+··.J 
+fJA.s the reader wii! discover below, the 
+oetaHea LKL aestgn ca1cu1at10ns, uswg codes unavailable to the Nth Country physicists, 
+disagree with both of these numbers. 
+4. 
+The LRL calculations on the ~th Country Weapon followed the usual sequence . 
+
+===== PAGE 30 =====
+I I 
+I 
+I 
+I 
+.I 
+I 
+" 
+01 I 
+. .. · 3 Titfi Z 
+. 
+-·~ .. 
+_______---: . ... - -
+.. 
+-·· 
+-
+--
+--------. 
+5. 
+It was impossible for us to detail the Nth Country predictions from the data given 
+in the sections on Final Design and Test of the Nth Countl·v ExnPrimPnt. renort 
+. ·.J 
+·1 hey g1ve no est1mate 01 the magmtude of 
+the latter effect_ on final yield and, in fact. 
+do not really cite reasons for their belief 
+that alpha decreases too rapidly. 
+They correctly observe that they 
+have very little firm information .about 
+the criti~ality of their system •. 
+In light of this extreme sensitivity. it would seem that confidence in the expected yield 
+·is unwarranted. 
+6. 
+Another point which would appear to call for_ ~OI~~ervatism in the prediction of the. 
+yiel~ of the test device is 
+' 
+/CP)(i 
+c • 
+yoE 
+(J?J(.?/ 
+
+===== PAGE 31 =====
+-
+··.J . 
+7. 
+-~ 
+.....!!:_suE2~~~---~he ~~-l.:.__~~~ntry <;!~2igners -~-:i~ed 
+1 
+. (?{ 
+.'J;!]~_authors do not give any detailed 
+' i reasons for the discrepancv1 
+• 
+•• 
+4 
+···-
+..... ;. 
+
+===== PAGE 32 =====
+'I 
+9. 
+There are two areas in which the direction of the_Nth Country progr·am may well 
+have been modified by the tastes of the experimenters. On page 7 (of lJCRL-50239), it 
+would seem that one of the reasons for undertaking the study of an implosion system is 
+that it is "a more sophisticated, challenging and hence appealing problem." While this 
+value judgment is certainly a logical one for a scientist to make, the administration of 
+the Nth Country may be less concerned with a scientifically appealing problem and more 
+concern~d with quick results. Also on page 7, the statement is made 'ithe production of 
+Pu~ 39 has a long range economic advantage over u235 because it requires the develop-
+ment of reactor technology." While this is certainly true, it is doubtful that the weapon 
+scientists would be called upon to make decisions concerning the overall economy of the 
+nation. Thus, it may be that they have directed themselves to plutonium implosion 
+systems for reasons which are not completely valid in the context of the study: 
+• 
+
+===== PAGE 33 =====
+APPENDIX A 
+THE OPERATING RULES FOR THE NTH COUNTRY PROJECT 
+A. J. HUDGINS 
+(Editor's note: The following set of rules was given to the experimenters in memoran-
+dum form at the beginning of the Bth Country Experiment.) 
+1. 
+The purpose of the so-called "Nth Country Experiment" is to find out if a credible 
+nuclear explo.sive can be designed, with a modest effort, by a few well trained 
+people without contact with classified information. The goal of the participants 
+should be to design an explosive with a militarily significant yield. A wc-rking 
+context for the experiment might be that the participants have been asked to 
+design a nuclear explosive which, if built in small numbers, would give a small 
+nation a significant effect on their foreign relations. 
+2. 
+An informal committee has been chosen to monitor this experiment. In order to 
+provide maximum assurance that the committee does not, in fact, perturb the ex-
+periment in a casual or unrecorded manner, all communications regarding the sub-
+stance of the experiment will be in writing. The men doing the experiment are 
+expected to avoid conscientiously any contact with classified information in order to 
+maintain the integrity of the primary assumption. They may request further guidance 
+or specific information from the committee through A. J. Hudgins. 
+3. 
+The experimenters are expected to use any means available to obtain as much un-
+classified information as they believe to be pertinent. The experiment will have to 
+h~. conducted in such a way· that all sources of unclassified information can be 
+explicitly identified. It is important that as much as possibie of the progress of the 
+experiment be put in writing. Secretarial help will be available. 
+4. 
+It is not expected that the experimenters do all of the routine work involved in the 
+design themselves. 
+Help in computation or in other mechanics such as information 
+search should be requested only through the committee. In each case there must be 
+a specific request detailing the result desired. In other words, the experimenters 
+must state the problem and their boundary conditions for its solution. The committee 
+will see to it that the best re"sponse possible is obtained in a timely fashion. 
+5. 
+Even though this experiment will be based upon the use of information from unclassi-
+• 
+fied sources, the Atomic Ene1·gy Act and AEC Regulations require that any design 
+efforts related to nuclear explosives be given proper security protection. This re-
+quires that the work books and any elaboration or deduction fr~n unclassified 
+, 
+.. . . 
+. 
+
+===== PAGE 34 =====
+'! 
+• 
+infot·malion he classified properly and that.all such information be protected in 
+accord with the Laboratory Security Manual. 
+6. 
+For the purpose's of this experiment it should be assu.med explicitly that any material 
+may be fabricated in any shape. The purpose of this assumption is to remove fabri-
+cation and procurement problems from the area of the experiment. 
+• 
+· . 
+
+===== PAGE 35 =====
+·APPENDIX B 
+BIOGRAPHICAL SKETCHES 
+DAVID A. DOBSON 
+David A. Dobson was born in 1937 in Oakland, California, and attended elementary 
+and high school in Alameda, California. 
+He received a B.S. degree in chemistry (1959) 
+and a PhD. in physics (1964) from the University of California, Berkeley, California. 
+Dobson worked in experimental atomic physics; his thesis was entitled, The· Beta-Decay 
+Asymmetry and Nuclear Magnetic Moment of Ne 19. 
+(See UCRL-11169, Lawrence Radia-
+tion Laboratory, Berkeley, California (1963).) In 1964 he came to LRL, Livermore, on 
+a post-doctoral research appointment and became a regular staff member in 1966. In 
+addition to participating in the ~th Country Experiment, Dobson has continued his work 
+on beta-decay experiments. 
+DAVID N. PIPKORN 
+David N. Pipkorn was born in 1936 in Milwaukee~ Wisconsin, and attended ele-
+mentary school in Thiensville, Wisconsin, and high school in Shorewood, Wisconsin. 
+He 
+received a B. S~ E. degree in electrical engineering {195S) from Princeton University and 
+M.S. (1960) and PhD. (1964) degrees in physics from the University of Illinois, Urbana, 
+Illinois. 
+Pipkorn worked in experimental solid state physics, and his thesis was entitled, 
+Mossbauer Effect in Iron Under Very High Pressure. (See Phys. Rev. 135, Al604 (1964).) 
+He came to LRL, Livermore, in 1964 on a two year post-doctoral resear~h appointment 
+and became a regular staff member in 1966. In addition to participatingin the ~th 
+Country Expe dment he has continued to do research on the Moss bauer effect. 
+ROBERT W. SELDEN 
+' 
+• 
+Robert W. Selden was born in 1936 in Phoenix, Arizona, and attended elementary 
+and high school there. He received a B. A. degree in physics (1958) from Pomona College, 
+Claremont, California. Selden received M.S. (1960) and PhD. (19'64) degrees in physics 
+
+===== PAGE 36 =====
+from the University of Wisconsin, Madison, Wisconsin, where he was an Edward John 
+Noble Foundation Fellow for four years. He worked in experimental low temperature 
+physics with liquid helium and his thesis was entitled, He-ll Film Transfer Rates Under 
+Various Conditions. (See Phys. Rev. 138, Al363 and A1371 (1965).) He was commis-
+sioned a 2nd Lt. in the U.S. Army Reserve in 1958 from the ROTC at Pomona College . 
+. He began a three-year tour of active duty in 1964 as a 1st Lt. in the U.S. Army Ordnance 
+Corps at Abet·deen Proving Ground, Maryland. Selden was assigned to LRL, Livermore, 
+as an Army Research Associate, and promoted to Captain in 1965. He has worked full 
+time on the Nth Country Experiment since March 1965. 
+• 
+' 
+
+===== PAGE 37 =====
+yoG'" 
+))~) 
+• 
+Apr 1964 
+May 1964 
+Dec 1964 
+Feb 1965 
+Mar 1965 
+May 1965 
+Jul 1965 
+Oct 1965 
+Nov 1965 
+Dec 1965 
+Dec 1965 
+Jan 1966 
+Jan 1966 
+Feb 1966 
+Apr 1966 
+Apr 1966 
+Jun 1966 
+Sep 1966 
+Dec 1966 
+Mar 1967 
+Apr 1967 
+Apr 1967 
+_J 
+i 
+-' 
+l 
+-l 
+-! 
+2:.§. =··· 
+-2 
+APPENDIX C 
+A BRIEF CHRONOLOGY OF THE EXPERIMENT 
+The ground rules are formulated for the Experiment. 
+D. Dobson and D. Pipkorn are selected as participants; they begin working 
+half-time on the Experiment. 
+The decision is made to desie-n a_ olutonium imnlo<:dAn PYnlo.~ivP 
+__ _ 
+R. Selden becomes the third participant. 
+The first HE lens design test is proposed. 
+The first initiator experiment is proposed. 
+1 ne second HE lens design is tested (hypothetically) and adopted with 
+small changes. 
+The first imolosion desil!n is documentPrl 
+1 he 11rst v~rsion of the final design is produced. 
+The first outline of the final report is completed. 
+The second April 1966 design is submitted as final. 
+The complete draft of final report is submitted. 
+The final pre shot corrections are made to the design and report. 
+The tape-recorded discussions are completed. 
+The ;\'th ·country device is tested (hypothetically). 
+,•·'·· 
+
+===== PAGE 38 =====
+: 
+APPENDIX D 
+SECURITY ASPECTS OF THE EXPERIMENT 
+As part of the documentation of __ the ~th Country_Experiment before thP.ir i!P~io-n_ 
+was tested, the Design Physicist 
+I. STATE OF KNOWLEDGE BEFORE THE EXPERIMENT. 
+1. DD ... My wife worked at LRL from 1957 to 1961 as a Laboratory Techni-
+cian in Chemistry. I can think of only two things having a possible influence on the 
+Experiment that I learned because she worked here. First, since the chemists worked 
+late in the night during a test series, I was aware that they were analyzing bomb debris. 
+I recall having the idea that sometimes they added materials to these tests deliberately 
+to tell something from the isotopes produced, but I had no idea of what isotopes were 
+used, or what they learned. I also was aware that her group made large quantities of 
+elements above plutonium in the periodic table and studied their properties, but 1 still 
+have no idea of the quantities produced- whether they are in milligrams or kilograms. 
+2. DD . . . With regard to my knowledge of the areas of physics pertinent to 
+this experiment, I have never taken or attended regularly a course in nuclear physics 
+or hydrodynamics. I have picked up quite a bit of nuclear physics studying on my own 
+in connection with my thesis r-esearch, but only in the areas of beta ·decay and the struc-
+ture of light nuclei. I was aware that shock waves existed and that they were nonlinear 
+as compared to sound waves but I had never heard of the Hugoniot equq.tions. I had 
+• 
+heard about the application of shock waves to the study of equations of state at a 
+
+===== PAGE 39 =====
+one-hour lecture, probably 10 or 11 .year_s ago, given by Pt·ofessot· Jura of 'the Chem-
+istry Department (Berkeley). 
+I understood the general idea that fission involved the breaking up of a large 
+nucleus into a couple of fragments, with neutrons and gammas being given off. I had 
+seen an exhibit with a model of a chain reaction made up of mouse tr'aps and ping- pong-
+, 
+~ 
+.. 
+balls. 
+·-.J . 
+I was aware that the basic idea of a fission explosive was to throw together enough 
+fissile material to have a super-critical mass, and that there were two ways to do this: 
+either shooting two pieces together with a gun, or putting explosives all around some 
+material and blowing it together from all sides. 
+I was aware that both uranium and plutonium had been used in bombs, but I was 
+not familiar with heavy isotopes and did not know which isotope numbers were relevant. 
+I had not seen the pictures in "Life Magazine" showing the external appearance of the 
+first U.S. bombs. I have never at any time thought seriously about how a_b~m~ lJlj.ght 
+J)& ~ 
+:~ui_l_t_._I_a_m not s~~~--~~y, bee~~-~: -~o_w 
+__ i_!_~-=-~~:>_inte_r~_s_t_~~g 
+j? )(/I ( 
+3. 
+• 
+RS ... Most of my time before coming to LRL was spent going to school. 
+I 
+went to Pomona College and then to the University of Wisconsin where my thesis 
+research wa~ in experimental low-temperature physics on the superfluid properties of 
+liquid helium. While at Wisconsin I took a one-semester course in experimental nuclear 
+physics, taught by Professor Henry Barshall who had been at Los Alamos during the 
+War. A small part of this course was concerned with nuclear fission and a small par.t 
+of this dealt with criticality and reactors. He 9evoted part of one hour to some "Lansing 
+Lamont" type reminiscences about Los Alamos- how it was to be at Los Alamos and the 
+kind of things that happened there. He mentioned the gun-type assembly and the require-
+ment of a super-critical mass, but not in any detailed way. After leaving Wisconsin I 
+went on active duty in the Army to fulfill my ROTC commitment and was assigned to 
+Aberdeen Proving Ground and the Ordnance Officer's basic training course. Part of the 
+course was a three-bour presentation on the effects of nuclear weapons (such topics as 
+radiation, blast waves, radioactivity, and the fact that nuclear artillery existed.}. This 
+presentation was primarily to make Army Officers aware that nuclear weapons existed 
+and that their effects were quite different from those of conventional explosives. No 
+tee hnical details were given about the weapons themselves . 
+• , 
+o 
+< 
+I 
+• 
+' ·~ 
+
+===== PAGE 40 =====
+----==r;·-·- ·.· 
+. 
+. 
+. 
+. .. 
+..~ 
+. 
+.. ' 
+.' 
+~~" .... 
+..•. . ... ._ 
+·;· 
+.. 
+.... ,, ... 
+4. HS 
+There is an interesting story in connection with my application for 
+an assignment as a Research Associate at LRL. I was intcrvie\ved in Washington, D. C., 
+by Glenn Werth. I was aware, of course, that I knew very little about nuclear physics, 
+so I tried very hard to come up with every bit of information I could on the subject. 
+Dr. Werth was not concerned about how little I knew about nuclear physics and nuclear 
+weapons, and I felt at the time that there was something. very stran(ie about the inter-
+view. It wasn't until later, here at LRL"when I learned about the Experiment, that I 
+realized what had been going on. 
+5. RS ... With regard to explosive design, I was aware that nuclear weapons 
+existed. 1 understood the nature of the fission process and I knew that u235 and Pu239 
+were fissile materials. I had a general.idea of criticality in terms of sustaining a 
+chain reaction in a reactor, including the advantages of reflecting escaping neutrons 
+back into the fissile material. I also knew that the fission cross section was higher for 
+thermal neutrons. 
+I'"' 
+an explosion ·' - · 
+I knew of the gun-method of ass em bli ne- a critic;:! 1 rn;tRB to nroclur.P 
+--
+.-. 
+-
+. 
+.... 
+. 
+should add that 
+~~ \ 
+-...! \ ·r never senously considered how a bomb would be designed other than these considera-
+tions which I have just stated. I was not aware of the implosion method of assembly at 
+\ 
+all, as far as I can remember. The only thing I knew about shock-waves was that they 
+existed, as everyone who has felt an earthquake or heard thunder knows. I knew abso-
+lutely nothing about explosives (except than that TNT was the name of an explosive). 
+6. 
+RS ... Perhaps the most important factor involving the knowledge that I had 
+before starting with ~he Experiment is that I believed that de·siP"ninP" a nllclear exnlosive 
+DO. 
+That applied to me too. 
+7. RS . 
+. Dave Pipkorn told me that he also had no exp~rience directly related 
+to nuclear explosive design before going into the Experiment. 
+II. THE EFFECTS OF VISITING LRL 110PEN HOUSE 11 EVENTS. 
+8. DD . . . All three of us on SC\'eral occasions have visited the open houses at 
+LHL (which are not open to people who are not employees or members of employee's 
+·.b. if'i 
+) . . 
+-
+\... 
+/ 
+I 
+
+===== PAGE 41 =====
+.:J)Ot • 
+:-)/ ){!) 
+., 
+--
+there was any furniture in it. At the 1964 Open House I v•sited. buildings 102 and 114, 
+but they were pretty austere. I also went out to Site 300 and saw a test pad for shock 
+wave experiments and the Helac x-ray machine. They were interesting machines, but 
+didn't give me hints as to how things might be done. At the 1966 Open House, I saw the 
+lasers in Building 154 and also the Labs in 174B, but again I didn't get any ideas from 
+anything that I saw there. This, perhaps, speaks pretty well for the people who clas-
+sify things. 
+9. 
+RS ... Dave Pipkorn has told me that he went to the Laboratory Open House 
+and Site 300 Open House in 1964, but he also didn't learn anything that was really useful 
+to our project. 
+10. RS . . . I went to the Site 300 Open House in May 1966 and did not see any-
+thing that I had not already believed had to be there. I did see the exolosives m::~rhinP 
+shoo I 
+At the September 1966.0pen House I visited my office, the Computer Building, 
+the Chemistry Building, and the Plowshare exhibit. 
+By the time I went to both of these 
+open houses, our knowledge was advanced enough so that any hints would have to be 
+rather specific and have to do with physics to be really useful. 
+This geQeral background information about what kind of research is going on, 
+what kind of technology and capability there is, etc., is interesting, but not very useful 
+to the desi_sli itself. This kind of information would be available to anyone interested in 
+pursuing it carefully and certainly·a real Nth Country would likely do a much better job 
+of finding out what is going on at Livermore than we did~ 
+11. RS ... In December 1965, we all attended the family lecture series talk on 
+i.i;e Laboratory weapons program by Carl Haussmann. He certainly didn't say anything 
+th_at could be used on the project. (In fact, he announced early in his talk that he was 
+goi:1g to try not to say anything that might be useful to any Nth Country that might be 
+listening. ) 
+Here are some comments I wrote in my notebook about this lecture. "we 
+attended the weapons lecture by Carl Haussmann. The talk itself did not give us any-
+thing useful to the project, but it was interesting to know somethinP of thP WP::~nons svs-
+. 
+i 
+terns developed at LRL. · 
+... ' 
+
+===== PAGE 42 =====
+'I 
+.·..:c:··-~ 
+--------·-
+-- ·~·-··········-·-
+-··--~··-~·-···-··, ...... L 
+1
+Looking at the; ___ 
+_.f"'arhead has really gotten our curiosity up 
+about how such a device could be designed. This is a challenging problem that deserves 
+II 
+some thought. 
+Ill. LRL BUILDINGS VISITING DURING THE EXPERIMENT. 
+12. op ... One of the questions that might naturally be asked of us is: What 
+buildings have you been in within the 
+11Q
+11 cleared area? The best way to answer this)s 
+simply to list them. My offices were in Building 152 at first and are now in 155. I 
+went to Building Hi9 on two occasions to pick up some prints of my apparatus, but at 
+no time did I see any pink paper. I went to Building 110 on one occasion to see Stew 
+Bloom's set up at the van de Graaff Accelerator when it was set up down there. I have 
+simply gone into, or walked through to deal with one particular person or something 
+that had to do with my E Division experiments- Buildings 101, 111, 120, 122, 151, 161 
+(the mailroom only), and Trailer 33. I have been to Building 112 on numerous occa-
+sions, but only to Dr. Hudgins' office and the library. I have been in the Mech. Engr. 
+Library in Building 170. Once I returned a gaussmeter that I had borrowed to Building 
+173A. I have made three trips to the Glass Shop (Building 114A) regarding the repair 
+of some apparatus. In i\larch or April 1966, I talked to the hydroform die operator in 
+Building 114A about making parts for my LPTR irradiation capsule. In Septerpber 1966 
+I went to the Sheet l\letal Shop, Building 140B, to have the lid welded on my reactor 
+capsule, I can say, certainly, that at no time (in these shop areas that we are talking 
+about) did I s~e or hear anything that even remotely suggested anything applicable to 
+the Experiment. 
+13. RS ... When Dave Pipkorn was still working actively on the Experiment, he 
+visited the following Buildings: 101, 102 to visit Harold Stromberg (he saw more at the 
+Open House than he observed then), 110- the van de Graaff part, 111, 112, the sheet 
+metal rack outside 114, 120, 151, 152, 155, 161, 162, 170 (to the libraries and to visit 
+people about germanium dete_ctors and coincidence circuits), and 173B. 
+He said he 
+never got any hints useful to the Experiment. 
+14. 
+RS ... I have walked through or been briefly in Buildings 101, 111, 120, 122, 
+151._ 161, Trailer 105, Trailer 112, Building 112 (to the library, Hudgins' office and 
+Harlan Zodtner 1s office). the 170 Elec. Engr. Library on two occasions, and Building 155 
+where my office is. 
+·. ~#iliW!r ~ ·. 
+-~-e 
+• 
+o ... 
+• '· 
+• 
+•• 
+' 
+• 
+• 
+• 
+o 
+
+===== PAGE 43 =====
+Yo e-
+. 
+I 
+.b)~Jl 
+~ 
+-~---~ 
+is: .: 
+IV. POSSIBLE SECURITY LEAKS INSIDE THE LABORATORY. 
+15. 
+RS ... There is some classified material around Building 155; it is usually 
+always locked up and we are always very careful about not seeing it. On several occa-
+sions I saw that people did have classified documents but I never saw anything more 
+than that these documents were classified. In other w~rds, they had the word "Secret" 
+or were marked with red. There was an interesting discovery in Building 155 in the 
+Summer of 1965, which isn't classified but which we will record in the spirit of record-
+ing everything. Marv Williamson (whose off}~~ .Y'.~s_.i.\l§t d9.W.Il..J.hg __ hall.f.r..o.m..JJ.s1_kent_JuL. 
+!----· 
+I 
+interesting paperweight on his desk. I 
+We still have no· 
+idea of what it really is because we don't want to ask~ It was probably becau-se we found 
+it here in the Laboratory that we were led to speculate about it in the first place. 
+-· . 
+. 
+-
+. 
+·-·· 
+II 
+II 
+16. 
+"'""" . We have been asked where·we got the word · tamper and the svmhnl 
+-1} 
+-
+..... -
+_.v {)t:;_ 
+,"a~-~ for tll.e.neutron multiplication constant;.-· 
+J~~j 
+. 
+I 
+i 
+1 
+• 
+17. DD ... The other class of interactions within the laboratory were conversa-
+tions with people. It is interesting to note that none of this information (which we will · 
+describe) would be considered a possible leak if it had been obtained outside the labora-
+tory from somebody we knew to be ignorant of weapon design. It is because we know 
+that the people in the Laboratory do have such knowledge that we considere~ the impli-
+cations of what they said. The first one occurred to me back in 1963. One day I asked 
+Hans Mark why the Astron Building was as big as it is. He told me that it used to con-
+tain a high current deuteron Linac, which didn't mean anything to me at the time. 
+Later 
+·it led me to speculate that maybe they tried to make fissile materials at one time using 
+(d, n) reactions -something like maybe l'\p236 for example_: but it looks like it didn't 
+turn out too well. 
+18. DD ... The second time was just after I got an office in Building 152 and \\'as 
+beginning to work on the Nth Country Experiment. I was talking to Lou Eccles and he 
+said to me - "Well, now that you are over here, you are going to lE:ar:n how nuclear 
+\ 
+explosives work." I tried to ·put him off by saying; 
+11V{ell, I guess so eventually." He 
+) 
+
+===== PAGE 44 =====
+. 
+·.-
+~- -~' 
+...... 
+.... 
+. 
+··-- ··:-· 
+rcpl.ied, "Well, the most surprising thing that I have foun? about thermonuclear weapons 
+was the importance of radiation." At this point, I cut him off very rapidly and left. This 
+wasn't really a serious leak because books like Glasstone tell us that radiation is an 
+important part of fusiori reactions. 
+19. DD . . . One day Floyd Stoutamore told me that they had been running electron 
+beams in the van de Graaff accelerator .. I asked him why they were d()ing that- some-
+thing that l have since learned not to do around here .. 
+. ever, thls didn't 
+--~. 
+really tell us anytmng s1nce we Know .nruuu1 ueuL.:t·tuc ..,, ubtu 111 fusion weapons 
+{UCRL-7870, Characteristics of Nuclear Explosives). 
+20. DD ... One night, when I was working down at the LPTR, an L Division 
+Physicist told me that he was working on Compton detectors for high-flux gamma ray 
+measurements. This suggested to me a somewhat different idea than I had before as to 
+how you might measure the gamma flux. 
+/:1. · RS ... In th~-Fall of 1965, Charlie ~owma~ gave an E Divisio~ Seminar on 
+L;. . 
+242 
+. 
+some \'.:ark that he had been doing at the Linear Accelerator on Am 
+. We became 
+aware of it when there was some commotion and Doris Hine (the department secretary) 
+t 
+1·ushed around collecting all of these notices because they were apparently distributed 
+. : 
+before they were declassified. This clearly indic~ted to us that Am242 was important 
+1 
+-~(' j to the Laboratory. At ~he time that this ~ccurred, we already had been looking at a 
+" 
+and had an idea of what kinds of higher 
+'c: \\ "~opes would be u-;eful ~d would hav;-the-right kind of properties for fissionable 
+n1aterials. -:::> 
+22 .i RS 
+Tn 1\ll::.v 1 q_hh uthPn t)llr fi,•c:t .. c:Pt. nf .,~ .... .,., .. ;nrfC" ..-.r the> r;n~l ~ ........ ;.-n --·--
+---
+• 
+frc;m--the l\-1ark III c.afc.ulation lying arotir;d. _· J.eny_ Wesolowski looked into the office~ 
+2 ·~ 
+.J • . 
+~ .. -........ ~ ., ... 
+.,..~. 
+
+===== PAGE 45 =====
+po~­
+b )(?) 
+.. 
+saw all of those printouts, and asked if I was writing a new code. I answered, "Why 
+• not? I.J.ike to write codes." 
+• 
+· 24. RS ... Also in July 1966, John Anderson came intoJack McClure and 
+Bert Pohl' s office (which is next door to mine) and began describing a new problem 
+(or something) that they were going to be working on. I heard some drawing on the 
+blackboard and the word detonation, and decided that I had better get out of here. 
+Later that day I stopped by John's office and told him about the nature of the project 
+that we were working on (that is, that we were designing a nuclear.explosive without 
+any access to classified literature) and added that if he were going to. discus~ classified 
+things next door, particularly how a bomb is built, that I would appreciate some warn-
+ing'. 
+He readily agreed to cooperate with us, q.nd said that if I had listened to his 
+discussion earlier I would probably have been disqualified from the Experiment. 
+25. DD ... One evening Lou Eccles had kept a classified document out to read 
+after the secretary had gone home. 
+He asked us to lock it up in our repository (it was 
+enclosed in a manila envelope) .. 
+We did lock it up overnight, but we don't have any 
+idea what the document was about. 
+V. TWO INCIDENTS OUTSIDE THE LABORATORY. 
+26. 
+RS ... There were two outside sources of information which were not 
+classified but which did influence the Experiment.\ 
+
+===== PAGE 46 =====
+····.·? 
+. 
+.. 
+.; 
+-r 
+not learn anything that we were not already aware of. The really important result of 
+._floE 
+,·.b.:,..·;) ... 
+pernaps 1t gave me confidence that it might also be possible to be a success-
+\... 
+· 
+\... 
+ful impostor as a bomb designer~) 
+DO ... I was certainly much.encouraged by the greater level of confidence 
+in our understanding of hydrodynamics that Bob brought back and passed on to me. 
+27. RS ... The other out~i.9.~Jncident occurred in July 1966. It was of consid-
+erably less magnitude than{ 
+· 
+--·--·land again did not involve any 
+classified information. I was inv{ted to give a talk on liquid helium at a summer 
+science program at Thatcher School, Ojai, California. It turned out that Richard 
+Feynman visited the program and gave a lecture while I was there. One evening I had 
+the privilege of discussing liquid helium and my thesis experiment with him. During 
+the course of this discussion I asked him about Lansing Lamont's book The Day of .. 
+Trinity. He said that he had actually been interviewed and he felt that Lamont had 
+done a rather good. job of relating the spirit of what he had said. He generally thought 
+that the book was well done. Later, at an informal gathering with several others, 
+Dr. Feynman was asked about the early days at ·Los Alamos. He reminisced about his 
+encounters with the security people (giving us a short course on the theory of safe-
+cracking) and recalled the early Los Alamos computer (a room full of girls with desk-
+1 -
+-
+-
+-
+-
+-
+calculators).: 
+-
+I 
+)c;t.; 
+'~ 
+~ 
+i 
+I 
+... ; 
+I ! 
+1. 
+l 
+! 
+.. 
+• 
+
+===== PAGE 47 =====
+I 
+! 
+I 
+! r I 
+I 
+• 
+: S.l5ClltRit . 
+: : 
+Y I. A POSSIBLE SECURITY LEAK IN THE LITERATURE. 
+28 
+·-,j . 
+
+===== PAGE 48 =====
+:::: : 
+APPENDIX E 
+--
+., 
+A SELECTED BIBLIOGRAPHY; 
+I 
+--~ . 
+I 
+I 
+• 
+....., ........ . 
+
+===== PAGE 49 =====
+"·.J 
+• 
+'! 
+... ' 
+i 
+( 
+{ . 
+' 
+
+===== PAGE 50 =====
+.. 
+i 
+I 
+j 
+I 
+f . 
+! I 
+{ 
+I 
+I I 
+{ 
+I 
+! 
+. . 
+-~. 
+-····· . -0-~' .... ~-. 
+.. . -··-
+•.. -. - . 
+;>_ .. fl ......... -
+....... 
+• 
+-
+. ·.J 
+• 
+. ....... . 
+. . -
+. 
+. ... . 
+
+===== PAGE 51 =====
+.:or;- = 
+• 
+
+===== PAGE 52 =====
+. 
+, 
+--• 
+.. 
+"ioolk:::Jioeoll'l.oi'WI~Y~La~l~' .... 
+'!.;'rJ.-' ..1'"- ....... ,_ ~ 
+-(4-
+APPENDIX.F 
+HIGH EXPLOSIVE, DETONATOR, AND X-UNIT TECHNOLOGY 
+E. JAMES 1 JR. 
+1. 
+The Nth Country design uses, 
+2. 
+The technology required to produce TNT castings and lensing systems is well known. 
+I 
+3 .. 
+5. 
+By the end of World War IC many countries not actually engaged directly in combat 
+(Sweden and Switzerland, for examole) were sellinf! advanced munition::;. This is 
+still true: i 
+• 
+('_b ' ~') 
+)( J 
+yur-
+/- J 
+·/ J ! 
+(_-!?)L/ 
+
+===== PAGE 53 =====
+yoE 
+llJ)(I) 
+6. 
+YoE 
+•J>)~ 
+I 
+' ' 
+--~~·- - .. 
+7 .. The technology of bursting bridgewires and X-units required to activate burstinu 
+yoC 
+1 
+I 
+.i;JOJ I 
+I 
+:Do~ 
+• 8. 
+P)l~ 
+I 
+i 
+I I 
+I 
+I 
+bridgewire detonators is also known in thP. unclas.s..ii.ied literatur.,:._ 
+circl}it parameters are discussed in detai·i·.' 
+In these papers the subtleties of the 
+" ' 
+
+===== PAGE 54 =====
+! 
+. 
+9. 
+-. 
+f. 
+• 
+. , 
+
+===== PAGE 55 =====
+• 
+'< 
+APPENDIX G 
+HYDRODYNAMICS TECHNOLOGY 
+M. L. WILKINS 
+1. 
+Two aspects of hydrodynamics technology are of in_~~rest to_tbe .. Nth Country prob-: 
+-
+. 
+. ... 
+------· --·--
+2 
+lem: the ability to compute the material motions and shocks during the implosion 
+and explosion phases, and the equations of state for the various materials used in 
+the explosivE;!. 
+"' ' 
+
+===== PAGE 56 =====
+·~·--··'·· F 
+.- -
+....... 
+4. 
+• 
+. .. . 
+.. I 
+·-
+. 
+5. 
+The e911::tti0n-of-state data for hie-h exolosives· have always been in the open liter-
+ature; 
+8 . 
+• 
+'< 
+
+===== PAGE 57 =====
+APPENDIX H 
+NEUTRONICS TECHNOLOGY 
+W. C. GRAYSON 
+1 
+. , 
+gsmn&r. ;: . 
+.. . . ... <f1 .. . . .... .--1 .. 
+
+===== PAGE 58 =====
+APPENDIX I 
+YIELD CALCULATIONS 
+W. C. GRAYSON 
+1. 
+The calculation of the yield of a nuclear explosiv.e combines hydrodynamics and 
+3. 
+4. 
+5. 
+6 . 
+· neutronics techniques with radiation transport. Such a "burn code
+11 
+j_c;_w::n::~llv iha 
+most c:;_orp_pl~x cal.!;t.tl~Ji.on required for early Nth Country designs/ 
+• 
+
+===== PAGE 59 =====
+I 
+j 
+··.J 
+I 
+(?;~ 
+• 
+• 
+···-
+
+===== PAGE 60 =====
+'t 
+:: :: _,_ 
+APPENDIX J 
+lNITIATORS 
+R. l. REMILLARD 
+1. 
+The concept of mixing an alpha emitter with beryllium to form a neutron source 
+seems relativelv obvious 
+2. 
+• 
+• 
+
+===== PAGE 61 =====
+-yoE· 
+b){~ 
+• 
+. , 
+: 
+"JJI I 
+I 
+. -r-
+APPENDIX K 
+WEAPON MATERIALS TECHNOLOGY 
+R. A. JAMES 
+1. 
+Three materials in the Nth Country design (plutonium, uranium, and polonium} are 
+often considered to require special knowledge or experience outside standard 
+.~ .. -· -·-··-::·· 
+. ----
+. 
+. 
+.. ---
+2.: 
+metallurgical and engineering practice. 
+A team of chemical engineers would have no trouble designing and running 
+a successful plant usin~ any one of these processes (roughly 10-20 engineers are 
+needed during the design and building, a~d only a handful for supervising the 
+running). 
+3. 
+The preparation of plutonium metal by several methods has also been described. 
+The crystal structure and physical constants of the various allotropic modifications 
+of plutonium metal have also appeared very extensively in the literature. Investi-
+gations of plutonium alloys and intermetallic compounds are also in the open 
+literature. 
+4. 
+::'\either uranium nor polonium are newcomers to the metallurgical scene: many 
+properties of uranium have been known for almost a century, and the Curies did 
+the basic studies on polonium . 
+
+===== PAGE 62 =====
+APPENDIX L 
+WEAPON FACIUTY AND FABRICATION COSTS 
+C. R. HENRY 
+1. The Nth Country weapon designed by Dobson, Pipkorn, and Selden requires labora-
+tory support facilities and a weapon produ.ction complex which includes explosive 
+plants, component fabrication shops, and a diagnostic bunker. This appendix fu·r-
+nishes an estimate of the capital and operating costs of a weapon facility designed 
+to produce 5-10 weapons per year. Any equipment, materials, or components which 
+can be purchased on the world market were a.ssumed to be bought so that they do not 
+require plant investment. No estimate has been made of the time required to build 
+such facilities- only of the time required to build the first and successive weapons. 
+2 •. The reactor and its associated fuel processing plant were considered separately. 
+Since power as well as plutonium production might be the reason for building this · 
+5. 
+yJe-
+.b)C ') 6. 
+facility, the actual cost and utility to an Nth Country may vary widely. A minimal 
+estimate is -given as an example, with no allowance for any power production return. 
+Since the cost of all the plutonium and most of the uranium is attributable to the 
+plutonium production facility, we have for simplicity assumed that all the special 
+materials (plutonium. polonium, and uranium) costs are included in this estimate. 
+The wP::lnon c!Psis:rn nPrsonnPl rPnn1rP ::1. l::~hor:=~torv/offi"P h11ilrlina tn hnn~P about 
+The weapon production complex consists of about 10 buildings on 30-40 acres 
+jUrrounded by a security fence. The diagnostics bunker and HE storage magazines 
+are located in a separate, remote site. To achieve minimum cost, this relatively 
+' 
+' 
+
+===== PAGE 63 =====
+:w~ 
+'bJ(3>j. 
+·yoE. 
+_b) (I) 
+7 . 
+• 
+., 
+small complex was assumed to be within an existing ordnance facility; utility 
+installation costs would then include only the fenced-in area. All buildings are 
+minimum Butler-type construction .. The buildings and their arrangement are 
+workable and safe, but do not necessarily follow U.S. and LRL safety practices in 
+detail. The shielded operations have wooden glove boxes where possible, rather 
+than durable but very costly stainless steel. The complex requires a staff of about 
+400 operating and technical personnel. Since plutonium production is expected to 
+be the pacing process, this weapon facility would usually operate only one shift 
+P' 
+- - · -
+.. 
+. ;, ... 
+per day. 
+--. 
+·-.J 
+"' 
+... ' 
+
+===== PAGE 64 =====
+. , 
+- ~. ·- _____,_. 
+-· 
+* 
+:5!_.,.....;.--· _ 
+..... 
+( 
+The manpower estimate was bas~d partly on the (act that. 
+B. 
+The major expense of the Nth Country weapon is the production of the plutonium. 
+-
+< 
+-· •• 
+• 
+... •• 
+• 
+-
+•• 
+-
+-· "'~-·---
+.. 
+A 200-megawatt reactor is needed to produce about 50 kg of plutonium a year; 
+in addition, uranium and plutonium processing plants are required. A typical 
+estimate for such a facility is $60M. 1 The operating costs/ year would include both 
+the salaries of several hundred people and fuel costs (~100 tons of uranium), and 
+would run on the order of $10M. 
+1 This estimate is based on the cost of several power reactors described in Nucleonics 
+and a Savannah River Plant document on the production of plutonium. The Savannah 
+River report (1964) gives $30-45M for a 40 MW reactor and $95-135M for a 400 MW 
+reactor. Nucleonics (1965-1966) quotes the following "turnkey
+11 costs for power reactors 
+without fuel facilities (1 MW elect~ical requires about 3 MW thermal): 
+MTR (Japan) 
+50 MW (thermal) 
+$20M 
+MZFR (Germany) 
+200 MW (thermal) 
+$40M 
+AKB (Germany} 
+100 MW (electrical} 
+$55M 
+CANDU (Pakistan) 
+135 MW (electrical 
+$60M 
+• 
+l 
+• 
+< 
+l 
+
+===== PAGE 65 =====
+,· 
+• 
+., 
+DISTRIBUTION 
+Series A 
+LR L Internal Distribution 
+External Distribution 
+Chairman, G. T. Seaborg 
+General Manager, R. E. Hollingsworth 
+Commissioner J. T. Ramey 
+Commissioner S. M. Nabrit 
+Commissioner G. F. Tape . 
+Commissioner W. E. Johnson 
+U. S. Atomic Energy Commission 
+Washington, D. C. 
+A. M. Labowitz 
+Special Assistant for Disarmament 
+Office of the General Manager 
+U. S. Atomic Energy Commission 
+Washington, D. C. 
+J. S. Foster 
+Director of Defense Research and Engineering 
+Department of Defense 
+Washington, D. C. 
+A. S. Fisher 
+Special Assistant to the Director 
+Arms Control and Disarmament Agency 
+Washington, D. C. 
+D. F. Hornig 
+Special Assistant to the President 
+The White House Office 
+\Vashington, D. C. 
+J. T. Conway 
+Executive Director 
+Joint Committee on Atomic Energy 
+Washington, D. C. 
+Brig. Gen. E. B. Giller 
+Director ot Military Application 
+Atomic Energy Commission Headquarters 
+Washington, D. C. 
+E. C. Shute 
+U. S. Atomic Energy Commission 
+San Francisco Operations Office 
+Berkeley, California 
+N. E. Bradbury 
+Los Alamos Scientific Laboratory 
+Los Alam.os, New Mexico 
+Copy No. 
+1-61 
+62 
+63 
+64 
+65 
+'66 
+67 
+68 
+69 
+70 
+71 
+72 
+73-75 
+76 
+77 
+' \ 
+
+===== PAGE 66 =====
+. 
+i 
+/ 
+_. !
+< 
+; / 
+£xtc1·nal Dislt'ibulion (Cont'd) 
+J. A. Hornbeck 
+Sandia Corporation 
+Albuquerque, New i\lexico 
+L. P. Gise 
+U. S. Atomic Energy Commission 
+Albuquerque Operations Office 
+Albuquerque, New Mexico 
+se_~Je.s 
+L R L Iwl-tR!VAl bi.\l!uLuiNn 
+SERIES C 
+3-10-88 
+COPY NO 
+R.E. BATZEL 
+L-1 
+1-4 of 4 
+SERIES D 
+10-13-88 
+COPY NO 
+PHILIP COYLE, L-1 
+1 of 1 
+OFF-SITE REQUEST 
+8/12/93 
+Los Alamos National Laboratory 
+Attn: 
+Jack Carter, Reports Library 
+FOR: 
+Greg Buntain, M-1 
+Mail Station 5000 
+P.O. Box 1663 
+Los Alamos, N~ 87545 
+OFF-SITE REQUEST 
+Dianne C. Gropper 
+Technical Library 7141 
+MS-089 
+2/15/94 
+Sandia National Laboratories 
+Albuquerque, New Mexico 
+.JW:rt 
+Copy No. 
+78-83 
+84 
+B 

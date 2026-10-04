@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fission Criticality Blueprint</title>
+<style>
+/*
+ * Fission Criticality Blueprint
+ * Design tokens — three theme states: light, dark, system (un-stamped).
+ */
+:root, :root[data-theme="system"] {
+  --bg: #fafafa;      --surface: #ffffff;   --fg: #1a1a1a;
+  --muted: #666;      --border: #ddd;       --accent: #c0392b;
+  --accent2: #1a5276; --ok: #1e8449; --warn: #d68910;
+  --grid: #eee;
+}
+:root[data-theme="light"] {
+  --bg: #fafafa; --surface: #ffffff; --fg: #1a1a1a;
+  --muted: #666; --border: #ddd; --accent: #c0392b;
+  --accent2: #1a5276; --ok: #1e8449; --warn: #d68910; --grid: #eee;
+}
+:root[data-theme="dark"] {
+  --bg: #0d1117; --surface: #161b22; --fg: #e6edf3;
+  --muted: #8b949e; --border: #30363d; --accent: #ff6b5b;
+  --accent2: #58a6ff; --ok: #3fb950; --warn: #d29922; --grid: #21262d;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, "Segoe UI", Roboto, system-ui, sans-serif;
+  padding: 24px clamp(16px, 4vw, 48px);
+}
+h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .3px; }
+h2 { font-size: 16px; margin: 28px 0 10px; color: var(--accent2); }
+h3 { font-size: 14px; margin: 14px 0 6px; }
+p.lead { color: var(--muted); margin: 0 0 18px; font-size: 14px; }
+.tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 10px;
+       background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 880px){ .grid { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+        padding: 16px 18px; }
+.card h3 { margin-top: 0; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
+th { color: var(--muted); font-weight: 600; font-size: 12px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.mono { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 12.5px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+.badge.sub { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+.badge.sup { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+.readout { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.sub { color: var(--muted); font-size: 12px; }
+.controls { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
+.control label { font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; }
+.control input[type=range] { width: 100%; accent-color: var(--accent); }
+svg { max-width: 100%; }
+.svgwrap { width: 100%; overflow-x: auto; }
+svg { display: block; margin: 0 auto; }
+.note { font-size: 12px; color: var(--muted); border-left: 3px solid var(--accent2);
+        padding: 8px 12px; background: var(--surface); border-radius: 0 6px 6px 0; margin: 10px 0; }
+footer { margin-top: 30px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Fission Criticality Blueprint <span class="tag">educational physics model</span></h1>
+<p class="lead">
+Interactive what-if for the nuclear physics of a fissile sphere: k-eff vs. radius,
+chain-reaction growth, energy release, and neutron/gamma leakage. The 2-group
+diffusion engine is calibrated to the *measured* Los Alamos critical masses
+(Hansen &amp; Paxton, LA-4208: U-235 51.94 kg, Pu-239 17.02 kg, U-233 16.53 kg) and
+grounded in the Terrell MCNP leakage spectra (LA-11807). Criticality + kinetics +
+energy layer only — not a device specification.
+</p>
+
+<!-- ============ CRITICALITY DIAGRAM (SVG) ============ -->
+<div class="card">
+  <h3>Criticality &amp; Leakage Diagram</h3>
+  <div class="svgwrap">
+  <svg id="diag" width="680" height="300" viewBox="0 0 680 300">
+    <!-- axes -->
+    <line x1="70" y1="250" x2="620" y2="250" stroke="var(--muted)" stroke-width="1"/>
+    <line x1="70" y1="40"  x2="70"  y2="250" stroke="var(--muted)" stroke-width="1"/>
+    <text x="345" y="278" text-anchor="middle" font-size="12" fill="var(--muted)">
+      fissile mass M / M_crit  →
+    </text>
+    <text x="40" y="145" text-anchor="middle" font-size="12" fill="var(--muted)"
+          transform="rotate(-90 40 145)"> k-eff </text>
+    <!-- criticality curve rho(M) mirrored as k -->
+    <polyline id="kcurve" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+    <!-- k=1 line -->
+    <line x1="70" y1="145" x2="620" y2="145" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="600" y="138" text-anchor="end" font-size="11" fill="var(--muted)">k = 1</text>
+    <!-- critical marker -->
+    <circle id="critmark" r="5" fill="var(--accent)"/>
+    <line id="critline" stroke="var(--accent)" stroke-width="1" stroke-dasharray="3 3"/>
+    <!-- sub / super shading -->
+    <rect id="subshade" fill="var(--ok)" opacity="0.06"/>
+    <rect id="supshade" fill="var(--accent)" opacity="0.06"/>
+  </svg>
+  </div>
+  <div class="note" style="margin-top:10px">
+    <b>k &lt; 1</b> (M &lt; M_crit): sub-critical — neutrons leak faster than they reproduce,
+    the chain reaction settles to a steady sub-critical source.
+    <b>k = 1</b> (M = M_crit): critical. <b>k &gt; 1</b> (M &gt; M_crit): prompt
+    super-critical — the population grows on the ~140 ns generation time.
+  </div>
+</div>
+
+<div class="grid">
+  <!-- ============ WHAT-IF SLIDERS ============ -->
+  <div class="card">
+    <h3>What-if — fissile sphere</h3>
+    <div class="controls">
+      <div class="control">
+        <label><span>Material</span><span id="mat_name">U-235</span></label>
+        <select id="mat">
+          <option value="u235">U-235</option>
+          <option value="pu239">Pu-239</option>
+          <option value="u233">U-233</option>
+        </select>
+      </div>
+      <div class="control">
+        <label><span>Sphere radius R</span><span id="r_val">8.70 cm</span></label>
+        <input type="range" id="s_r" min="3.5" max="15.7" step="0.05" value="8.70">
+      </div>
+      <div class="control">
+        <label><span>&nbsp;</span><span id="rval_lbl" class="sub">1.000 × R_crit</span></label>
+        <div class="sub">R_crit = 8.704 cm &nbsp;(M_crit = 51.94 kg, LA-4208)</div>
+      </div>
+    </div>
+    <div id="readout" style="margin-top:16px"></div>
+  </div>
+
+  <!-- ============ CHAIN GROWTH CHART (SVG) ============ -->
+  <div class="card">
+    <h3>Chain-reaction growth N(t)</h3>
+    <div class="svgwrap">
+    <svg id="growth" width="360" height="220" viewBox="0 0 360 220">
+      <line x1="40" y1="190" x2="350" y2="190" stroke="var(--muted)" stroke-width="1"/>
+      <line x1="40" y1="15"  x2="40"  y2="190" stroke="var(--muted)" stroke-width="1"/>
+      <polyline id="growth-curve" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <text x="195" y="212" text-anchor="middle" font-size="11" fill="var(--muted)">time t →</text>
+      <text x="22"  y="103" text-anchor="middle" font-size="11" fill="var(--muted)"
+            transform="rotate(-90 22 103)">N(t)</text>
+      <text id="growth-ymax" x="350" y="24" text-anchor="end" font-size="10" fill="var(--muted)"></text>
+    </svg>
+    </div>
+    <p class="sub" style="margin-top:8px">Super-critical: N grows on the prompt period,
+    capped by a labeled disassembly time (not a device yield). Sub-critical: N relaxes to a
+    steady source-driven level; M = k/(1−k) is the LBL sub-critical multiplier.</p>
+  </div>
+</div>
+
+<div class="grid">
+  <!-- ============ YIELD vs R (SVG) ============ -->
+  <div class="card">
+    <h3>Fission energy vs. radius</h3>
+    <div class="svgwrap">
+    <svg id="yield" width="360" height="220" viewBox="0 0 360 220">
+      <line x1="40" y1="190" x2="350" y2="190" stroke="var(--muted)" stroke-width="1"/>
+      <line x1="40" y1="15"  x2="40"  y2="190" stroke="var(--muted)" stroke-width="1"/>
+      <line id="yield-critline" x1="0" y1="15" x2="0" y2="190" stroke="var(--border)"
+            stroke-width="1" stroke-dasharray="3 3"/>
+      <polyline id="yield-energy" fill="none" stroke="var(--accent2)" stroke-width="1.5"/>
+      <polyline id="yield-explosive" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <line id="yield-marker" x1="0" y1="15" x2="0" y2="190" stroke="var(--fg)"
+            stroke-width="1" stroke-dasharray="4 4"/>
+      <text x="195" y="212" text-anchor="middle" font-size="11" fill="var(--muted)">R / R_crit →</text>
+      <text x="22"  y="103" text-anchor="middle" font-size="11" fill="var(--muted)"
+            transform="rotate(-90 22 103)">kt TNT</text>
+    </svg>
+    </div>
+    <p class="sub" style="margin-top:8px">Blue: total fission energy (kt TNT) vs. R. Red:
+    explosive yield released by the labeled disassembly time (0 below critical, rising
+    above). The dashed line marks R_crit for the selected material.</p>
+  </div>
+
+  <!-- ============ PARAMETER TABLE ============ -->
+  <div class="card">
+    <h3>Calibrated constants (per material)</h3>
+    <table>
+      <tr><th>Material</th><th class="num">M_crit (kg)</th><th class="num">R_crit (cm)</th><th class="num">k-inf</th><th class="num">nu</th></tr>
+      <tr><td>U-235</td><td class="num mono">51.94</td><td class="num mono">8.70</td><td class="num mono">1.03</td><td class="num mono">2.616</td></tr>
+      <tr><td>Pu-239</td><td class="num mono">17.02</td><td class="num mono">6.39</td><td class="num mono">2.25</td><td class="num mono">3.181</td></tr>
+      <tr><td>U-233</td><td class="num mono">16.53</td><td class="num mono">5.98</td><td class="num mono">2.23</td><td class="num mono">2.55</td></tr>
+      <tr><td colspan="5" class="sub">M_crit: Hansen &amp; Paxton LA-4208 (measured). nu &amp; leakage: Terrell LA-11807 (MCNP). Engine: 2-group calibrated diffusion. M_crit scales as 1/rho^2 (density) and E^-1.72 (enrichment).</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ DEVICE TRANSIENT PANEL (new "more detailed" layer) ============ -->
+<div class="card" id="device-card" style="margin-top:24px">
+  <h3 style="color:var(--accent2)">Device Fission Transient — gun / implosion
+      <span class="tag">assembly + kinetics + disassembly · educational</span></h3>
+  <p class="lead" style="margin:6px 0 12px">
+    The device layer turns the bare-sphere engine into a time-dependent bomb:
+    a sub-critical assembly (gun-assembly U-235, or implosion Pu-239) that
+    is <b>neutron-free</b> during assembly, then the <b>initiator</b> fires at
+    t₀ and the chain runs for a few prompt generation times before the hot
+    core disassembles and the burst self-terminates. Grounded in the Nth
+    Country fission-weapon design report (assembly time ≫ fission chain
+    time). Device timescales are <i>labeled</i> order-of-magnitude estimates;
+    the k-eff / criticality underneath is the calibrated engine.
+  </p>
+
+  <!-- device selector + controls -->
+  <div class="controls" style="display:grid;grid-template-columns:1fr 1fr;gap:14px 24px">
+    <div class="control">
+      <label><span>Device type</span><span id="dev_name">gun · U-235</span></label>
+      <select id="dev_type">
+        <option value="gun">gun-assembly · U-235</option>
+        <option value="implosion">implosion · Pu-239</option>
+      </select>
+    </div>
+    <div class="control">
+      <label><span>Initiator</span><span id="init_lbl">ON at t₀ (normal)</span></label>
+      <select id="dev_init">
+        <option value="on">ON — source turns on at t₀</option>
+        <option value="off">OFF — premature fission (source from t=0)</option>
+      </select>
+    </div>
+    <div class="control">
+      <label><span id="speed_lbl">Assembly speed</span><span id="speed_val">1.00×</span></label>
+      <input type="range" id="s_speed" min="0.5" max="2.0" step="0.05" value="1.0">
+    </div>
+    <div class="control">
+      <label><span>Assembly timeline</span><span id="tl_lbl">0 us</span></label>
+      <input type="range" id="s_tl" min="0" max="1000" step="1" value="0">
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <!-- animated device schematic -->
+    <div class="card" style="background:var(--bg)">
+      <h3>Device schematic (assembly state)</h3>
+      <div class="svgwrap">
+      <svg id="dev-schematic" width="360" height="240" viewBox="0 0 360 240"></svg>
+      </div>
+      <div class="note" id="dev-stage" style="margin-top:8px">stage</div>
+    </div>
+
+    <!-- transient charts: k_eff(t), N(t), Y(t), T(t) -->
+    <div class="card" style="background:var(--bg)">
+      <h3>Transient — k, N, Y, T vs. time</h3>
+      <div class="svgwrap">
+      <svg id="dev-transient" width="360" height="240" viewBox="0 0 360 240">
+        <line x1="40" y1="210" x2="345" y2="210" stroke="var(--muted)" stroke-width="1"/>
+        <line x1="40" y1="15"  x2="40"  y2="210" stroke="var(--muted)" stroke-width="1"/>
+        <line id="dev-t0line" x1="0" y1="15" x2="0" y2="210" stroke="var(--warn)"
+              stroke-width="1" stroke-dasharray="3 3"/>
+        <polyline id="dev-keff" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+        <polyline id="dev-N"    fill="none" stroke="var(--accent)"  stroke-width="2"/>
+        <polyline id="dev-Y"    fill="none" stroke="var(--ok)"      stroke-width="1.5"/>
+        <line id="dev-marker" x1="0" y1="15" x2="0" y2="210" stroke="var(--fg)"
+              stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="195" y="230" text-anchor="middle" font-size="11" fill="var(--muted)">time t →</text>
+        <text id="dev-legend" x="345" y="24" text-anchor="end" font-size="10"
+              fill="var(--muted)">blue k_eff · red N · green Y</text>
+      </svg>
+      </div>
+      <div id="dev-readout" style="margin-top:8px"></div>
+    </div>
+  </div>
+
+  <!-- blast zones (illustrative) -->
+  <div class="card" style="margin-top:16px;background:var(--bg)">
+    <h3>Blast zones — cube-root-scaled <span class="tag">illustrative</span></h3>
+    <div id="dev-blast" style="display:flex;gap:22px;flex-wrap:wrap"></div>
+    <p class="sub" style="margin-top:8px">Radii scaled as r = r₁₀ₖₜ·(Y/10 kt)^(1/3), from the
+    reference document's ~10 kt zone radii. Labeled illustrative order-of-magnitude,
+    not a blast / overpressure solve.</p>
+  </div>
+
+  <!-- step-through cutaway -->
+  <div class="card" style="margin-top:16px">
+    <h3>Step-through cutaway walkthrough</h3>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+      <button id="cut-prev" class="badge sub" style="cursor:pointer;padding:4px 12px">‹ prev</button>
+      <span id="cut-stage-lbl" class="mono" style="min-width:220px">stage 1 / N</span>
+      <button id="cut-next" class="badge sup" style="cursor:pointer;padding:4px 12px">next ›</button>
+    </div>
+    <div id="cut-body" class="note" style="margin-top:0"></div>
+  </div>
+</div>
+
+<footer>
+  Educational fission-physics model — criticality thresholds, chain-reaction kinetics,
+  energy release, and dose source terms. The device layer (gun / implosion transient)
+  is a labeled-estimate educational model on the calibrated engine:
+  <span class="mono">sim/device/</span> (assembly, transient, blast).
+  Companion code: <span class="mono">sim/criticality.py</span>,
+  <span class="mono">sim/leakage.py</span>.
+  References: LA-4208 critical masses, Terrell LA-11807 leakage spectra,
+  and the 1967 Nth Country fission-weapon design report (device transient).
+</footer>
+
+<script>
+// ============================================================
+//  JS physics port of sim/neutronics (calibrated 2-group engine)
+//  Constants mirror sim/neutronics/materials.py CALIBRATED + Terrell.
+// ============================================================
+const NA=6.022e23, Ef=3.204e-11, TNT_J=4.184e12;
+// Per-material calibrated constants: kinf, Ld(cm) 1-group; Lf,Ls 2-group;
+// rho(g/cm3), A(g/mol), measured Mcrit(kg), fast nu, leak-fraction, E_avg.
+const MAT = {
+  u235:  {name:"U-235",   kinf:1.03, Ld:1.041, Lf:0.573, Ls:1.037,
+           rho:18.806, A:235.0, Mcrit:51.94, nu:2.616, leak:0.578, En:2.047,
+           gamma:0.358, Eg:1.364, Rcrit:8.704},
+  pu239: {name:"Pu-239",  kinf:2.25, Ld:9.193, Lf:5.056, Ls:4.799,
+           rho:15.61, A:239.0, Mcrit:17.02, nu:3.181, leak:0.676, En:2.159,
+           gamma:0.636, Eg:1.387, Rcrit:6.385},
+  u233:  {name:"U-233",   kinf:2.23, Ld:8.476, Lf:4.662, Ls:4.470,
+           rho:18.424, A:233.0, Mcrit:16.53, nu:2.55, leak:0.60, En:2.0,
+           gamma:0.40, Eg:1.4, Rcrit:5.983},
+};
+const EXTRAP=0.7104;
+let CUR_MAT="u235";
+
+// 1-group consistent k_eff(R):  kinf/(1+Bg^2*Ld^2), Bg=pi/(2(R+0.7104 Ld))
+function kEffR(R, mat){
+  const m=MAT[mat];
+  const Bg=Math.PI/(2*(R+EXTRAP*m.Ld));
+  return m.kinf/(1+Bg*Bg*m.Ld*m.Ld);
+}
+function reactivity(R, mat){
+  const k=kEffR(R,mat);
+  return (k-1)/Math.max(k,1e-12);
+}
+function Etotal(R, mat){
+  const m=MAT[mat];
+  const Mkg=(4/3)*Math.PI*m.rho*R**3/1000;
+  return (Mkg*1000/m.A)*NA*Ef;   // g/mol -> atoms
+}
+// LBL M=k/(1-k) sub-critical multiplier
+function subcritM(R, mat){
+  const k=kEffR(R,mat);
+  return k/(1-k);
+}
+function promptPeriod(R, mat, r){
+  // fast prompt generation time ~10ns(U235)/30ns(Pu)/25ns(U233), /kinf, /(r-beta)
+  const gen = mat==='u235'?1e-8 : mat==='pu239'?3e-8 : 2.5e-8;
+  const beta=0.002;
+  const Lambda = gen/MAT[mat].kinf;
+  return (r>beta)? Lambda/(r-beta) : Infinity;
+}
+function explosiveY(R, mat){
+  const r=reactivity(R,mat);
+  if(r<=0) return null;
+  const Lp=promptPeriod(R,mat,r);
+  const tExp=R*1e-2/1e5;        // labeled disassembly ~R/v_exp (v_exp~1e5 m/s)
+  const fdis=1-Math.exp(-tExp/Lp);
+  return {Lp, fdis, Y:fdis*Etotal(R,mat)};
+}
+function chainN(R, mat, t){
+  const r=reactivity(R,mat);
+  const Ns=new Array(t.length);
+  if(r>0){ const Lp=promptPeriod(R,mat,r);
+    for(let i=0;i<t.length;i++) Ns[i]=Math.exp(t[i]/Lp); }
+  else { const tauD=1e-5/Math.max(Math.abs(r-0.002),1e-9);
+    for(let i=0;i<t.length;i++) Ns[i]=1-Math.exp(-t[i]/tauD); }
+  return Ns;
+}
+// dose falloff (Terrell source terms, 1/r^2)
+function doseAt(R, mat, r_m){
+  const m=MAT[mat];
+  const k=kEffR(R,mat); if(k>=1) return {Dn:Infinity,Dg:Infinity};
+  const Mkg=(4/3)*Math.PI*m.rho*R**3/1000;
+  const S_int=(mat==='pu239'?4e4:3e2)*(Mkg/52);   // intrinsic source (teaching)
+  const Fss=S_int*(k/(1-k));
+  const cm=r_m*100, den=4*Math.PI*cm*cm;
+  return { Dn: Fss*m.leak*(m.En*1.602e-13)/den,
+           Dg: Fss*m.gamma*(m.Eg*1.602e-13)/den };
+}
+
+// ---------- theme: SVG charts use CSS variables directly (theme-aware) ----
+// (no canvas; all three diagrams are DOM/SVG rendered)
+
+// ---------- criticality diagram: k_eff vs R/Rcrit ----------
+function drawDiagram(R){
+  const svg=document.getElementById('diag');
+  const m=MAT[CUR_MAT], Rc=m.Rcrit;
+  const xmin=0.4, xmax=1.8, x0=70, x1=620, y0=40, y1=250;
+  const mapX = fr => x0 + (fr - xmin)/(xmax-xmin)*(x1-x0);   // fr = R/Rcrit
+  // build k_eff curve over R
+  let pts=[]; const n=120;
+  for(let i=0;i<=n;i++){ const fr=xmin+(xmax-xmin)*i/n;
+    const k=kEffR(fr*Rc, CUR_MAT); pts.push([mapX(fr), y1-(k-0)/(1.4)*(y1-y0)]); }
+  document.getElementById('kcurve').setAttribute('points', pts.map(p=>p.join(',')).join(' '));
+  const kmap=k=>y1-(k-0)/(1.4)*(y1-y0);
+  const mx=mapX(1.0), mk=kmap(1.0);
+  const cm=document.getElementById('critmark'); cm.setAttribute('cx',mx); cm.setAttribute('cy',mk);
+  const cl=document.getElementById('critline');
+  cl.setAttribute('x1',mx); cl.setAttribute('y1',mk); cl.setAttribute('x2',mx); cl.setAttribute('y2',y1);
+  const frNow=Math.min(Math.max(R/Rc,xmin),xmax);
+  const ms=mapX(frNow);
+  document.getElementById('subshade').setAttribute('x', x0); document.getElementById('subshade').setAttribute('width', Math.max(0,ms-x0));
+  document.getElementById('subshade').setAttribute('y', y0); document.getElementById('subshade').setAttribute('height', y1-y0);
+  document.getElementById('supshade').setAttribute('x', ms); document.getElementById('supshade').setAttribute('width', Math.max(0,x1-ms));
+  document.getElementById('supshade').setAttribute('y', y0); document.getElementById('supshade').setAttribute('height', y1-y0);
+}
+
+// ---------- growth chart (SVG) ----------
+function drawGrowth(R){
+  // plot area: x [40,350], y [15,190] in the 360x220 viewBox
+  const x0=40,x1=350,y0=15,y1=190;
+  const sup = reactivity(R,CUR_MAT)>0;
+  const tMax = sup ? 3e-7 : 5e-6;
+  const N=200; const t=[]; for(let i=0;i<N;i++) t.push(tMax*i/(N-1));
+  const Ns=chainN(R,CUR_MAT,t);
+  const maxN=Math.max(...Ns,1.01);
+  const pts=Ns.map((v,i)=>{
+    const x=x0+(x1-x0)*i/(N-1);
+    const y=y1-(y1-y0)*(v/maxN);
+    return x.toFixed(1)+','+y.toFixed(1);
+  });
+  document.getElementById('growth-curve').setAttribute('points', pts.join(' '));
+  document.getElementById('growth-ymax').textContent =
+    (sup?'t = '+tMax+' s':'t = '+tMax+' s') + ' · N_max='+maxN.toFixed(2);
+}
+
+// ---------- yield chart: total energy + explosive yield vs R/Rcrit (SVG) ----------
+function drawYield(R){
+  const x0=40,x1=350,y0=15,y1=190;
+  const m=MAT[CUR_MAT], Rc=m.Rcrit;
+  const rmin=0.4, rmax=1.8;
+  const mapX=fr=>x0+(x1-x0)*(fr-rmin)/(rmax-rmin);
+  const Emax=Etotal(Rc*rmax,CUR_MAT)/TNT_J;
+  const mapY=kt=>y1-(y1-y0)*(kt/Emax);
+  const n=120;
+  const energyPts=[], explosivePts=[];
+  for(let i=0;i<=n;i++){ const fr=rmin+(rmax-rmin)*i/n; const Rv=fr*Rc;
+    const x=mapX(fr).toFixed(1);
+    energyPts.push(x+','+mapY(Etotal(Rv,CUR_MAT)/TNT_J).toFixed(1));
+    const e=explosiveY(Rv,CUR_MAT);
+    explosivePts.push(x+','+mapY((e?e.Y:0)/TNT_J).toFixed(1));
+  }
+  document.getElementById('yield-energy').setAttribute('points', energyPts.join(' '));
+  document.getElementById('yield-explosive').setAttribute('points', explosivePts.join(' '));
+  // R_crit marker
+  const cx=mapX(1.0).toFixed(1);
+  const cl=document.getElementById('yield-critline');
+  cl.setAttribute('x1',cx); cl.setAttribute('x2',cx);
+  // current-R marker
+  const frNow=Math.min(Math.max(R/Rc,rmin),rmax);
+  const mx=document.getElementById('yield-marker');
+  mx.setAttribute('x1',mapX(frNow).toFixed(1)); mx.setAttribute('x2',mapX(frNow).toFixed(1));
+}
+
+// ---------- readout ----------
+function updateReadout(R){
+  const m=MAT[CUR_MAT], k=kEffR(R,CUR_MAT), r=reactivity(R,CUR_MAT);
+  const Mkg=(4/3)*Math.PI*m.rho*R**3/1000;
+  const el=document.getElementById('readout');
+  const badge = k<1 ? '<span class="badge sub">sub-critical</span>'
+    : Math.abs(k-1)<1e-6 ? '<span class="badge sub">critical</span>'
+    : '<span class="badge sup">prompt super-critical</span>';
+  let html = `<div style="display:flex;gap:24px;align-items:baseline;flex-wrap:wrap">
+      <div><div class="readout">${Mkg.toFixed(1)}</div><div class="sub">fissile mass (kg)</div></div>
+      <div><div class="readout">${k.toFixed(4)}</div><div class="sub">k_eff</div></div>
+      <div><div class="readout">${(r>=0?'+':'')+r.toFixed(4)}</div><div class="sub">reactivity ρ</div></div>
+      <div>${badge}</div></div>`;
+  if(k<1){
+    html+=`<div style="margin-top:14px"><div class="readout" style="font-size:20px">${subcritM(R,CUR_MAT).toFixed(0)}</div>
+      <div class="sub">M = k/(1−k) sub-critical multiplier (LBL "M>100")</div></div>`;
+  } else {
+    const e=explosiveY(R,CUR_MAT);
+    if(e){
+      html+=`<div style="margin-top:14px;display:flex;gap:24px">
+      <div><div class="readout" style="font-size:20px">${(e.Y/TNT_J).toFixed(3)} kt</div><div class="sub">yield @ t_exp</div></div>
+      <div><div class="readout" style="font-size:20px">${(e.Lp*1e9).toFixed(0)} ns</div><div class="sub">prompt period</div></div>
+      <div><div class="readout" style="font-size:20px">${(e.fdis*100).toFixed(1)}%</div><div class="sub">fission fraction</div></div></div>`;
+    }
+  }
+  el.innerHTML=html;
+}
+
+// ============================================================
+//  DEVICE TRANSIENT JS PORT  (mirrors sim/device/transient.py)
+//  A time-marched point-kinetics chain driven by an assembly
+//  (gun / implosion) R(t)/rho(t) trajectory. Closed-form between
+//  times, so the port is small. Device constants are labeled
+//  order-of-magnitude estimates, matching the Python module.
+// ============================================================
+const BETA=0.002, VDIS=1e5;                 // m/s disassembly velocity
+const DEV = {
+  gun: {
+    name:"gun-assembly · U-235", mat:"u235",
+    // light plug + heavy barrel + U-238 tamper -> assembled mass ~1.2*Mcrit
+    overshoot:1.20, barrel_m:0.12, overlap_m:0.06, v_m:2.0e3,
+  },
+  implosion: {
+    name:"implosion · Pu-239", mat:"pu239",
+    R0_frac:1.35, Rcomp_frac:0.62, t_comp_s:3.0e-6,
+  }
+};
+
+// material-calibrated constants (mirror MAT / engine): prompt lifetime, etc.
+function promptLifetime(mat, kinf){
+  const gen = mat==='u235'?1e-8 : mat==='pu239'?3e-8 : 2.5e-8;
+  return gen/kinf;
+}
+// 2-group k_eff with density scaling (mirror transient.k_eff_at).
+function kEff2g(R, mat, rhoOverride){
+  const m=MAT[mat], cal=m;
+  const lr = (rhoOverride==null)?1:(cal.rho/rhoOverride);  // Ld ~ 1/rho
+  const Lf=cal.Lf*lr, Ls=cal.Ls*lr, Ld=cal.Ld*lr;
+  const Bg=Math.PI/(2*(R+EXTRAP*Ld));
+  const Pf=Math.pow(1+Bg*Bg*Lf*Lf,-1.1);
+  const Ps=Math.pow(1+Bg*Bg*Ls*Ls,-0.6);
+  return cal.kinf*Pf*Ps;
+}
+function rhoReactivity(R, mat, rhoOv){
+  const k=kEff2g(R,mat,rhoOv); return (k-1)/k;
+}
+
+// Device wall-clock window (s) for a given type + speed slider.
+function devWindow(kind, speed){
+  const d=DEV[kind];
+  if(kind==='gun'){
+    const tAssem=(d.barrel_m+d.overlap_m)/d.v_m/speed;
+    return tAssem*1.5 + 2e-5;
+  }
+  return (d.t_comp_s/speed)*1.5 + 2e-5;
+}
+function devCriticalS(kind, speed){
+  const d=DEV[kind];
+  if(kind==='gun') return (d.barrel_m+d.overlap_m)/d.v_m/speed;
+  return d.t_comp_s/speed;
+}
+
+// One full transient for a device, given a timeline sample count + speed.
+// Returns {t, k_eff, rho, N, Y, f_dis, Y_max, Lp_peak, t0, R_peak}.
+function devTransient(kind, speed, initiatorOn){
+  const d=DEV[kind], mat=d.mat, n=200;
+  const wEnd=devWindow(kind,speed), tCrit=devCriticalS(kind,speed);
+  const t0 = initiatorOn?tCrit:0;
+  const Lambda=promptLifetime(mat, MAT[mat].kinf);
+  // build R(t), rho(t)
+  const R=[],rho=[],kA=[],rr=[];
+  for(let i=0;i<n;i++){
+    const t=wEnd*i/(n-1);
+    let Rv, rv=null;
+    if(kind==='gun'){
+      // assembled mass ramps 0 -> overshoot*Mcrit over [tCrit-tOverlap, tCrit]
+      const tOverlap=d.overlap_m/d.v_m/speed;
+      const Mcrit=MAT[mat].Mcrit, total=d.overshoot*Mcrit;
+      let M=0;
+      if(t>=tCrit) M=total;
+      else if(t>tCrit-tOverlap) M=total*((t-(tCrit-tOverlap))/tOverlap);
+      Rv=(M>0)?Math.cbrt(3000*M/(4*Math.PI*MAT[mat].rho)):0;
+    } else {
+      // implosion compression: R from R0 to Rcomp over tCrit
+      const p0=Math.min(Math.max(t/d.t_comp_s,0),1);
+      const p=p0*p0*(3-2*p0);
+      Rv=MAT[mat].Rcrit*(d.R0_frac+(d.Rcomp_frac-d.R0_frac)*p);
+      rv=MAT[mat].rho*Math.pow(d.R0_frac/Math.max(Rv/MAT[mat].Rcrit,1e-6),3);
+    }
+    R[i]=Rv; rho[i]=rv;
+    kA[i]=kEff2g(Rv,mat,rv); rr[i]=rhoReactivity(Rv,mat,rv);
+  }
+  const Rpeak=R[rr.indexOf(Math.max(...rr))];
+  const tDis=(Rpeak*1e-2)/VDIS;
+  const LpPeak=Lambda/Math.max(Math.max(...rr)-BETA,1e-9);
+  const fdis=1-Math.exp(-tDis/LpPeak);
+  // total fission energy of the assembled mass
+  let Mmax=0;
+  for(const r of R){ if(r>0) Mmax=Math.max(Mmax,(4/3)*Math.PI*MAT[mat].rho*r**3/1000); }
+  const Etot=(Mmax*1000/MAT[mat].A)*NA*Ef;
+  const Ymax=fdis*Etot;
+  // N(t) march
+  const N=new Array(n);
+  const Ncap=1e30;
+  if(initiatorOn){
+    const N0=1e9*Lambda;
+    for(let i=0;i<n;i++){
+      if(wEnd*i/(n-1)>=t0){
+        const rr2=rr[i]; const Lp=(rr2>BETA)?Lambda/Math.max(rr2-BETA,1e-9):1e30;
+        N[i]=N0*Math.exp(Math.min((wEnd*i/(n-1)-t0)/Lp,700));
+      } else N[i]=N0*1e-6;
+    }
+  } else {
+    N[0]=1;
+    for(let i=1;i<n;i++){
+      const rr2=rr[i-1];
+      if(rr2>BETA){ N[i]=N[i-1]*Math.exp(Math.min((wEnd/n)/(Lambda/Math.max(rr2-BETA,1e-9)),700)); }
+      else { N[i]=N[i-1]+1e-3*1e9*(wEnd/n)/Lambda; }
+      N[i]=Math.min(N[i],Ncap);
+    }
+  }
+  // Y(t): monotone rise over Lp_peak gated on source on
+  const Y=new Array(n);
+  for(let i=0;i<n;i++){
+    const tt=wEnd*i/(n-1);
+    let prog;
+    if(initiatorOn){ prog=(tt>=t0)?(1-Math.exp(-(tt-t0)/LpPeak)):0; }
+    else { prog=Math.min(Math.max(tt/LpPeak,0),1); }
+    Y[i]=Ymax*prog;
+  }
+  return {t:R.map((_,i)=>wEnd*i/(n-1)),kA,rr,N,Y,fdis,Ymax,LpPeak,t0,Rpeak,tCrit,wEnd,n};
+}
+
+// blast-zone cube-root scaling (mirror sim/device/blast.py)
+const BLAST10=[["vaporization",800],["total destruction",1600],["severe blast",3200],["fireball edge",4800]];
+function blastRadii(yieldKt){
+  const s=Math.pow(yieldKt/10,1/3);
+  return BLAST10.map(z=>({name:z[0],m:z[1]*s}));
+}
+
+// ---------- device schematic (animated, theme-aware SVG) ----------
+function drawSchematic(kind, frac){
+  // frac in [0,1] = assembly progress (0=start,1=critical/assembled)
+  const svg=document.getElementById('dev-schematic');
+  svg.innerHTML='';
+  const c={g:'var(--accent2)',u:'var(--accent)',p:'var(--accent)',
+           u238:'var(--muted)',tam:'var(--warn)',det:'var(--ok)',
+           bg:'var(--surface)',txt:'var(--fg)',mut:'var(--muted)',grid:'var(--border)'};
+  const NS='http://www.w3.org/2000/svg';
+  const mk=(tag,attrs)=>{const e=document.createElementNS(NS,tag);
+    for(const k in attrs)e.setAttribute(k,attrs[k]);return e;};
+  if(kind==='gun'){
+    // barrel (heavy U-235) on the right, light plug flying in from left
+    const cx=180, cy=120, L=130, H=54;
+    // U-238 deflector ring (behind heavy end)
+    svg.appendChild(mk('rect',{x:cx+L/2-6,y:cy-H/2-14,width:14,height:H+28,
+      fill:c.u238,opacity:.5,rx:2}));
+    // heavy barrel
+    svg.appendChild(mk('rect',{x:cx-30,y:cy-H/2,width:100,height:H,fill:c.u,opacity:.85,rx:6}));
+    // light plug: position from cx-160 (start) to cx-30-6 (seated) as frac 0->1
+    const plugW=70;
+    const pStart=cx-170, pEnd=cx-30-plugW-6;
+    const px=pStart+(pEnd-pStart)*frac;
+    svg.appendChild(mk('rect',{x:px,y:cy-H/2,width:plugW,height:H,fill:c.p,opacity:.95,rx:6}));
+    // Be/Po initiator marker at the heavy-end inner face
+    svg.appendChild(mk('circle',{cx:cx-30,cy:cy,r:5,fill:c.det}));
+    // labels
+    const lb=(x,y,txt)=>svg.appendChild(mk('text',{x,y,'font-size':10,fill:c.txt,
+      'text-anchor':'middle'})).textContent=txt;
+    lb(cx+10,cy-H/2-18,'heavy U-235 barrel');
+    lb(px+plugW/2,cy+H/2+16,'light U-235 plug');
+    lb(cx+L/2+4,cy+H/2+30,'U-238 deflector');
+    lb(cx-30,cy+H/2+34,'Be/Po initiator');
+    svg.appendChild(mk('text',{x:20,y:24,'font-size':11,fill:c.mut})).textContent='gun-assembly (Little-Boy class)';
+  } else {
+    // implosion: central Pu core, U-tamper shell, detonator/lens ring
+    const cx=180, cy=120;
+    const rTam=70, rCore0=34, rCore=rCore0-(rCore0-20)*frac; // core compresses
+    svg.appendChild(mk('circle',{cx,cy,r:rTam,fill:c.tam,opacity:.4}));
+    svg.appendChild(mk('circle',{cx,cy,r:rCore,fill:c.p,opacity:.95}));
+    // detonator / lens ring (16 points)
+    for(let i=0;i<16;i++){
+      const a=i/16*2*Math.PI;
+      const x=cx+Math.cos(a)*(rTam+10), y=cy+Math.sin(a)*(rTam+10);
+      const on=frac>0.2;
+      svg.appendChild(mk('circle',{cx:x,cy:y,r:3.2,fill: on?c.det:c.mut,
+        opacity: on?(0.5+0.5*frac):0.5}));
+    }
+    // converging wave (when frac>0.2): arc from tamper toward core
+    if(frac>0.2){
+      const rw=rTam-(rTam-rCore-2)*Math.min((frac-0.2)/0.6,1);
+      svg.appendChild(mk('circle',{cx,cy,r:rw,fill:'none',stroke:c.det,
+        'stroke-width':1.5,opacity:.7,'stroke-dasharray':'4 3'}));
+    }
+    const lb=(x,y,txt)=>svg.appendChild(mk('text',{x,y,'font-size':10,fill:c.txt,
+      'text-anchor':'middle'})).textContent=txt;
+    lb(cx,cy,'Pu-239 core');
+    lb(cx,cy-rTam-14,'U-tamper + lens / detonator ring');
+    svg.appendChild(mk('text',{x:20,y:24,'font-size':11,fill:c.mut})).textContent='implosion (Fat-Man class)';
+  }
+}
+
+// ---------- transient chart (k, N, Y vs t) ----------
+function drawDevTransient(tr){
+  const x0=40,x1=345,y0=15,y1=210, n=tr.n;
+  const mx=i=>x0+(x1-x0)*i/(n-1);
+  // k_eff: normalize to [0.6, max(k)] window
+  const kmin=Math.min(...tr.kA), kmax=Math.max(...tr.kA,1.1);
+  const ky=v=>y1-(y1-y0)*((v-kmin)/(kmax-kmin||1));
+  const kpts=tr.kA.map((v,i)=>mx(i).toFixed(1)+','+ky(v).toFixed(1));
+  // N: log scale
+  const nmax=Math.max(...tr.N,2); const ny=v=>y1-(y1-y0)*(Math.log10(Math.max(v,1e-2))/Math.log10(nmax));
+  const npts=tr.N.map((v,i)=>mx(i).toFixed(1)+','+ny(v).toFixed(1));
+  // Y: linear 0..Ymax
+  const yv=v=>y1-(y1-y0)*(v/(tr.Ymax||1));
+  const ypts=tr.Y.map((v,i)=>mx(i).toFixed(1)+','+yv(v).toFixed(1));
+  document.getElementById('dev-keff').setAttribute('points',kpts.join(' '));
+  document.getElementById('dev-N').setAttribute('points',npts.join(' '));
+  document.getElementById('dev-Y').setAttribute('points',ypts.join(' '));
+  // t0 line + k=1 reference
+  const t0x=mx(tr.t0/tr.wEnd*(n-1)).toFixed(1);
+  const t0l=document.getElementById('dev-t0line');
+  t0l.setAttribute('x1',t0x);t0l.setAttribute('x2',t0x);
+  document.getElementById('dev-legend').textContent=
+    'blue k_eff · red N(log) · green Y  · kt peak '+(tr.Ymax/TNT_J).toFixed(0);
+}
+
+// ---------- device readout + blast + stage ----------
+function devStageLabel(kind, frac, initiatorOn){
+  const s=frac<0.05? (kind==='gun'?'Barrel sub-critical, plug in flight':'Core at rest, sub-critical')
+    : frac<0.5? (kind==='gun'?'Plug entering heavy end, assembly building':'Detonators firing, converging wave')
+    : frac<0.9? (kind==='gun'?'Overlap — assembled mass exceeding M_crit':'Compression driving core below R_crit')
+    : (initiatorOn?'Assembly critical, initiator fired at t₀':'Assembly critical — premature fission (source from t=0)');
+  return s;
+}
+function updateDevice(){
+  const kind=document.getElementById('dev_type').value;
+  const speed=+document.getElementById('s_speed').value;
+  const initiatorOn=document.getElementById('dev_init').value==='on';
+  document.getElementById('dev_name').textContent=DEV[kind].name;
+  document.getElementById('init_lbl').textContent=initiatorOn?'ON at t₀ (normal)':'OFF (premature)';
+  document.getElementById('speed_val').textContent=speed.toFixed(2)+'×';
+  const tr=devTransient(kind,speed,initiatorOn);
+  // timeline slider maps 0..1000 -> 0..wEnd
+  const sTL=document.getElementById('s_tl');
+  const frac=sTL.value/1000;
+  const tNow=frac*tr.wEnd;
+  document.getElementById('tl_lbl').textContent=(tNow*1e6).toFixed(1)+' us';
+  // marker on the transient chart
+  const mkX=40+(345-40)*frac;
+  const md=document.getElementById('dev-marker');
+  md.setAttribute('x1',mkX.toFixed(1));md.setAttribute('x2',mkX.toFixed(1));
+  drawSchematic(kind,frac);
+  drawDevTransient(tr);
+  document.getElementById('dev-stage').textContent='stage: '+devStageLabel(kind,frac,initiatorOn);
+  // readout at tNow (sample nearest index)
+  const iNow=Math.round(frac*(tr.n-1));
+  const kk=tr.kA[iNow], nn=tr.N[iNow], yy=tr.Y[iNow];
+  const kt=tr.Ymax/TNT_J;
+  document.getElementById('dev-readout').innerHTML=
+    `<div style="display:flex;gap:18px;flex-wrap:wrap;align-items:baseline">
+      <div><div class="readout" style="font-size:20px">${kk.toFixed(3)}</div><div class="sub">k_eff @ t</div></div>
+      <div><div class="readout" style="font-size:20px">${nn>1e3?nn.toExponential(1):nn.toFixed(1)}</div><div class="sub">N (neutrons)</div></div>
+      <div><div class="readout" style="font-size:20px">${(yy/TNT_J).toFixed(1)} kt</div><div class="sub">Y @ t (illustrative)</div></div>
+      <div><div class="readout" style="font-size:20px">${(tr.fdis*100).toFixed(0)}%</div><div class="sub">fission fraction</div></div>
+    </div>`;
+  // blast zones
+  const bl=blastRadii(kt);
+  document.getElementById('dev-blast').innerHTML=bl.map(z=>
+    `<div><div class="readout" style="font-size:18px">${(z.m/1000).toFixed(2)} km</div>
+     <div class="sub">${z.name}</div></div>`).join('');
+}
+
+// ---------- cutaway step-through ----------
+const CUTAWAY={
+  gun:[
+    ["Sub-critical barrel + plug","The heavy U-235 barrel and light U-235 plug are each sub-critical on their own. The U-238 deflector (neutron reflector) returns escaping neutrons. k_eff < 1, no chain."],
+    ["Fire — plug in flight","A conventional charge fires the light plug into the barrel. The material is deliberately neutron-free, so nothing starts yet."],
+    ["Overlap — assembly builds","As the plug seats, the combined U-235 mass plus tamper credit grows past the bare critical mass. k_eff rises toward 1."],
+    ["Supercritical + initiator","The assembly crosses critical; the Be/Po initiator fires at t₀, turning on the neutron source."],
+    ["Burst","The prompt chain runs for a few generation times (prompt lifetime ~10 ns for U-235), then the hot core disassembles and the burst ends."],
+  ],
+  implosion:[
+    ["Sub-critical Pu core at rest","A Pu-239 core of fixed mass sits sub-critical (radius > R_crit). Detonators + high-explosive lenses are armed."],
+    ["Detonators fire","All lenses/detonators fire ~simultaneously, launching a spherically converging detonation wave inward."],
+    ["Converging wave compresses","The converging shock compresses the Pu core (and its U tamper) inward: radius shrinks, density rises."],
+    ["Compression crosses critical","R drops below R_crit and density rises, so k_eff > 1 — both leakage and absorption improve. The material stays neutron-free until now."],
+    ["Initiator + burst","The Be/Po initiator fires as compression completes; the prompt chain runs (Pu-239 ~30 ns), then the core disassembles and the burst ends."],
+  ]
+};
+let cutIdx=0;
+function showCut(){
+  const kind=document.getElementById('dev_type').value;
+  const stages=CUTAWAY[kind];
+  cutIdx=Math.min(cutIdx,stages.length-1);
+  const [title,body]=stages[cutIdx];
+  document.getElementById('cut-stage-lbl').textContent=`stage ${cutIdx+1}/${stages.length}`;
+  document.getElementById('cut-body').innerHTML=`<b>${title}.</b> ${body}`;
+}
+function initDevice(){
+  ['dev_type','dev_init','s_speed','s_tl'].forEach(id=>
+    document.getElementById(id).addEventListener('input',()=>{
+      if(id==='dev_type')cutIdx=0;
+      updateDevice(); showCut();
+    }));
+  document.getElementById('cut-next').addEventListener('click',()=>{cutIdx++;showCut();});
+  document.getElementById('cut-prev').addEventListener('click',()=>{cutIdx=Math.max(0,cutIdx-1);showCut();});
+  updateDevice(); showCut();
+}
+
+// ---------- wiring ----------
+function refresh(){
+  const R=+document.getElementById('s_r').value;
+  const m=MAT[CUR_MAT];
+  document.getElementById('r_val').textContent=R.toFixed(2)+' cm';
+  document.getElementById('rval_lbl').textContent=R/m.Rcrit.toFixed(3)+' × R_crit';
+  drawDiagram(R); drawGrowth(R); drawYield(R); updateReadout(R);
+}
+['s_r'].forEach(id=>document.getElementById(id).addEventListener('input',refresh));
+function setMaterial(el){
+  CUR_MAT=el.value;
+  const m=MAT[CUR_MAT];
+  const sR=document.getElementById('s_r');
+  sR.min=(0.4*m.Rcrit).toFixed(1); sR.max=(1.8*m.Rcrit).toFixed(1);
+  sR.value=m.Rcrit.toFixed(2);
+  document.getElementById('mat_name').textContent=m.name+'  ·  M_crit='+m.Mcrit+' kg';
+  refresh();
+}
+document.addEventListener('DOMContentLoaded',()=>{
+  const sel=document.getElementById('mat');
+  sel.addEventListener('change',()=>setMaterial(sel));
+  setMaterial(sel);           // sets CUR_MAT + slider bounds
+  window.addEventListener('resize',refresh);
+  initDevice();              // device transient panel
+});
+</script>
+</body>
+</html>

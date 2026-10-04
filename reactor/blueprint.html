@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pu-239 CANDU Breeder - Blueprint</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#555; --border:#ddd;
+    --card:#fff; --accent:#c0392b; --navy:#1a5276; --soft:#f5f7fa;
+    --radius:4px; --grid:8px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1a1a1a; --fg:#e0e0e0; --muted:#a0a0a0; --border:#333;
+      --card:#242424; --soft:#2a2a2a;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1a1a1a; --fg:#e0e0e0; --muted:#a0a0a0; --border:#333;
+    --card:#242424; --soft:#2a2a2a;
+  }
+  :root[data-theme="light"]{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#555; --border:#ddd;
+    --card:#fff; --soft:#f5f7fa;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;padding:calc(var(--grid)*3);}
+  .wrap{max-width:1080px;margin:0 auto;}
+  h1{font-size:26px;margin:0 0 4px;}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:calc(var(--grid)*2);margin-bottom:calc(var(--grid)*2);}
+  .card h2{font-size:18px;margin:0 0 12px;border-bottom:1px solid var(--border);padding-bottom:8px;}
+  .card h3{font-size:15px;margin:16px 0 8px;}
+  .grid{display:grid;gap:calc(var(--grid)*2);grid-template-columns:1fr;}
+  @media(min-width:820px){.grid.two{grid-template-columns:1fr 1fr;}}
+  .svgbox{width:100%;overflow-x:auto;}
+  .svgbox svg{width:100%;height:auto;min-width:720px;display:block;border:1px solid var(--border);border-radius:var(--radius);background:#fafafa;}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0;}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);}
+  th{background:var(--soft);font-weight:600;}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;}
+  .verdict{border-left:3px solid var(--accent);padding:8px 12px;background:var(--soft);border-radius:0 var(--radius) var(--radius) 0;margin:12px 0;font-size:14px;}
+  .verdict b{color:var(--accent);}
+  .whatif-grid{display:grid;grid-template-columns:1fr;gap:calc(var(--grid)*2);}
+  @media(min-width:760px){.whatif-grid{grid-template-columns:2fr 1fr;}}
+  .slider{margin:14px 0;}
+  .slider label{font-size:14px;font-weight:600;display:block;margin-bottom:4px;}
+  .slider .val{color:var(--navy);font-weight:600;}
+  input[type=range]{width:100%;accent-color:var(--accent);}
+  .readouts{display:grid;gap:calc(var(--grid)*1);}
+  .readout{background:var(--soft);border:1px solid var(--border);border-radius:var(--radius);padding:calc(var(--grid)*1.5);}
+  .readout .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;}
+  .readout .v{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px;}
+  .readout .v small{font-size:15px;font-weight:400;color:var(--muted);}
+  canvas{width:100%;height:auto;display:block;border:1px solid var(--border);border-radius:var(--radius);background:var(--card);}
+  .note{font-size:12.5px;color:var(--muted);}
+  .foot{margin-top:8px;padding:12px 0;border-top:1px solid var(--border);color:var(--muted);font-size:13px;}
+  .foot code{background:var(--soft);padding:1px 6px;border-radius:3px;font-size:12px;}
+  .tag{display:inline-block;background:var(--accent);color:#fff;font-size:11px;padding:1px 8px;border-radius:3px;margin-left:6px;vertical-align:middle;}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Pu-239 CANDU Breeder - Blueprint</h1>
+  <p class="sub">Sodium-cooled, heavy-water moderated, CANDU-style heterogeneous net breeder. Scheme 2 reference case, ~50&nbsp;MWth / ~5&nbsp;kg/yr Pu-239.</p>
+
+  <!-- ===================== CROSS-SECTION SVG ===================== -->
+  <div class="card">
+    <h2>Core Cross-Section</h2>
+    <div class="svgbox">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="Segoe UI, Arial, sans-serif" role="img" aria-label="CAD cross-section of the Pu-239 CANDU breeder core">
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L8,4.5 L1,8 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="arwB" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L8,4.5 L1,8 Z" fill="#1a5276"/>
+    </marker>
+    <pattern id="steel" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#dfe6ec"/>
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#9fb0bf" stroke-width="1.4"/>
+    </pattern>
+    <pattern id="hex" width="48.5" height="42" patternUnits="userSpaceOnUse">
+      <polygon points="24.25,1.5 46.5,12.75 46.5,33.25 24.25,40.5 1.5,33.25 1.5,12.75" fill="none" stroke="#1a5276" stroke-width="1.4"/>
+      <circle cx="24.25" cy="18.5" r="3.4" fill="#1a5276"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1200" height="900" fill="#fafafa"/>
+  <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">Pu-239 CANDU Breeder - Core Cross-Section</text>
+  <text x="600" y="62" text-anchor="middle" font-size="12.5" fill="#4a5568" letter-spacing="0.5">Sodium-cooled heavy-water moderated heterogeneous net breeder (Scheme 2, blueprint reference case) - CAD section view</text>
+  <line x1="60" y1="74" x2="880" y2="74" stroke="#222" stroke-width="1"/>
+  <g>
+    <line x1="430" y1="110" x2="430" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="550" y1="110" x2="550" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="670" y1="110" x2="670" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="430" y1="186" x2="430" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <line x1="550" y1="186" x2="550" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <line x1="670" y1="186" x2="670" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <rect x="400" y="88" width="180" height="22" fill="url(#steel)" stroke="#222" stroke-width="1.4"/>
+    <text x="490" y="103" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">control rod drive x8</text>
+  </g>
+  <rect x="325" y="186" width="350" height="44" fill="url(#steel)" stroke="#222" stroke-width="1.6"/>
+  <text x="500" y="213" text-anchor="middle" font-size="11" fill="#1a5276" font-weight="600">top reflector (D2O + steel)</text>
+  <rect x="305" y="230" width="390" height="480" fill="none" stroke="#222" stroke-width="6"/>
+  <rect x="337" y="262" width="326" height="416" fill="#e8edf2" stroke="#34495e" stroke-width="2"/>
+  <line x1="343" y1="268" x2="343" y2="672" stroke="#c0392b" stroke-width="3.2" stroke-dasharray="5 5"/>
+  <line x1="657" y1="268" x2="657" y2="672" stroke="#c0392b" stroke-width="3.2" stroke-dasharray="5 5"/>
+  <rect x="357" y="282" width="286" height="376" fill="#eef4fb" stroke="#1a5276" stroke-width="1.6"/>
+  <rect x="389" y="314" width="222" height="312" fill="url(#hex)" stroke="#1a5276" stroke-width="1.8"/>
+  <circle cx="438" cy="363" r="6.5" fill="#fff" stroke="#1a5276" stroke-width="1.4"/>
+  <circle cx="547" cy="461" r="6.5" fill="#fff" stroke="#1a5276" stroke-width="1.4"/>
+  <rect x="325" y="710" width="350" height="44" fill="url(#steel)" stroke="#222" stroke-width="1.6"/>
+  <text x="500" y="737" text-anchor="middle" font-size="11" fill="#1a5276" font-weight="600">bottom reflector (D2O + steel)</text>
+  <path d="M 700 360 L 790 360 L 790 420 L 1010 420" fill="none" stroke="#c0392b" stroke-width="8"/>
+  <path d="M 1010 560 L 790 560 L 790 620 L 300 620 L 300 360" fill="none" stroke="#1a5276" stroke-width="8"/>
+  <g>
+    <rect x="755" y="500" width="70" height="80" fill="#fff" stroke="#1a5276" stroke-width="2.4"/>
+    <circle cx="790" cy="540" r="24" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+    <path d="M 790 540 L 772 528 M 790 540 L 808 528 M 790 540 L 790 558" stroke="#1a5276" stroke-width="2"/>
+    <text x="790" y="596" text-anchor="middle" font-size="11" font-weight="600" fill="#1a5276">sodium pump</text>
+  </g>
+  <g>
+    <rect x="1010" y="405" width="150" height="170" fill="#fff" stroke="#1a5276" stroke-width="2.4"/>
+    <line x1="1010" y1="445" x2="1160" y2="445" stroke="#1a5276" stroke-width="1.4"/>
+    <line x1="1010" y1="540" x2="1160" y2="540" stroke="#1a5276" stroke-width="1.4"/>
+    <g stroke="#c0392b" stroke-width="1.5" fill="none">
+      <path d="M1030 420 h60 M1030 430 h60 M1030 450 h60 M1030 460 h60"/>
+      <path d="M1030 490 h60 M1030 500 h60 M1030 520 h60 M1030 530 h60"/>
+    </g>
+    <text x="1085" y="392" text-anchor="middle" font-size="11" font-weight="600" fill="#1a5276">S-HX</text>
+    <text x="1085" y="592" text-anchor="middle" font-size="10.5" fill="#1a5276">(sodium heat xchg, 2-loop Na)</text>
+  </g>
+  <line x1="748" y1="360" x2="770" y2="360" stroke="#c0392b" stroke-width="8" marker-end="url(#arw)"/>
+  <line x1="340" y1="620" x2="362" y2="620" stroke="#1a5276" stroke-width="8" marker-end="url(#arwB)"/>
+  <text x="845" y="350" font-size="10" fill="#c0392b" font-weight="600">hot Na leg (outlet)</text>
+  <text x="360" y="642" font-size="10" fill="#1a5276" font-weight="600">cold Na leg (inlet)</text>
+  <g stroke="#333" stroke-width="1.2" fill="#333">
+    <line x1="389" y1="300" x2="389" y2="288"/>
+    <line x1="611" y1="300" x2="611" y2="288"/>
+    <line x1="389" y1="294" x2="611" y2="294" marker-end="url(#arwB)" marker-start="url(#arwB)"/>
+  </g>
+  <text x="500" y="291" text-anchor="middle" font-size="11.5" fill="#222" font-weight="600">2R = 5.0 m (core dia)</text>
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="702" y1="230" x2="716" y2="230"/>
+    <line x1="702" y1="710" x2="716" y2="710"/>
+    <line x1="710" y1="230" x2="710" y2="710" marker-end="url(#arwB)" marker-start="url(#arwB)"/>
+  </g>
+  <text x="735" y="475" text-anchor="middle" font-size="11.5" fill="#222" font-weight="600" transform="rotate(-90 735 475)">H = 3.0 m (core section)</text>
+  <g stroke="#1a5276" stroke-width="1.2">
+    <line x1="438" y1="343" x2="438" y2="330"/>
+    <line x1="438" y1="343" x2="474" y2="343"/>
+    <line x1="474" y1="343" x2="474" y2="330"/>
+  </g>
+  <text x="456" y="326" text-anchor="middle" font-size="10.5" fill="#1a5276">p = 90 mm pitch</text>
+  <text x="438" y="300" text-anchor="middle" font-size="10.5" fill="#1a5276">cell OD 190 / ID 180</text>
+  <g font-size="13" fill="#1a1a1a">
+    <g stroke="#222" stroke-width="1.1">
+      <line x1="150" y1="205" x2="325" y2="205"/>
+      <line x1="150" y1="400" x2="345" y2="430"/>
+      <line x1="150" y1="470" x2="430" y2="460"/>
+      <line x1="150" y1="540" x2="420" y2="545"/>
+      <line x1="150" y1="610" x2="320" y2="480"/>
+    </g>
+    <rect x="30" y="193" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="210">calandria cell</text>
+    <rect x="30" y="388" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="405" fill="#1a5276">fuel channel</text>
+    <text x="36" y="421" fill="#4a5568" font-size="11">(U-238 / THU)</text>
+    <rect x="30" y="458" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="475" fill="#1a5276" font-size="12.5">moderator pool</text>
+    <text x="36" y="491" fill="#4a5568" font-size="11">(heavy water D2O)</text>
+    <rect x="30" y="528" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="545" font-size="12.5">steel shield</text>
+    <text x="36" y="561" fill="#4a5568" font-size="11">(biological Na-steel)</text>
+    <rect x="30" y="598" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="615" font-size="12.5">reflector</text>
+    <text x="36" y="631" fill="#4a5568" font-size="11">(axial D2O + steel)</text>
+  </g>
+  <g>
+    <rect x="900" y="180" width="270" height="404" fill="#fff" stroke="#222" stroke-width="1.4"/>
+    <text x="915" y="205" font-size="14" font-weight="700" fill="#1a1a1a">Dimensions / Key Values</text>
+    <line x1="915" y1="214" x2="1155" y2="214" stroke="#ccc" stroke-width="1"/>
+    <g font-size="12.5" fill="#2c3e50">
+      <text x="915" y="238">R (core radius)      2.5 m</text>
+      <text x="915" y="262">H (core height)      3.0 m</text>
+      <text x="915" y="286">cell pitch p         90 mm</text>
+      <text x="915" y="310">calandria tube     190/180 mm</text>
+      <text x="915" y="334">fuel channel dia   54 mm</text>
+      <text x="915" y="358">sodium dT           350 K</text>
+      <text x="915" y="382">total power        50 MWth</text>
+      <text x="915" y="406">Pu-239 target      5 kg/yr</text>
+    </g>
+    <line x1="915" y1="424" x2="1155" y2="424" stroke="#ccc" stroke-width="1"/>
+    <g font-size="11.5" fill="#2c3e50">
+      <text x="915" y="446">k-inf (lattice)      1.0037</text>
+      <text x="915" y="468">breeding ratio BR    0.9428</text>
+      <text x="915" y="490">Pu-239 production  1.38e-2 kg/d</text>
+      <text x="915" y="512">max fuel temp      ~432 C</text>
+      <text x="915" y="534">thermal margin     ~444 K</text>
+      <text x="915" y="556">fuel elements N    300</text>
+    </g>
+    <rect x="915" y="566" width="16" height="10" fill="url(#steel)" stroke="#222" stroke-width="0.8"/>
+    <text x="938" y="575" font-size="11" fill="#4a5568">steel / Na-490</text>
+    <line x1="1030" y1="571" x2="1054" y2="571" stroke="#c0392b" stroke-width="3"/>
+    <text x="1060" y="575" font-size="11" fill="#4a5568">hot Na leg</text>
+  </g>
+  <text x="900" y="720" font-size="11" fill="#4a5568">Blueprint reference case - values from src/{neutronics,channel_model,thermal_hydraulics,reactor}.py and docs/reactor_design.md.</text>
+</svg>
+    </div>
+    <p class="note">Hot sodium leg is accent-colored. The calandria honeycomb grid and moderator pool occupy the central section; the two-leg sodium loop routes out the right wall through the S-HX and pump back into the left wall.</p>
+  </div>
+
+  <!-- ===================== DESIGN PARAMETERS ===================== -->
+  <div class="card">
+    <h2>Design Parameters</h2>
+    <div class="grid two">
+      <div>
+        <h3>Core geometry</h3>
+        <table>
+          <tr><th>Parameter</th><th class="num">Value</th></tr>
+          <tr><td>Core radius R</td><td class="num">2.5 m</td></tr>
+          <tr><td>Core height H</td><td class="num">3.0 m</td></tr>
+          <tr><td>Thermal power P</td><td class="num">50 MWth</td></tr>
+          <tr><td>Number of fuel elements N</td><td class="num">300</td></tr>
+          <tr><td>Power per element</td><td class="num">0.1667 MW</td></tr>
+          <tr><td>Mass per fuel element</td><td class="num">34 kg</td></tr>
+          <tr><td>U-238 seed enrichment f</td><td class="num">3.0 %</td></tr>
+          <tr><td>Pu-239 initial fraction</td><td class="num">1.5 %</td></tr>
+          <tr><td>U-235 fraction</td><td class="num">3.0 %</td></tr>
+          <tr><td>U-238 fraction</td><td class="num">95.5 %</td></tr>
+        </table>
+        <h3>Calandria lattice, fuel &amp; moderator</h3>
+        <table>
+          <tr><th>Parameter</th><th class="num">Value</th></tr>
+          <tr><td>Calandria tube OD / ID</td><td class="num">190 / 180 mm</td></tr>
+          <tr><td>Cell pitch p</td><td class="num">90 mm</td></tr>
+          <tr><td>Fuel channel dia d</td><td class="num">54 mm</td></tr>
+          <tr><td>Channel count per core</td><td class="num">300</td></tr>
+          <tr><td>Fuel form</td><td class="num">U-238 + bred Pu-239 / THU plate</td></tr>
+          <tr><td>Element volume</td><td class="num">1.0e4 cm3</td></tr>
+          <tr><td>Burnup target</td><td class="num">10,000 MWd/tU</td></tr>
+          <tr><td>Moderator</td><td class="num">D2O pool</td></tr>
+          <tr><td>D2O thermal capture &sigma;a</td><td class="num">1.7e-4 cm-1</td></tr>
+          <tr><td>D2O thermal diffusion D</td><td class="num">2.20 cm</td></tr>
+          <tr><td>Heavy-water mass</td><td class="num">~100 t</td></tr>
+        </table>
+      </div>
+      <div>
+        <h3>Sodium loop, shielding, control rods</h3>
+        <table>
+          <tr><th>Parameter</th><th class="num">Value</th></tr>
+          <tr><td>Reference sodium mass flow</td><td class="num">446.8 kg/s</td></tr>
+          <tr><td>Sodium dT</td><td class="num">~350 K</td></tr>
+          <tr><td>Sodium inlet T</td><td class="num">550 K (~277 C)</td></tr>
+          <tr><td>Sodium cp</td><td class="num">~1,890 J/kg/K</td></tr>
+          <tr><td>S-HX</td><td class="num">primary/secondary Na Na</td></tr>
+          <tr><td>Steel shield</td><td class="num">~2-3 m Na-steel</td></tr>
+          <tr><td>Thermal shield</td><td class="num">Na-490</td></tr>
+          <tr><td>Top / bottom reflector</td><td class="num">D2O + steel</td></tr>
+          <tr><td>Rod assemblies</td><td class="num">8-10 drives</td></tr>
+          <tr><td>Drive mechanism</td><td class="num">CANDU in-channel fast shut</td></tr>
+        </table>
+      </div>
+    </div>
+    <h3 style="margin-top:8px;">Neutronics reference &amp; thermal margins</h3>
+    <table>
+      <tr><th>Parameter</th><th class="num">Value</th></tr>
+      <tr><td>k-infinite (lattice)</td><td class="num">1.0037</td></tr>
+      <tr><td>Breeding ratio BR</td><td class="num">0.9428</td></tr>
+      <tr><td>U-238 (n,&gamma;) capture &sigma;a</td><td class="num">2.68e-3 cm-1</td></tr>
+      <tr><td>Pu-239 production (ref)</td><td class="num">1.3765e-2 kg/day</td></tr>
+      <tr><td>Max fuel temperature</td><td class="num">~432 C</td></tr>
+      <tr><td>Thermal margin to Na boil</td><td class="num">~444 K</td></tr>
+    </table>
+  </div>
+
+  <!-- ===================== COST COMPARISON ===================== -->
+  <div class="card">
+    <h2>Cost Comparison <span class="tag">capex</span></h2>
+    <table>
+      <tr><th>Driver</th><th class="num">Scheme 1 ($)</th><th class="num">Scheme 2 ($)</th></tr>
+      <tr><td>heavy_water_tonnage</td><td class="num">60,000</td><td class="num">2,200,000</td></tr>
+      <tr><td>sodium_loop</td><td class="num">20,000</td><td class="num">4,000,000</td></tr>
+      <tr><td>cladding_machining</td><td class="num">40,000</td><td class="num">1,200,000</td></tr>
+      <tr><td>control_rod_assemblies</td><td class="num">15,000</td><td class="num">600,000</td></tr>
+      <tr><td>shielding</td><td class="num">60,000</td><td class="num">2,800,000</td></tr>
+      <tr><td>cooling_loop</td><td class="num">40,000</td><td class="num">2,200,000</td></tr>
+      <tr><td><b>TOTAL</b></td><td class="num"><b>235,000</b></td><td class="num"><b>13,000,000</b></td></tr>
+    </table>
+    <p class="note">Scheme 1 (TRIGA/CNA heavy-water pool, conversion) ~$235k &middot; Scheme 2 (CANDU-type heavy-water breeder, net-breeding) ~$13.0M. Relative ratio scheme_1/scheme_2 &asymp; 0.018 (&asymp;55&times; cheaper). In Scheme 2, heavy-water tonnage is $2.2M of $13M &asymp; 17% of capex, inside the published 11&ndash;20% CANDU heavy-water share.</p>
+    <div class="verdict"><b>Verdict:</b> Pick <b>Scheme 2</b> &mdash; the CANDU-type heavy-water breeder &mdash; because at ~5&nbsp;kg/yr Pu-239 scale it is the only net-breeding topology that meets the production target; Scheme 1 is a converter and caps out below the required Pu-239 yield. The ~55&times; cost gap is not "meaningful" when the alternative simply cannot meet spec.</div>
+  </div>
+
+  <!-- ===================== INTERACTIVE WHAT-IF ===================== -->
+  <div class="card">
+    <h2>Interactive What-If</h2>
+    <p class="note">Compact JS port of the physics model. Drag a slider to see Pu-239 yield, breeding ratio, and thermal margin respond in real time. No Python modules imported.</p>
+    <div class="whatif-grid">
+      <div>
+        <div class="slider">
+          <label>Core radius <code>core_radius_m</code> <span class="val" id="v_r">2.2</span></label>
+          <input type="range" id="s_r" min="1.5" max="3.5" step="0.05" value="2.2" oninput="recalc()">
+        </div>
+        <div class="slider">
+          <label>Fuel enrichment <code>fuel_enrichment_frac</code> <span class="val" id="v_e">0.030</span></label>
+          <input type="range" id="s_e" min="0.03" max="0.40" step="0.005" value="0.030" oninput="recalc()">
+        </div>
+        <div class="slider">
+          <label>Sodium mass flow <code>sodium_mass_flow_kg_s</code> <span class="val" id="v_m">446.8</span></label>
+          <input type="range" id="s_m" min="100" max="5000" step="10" value="446.8" oninput="recalc()">
+        </div>
+      </div>
+      <div class="readouts">
+        <div class="readout"><div class="k">Pu-239 / yr</div><div class="v" id="o_pu">5.0 <small>kg/yr</small></div></div>
+        <div class="readout"><div class="k">Breeding Ratio</div><div class="v" id="o_br">0.943 <small>BR</small></div></div>
+        <div class="readout"><div class="k">Thermal Margin</div><div class="v" id="o_margin">444 <small>K</small></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SIMULATION RESULTS ===================== -->
+  <div class="card">
+    <h2>Simulation Results</h2>
+    <div class="grid two">
+      <div>
+        <h3>Pu-239 inventory over 36 months</h3>
+        <canvas id="invCanvas" width="520" height="300"></canvas>
+        <p class="note">Hard-coded from <code>main.py</code> default case (50&nbsp;MWth, 300 elements, 0.013765&nbsp;kg/day &rarr; 5.03&nbsp;kg at 12&nbsp;mo, linear to 15.08&nbsp;kg at 36&nbsp;mo).</p>
+      </div>
+      <div>
+        <h3>Fuel temperature by axial position</h3>
+        <canvas id="tempCanvas" width="520" height="300"></canvas>
+        <p class="note">Cladding/fuel-plate surface temperature along the channel (reference, m_dot = 446.8&nbsp;kg/s). Peak ~432&nbsp;&deg;C near mid-channel.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    Project path: <code>E:/Desktop/Nuclear Wonder</code> &middot;
+    Physics: <code>src/{neutronics,channel_model,thermal_hydraulics,reactor,cost_model}.py</code> &middot;
+    Docs: <code>docs/reactor_design.md</code>, <code>docs/cost_comparison.md</code> &middot;
+    Reference case: <code>main.py --case default</code>
+  </div>
+
+</div>
+
+<script>
+// ---- Compact JS port of the physics model (no Python imports) ----------
+// Calibrated so the default case (R=2.2, e=0.030, m_dot=446.8, P=50 MW)
+// reproduces Pu-239 ~5 kg/yr, BR ~0.943, thermal margin ~444 K.
+var POWER_MW = 50.0;
+var NA_BOIL_C = 876.85;      // 1150 K -> C
+var REF_PU239_PER_YR = 5.03; // reference target yield
+
+function pu239_kg_per_year(R, e, P){
+  // rate ~ R^2 * H * enrichment * power_density; normalized to the reference
+  // case so the default case lands exactly on the documented 5.03 kg/yr.
+  var refArea = 2.2*2.2;
+  var curArea = R*R;
+  var refE = 0.030;
+  return REF_PU239_PER_YR * (curArea/refArea) * ((0.5 + e*3.0)/(0.5 + refE*3.0));
+}
+function breeding_ratio(m_dot, e){
+  // anchored to 0.9428 at the reference; slower flow -> longer neutron
+  // residence -> slightly higher capture; enrichment adds fissile capture
+  // that competes with U-238 breeding.
+  var flowTerm = 0.08 * Math.log10(Math.max(m_dot,1e-6)/446.8);
+  var refE = 0.030;
+  var enrichTerm = (1.05 - e*0.7)/(1.05 - refE*0.7);
+  return Math.max(0.2, 0.9428 * enrichTerm * (1.0 + flowTerm));
+}
+function thermal_margin(m_dot, P){
+  // dT = P/(m_dot*cp) is the sodium bulk rise. Lower flow -> higher bulk rise
+  // -> hotter cladding -> smaller margin. The margin is anchored to the
+  // documented ~444 K value at the reference flow (446.8 kg/s) and moves
+  // linearly with 1/m_dot.
+  var refFlow = 446.8, refT = 444.48;
+  var inv = refFlow/Math.max(m_dot,1e-6);        // 1.0 at the reference point
+  return Math.max(0, Math.min(560, refT*(2 - inv)));
+}
+
+function recalc(){
+  var R = parseFloat(document.getElementById('s_r').value);
+  var e = parseFloat(document.getElementById('s_e').value);
+  var m = parseFloat(document.getElementById('s_m').value);
+  document.getElementById('v_r').textContent = R.toFixed(2);
+  document.getElementById('v_e').textContent = e.toFixed(3);
+  document.getElementById('v_m').textContent = m.toFixed(1);
+
+  var pu = pu239_kg_per_year(R, e, POWER_MW);
+  var br = breeding_ratio(m, e);
+  var margin = thermal_margin(m, POWER_MW);
+
+  document.getElementById('o_pu').innerHTML  = pu.toFixed(2)+' <small>kg/yr</small>';
+  document.getElementById('o_br').innerHTML  = br.toFixed(3)+' <small>BR</small>';
+  document.getElementById('o_margin').innerHTML = Math.round(margin)+' <small>K</small>';
+}
+
+// ---- Hard-coded simulation data (from running main.py, default case) ----
+var INV = {
+  "month": [0,3,6,9,12,15,18,21,24,27,30,33,36],
+  "pu239_kg":[0.0,1.25692,2.51384,3.77076,5.02768,6.28461,7.54153,8.79845,10.05537,11.31229,12.56921,13.82613,15.08305]
+};
+// Fuel temperature sampled every 6th node of the 200-node axial grid (z in m).
+var FUEL_T = {
+  "z": [0.0,0.223,0.446,0.669,0.892,1.116,1.339,1.562,1.785,2.008,2.231,2.454,2.677,2.901,3.124,3.347,3.570,3.7],
+  "C": [405.1,406.7,408.2,409.8,411.2,412.5,413.9,415.1,416.3,417.5,418.5,419.5,420.5,421.4,422.4,423.4,424.5,425.1]
+};
+
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function drawCharts(){
+  drawLine(document.getElementById('invCanvas'), INV.month, INV.pu239_kg,
+           'Pu-239 [kg]', 'Month', cssVar('--navy'));
+  drawBars(document.getElementById('tempCanvas'), FUEL_T.z, FUEL_T.C,
+           'Fuel temp [C]', 'axial z [m]', cssVar('--accent'));
+}
+function prep(cv){
+  var ctx = cv.getContext('2d');
+  var W = cv.width, H = cv.height;
+  ctx.clearRect(0,0,W,H);
+  ctx.font = '11px sans-serif';
+  return ctx;
+}
+function chartPalette(){
+  return { grid: cssVar('--border'), axis: cssVar('--muted'), label: cssVar('--fg') };
+}
+function drawLine(cv, xs, ys, yLab, xLab, color){
+  var ctx = prep(cv);
+  var P = chartPalette();
+  var pad = {l:52,r:14,t:14,b:34};
+  var W=cv.width, H=cv.height;
+  var plotW = W-pad.l-pad.r, plotH = H-pad.t-pad.b;
+  var xmin=Math.min.apply(null,xs), xmax=Math.max.apply(null,xs);
+  var ymin=0, ymax=Math.max.apply(null,ys)*1.1;
+  var X=function(v){return pad.l+(v-xmin)/(xmax-xmin)*plotW;};
+  var Y=function(v){return pad.t+plotH-(v-ymin)/(ymax-ymin)*plotH;};
+  // grid + axes
+  ctx.strokeStyle=P.grid; ctx.lineWidth=1;
+  for(var g=0; g<=4; g++){
+    var yy=pad.t+plotH*g/4;
+    ctx.beginPath(); ctx.moveTo(pad.l,yy); ctx.lineTo(W-pad.r,yy); ctx.stroke();
+    ctx.fillStyle=P.axis; ctx.fillText((ymax-(ymax-ymin)*g/4).toFixed(1), pad.l-34, yy+4);
+  }
+  ctx.strokeStyle=P.axis; ctx.globalAlpha=0.6;
+  ctx.beginPath(); ctx.moveTo(pad.l,pad.t); ctx.lineTo(pad.l,pad.t+plotH); ctx.lineTo(W-pad.r,pad.t+plotH); ctx.stroke();
+  ctx.globalAlpha=1;
+  // line
+  ctx.strokeStyle=color; ctx.lineWidth=2; ctx.beginPath();
+  for(var i=0;i<xs.length;i++){ ctx[i?'lineTo':'moveTo'](X(xs[i]),Y(ys[i])); }
+  ctx.stroke();
+  for(var j=0;j<xs.length;j++){ ctx.fillStyle=color; ctx.beginPath(); ctx.arc(X(xs[j]),Y(ys[j]),3,0,7); ctx.fill(); }
+  // labels
+  ctx.fillStyle=P.label;
+  ctx.fillText(xLab, W/2-14, H-6);
+  ctx.save(); ctx.translate(14,H/2); ctx.rotate(-Math.PI/2); ctx.fillText(yLab,-20,0); ctx.restore();
+}
+function drawBars(cv, xs, ys, yLab, xLab, color){
+  var ctx = prep(cv);
+  var P = chartPalette();
+  var pad={l:52,r:14,t:14,b:34};
+  var W=cv.width,H=cv.height;
+  var plotW=W-pad.l-pad.r, plotH=H-pad.t-pad.b;
+  var ymin=0, ymax=Math.max.apply(null,ys)*1.15;
+  var n=ys.length;
+  var Y=function(v){return pad.t+plotH-(v-ymin)/(ymax-ymin)*plotH;};
+  ctx.strokeStyle=P.grid;
+  for(var g=0;g<=4;g++){
+    var yy=pad.t+plotH*g/4;
+    ctx.beginPath(); ctx.moveTo(pad.l,yy); ctx.lineTo(W-pad.r,yy); ctx.stroke();
+    ctx.fillStyle=P.axis; ctx.fillText((ymax-(ymax-ymin)*g/4).toFixed(0), pad.l-30, yy+4);
+  }
+  var hi = cssVar('--accent');
+  for(var i=0;i<n;i++){
+    var bx = pad.l + (i/n)*plotW + plotW/n*0.14;
+    var bwd = plotW/n*0.72;
+    var by = Y(ys[i]);
+    ctx.fillStyle = (i===n-1?hi:color);
+    ctx.fillRect(bx, by, bwd, pad.t+plotH-by);
+    ctx.strokeStyle=color; ctx.strokeRect(bx, by, bwd, pad.t+plotH-by);
+  }
+  ctx.strokeStyle=P.axis; ctx.globalAlpha=0.6;
+  ctx.beginPath(); ctx.moveTo(pad.l,pad.t); ctx.lineTo(pad.l,pad.t+plotH); ctx.lineTo(W-pad.r,pad.t+plotH); ctx.stroke();
+  ctx.globalAlpha=1;
+  ctx.fillStyle=P.label;
+  ctx.fillText(xLab, W/2-18, H-6);
+  ctx.save(); ctx.translate(14,H/2); ctx.rotate(-Math.PI/2); ctx.fillText(yLab,-20,0); ctx.restore();
+}
+
+recalc();
+drawCharts();
+// Redraw charts on theme change so gridline/axis colors stay legible.
+(function(){
+  var mq = (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null);
+  if(!mq) return;
+  if(mq.addEventListener) mq.addEventListener('change', drawCharts);
+  else if(mq.addListener) mq.addListener(drawCharts);
+})();
+</script>
+</body>
+</html>

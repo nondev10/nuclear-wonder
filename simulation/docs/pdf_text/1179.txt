@@ -1,0 +1,4655 @@
+# Source: 1179.pdf
+# Method: extract_with_pymupdf
+
+===== PAGE 1 =====
+
+===== PAGE 2 =====
+CONTENTS 
+THE "SECRET" REVEALED by Erwin Knoll 
+I 
+THE H·BOMB SECRET by Howard Morland 
+3 
+To know how is to ask why 
+WRESTLING WITH LEVIATHAN by Erwin KnoU 
+13 
+The Progressive knew it would win 
+ATOMIC SECRECY: FUEL FOR THE COLD WAR by John BueU 
+18 
+The myth served a powerful few 
+A NATION BESET BY CONFUSION AND FEAR by Ron McCrea 
+25 
+THE WAYTHE PRESS SAW IT 
+27 
+LETTERS ON THE H·BOMB CONTROVERSY 
+30 
+A POSTSCRIPT by Howard Morland 
+33 
+ERRATA (December, 1979) by Howard Morland 
+35 
+BONANZA by Ron Carbon 
+36 
+AFTERTHOUGHTS-MARCH, 1981 by Ron Carbon (back cover) 
+
+===== PAGE 3 =====
+COMMENT 
+The 'secret' revealed 
+T 
+he front cover of this magazine was designed for the 
+April 1979 issue. Only the date has been changed. 
+Howard Morland's article, "The H- bomb Secret," 
+and all of the material on Pages 14 through 23, was set in 
+type for the April issue. Not a word, not a comma has been 
+changed. 
+For more than six months - from March 9, when Federal 
+District Judge Robert W. Warren issued, at the Govern­
+ment's request, 
+a temporary restraining order barring 
+publication of Morland's article, through September 28, 
+when the U.S. Seventh Circuit Court of Appeals vacated 
+Judge Warren's injunction - the cover design and reproduc­
+tion proofs were locked in a bank vault, "protected" from 
+public scrutiny by an unprecedented act of censorship. 
+It is not a perfect article, and had it not been the subject of 
+a historic prior restraint case, we would make some changes 
+in it today. Howard Morland has learned that his article con­
+tains some technical errors; it is one of the many ironies of 
+the case that the Government's attempt at suppression 
+resulted in the disclosure of far more technical information 
+than is contained in "The H-bomb Secret." In rereading the 
+proofs, we have found at least one typographical error and 
+one inaccuracy we should have caught in the first place: We 
+put Representative Ronald V. Dellums in the wrong Con­
+gressional district. 
+But what makes publication of "The H-bomb Secret" in 
+this issue of The Progressive important is that the article ap­
+pears exactly the way Morland wrote it; exactly the way we 
+intended to publish it last spring, and exactly the way the 
+Government of the United States attempted to suppress it. 
+Its publication is a triumph for the First Amendment. 
+Early last March, we could have acquiesced in the Govern­
+ment's offer to "rewrite" Howard Morland's article in a 
+form that the U.S. Department of Energy would not find 
+" objectionable. " We wasted few words in declining that 
+magnanimous offer. 
+We could have simply and quietly acceded to the Govern­
+ment's demand for censorship on grounds of "national 
+security" - as other publications have. We refused. 
+We could have complied with the entreaties of many of 
+our friends that we submit the matter to "mediation" by a 
+panel of "experts," thus avoiding enormously costly litiga­
+tion and, perhaps, heading off an adverse court decision. We 
+patiently explained to our friends that the Founders, in their 
+wisdom, had not written a "mediation" process into the Bill 
+of Rights. 
+We discovered that some of our fellow citizens (and some 
+of our colleagues in the media) believe the First Amendment 
+to be obsolete - a  scrap of paper rendered useless by the de­
+mands of " national security. "  We discovered that our own 
+Government believes the. First Amendment was exploded 
+by the bomb dropped on Hiroshima in 1945 - or at least 
+rendered "inoperative" by the Atomic Energy Act of1954. 
+We were determined to disabuse our fellow citizens, our 
+colleagues in the media, and our Government of these un­
+fortunate, undemocratic notions. We were prepared to throw 
+all of our resources into the fight, and to find resources we 
+did not even know existed. We were resolved, of course, to 
+protect and preserve this magazine - but we were prepared, 
+if necessary, to sacrifice even The Progressive for the princi­
+ple at stake. 
+P 
+rior restraint- the lawyers' term for censorship ­
+has always been regarded as an especially obnoxious 
+abuse of governmental authority. It has been despised 
+- and rightly so - in the American constitutional tradition 
+and, for that matter, in the Anglo-Saxon legal tradition, for 
+centuries. The reason should be obvious: When the State im­
+poses prior restraint, it places its own conduct beyond public 
+scrutiny; it deprives the citizenry of its right to form an inde­
+pendent judgment as to the justice or injustice of its conduct. 
+Censorship is an indispensable device to those who would 
+wield power unchecked. 
+In 1643 the British parliament enacted a law conferring on 
+a Committee of Examinations the power "to regulate print­
+ing: that no book, pamphlet, or paper shall be henceforth 
+printed, unless the same be first approved and licensed by 
+such, or at least one of such, as shall be thereto appointed." 
+It was against that law that Milton directed his famous 
+Areopagitica. "Henceforth, " he wrote, " let no man care to 
+learn, or care to be more than worldly wise; for certainly in 
+higher matters to be ignorant and slothful, to be a common 
+steadfast dunce, will be the only pleasant life and only in re­
+quest.'' 
+What we learned last spring is that the Government of the 
+United States is convinced it must keep the people of this na-
+THE PROGRESSIVE I 1 
+
+===== PAGE 4 =====
+tion ignorant and slothful so that they can lead the only pleas­
+ant life while the world marches toward nuclear Armaged­
+don. 
+But we also learned that the spirit of freedom still 
+flourishes in our country - even after three decades of Cold 
+War, witchhunts, and obsession with a kind of "national 
+security" that seems to grow more elusive the more 
+relentlessly it is pursued. 
+We learned, to be sure, that freedom has many fair­
+weather friends. But we also learned that it has devoted and 
+unwavering defenders. Among them are citizens who had 
+never heard of The Progressive, did not share its political 
+perspectives, did not care about the nuclear issues involved 
+in our struggle, but were simply outraged by the very idea of 
+censorship. 
+We learned, to be sure, that a Federal judge would violate 
+200 years of legal precedents against prior restraint. But we 
+also learned that we could receive a fair and full hearing in 
+the appellate courts, and that we could muster a formidable 
+array of legal talent in our behalf and in behalf of the First 
+Amendment. We believe we would have won the right to 
+publish Howard Morland's article in the courts if the 
+Government had not aborted the case by moving to vacate 
+the iQjunction. We believe that is why the Government 
+moved to vacate the injunction. 
+We learned, to be sure, that the costs of defending 
+freedom can be astronomic, and could easily destroy a 
+publication like The Progressive. But we also learned that 
+among our readers and outside our readership there are peo­
+ple willing to help defray those costs. We have found some of 
+those people, and we hope to find the others whose help we 
+need. 
+We learned, most significantly, that our country still pro­
+vides the promise of freedom - and that the promise grows 
+stronger when it is put to the test. 
+S 
+orne fundamental questions raised by The Progressive 
+in its First Amendment fight remain unresolved as this 
+issue goes to press. We asked the Seventh Circuit Court 
+of Appeals to rule that Judge Warren had acted improperly in 
+doing what no Federal judge had ever done before in the 
+history of this Republic - impose a prior restraint on 
+grounds of "national security." We asked the Court to find 
+that secrecy provisions embodied in the Atomic Energy Act 
+are so broad and vague as to be patently unconstitutional. We 
+asked the Court to open the records of this case, which have 
+been, themselves, subjected to heavy-handed Government 
+censorship. 
+We do not know how the Court will rule. We do know we 
+have already achieved some significant objectives- to ex­
+pose the secrecy in which the nuclear arms race has been en-
+For additional copies of this reprint 
+(a $2.00 each (includes postage) write: 
+REPRINTS 
+The Progressive. 408 W. Gorham St. Madison WI 53703. 
+Payment with order. please. 
+:: I NOVEMBER 1971) 
+veloped for a third of a century, to open that system of 
+secrecy to public discussion and debate, and to engage in that 
+debate far more of the American people than we could ever 
+have hoped to reach through the pages of The Progressive. 
+We hope that debate will be a beginning- a beginning of 
+a proces in which all of the nuclear policies pursued by out 
+Governrilent will be held up to public scrutiny and review. 
+We hope that the proces will end in a reversal of those 
+policies and an end to the suicidal nuclear arms race in which 
+we have ben unwitting, uninformed participants. We hope, 
+of course, that when Americans know the facts they will 
+share our views- but most of all we hope they will come to 
+know the facts. We are willing to take our chances with the 
+judgments of an iriformed· people; that is called democracy. 
+People who want to be ignorant and free, as Madison ob­
+served, want that which never was and never will be. 
+Read Howard Morland's article, "The H-bomb Secret." 
+Feel free to challenge his facts, or the conclusions he draws 
+from them. Feel free to question our editing of the article, 
+our judgment in publishing it. But most of all, feel free -
+more free than any of us were for the six months and nine­
+teen days when the article could not be printed by us or read 
+by you. And feel more free than any of us were even before 
+March 9, for we are certain we have made it more difficult 
+for the Government to be a censor, and les likely that its 
+next attempt at censorship will succed. 
+A prlaclple to be safegauded 
+The following statement support- . 
+ing The Progressive and the First 
+Amendment was endorsed by the 
+editor or publisher of The Nation, 
+Columbia Journalism Review, 
+Society, Village Voice, Harper's, 
+The Atlantic Monthly, Ms., Scien­
+tific American. Seven Days, Work­
+ing Papers, The New Republic, 
+Mother Jones, Inquiry, Win, In 
+These Times, The Witness, Texas 
+Observer, Science for the People, 
+Dollars & Sense, The Black Schol­
+ar, and Politics Today, and by or­
+ganization spokesmen for Com­
+mittee for a SANE. Nuclear Policy, 
+Critical Mas Energy Project. War 
+Resisters League. Friends Peace 
+C o m m i t t e e. a n d  A m e r i c a n  
+Friends Service Commiuee: 
+"In 1971, the Government of 
+the United States moved against 
+The New York Times and The 
+Washington Post in an unprece­
+dented attempt to assert a right of 
+censorship and prior restraint. This 
+gross 
+violation of the 
+First 
+Amendment was promptly and 
+unequivocally rebuffed by the 
+courts. 
+"Now the Government has 
+mounted a similar attempt against 
+a 
+small 
+publication of 
+political 
+commentary. 
+"We 
+b e l i eve 
+t h a t  
+T h e  
+Progressive is fighting to protect 
+the First Amendment rights of ev­
+ery publication in America. includ­
+ing those with which we are asoci­
+ated. 
+"In a time when military policy 
+is closely linked with technological 
+capabilities. debate about military 
+. policy that uses technical informa­
+tion is part of a vigorous system of 
+freedom of expresion under the 
+First Amendment. The Govern­
+ment's tendency to hide widely 
+known technical proceses under a 
+mantle of secrecy in the national 
+interest and prevent pres com­
+mentary on these matters can only 
+result in stifling debate, not in pro- • 
+tecting the physical security of 
+Americans. 
+"The 
+facts 
+at 
+issue in the 
+Government's dispute with The 
+Progressive will be determined in 
+the courts. but the principle of 
+freedom of the press is one to be 
+vigorously safeguarded by all of us. 
+That is why we are pledging our 
+full support to The Progressive in 
+its fight against censorship and 
+prior restraint." 
+
+===== PAGE 5 =====
+The B·bomb secret 
+To know how 
+is to ask why 
+Boward Morland 
+(Copyright© 1979, Howard Morland.) 
+W
+hat you are about to learn is a 
+secret -
+a secret that the 
+United States and four other 
+nations, the makers of hydrogen weap­
+ons, 
+have gone to extraordinary 
+lengths to protect 
+The secret is in the coupling 
+mechanism that enables an ordinary 
+fission bomb -
+the kind that 
+destroyed Hiroshima - to trigger the 
+far deadlier energy of hydrogen fusion. 
+The physical pressure and heat 
+generated by x- and gamma radiation, 
+moving outward from the trigger at the 
+speed of light, bounces against the 
+weapon's inner wall and is reflected 
+with enormous force into the sides of a 
+carrot-shaped "pencil" which contains 
+the fusion fuel. 
+That, within the limits of a single 
+sentence, is the essence of a concept 
+that initially eluded the physicists of the 
+United States, the Soviet Union, Brit­
+ain, France, and China; that they dis­
+covered independently and kept 
+tenaciously to themselves, and that 
+may not yet have occurred to the weap­
+on makers of a dozen <>ther nations 
+bent on building the hydrogen bomb. 
+I discovered it simply by reading and 
+asking questions, without the benefit of 
+security clearance or access to classifit>d 
+materials. There may be some missi· tg 
+pieces here and there - some parts of 
+the puzzle that eluded my search -
+but the general accuracy of my descrip­
+tions and diagrams has been confirmed 
+by people in a position to know. 
+Why am I telling you? 
+It's not because I want to help you 
+build an H-bomb. Have no fear; that 
+would be far beyond your capability -
+unless you have the resources of at 
+least a medium-sized government 
+Nor is it because I want India, or 
+Israel, or Pakistan, or South Africa to 
+get the H-bomb sooner than they 
+otherwise would, even though it is 
+conceivable that the information will 
+be helpful to them. 
+It isn't so much because the details 
+themselves are helpful to an under­
+standing of the grave public policy 
+'A complete 
+oae·megatoa bomb 
+... would fit uader 
+your bed' 
+questions presented 
+by 
+hydrogen 
+weaponry - though they may well be 
+essential. 
+I am telling the secret to make a 
+basic point as forcefully as I can: 
+Secrecy itself, especially the power of a 
+few designated "experts" to declare 
+some topics off limits, contributes to a 
+political climate in which the nuclear 
+establishment can conduct business as 
+usual, protecting and perpetuating the 
+production of these horror weapons. 
+The pernicious effects of hydrogen 
+bomb secrecy are well illustrated by an 
+incident that occurred in Washington 
+five months ago. 
+0 n October 24, 1978, Represen­
+tative Ronald V. Dellums, a 
+member of the House Armed 
+Services Committee, sent a letter ask­
+ing the Department of Energy to ex­
+plain publicly why it expects a shortage 
+of plutonium in its nuclear weapons 
+production program. 
+Would the neutron bomb, which 
+was then going into production, re­
+quire more plutonium than the stan­
+dard tactical nuclear weapons it is 
+designed to replace? 
+Had the shortage been induced by 
+the plutonium requirements of a new 
+generation of multiple-warhead 
+ballistic missiles- the Navy's Trident 
+(successor to Poseidon), and the Air 
+Force's M-X (succesor to Minuteman 
+Ill)? 
+What were the weapons specifica­
+tions that had led the Department of 
+Energy to contemplate a massive in­
+dustrial retooling: the rebuilding of its 
+old 
+plutonium production plant at 
+Hanford, Washingt-on, and the restart­
+ing of a standby reactor at Savannah 
+River, South Carolina? 
+"Each of these options will involve 
+both financial costs and environmental 
+costs," the letter stated. "The Ameri­
+can people need to know the reasons 
+for the anticipated plutonium shortage 
+in order to have informed opinions on 
+the 
+cost- benefit 
+aspects of the 
+plutonium shortage issue." 
+As chairman of the Subcommittee 
+on Fiscal and Government Affairs, and 
+as a Congressman whose California 
+district includes one of the nation's 
+two nuclear weapons laboratories, 
+THE PROGRESSIVE I 3 
+
+===== PAGE 6 =====
+Dellums had more than a casual in­
+terest in such questions. 
+Three weeks later he received the 
+Energy Department's reply: 
+" ... It is not possible to respond to 
+most of the questions in an unclassified 
+manner. The enclosure to your 
+referenced letter contains 'secret/ 
+restricted data' and should be so classi­
+fied.'' The enclosure was the list of 
+questions. It is now a secret. 
+Had Dellums invoked the security 
+privileges available to Representatives 
+and Senators with a "need to know," 
+he could readily have obtained the 
+answers. But he did not choose to do 
+so. The response he received demon­
+strates the lengths to which the keepers 
+of the secrets are prepared to go in 
+dealing with the public: They do not 
+simply withhold the answers; they can 
+also confiscate the questions. 
+Such tactics have served since the 
+dawn of the atomic age to shield 
+nuclear weapons policies from public 
+scrutiny and debate, giving an advan­
+tage to those who formulate the 
+policies and have a stake in their per­
+petuation. And yet the advantage is 
+one gained mostly by default. It results 
+as much from the self-imposed 
+restraint of those who are not members 
+of the classification elite as from the 
+weapon makers' own complicated 
+security system. The importance of 
+looking behind ''secret/ restricted'' 
+curtains, the relative ease of doing so, 
+and the value to be gained from the ex­
+ercise are lessons we have still to learn. 
+The self-serving purposes of official 
+secrecy - not the least of which is its 
+paralyzing effect on the spirit of public 
+inquiry - can best be understood by 
+examining the most momentous 
+official secret of them all: the mechan­
+ism of a hydrogen bomb. 
+0 f all the world's nuclear weapons 
+secrets, none has eluded publi­
+cation more successfully than 
+the secret of the H-bomb. In the twen­
+ty-five years since its first successful 
+field test in the South Pacific, no de­
+scription of how it works has ever been 
+made public. 
+The diagrams that accompany this 
+article are a close approximation of that 
+process. They show the progression of 
+events that occur during the detonation 
+of a hydrogen weapon. The energy of 
+4 I NOVEMBER 1979 
+an exploding fission bomb, the circular 
+object near the top of each drawing, is 
+transferred by means of radiation pres-
+sure to the hydrogen part of the weap­
+on. Radiation pressure- a term never 
+mentioned in the open literature - is 
+Somebody talked 
+"Does anyone know the secret of 
+the H-bomb?" 
+Howard Morland didn't really 
+expect an answer when he threw 
+the question out half-seriously one 
+night a year ago in a dormitory at 
+the University of Alabama at Tus­
+caloosa. 
+About thirty students had 
+gathered to see his traveling slide 
+show on atomic power and the 
+arms race; in the discussion that 
+followed he was explaining that his 
+next project would be to find out 
+more about nuclear weapons. 
+"Sure, I know," said a young 
+man in the back of the room. 
+"The secret is in the radiation re­
+flectors.'' 
+The student went on to explain 
+that he knew some of the people 
+who worked at the big Union Car­
+bide plant in Oak Ridge, Ten­
+nessee, where most of the compo­
+nents for hydrogen weapons are 
+built, and that they had told him 
+the reflection of x- and gamma 
+rays was the key to how the weap­
+ons work. 
+The explanation made little im­
+pression on Morland at the time, 
+and he didn't even bother to get 
+the student's name. But later on it 
+helped him crack what the 
+weaponmakers consider to be one 
+of their best-kept secrets. 
+Such chance remarks were part 
+of the mosaic of information from 
+which Morland, a thirty-six-year­
+old peace activist, constructed the 
+report on these pages - a report 
+confirmed by people who are 
+knowledgeable about the hy­
+drogen weapon program but are 
+not at liberty to discuss it openly. 
+He undertook the project on as-
+signment from The Progressive to 
+demonstrate that official secrecy in 
+this area serves no useful public 
+purpose. 
+A 1965 graduate of Emory 
+University in Atlanta, Morland 
+has had only a smattering of 
+science education: two courses in 
+physics, two in chemistry, and one · 
+in quantum mechanics. As a jour­
+nalist, it was only this winter that 
+he published his first article ("Tri­
+tium: the New Genie," in the 
+February issue of The Pro­
+gressive). What knowledge he has 
+of military affairs comes largely 
+from the two years he spent pilot­
+ing Air Force cargo planes be­
+tween California and Vietnam. 
+But Morland put his training 
+and experience to use in an inten­
+sive six-month self-education 
+project in which he read virtually 
+every scrap of information avail­
+able on the subject, visited every 
+production plant to which he could 
+gain access, and interviewed scores 
+of scientists and engineers in and 
+out of the weapons program. 
+Every technical fact was double­
+checked; none was printed unless 
+it could be authenticated by at least 
+two knowledgeable sources. His 
+diagrams and descriptions received 
+widespread review in the scientific 
+community prior to publication. 
+Copies also were submitted to the 
+Department of Energy for verifica­
+tion as to technical accuracy. The 
+Department declined to do this. 
+Morland's research was sup­
+ported by donations to The 
+Progressive's arms race investiga­
+tion fund. He also received 
+research assistance from a col­
+league, Louise Franklin Ramirez. 
+
+===== PAGE 7 =====
+the essence of what remains of the H­
+bomb secret. 
+This description and the details that 
+follow are the result of six months' in­
+vestigation of the nuclear weapon 
+production complex in the United 
+States. It is a mosaic of bits and pieces 
+taken from employe recruitment 
+brochures, environmental impact 
+statements, books, articles, personal 
+interviews, 
+and my own private 
+speculation. A number of reliable 
+sources have confirmed that the infor­
+mation fragments are correctly as­
+sembled. 
+The simple facts are deducible from 
+the A-bomb secret from the world. 
+The Army had already told where the 
+factories were, what they did, who 
+designed them, and who ran them. 
+The disclosures came in a report by 
+Princeton physicist H.D. Smyth, writ­
+ten before the weapon was ever tested, 
+to protect the Army's bureaucratic 
+flank in case the $2 billion Manhattan 
+Project turned out to be a dud. It was 
+published immediately after the war. 
+Foreign scientists wishing to build fis­
+sion bombs could learn from the 
+Smyth Report about the materials re­
+quired, the nature and the scale of 
+operations needed to obtain the mate-
+' ... Workers ... look like aslroaaals 
+oa a lraiaiag exercise' 
+careful journalistic inquiry and from 
+well-known physical principles. If 
+weapons proliferation is to be con­
+trolled, the availability of this informa­
+tion must be recognized by policy 
+makers, who presently prefer to 
+believe the information is unique to the 
+weapons states. 
+A discussion of nuclear weapons 
+secrets might well begin with Albert 
+Einstein's memorable comment: 
+"There is no secret, and there is no 
+defense." He offered as a corollary, 
+"There is no possibility of control ex­
+cept through the aroused understand­
+ing and insistence of the peoples of the 
+world." 
+Nuclear energy, Einstein concluded, 
+"cannot be fitted into outmoded con­
+cepts of narrow nationalisms." But 
+America had emerged from World 
+War II as the sole possesor of nuclear 
+weapons -
+and those who had 
+capitalized on Einstein's mathematical 
+genius had no use then for his political 
+equations. Less than a year after the 
+Hiroshima bombing, Congress passed 
+the Atomic Energy Act, extending 
+wartime information control into the 
+indefinite fuiure and creating the illu­
+sion that it was possible for one nation 
+to keep nuclear secrets from another. 
+By that time, it was too late to keep 
+rials, the enrichment and production 
+techniques that worked best, and the 
+names of people to contact for further 
+information. Atomic spies could read 
+the Smyth Report like a manual telling 
+them where to go and what to look for. 
+Smyth's exhaustive account, later 
+regretted by the security-conscious 
+Atomic Energy Commission, was the 
+first of many flaps over secrecy. 
+On March 15, 1950, Scientific 
+American went to press with an article 
+by Cornell physicist Hans Bethe about 
+thermonuclear fusion, the process that 
+lights the sun and other stars. The 
+AEC, sensitive about anything having 
+to do with the H-bomb, ordered the 
+presses stopped. Three thousand copies 
+of the magazine were destroyed, and 
+the presses were restarted with several 
+sentences removed. At that time, the 
+H-bomb had not yet been invented. 
+The concept was still under study, and 
+a feeble - and ultimately abortive -
+public debate was starting over the 
+issue. 
+Publisher Gerard Pie! charged the 
+Commission with "suppressing infor­
+mation which the American people 
+need in order to form intelligent judg­
+ments," but Bethe declined to com­
+plain about it. "These people can cause 
+me all kinds of trouble,'' he said. To 
+supplement his job teaching physics at 
+Cornell, he had been doing consulting 
+work for the AEC. 
+When the first prototype hydrogen 
+weapon exploded in the South Pacific 
+on November 1, 1952, the public had 
+no idea how it worked, except that 
+some of its energy came from hy­
+drogen fusion. No one outside the U.S. 
+and Soviet governments knew that five 
+of its ten megatons of explosive energy 
+had come from fiSSion, not fusion, and 
+that 5,000 square miles of ocean sur­
+face had, therefore, been contaminated 
+with lethal levels of radioactive fiSion 
+products. The evidence sank to the 
+ocean floor. 
+Sixteen months later, when the sec­
+ond bomb went off, that part of the H­
+bomb secret was revealed. A hundred 
+miles downwind, the entire population 
+of Rongelap Island and the crew of a 
+Japanese fishing boat called The Lucky 
+Dragon were dusted with powdered 
+coral containing enough radioactive fis­
+sion products to blister their skin and 
+make their hair fall out. One fiSherman 
+died. Japanese scientists analyzed the 
+deadly ash on the fishing boat deck and 
+concluded that the bomb was as much 
+a uranium bomb as a hydrogen bomb. 
+Half its energy had come from the fiS­
+sion of uranium-238, as had most of its 
+deadly fallout. 
+The bomb designers had felt no 
+obligation to warn the world that their 
+new invention was anything more than 
+a bomb with a super-powerful blast­
+that, in fact, its radioactive fallout 
+could lethally poison a far greater area 
+than its blast could destroy. Indeed, the 
+hydrogen weapon had been publicized 
+as a "clean bomb." Edward Teller and 
+J. Robert Oppenheimer, weapon de­
+signers whom the press routinely called 
+"brilliant," kept the faith with the 
+nuclear weapon priesthood and kept 
+their mouths shut. They would not 
+divulge weapon design information 
+merely to discuss such moral issues as 
+fallout. 
+The dangers of fallout from nuclear 
+testing soon became a national preoc­
+cupation, but when American and 
+Soviet nuclear testing went under­
+ground in 1963, radioactive fallout 
+ceased to be a public issue. Nuclear 
+weapon production entered a golden 
+age of public apathy. Multiple warhead 
+missiles were designed and deployed 
+THE PROGRESSIVE I 5 
+
+===== PAGE 8 =====
+without serious complaint, and ar­
+senals grew enormously. By removing 
+their products from sight, the weapon 
+makers were able to continue to refine 
+their weapons without protest. 
+Few people remember that nuclear 
+weapon secrets were the underlying 
+issue in the witchhunts and blacklists of 
+the Joseph M<-<;arthy era. In ways 
+sometimes subtle, sometimes direct, 
+the continuing challenges to civil liber­
+ties in America today are traceable, in 
+part, to widespread belief in the need 
+for some secrecy. People assume that 
+even if nothing else is secret, surely hy­
+drogen bomb designs must be pro­
+tected from unauthorized eyes. 
+The puncturing of that notion is the 
+purpose of this report. 
+The hydrogen bomb secret is now 
+more than twenty-five years old. Five 
+national governments have built indus­
+tries to produce H-bombs, and there is 
+little reason to think that any other na­
+tion that wanted to build them would 
+have trouble finding out how to do it. 
+Pieces of the secret have been 
+declassified and published in what 
+weapon makers call "the open 
+literature," which is accessible to you 
+and me. But enough of the secret has 
+been kept from the general public to 
+perpetuate the mystery and discourage 
+inquiry. Weapon makers can still hide 
+behind their solemn duty to secrecy 
+when hard questions are asked about 
+what they are doing. 
+Congressman Dellums's questions 
+are a case in point. 
+They concern a predicted shortage of 
+plutonium in the weapons program -
+a shortage that calls for hundreds of 
+millions of dollars to be spent upgrad­
+ing production reactors and fuel 
+reprocessing facilities in Washington 
+state and South Carolina. Why? 
+Is the nuclear warhead and bomb 
+production rate scheduled to increase 
+dramatically? Do the latest weapon 
+designs call for more plutonium than 
+older designs? 
+(Enriched uranium, 
+which is used together with plutonium, 
+remains abundant.) Is the plutonium 
+shortage really a tritium shortage in 
+disguise, caused by the neutron 
+bomb's high requirement for tritium? 
+(Tritium and plutonium production 
+operations compete for space in the 
+same South Carolina reactors.) Is the 
+Energy Department's proposal really a 
+•: I NOVEMBER 1<)7<) 
+porkbarrel project for South Carolina, 
+where nuclear weapons production is 
+the state's largest industry? Or for 
+Washington state, home of the power­
+ful and military-minded Senator Henry 
+M. (Scoop) Jackson? 
+The Department's assertion of 
+secrecy protected it from having to pro­
+vide public answers. The answers, as 
+we shall see, would have raised pro­
+found questions of public policy. 
+B
+efore considering technical 
+details, it should be noted that 
+for most people there will always 
+be an H-bomb secret, just as there will 
+problems of nuclear waste disposal and 
+the biological effects of radiation- can 
+also understand the technology of 
+nuclear weapons, if provided with the 
+necessary information. The growing 
+scientific and technical expertise which 
+has strengthened worldwide opposition 
+to nuclear power is equally vital to a 
+revival of effective public concern over 
+nuclear weapons. 
+Knowledge of the basic principles of 
+hydrogen weapon design is helpful in 
+understanding the structure of the 
+nuclear weapon production system. It 
+provides insight into the purposes of 
+continued nuclear testing, the nature of 
+'Understaading the product is 
+necessary to understanding the system' 
+always be, for most people, a radio 
+secret and an automobile secret. Not 
+everyone is interested in how things 
+work. But millions of people in our 
+highly technological society are 
+amateur experts on gadgets as varied as 
+the electric doorbell and the nuclear 
+power reactor. 
+Anyone familiar with elementary 
+principles of college physics - such as 
+those underlying the technical 
+'No defense' 
+The following is from a letter from 
+Albert Einstein, signed January 
+22, 1 947, appealing for support for 
+the Emergency Committee of 
+Atomic Scientists: 
+"Through the release of atomic 
+energy, our generation has 
+brought into the world the most 
+r e v o l u t i o n a r y  f o r c e  s i n c e  
+prehistoric man's discovery of fire. 
+This basic power of the universe 
+cannot be fitted into the outmoded 
+concept of narrow nationalisms. 
+For there is no secret and there is 
+new developments in nuclear weap­
+onry such as the neutron bomb, and 
+the devastating effects of nuclear war. 
+Paying attention to the details is also 
+a way of reminding ourselves that the 
+weapons are real. The most difficult in­
+tellectual hurdle most people en­
+counter in understanding nuclear 
+weapons is to see them as physical 
+devices rather than as abstract expres­
+sions of good or evil. The human mind 
+no defense; there is no possibility 
+of control except through the 
+aroused understanding and insis­
+tence of the peoples of the world. 
+"We scientists recognize our in­
+escapable responsibility to carry to 
+our fellow citizens an understand­
+ing of the simple facts of atomic 
+energy and its implications for 
+society. In this lies our only 
+security and our only hope - we 
+believe that an informed citizenry 
+will act for life and not death." 
+
+===== PAGE 9 =====
+ftvan 
+I. 
+Schematic 
+diagram 
+of 
+a 
+300-kiloton thermonuclear weapon before 
+detonation. Concentric spheres near the 
+top make up the primary system, or fis­
+sion trigger. The rest is the secondary 
+system. 
+Figure 2. High explosives in the primary 
+system begin to burn, driving beryllium 
+neutron 
+reflector 
+(A) 
+and 
+heavy 
+Uranium-238 tamper (B) inward toward 
+the fissile core. The space between the 
+tamper and the core allows the tamper to 
+develop momentum before hitting the 
+core. 
+detonator 
+Fluloa Fael 
+Flulle: 
+Pu-239 
+U-235 
+NoafluUe: 
+U-238 
+III 
+Fadoa Fael 
+lithium-6 
+tritide, 
+deuteride 
+lithium-6 
+deuteride 
+NlceUaaeou 
+beryllium 
+polystyrene 
+foam 
+D-T neutron 
+generator 
+hot 
+gases 
+neutrons 
+x- and 
+gamma 
+radiation 
+I II 
+I I I 
+I I I 
+t I I 
+I I 
+I I 
+t ' 
+u 
+Figure 3. The fissile core is squeezed to 
+more than double its normal density, going 
+supercritical. Neutrons fired from a high­
+voltage vacuum tube start a chain reaction 
+in the fissile material. The chain reaction 
+concentrates first in the fast-fissioning 
+Plutonium-239 (C). 
+boggles at gadgets the size of 
+surfboards that can knock down every 
+building for miles around. But these 
+are devices made by ordinary people in 
+ordinary towns. The weapons are 
+harder to believe than to understand. 
+There are three stages to the detona­
+tion of a hydrogen weapon: fission, fu­
+sion, and more fission. Although one 
+event must follow the other for the 
+weapon to work, they happen so 
+rapidly that a human observer would 
+experience only a single event - an 
+explosion of unearthly magnitude. 
+Within the bomb, however, fission­
+the splitting of uranium and plutonium 
+nuclei - comes first. 
+THE PROGRESSIVE I 7 
+
+===== PAGE 10 =====
+Flgwue 4. The chain reaction spreads to 
+slow-fissioning Uranium-235 (D). Fusion 
+fuel at the center of the core showers the 
+core with neutrons, "boosting" fission 
+efficiency. As the core expands to its ori­
+ginal size, reaction stops, completing the 
+first stage of the detonation. Energy re­
+lease 
+so far: 
+forty 
+kilotons. Prompt 
+gamma rays and x-rays travel outward at 
+the speed of light. 
+The mechanism for the first fission 
+stage is a miniaturized version of the 
+Nagasaki bomb. It has roughly the 
+same explosive power as the World 
+War II weapon, but it measures less 
+than twelve inches in diameter. This 
+fission "trigger" vaguely resembles a 
+soccer ball, with the same pattern of 
+twenty hexagons and twelve pentagons 
+forming a sphere. Detonator wires are 
+attached to each pentagonal or hex­
+agonal face. When its full explosive 
+energy is realized, this oversized canta­
+loupe becomes the source of the radia­
+tion pressure which ignites the fusion 
+stage. 
+Weapon designers call this miniature 
+R: NOVEMBER 1979 
+Flpre 5. The weapon casing (E) reflects 
+radiation pressure around the thick radia­
+tion shield (F) and onto the sides of the 
+fusion tamper (G), collapsing the tamper 
+inward. Heat and pressure of the impact 
+start fusion in the tritiated portion (H) of 
+the fusion fuel "pencil." The precise 
+location of the tritium within the pencil 
+depends on where the designer intends the 
+fusion reaction to begin. Neutrons from 
+this fusion activity breed tritium through­
+out the pencil. 
+A-bomb the "primary system." The 
+rest of the nuclear part of the weapon is 
+called the "secondary system." In 
+published accounts, the primary 
+system is often referred to as the "trig­
+ger." By itself, it could level a small 
+city, but in a hydrogen weapon it 
+merely provides the energy necessary 
+to ignite the second stage, which 
+releases energy by fusing hydrogen to 
+form helium. A fission bomb is the 
+only force on Earth powerful enough to 
+provide the compression and heat 
+needed to detonate a fusion bomb. 
+The secondary system is the 
+mechanism which captures the fiSSion 
+energy of the primary system and puts 
+(Copyright ' 
+Flpn 6. Fusion fuel reacts virtually 
+simultaneously throughout the pencil, re­
+leasing 130 kilotons of energy to complete 
+the second stage. High-energy neutrons 
+from fusion are absorbed by Uranium-
+238, which has so far served as a fission 
+tamper, radiation shield, radiation re­
+flector, and fusion tamper. Now it serves 
+as fission fuel. 
+it to work in the fusion proces. The 
+design of the secondary system is the 
+H-bomb secret. 
+The challenge in designing a hy­
+drogen weapon is to make the second­
+ary system finish its task of fusion 
+before the expanding fireball of the pri­
+mary systems engulfs and destroys it. 
+About a millionth of a second is all the 
+time available for doing the job. Pure 
+radiant energy, in this case the energy 
+of x- and gamma radiation, is the only 
+thing fast enough and manageable 
+enough to be harnessed for that pur­
+pose. 
+X- and gamma radiation travel at the 
+speed of light, more than a hundred 
+
+===== PAGE 11 =====
+n.,.. 7. Uranium-238 fissions, adding 
+another 130 kilotons of energy to the ex­
+plosion and generating enough fission 
+products 
+to 
+kill everyone within 
+150 
+square miles with fallout. This is the end 
+of the third stage. A fireball begins to 
+develop .... 
+times faster than the expanding debris 
+from an exploding A-bomb. If the pri­
+mary system and the fusion fuel are lo­
+cated some distance apart, say twelve 
+inches, the radiant energy of the pri­
+mary system will have time to race 
+ahead of the expanding nuclear debris 
+and· reach the fusion fuel first. 
+The cylindrical shape of most hy­
+drogen weapons plays an important 
+role in determining how this radiant 
+energy will be distributed inside the 
+casing. The primary system is located 
+inside one end of a three- or four-foot­
+long hollow cylinder casing, and the fu­
+sion fuel is located inside the other end. 
+The cylinder is normally eighteen 
+inches in diameter, large enough to 
+contain the soccer-ball sized primary 
+system inside one end and leave a few 
+inches to spare around the sides. A 
+complete one-megaton bomb (having 
+the explosive power of one million tons 
+of TNT) would fit under your bed. 
+The cylindrical casing is more than 
+just the package that holds the nuclear 
+parts together. It is also a radiation 
+reflector designed to capture radiation 
+from the primary system and focus it 
+on the fusion fuel. It is the largest and 
+heaviest component of any hydrogen 
+weapon, and one of the most impor­
+tant. 
+The reflector-casing is usually made 
+of uranium-238, a heavy, shiny, metal 
+called "depleted uranium." In the last 
+stage of the weapon's detonation se­
+quence, the depleted uranium ex­
+plodes with the power of many 
+Hiroshima bombs, producing most of 
+the weapon's deadly fallout. However, 
+the first function of uranium-238 in the 
+secondary system is to serve not as an 
+energy source but as a finely 
+engineered energy reflector. 
+All the major components of the 
+secondary system are made by Union 
+Carbide, the chemical company, in the 
+foothills of the Great Smoky Moun­
+tains of Tennessee. The 500-acre 
+bomb factory where the work is done 
+still bears the code name, Y -12, as­
+signed it by the World War II designers 
+of the atomic bomb. The Oak Ridge 
+buildings where scientists enriched 
+uranium for the Hiroshima weapon 
+now house the world's most sophis­
+ticated H-bomb production line. When 
+an American hydrogen weapon ex­
+plodes, most of the explosive power 
+comes from components made at 
+Y -12. Half the equipment in the coun­
+try's far-flung nuclear weapon produc­
+tion complex is concentrated there. 
+F
+ew residents of Oak Ridge and 
+nearby Knoxville are aware that 
+such products come from their 
+peaceful valley. A chemistry professor 
+who ocasionally lectures at Y -12 told 
+me he didn't know what went on at the 
+plant; he sometimes wondered, but he 
+didn't think it was the production of 
+bombs. A woman whose husband is an 
+Oak Ridge radiologist expressed out­
+right disbelief that Oak Ridge was still 
+in the weapons business. And yet the 
+weapons role of the plant is not secret; 
+it just isn't mentioned in public. 
+Much of the H-bomb secret is in a 
+form that can't be written down. It ex­
+ists in the hand-and-eye coordination 
+of the skilled workers who operate 
+machine tools at the Y -12 plant, or in 
+the quality of the machines themselves. 
+One of the high-precision tasks is the 
+squeezing o f  large blocks o f  
+uranium-238 metal into thin sheets 
+and the machining of those sheets to 
+make radiation reflectors. 
+The raw material for this process ar­
+rives by truck or rail from Fernald, 
+Ohio, where gaseous uranium-238 
+hexafluoride has been chemically 
+reduced to pure metal blocks. At Y-12, 
+the blocks are fed like cordwood to a 
+giant rolling press which flattens them 
+into sheets five-and-a-half feet wide 
+and one inch thick. The sheets are then 
+fed through smaller presses which 
+reduce their thickness to as little as 
+five-thousandths of an inch. When a 
+sheet has reached the proper thinness, 
+the weapon part is cut from it the way 
+cookies are cut from a sheet of dough. 
+The rough-cut parts are then machined 
+to final dimensions. 
+A graduate student at the University 
+of Alabama, who knows people who 
+work in Oak Ridge, told me the reflec­
+tor-casing is composed of thousands of 
+finely machined reflecting surfaces. 
+Jack Case, Union Carbide's manager 
+for the plant, says some parts made at 
+Y-12 are so thin and delicate that spe­
+cial techniques for "fixturing," or at> 
+taching rough-cut parts to a lathe, -ffid 
+to be developed. Normal fixturing 
+techniques would mar the parts or 
+allow them to sag and be distorted by 
+their own weight. Y -12 pioneered in 
+the use of chemical adhesives and suc­
+tion in fixturing. The reflector-casing 
+may be composed of many thin pieces 
+of uranium-238 sandwiched together 
+into an exotic metal plywood. 
+Radiation reflectors for the H-bomb 
+arsenal enter the Oak Ridge Y -12 plant 
+as great blocks of uranium-238 metal 
+and emerge as finely engineered 
+canisters the size of household garbage 
+cans. When war comes, the canisters 
+will reflect and focus the radiation that 
+sets off hydrogen fusion. 
+F
+usion is called a thermonuclear 
+process because heat makes it 
+happen. Temperatures of several 
+hundred million degrees Celsius are 
+needed to start the process. However, 
+the rate of fusion is determined by the 
+density of the hydrogen fuel. In a weap­
+on, the rate of fusion must be ex­
+tremely rapid. For a useful amount of 
+fusion fuel to fuse in the allotted 
+millionth of a second, it must first be 
+greatly compressed. Without tremen-
+THE PROGRESSIVE I 9 
+
+===== PAGE 12 =====
+dous compression, the fusion fuel 
+would not fuse fast enough to add 
+much energy to the explosion before it 
+was scattered uselessly by the expand­
+ing fireball of the primary system. In a 
+hydrogen weapon, radiation pressure is 
+what compresses the fusion fuel suffi­
+ciently to make the device destroy a 
+city's suburbs as well as its center. 
+Radiation pressure, the principle by 
+which the secondary system works, is 
+normally too weak to be detected by 
+human senses. You cannot feel the 
+physical push of a flashlight beam, for 
+instance. There are no examples in the 
+human environment of radiation in­
+tense enough to move solid objects 
+with more than barely measurable 
+force. But the primary system of a hy­
+drogen weapon is a nuclear power plant 
+that generates twenty million kilowatt­
+hours' worth of thermal energy in a 
+few billionths of a second, all inside a 
+lump of metal compressed to the size 
+of a baseball. Its radiant energy can ex­
+ert enormous force on an object lo­
+cated only inches away. 
+In fact, the radiation pressure inside 
+the weapon casing can theoretically be 
+as high as a million million times 
+greater than atmospheric pressure -
+about eight billion tons per square inch. 
+Physicists would describe the radiation 
+as a .. gas of photons," a dense cloud of 
+highly energetic pulses of electromag­
+netic energy, pushing violently against 
+anything it touches. For the briefest 
+moment, the inside of the weapon 
+becomes an x-ray oven, similar in 
+principle to a microwave oven, but 
+with unearthly temperatures and pres­
+sures. 
+As any science student can tell you, 
+heat is the enemy of compression. The 
+greatest densities are achieved when a 
+substance is compressed cold: Heat 
+tends to make it expand. Because fu­
+sion fuel in a weapon must therefore be 
+compressed before it reaches ignition 
+temperature, the fusion fuel of the sec­
+ondary system is not exposed directly 
+to radiation from the primary system. 
+It is protected on the end nearest the 
+primary system by a large radiation 
+shield. 
+Around the sides of the fusion fuel is 
+a tapered cylinder called the fusion 
+tamper. Radiation from the exploding 
+fission trigger is reflected around the 
+large shield, or pusher, in the center of 
+10 .· NOVEM BER I 97lJ 
+the weapon and onto the sides of the 
+fusion tamper. The fusion tamper then 
+collapses inward with enormous force, 
+driven by the pressure of x- and gam­
+ma radiation from the primary system. 
+The fusion tamper compresses the fu­
+sion fuel and simultaneously heats its 
+perimeter to ignition temperatures. 
+An important part of nuclear weap­
+on design is the judicious use of empty 
+spaces inside the weapon. The empty 
+space between a raised hammer and a 
+nail allows the hammer to strike the 
+nail with much greater force than could 
+be mustered if the hammer were 
+pressing the fuel; the empty space be­
+tween the fusion tamper and the fuel is 
+used to produce maximum compres­
+sion. In addition, the delicate ceramic­
+like fusion fuel must be firmly cradled 
+and supported from all sides during the 
+weapon's possibly rough ride to the 
+target. 
+A key ingredient in the design of this 
+aspect of the secondary system is the 
+polystyrene foam that keeps the fusion 
+fuel centered inside the fusion tamper. 
+By holding the fuel and the tamper 
+apart, the foam allows the tamper to 
+develop momentum before it strikes 
+'Continaed ... testing ... is a paradox 
+unless yoa know the secret' 
+placed against the nailhead before pres­
+sure was applied. In a hydrogen weap­
+on, the fusion tamper serves as a ham­
+mer that strikes the fusion fuel 
+simultaneously from all sides, com-
+the fusion fuel. Polystyrene foam is 
+thus both a packaging material and an 
+empty space, protecting the hydrogen 
+fuel during weapon delivery and col­
+lapsing into nothing during detonation. 
+The price of secrecy 
+Ten years ago the Pentagon ap­
+pointed a nine-member "Task 
+Force on Secrecy" to investigate 
+the effectiveness of the nation's 
+security system. This was one of its 
+findings: 
+"With respect to technical infor­
+mation, it is understandable that 
+our society would turn to secrecy 
+in an attempt to optimize the ad­
+vantage to national security that 
+may be gained from new discov­
+eries or innovations associated 
+with science and engineering. 
+"However, it must be recog­
+nized, first, that certain kinds of 
+technical information are easily 
+discovered independently, or 
+regenerated, once a reasonably 
+sophisticated group decides it is 
+worthwhile to do so. 
+"In spite of elaborate and very 
+costly measures taken indepen­
+dently by the U. S. and the 
+U. S.S. R. to preserve technical 
+secrecy, neither the United 
+Kingdom nor China was long 
+delayed in developing hydrogen 
+weapons. 
+''Also, classification of technical 
+information impedes its flow with­
+in our own system, and may easily 
+do far more harm than good by 
+stifling critical discussion and 
+review or by engendering frustra­
+tion. There are many cases in 
+which the declassification of tech­
+nical information within our 
+system probably had a beneficial 
+effect and its classification has had 
+a deleterious one.'' 
+One of the task force members 
+was Dr. Edward Teller, father of 
+the U.S. hydrogen bomb. 
+
+===== PAGE 13 =====
+in a 
+tl'!l! noc-nuclear 
+[d\11111 bomlb$, 
+lhl!! 
+IMir 
+TO!:Imi!i, 
+loi:Jik likll! ll!iStlkiUI$ a ll 
+aer· 
+,. ..... ... ....... ..... . 
+aaJoy talld·· .... .. 
+THE PROGRESSIVE 
+
+===== PAGE 14 =====
+design have allowed more of the 
+energy of the primary system to be cap­
+tured and focused, smaller fission ex­
+plosions have become adequate as trig­
+gering events. One result of fifteen 
+years of underground tests is a reflector 
+that will set off half a kiloton of second­
+ary fusion explosion with as little as half 
+a kiloton of fission energy. Enter the 
+neutron bomb. The neutron bomb 
+radiation reflector has to be made of 
+high-density metal other than 
+uranium-238, so there will be no dirty 
+fission explosion following the fusion. 
+The metal is probably tungsten alloyed 
+with nickel, iron, and, perhaps, 
+rhenium. Underground testing was 
+part of its design procedure. 
+Unofficial sources say that a neutron 
+weapon with a total energy yield of one 
+kiloton, one-twentieth of the Nagasaki 
+weapon, must contain more radioac­
+tive tritium than a full megaton weap­
+on of more conventional design. The 
+reason is that the deliberately weak 
+neutron weapon is unable to generate 
+much of its own tritium; more ·of it 
+must be provided ready-made. Since 
+the country's only supplier of tritium is 
+also the sole present supplier of 
+plutonium-239, an increase in orders 
+for tritium is one plausible explanation 
+for the plutonium shortage about 
+which Congressman Dellums inquired. 
+• ow could I, a journalist with no 
+formal training in nuclear 
+physics, learn things the 
+Government has kept out of public 
+print for a quarter of a century? It was 
+surprisingly easy. People who make 
+these weapons enjoy their work. Like 
+most of us, they enjoy talking shop. 
+They also promote their activities in 
+order to raise funds from Congress and 
+to recruit employes. They learn to talk 
+and write without using classified 
+words, but they can't live in a vacuum. 
+In fact, any persistent investigator 
+with the time, inclination, and deter­
+mination to learn the underlying scien­
+tific and technological principles, to 
+pierce the jargon and euphemisms of 
+the industry, to examine the 
+voluminous public record, to look and 
+listen carefully, and to put two and two 
+together, can discover the findings and 
+inventions of others. 
+In the business of nuclear weaponry, 
+as in science and technology itself, no 
+12 I NOVEMBER 1979 
+secret, once discovered, can long en­
+dure, as Einstein observed. Attempts 
+to limit knowledge may succeed tem­
+porarily, but ultimately they are no 
+match for a determined investigator. 
+The more practical effect of secrecy 
+is to discourage and inhibit public par­
+ticipation in the formulation of public 
+policy - in this case not only nuclear 
+weapons policy but also a broad 
+spectrum of related policies (national 
+security, energy, environmental pro­
+tection, natural and human resource 
+allocation) with which it is inextricably 
+intertwined. 
+of nuclear fission bombs became 
+available long ago in the Smyth Report. 
+Subsequent Atomic Energy Commis­
+sion declassifications and the ac­
+cumulation of mountains of data and 
+experience with the growth of the 
+worldwide nuclear enterprise have 
+eliminated the secret of fission bomb 
+construction. Credible designs and in­
+structions for these have been prepared 
+by college-level physics students. 
+The building of a hydrogen bomb, 
+which can be ignited only by a fission 
+weapon, is a different matter. It would 
+take millions of dollars worth of spe-
+'The effect [of secrecy] is to stifle 
+debate aboat ... naclear policy' 
+Since World War II, the process of 
+secrecy - the readiness to invoke '' na­
+tional security" - has been a pillar of 
+the nuclear establishment. As Repre­
+sentative Dellums's recent experience 
+demonstrates, that establishment, act­
+ing on the false assumption that 
+"secrets" can be hidden from the 
+curious and knowledgeable, has suc­
+cessfully insisted that there are answers 
+which cannot be given and even ques­
+tions which cannot be asked. 
+The net effect is to stifle debate 
+about the fundamentals of nuclear 
+policy. Concerned citizens dare not ask 
+certain questions, and many begin to 
+feel that these are matters which only a 
+few initiated experts are entitled to dis­
+cuss. This self-imposed restraint only 
+entrenches further those who are com­
+mitted to the nuclear arms race. 
+The secret of how a hydrogen bomb 
+is made protects a more fundamental 
+"secret": the mechanism by which the 
+resources of the most powerful nation 
+on Earth have been marshaled for 
+global catastrophe. Knowing how may 
+be the key to asking why. 
+Is it dangerous to tell how a hy­
+drogen bomb is made? No. For one 
+thing, the information falls far short of 
+providing a blueprint for nuclear weap­
+on construction. The general features 
+cialized equipment and hundreds of 
+trained technicians to build a hydrogen 
+bomb - a feat beyond the capability of 
+all but the most industrially sophisti­
+cated nations. 
+Whatever insights these descriptions 
+may provide to nations seeking to per­
+fect their thermonuclear capability -
+Israel and South Africa, for example­
+they are at best a trifling addition to the 
+information already available. No 
+government intent upon joining the 
+nuclear terror club need long be at a 
+loss to know how to proced. Nothing 
+you or I could learn would long elude 
+the nuclear physicists and engineers 
+whose participation would be essential 
+to such as enterprise. 
+The risks of proliferation of hy­
+drogen weapons, such as they are, 
+must be weighed against the public 
+gain that may come from greater 
+awareness of how and why they are 
+already being produced. 
+Whether it be the details of a multi­
+million dollar plutonium production 
+expansion program or the principles 
+and procedures by which nature's most 
+explosive force is being packaged in 
+our midst, we have less to fear from 
+knowing than from not knowing. What 
+we do with the knowledge may be the 
+key to our survival. 
+• 
+
+===== PAGE 15 =====
+Wrestliag with levialhaa 
+The Progressive 
+knew it would win 
+Erwin Knoll · 
+"We intend to resist the Govern­
+ment's attempt at censorship and sup­
+pression by all legal means at our dis­
+posal. We will appeal Judge Warren's 
+preliminary injunction to the Court of 
+Appeals and, 
+if necesary, 
+to the 
+Supreme Court. We will somehow find 
+the resources to sustain our struggle. 
+And we will win. 
+"Watch this space for Howard Mor­
+land's article, 'The H-Bomb Secret: 
+How Wƚ Got It, Why We' re Telling 
+It ' " 
+- The Progressive, 
+May 1979 
+T
+he case was called The United 
+States of A merica vs. 
+The 
+Progressive, Inc., Erwin Knoll, 
+Samuel Day Jr., and Howard Morland. 
+It was an uneven match. We had the 
+Government licked from the begin­
+ning and we knew it. 
+These were among the things we 
+knew: 
+®That the so-called secrets i n  
+Howard Morland's article weren' t 
+secrets at all - that they were known 
+to thousands of people around the 
+world; that they had been published in 
+books and journals and magazines and 
+the Government's own reports; that 
+any competent reporter, any diligent 
+researcher, and any capable spy could 
+do what Morland did - and could 
+probably do it better and faster if he 
+had more scientific background than 
+Morland had. 
+®That no court in the United States 
+had ever allowed the Government to 
+commit an act of censorship on 
+grounds of "national security"; that 
+when the Government had attempted 
+such censorship in the 1971 Pentagon 
+Papers case, 
+it had been decisively 
+rebuffed by the Supreme Court; that 
+the Court had ruled in 1971 that if a 
+prior restraint on publication were ever 
+permissible, it could only be sustained 
+in circumstances where there was con­
+clusive proof that publication would 
+result in direct, immediate, irreversible 
+harm to the United States; that there 
+was no way the Government could 
+meet such a test with respect to Mor­
+land's article for The Progressive. 
+®That the Atomic Energy Act of 
+1954 contained a secrecy provision that 
+was astonishingly broad and vague and 
+sweeping, conferring on the Govern­
+ment the authority to suppress all in­
+formation (not just the Government's 
+own information) pertaining to nuclear 
+weapons, nuclear materials, and 
+nuclear energy; that this incredible 
+statute had never been tested in the 
+courts; that there was at least a strong 
+likelihood that it would be found un­
+constitutional. 
+®That for all of these reasons, the 
+Government's attempt to muzzle The 
+Progressive was bound to be an acute 
+embarrassment -
+not to 
+The 
+Progressive but to the Government it­
+self; that it would provide us with an 
+extraordinary opportunity to raise basic 
+issues of public policy - to talk not 
+only about nuclear secrecy, censorship, 
+and suppression, but about the crimi­
+nal insanity of the nuclear arms race 
+and its menacing half-brother, 
+the 
+nuclear power industry - and that we 
+would be able to raise these issues with 
+a far greater audience than we could 
+ever hope to reach through the pages 
+of this magazine. 
+All this we knew, and we assumed 
+the Government knew it too. And 
+there we made our first mistake: We 
+thought the Government would recog­
+nize the realities and calculate the con­
+sequences. We thought it would act in 
+its own self-interest. Even after the 
+Department of Energy had advised us 
+that it would seek a court order to 
+block publication of Morland's article, 
+we thought it would reconsider and Jet 
+common sense prevail. "Before the 
+Government actually goes to court," I 
+told my colleagues at The Progressive, 
+' 'it will be seized by a spasm of sanity. '' 
+I was dead wrong. 
+On March 9, in a Federal courtroom 
+in Milwaukee, the Government found 
+a judge willing to take its "national 
+security" claims on faith. He issued a 
+temporary restraining order against 
+publication of Morland's article with­
+out 
+even 
+bothering to 
+read 
+the 
+manuscript. 
+W
+e were to encounter many 
+more surprises in the next six 
+months. One of the first and 
+most disappointing was the devotion of 
+many scientists- especially " liberal" 
+scientists - to the mystique of secrecy 
+which had apparently become, 
+for 
+them, an act of faith. As soon as the 
+first press accounts of the Govern­
+ment's attempt at censorship appeared, 
+we began receiv ing telegra m s, 
+telephone calls, and letters from lead­
+ing luminaries of such organizations as 
+the Federation of American Scientists 
+and the Union of Concerned Scientists, 
+urging us not to publish the article and 
+not to contest the Government's 
+unprecedented assault on the. First 
+THE PROGRESSIVE I 13 
+
+===== PAGE 16 =====
+14 
+llM!t!bld 
+"md i!Ji)m<!' drtl'!Un li.:utlnlnl 
+rnlmml 
+me 
+Ul'lil!ld 
+il 
+about 
+in 
+tim 
+)'	
+:,:;,::: 
+I Will'll lhe 
+c 
+to smp me from l;!t:inU!ll 
+
+===== PAGE 17 =====
+CBS News, asserted categorically, 
+"The Government will win this case." 
+They did not lack for company in ex­
+pressing those views. 
+Even among those who thought the 
+Government's assault on the First 
+Amendment was totally unwarranted, 
+many implored us not to pursue our 
+rights in the courts lest we ' 'jeopardize 
+the First Amendment" by an adverse 
+court decision. 
+What was painfully 
+clear to us apparently eluded them -
+that if the First Amendment could only 
+be preserved by foregoing its protec­
+tion, it was not merely in jeopardy; it 
+was gone. 
+surfaced in Australia, 
+two U . S . 
+officials, William Grayson, an Energy 
+Department physicist, and Keith 
+Werhan, a Justice Department lawyer, 
+flew to Australia to check the situation. 
+Round-trip fare is about $ 1 ,800." 
+We were not prepared for the bizarre 
+tactics and exotic arguments the 
+Government was willing to pursue in 
+court. From the beginning of the case, 
+legal briefs, affidavits, and exhibits ­
+ours as well as the Government's -
+were heavily censored by the Govern­
+ment and excluded from the public 
+record. Our lawyers had to 
+be 
+"cleared" by the Government to ex-
+' . . .  we have won a small . . .  victory 
+ia a coatiaaiag straggle' 
+W
+e were not prepared for the 
+costs of the case, which placed 
+(and continue to place) 
+an 
+almost catastrophic strain on the 
+meager resources of this magazine. 
+(See Ron Carbon's "Bonanza" on 
+Page 66 of this issue.) We were not 
+prepared for its duration - it isn't over 
+yet - or for the burdens it would im­
+pose on The Progressive's small staff. 
+To the Government, of course, time 
+and money are no object. The Wash­
+ington Star reported: 
+"It is virtually impossible to com­
+pute the cost of the Government's suit 
+against The Progressive. Briefs filed by 
+the Justice Department in U.S. District 
+Court and in the Court of Appeals car­
+ry the names of twelve Government 
+lawyers. There may have been others 
+who helped 
+prepare briefs 
+and 
+affidavits. 
+"Mark Sheehan, a Justice Depart­
+ment · spokesman, said the commit­
+ment was 'not at all unusual' for an im­
+portant case. Peter N. Bush, assistant 
+general counsel of the Energy Depart­
+ment, said perhaps ten attorneys from 
+his agency had worked on the case. But 
+government lawyers, unlike most pri­
+vate attorneys, do not keep a record of 
+their billable hours, so the true cost is 
+impossible to pin down. 
+"When a copy of Morland's article 
+amine these secret filings, and could do 
+so only under conditions that ranged 
+from inconvenient to impossible. They 
+were strictly enjoined from com­
+municating any of these ' ' restricted 
+data" to us - the defendants - or 
+from telling ·us what had transpired in 
+closed sessions of the court. On June 
+15, when we asked Judge Warren to 
+lift the injunction he had imposed upon 
+us, he issued a secret opinion which, at 
+this writing, we have still not been per­
+mitted to read. 
+The Government's arguments for 
+abrogating this nation's 200-year-old 
+tradition against prior restraint were no 
+less mind-boggling. The case began 
+with the assertion that nuclear infor­
+mation was "data restricted at birth" 
+- classified the instant it came into 
+being, even if it was based entirely on 
+public sources and on our own creative 
+work. 
+As the case progressed and the 
+Government's arguments were effec­
+tively challenged by our attorneys (and 
+by the increasingly publicized facts) , 
+the Government continuously shifted 
+ground. By the time our appeal was 
+argued in the Seventh Circuit Court of 
+Appeals
+. in Chicago in mid-September, 
+the Government had arrived at a 
+novel and frightening notion - that 
+" technical" 
+information was 
+not 
+speech protected by the First Amend­
+ment. Under that ingenious doctrine, 
+Sam Day suggested, the historic slogan 
+"Fifty-four Forty or Fight" would not 
+be protected speech. More to the point, 
+the Government would be empowered 
+to suppress details of the next nuclear 
+power accident. 
+S 
+till, our initial assumptions 
+proved to be correct: The case 
+was an acute embarrassment to 
+the Government, and we were well on 
+the way to winning it in the courts. 
+Shortly after the Government went · 
+into court against The Progressive, we 
+began hearing rumors about disaffec­
+tion in the Justice Department's ranks. 
+Later, newspapers reported that a ma­
+jority of the Department's lawyers 
+working on the case had urged At­
+torney General Griffin Bell to drop it. 
+The Justice Department, 
+we were 
+given to understand, was in the unhap­
+PY position of a reluctant lawyer serv­
+ing a stubborn and vindictive client -
+the Department of Energy. 
+The Government's case - if it ever 
+had a case - deteriorated rapidly. Our 
+attorneys - The Progressive's law firm 
+of LaFollette, Sinykin, Anderson, and 
+Munson; the national legal staff of the 
+American Civil Liberties Union, which 
+represented the editors of this maga­
+zine; Tom Fox of Madison and Paul 
+Friedman of the Washington firm of 
+White and Case, 
+who represented 
+Morland - worked heroically to de­
+fend 
+the F irst A mendment, 
+to 
+challenge the constitutionality of the 
+Atomic Energy Act, and to compile a 
+factual record that demolished the 
+Government's " national security" 
+claims. 
+We had other help. Distinguished 
+lawyers volunteered useful advice. 
+Some leading newspapers - The New 
+: York Times,. The Boston Globe, The 
+Chicago Tribune - joined in "friend­
+of-the-court" briefs in support of the 
+First Amendment, and so did several 
+dozen magazines and such organiza­
+tions as the American Society of News­
+paper Editors, the National Association 
+of Broadcasters, and the Association of 
+A m e r i c a n  P u b l i s h e r s . 
+Th e 
+Progressive's readers responded, 
+as 
+they always have, with moral and fi­
+nancial support. 
+We received invaluable assistance 
+THE PROGRESSIVE I 15 
+
+===== PAGE 18 =====
+from some dedicated nuclear scientists 
+who did not necessarily agree with The 
+Progressive's politics - or even with 
+our calculated assault on the Govern­
+ment's mystique of secrecy - but who 
+were outraged by the Government's 
+unfounded assertions in the case. 
+And then there were the nuclear 
+" hobbyists, " determined to prove that 
+what the Government called "secret" 
+was not secret at all. (See Sam Day's 
+"The Other Nuclear Weapons Club" 
+on Page 32 of this issue.) Eventually 
+the Government was compelled to ad­
+mit that two of the three "secret con­
+cepts" it had identified in Morland's 
+article were already in the public do­
+main - and the third, the Govern­
+ment said, was one that Morland got 
+wrong. Furthermore, the Government 
+a c k n o w l e d g e d  
+t h a t  
+i t  h a d  
+"mistakenly" 
+declassified scores of 
+documents containing information at 
+least as "secret" as Morland's, and 
+placed those documents on public li­
+brary shelves. 
+As it became increasingly clear to us 
+that we would win the case in the 
+courts - and perhaps win a ruling that 
+invalidated the secrecy provisions of 
+the Atomic Energy Act - we began to 
+suspect that the Government would 
+seize on its first face-saving opportunity 
+to drop the case and declare it "moot. " 
+We were scrupulously careful - we 
+bent over backwards - to observe the 
+injunction and the "protective order" 
+issued by Judge Warren to prevent dis­
+closure of " restricted data"; we 
+wanted to give the Government no 
+pretext for avoiding a court decision on 
+the constitutional and legal questions 
+we had raised. When an anonymous 
+caller told us he had a copy of Mor­
+land's manuscript and would arrange 
+for its publication, we begged him not 
+to do so. 
+On September 1 3, our case was 
+argued before a three-judge panel of 
+the Seventh Circuit Court of Appeals 
+in Chicago; the judges - who rebuffed 
+a Government request to hold the 
+hearing behind closed doors - were 
+expected to hand down a decision 
+within days or, at most, a few weeks. 
+On September 1 5, the Government 
+went into court in San Francisco to ob­
+tain a restraining order against a college 
+newspaper - the Daily Californian at 
+Berkeley - barring it from publishing 
+16 I NOVEMBER 1979 
+a letter that a nuclear "hobbyist, " 
+Chuck Hansen, had written to Senator 
+Charles Percy of Illinois about The 
+Progressive's case. On September 16, 
+the Hansen letter was published in full 
+by The Press Connection, a newspaper 
+in Madison, Wisconsin. (See "A Na­
+tion Beset by Confusion and Fear," by 
+Ron McCrea, on Page 36 of this issue.) 
+On September 1 7, the Justice Depart­
+ment announced that it " has decided 
+to seek dismissal of the cases against 
+the Daily Californian and Progressive 
+magazine . . . .  The reason for the dis­
+missal was the publication of an article 
+containing restricted data concerning 
+thermonuclear weapons information 
+by a newspaper in Madison, Wiscon­
+sin." 
+On September 28, the Appeals 
+Court vacated Judge Warren's injunc­
+tion and left us free to publish Howard 
+Morland's article in this issue of The 
+Progressive. 
+B 
+ut the case is not over. When it 
+announced that it would "seek 
+dismissal" of the cases against 
+The Progressive and the Daily Califor­
+nian, the Justice Department also an­
+nounced that " the Criminal Division 
+'I published Bow To BuDd an B·Bomb to prove 
+we have freedom of the press' 
+Le Pelley, The Christian Science Monitor 
+
+===== PAGE 19 =====
+will undertake a preliminary inquiry to 
+determine whether any prosecution is 
+appropriate for violation of court or­
+ders in the two cases and the Atomic 
+Energy Act." The Department of 
+Energy has spread the word that it has 
+some of its own scientists under in­
+vestigation. 
+And when it asked the court to dis­
+miss the injunction against publication 
+of Morland's article, the Justice 
+Department also moved to declare the 
+case "moot" and to preserve in per­
+petual secrecy some of the suppressed 
+legal documents in the case. We are 
+vigorously resisting the Government's 
+attempt to abort a ruling on the issues 
+we have laid before the courts. In a 
+briȯf submitted to the Court of Appeals 
+on September 24, The Progressive's at­
+torneys wrote: 
+''This case clearly is capable of 
+repetition both for these defendants 
+and for others. Yet it will continue to 
+evade review until these defendants, 
+another magazine, newspaper, or indi­
+vidual again forfeits - however tem­
+porarily - First Amendment rights to 
+litigate the fundamental issues raised 
+by the Atomic Energy Act and the in-
+junctive relief the Government and the 
+district court believe it provides. 
+Moreover, there will always be a very 
+real danger that subsequent cases like 
+this one will become 'moot' - either 
+because the Government moves 
+unilaterally to dismiss them at some 
+point, because an article that has been 
+restricted appears in another publica­
+tion, or because the defendants lack 
+the financial ability, the confidence, or 
+the courage to litigate the case fully in 
+the trial court or on appeal. In the 
+meantime, of course, the defendants 
+will have lost their constitutional rights 
+to a district court's injunction . . . .  
+"Until the United States brought 
+this action, it had never formally in­
+voked the Atomic Energy Act to en­
+join or to punish political speech. With 
+this action, however, and the suit 
+against the Daily Californian, it has 
+demonstrated an apparently new­
+found willingness to use the sweeping 
+provisions of the Act to do just that. 
+These cases also have provided ample 
+evidence of the potential for the arbi­
+trary and discriminatory use of the Act. 
+There are in the record of this case 
+more than twenty-five publications and 
+M.G. Lord. Nt!wsdoy 
+broadcasts that have stated one or 
+more of the three concepts the 
+Government sought to protect in the 
+context of thermonuclear weapons, yet 
+the Government sought no iQjunction 
+nor brought a criminal action Arbi­
+trary decisions of the Government to 
+invoke the statute or not may never be 
+reviewed if the Government carefully 
+chooses its cases." 
+How these questions will be resolved 
+remains to be determined as this issue 
+of The Progressive goes to press. 
+Whatever the outcome, we believe we 
+have already made it more difficult for 
+the Government to mount its next as­
+sault on the First Amendment - if 
+only by making some Americans (and 
+some of our colleagues in the media) 
+more aware of the threat. 
+We .believe we have won a small but 
+important victory in a continuing strug­
+gle. We are in that struggle for the 
+duration. The late Heywood Broun, 
+who fought his own battles against the 
+arrogance of official power in the 
+1930s, once wrote, "The underdog 
+can and will lick his weight in the 
+wildcats of the world." 
+We think so too. 
+• 
+THE PROGRESSIVE I 1 7  
+
+===== PAGE 20 =====
+Atomic: sec:rec:y: 
+fuel for the cold war 
+The myth served a powerful few 
+Jolm Baell 
+I
+n February 1 946, six months after 
+the destruction of Hiroshima estab­
+lished the United States as the 
+world's first nuclear superpower, an . 
+obscure British scientist made 
+headlines by admitting that while 
+working in the Canadian atomic energy 
+program he had leaked secrets to 
+agents of the Soviet Union. 
+His 
+role in America's wartime 
+M a n h a t ta n  P r oj ect had been 
+peripheral. 
+His contribution to the 
+budding Soviet atomic weapons pro­
+gram - offered in the spirit of interna­
+tional science - was negligible. The 
+ten-year sentence meted to him by a 
+British court returned him quickly to 
+anonymity. 
+But the case of Dr. Alan Nunn May, 
+the world's first known "atomic spy," 
+sent shock waves through the Ameri­
+can body politic. And it cast an imprint 
+- as indelible as it was pernicious -
+on the nation's first formative efforts to 
+forge public policy in the virgin field of 
+atomic energy. 
+While economic and military elites 
+may not have contrived the May case, 
+they benefited immensely from its con­
+tribution to the mystique of nuclear 
+secrecy. The need for protection of the 
+"secret" became the linchpin of the 
+Cold War and a major force in preserv­
+ing the power of those who profit from 
+that global struggle. The struggle had 
+already begun in the afterglow of 
+A l a m a g o r d o ,  H i r o s h i m a ,  and 
+Nagasaki. 
+In the first months after the conclu-
+John Buell is an associate editor of 
+The Progressive. 
+18 l NOVEMBER 1979 
+sion of World War II, the scientists 
+who had built the atomic bomb argued 
+that the public should have more infor­
+mation about nuclear matters and that 
+scientists should be freed from wartime 
+constraints on the conduct and publica­
+tion of their research efforts. None was 
+more cognizant of the need for open­
+ness than Henry D. Smyth, author of 
+the Government's official report on 
+the wartime Manhattan Project, which 
+w a s  published s i x  days aft e r  
+Hiroshima: 
+"Here is a new tool for mankind, a 
+tool of unimaginable destructive 
+power. Its development raises many 
+questions that must be answered in the 
+near future. These questions are not 
+technical questions; they are political 
+and social questions, and the answers 
+given to them may affect all mankind 
+for generations. In a free country like 
+ours, such questions should be debated 
+by the people," Smyth wrote. The 
+Smyth report was not a "blueprint" 
+for the A-bomb, but it presented a 
+wealth of specific detail on how the 
+scientists and engineers had built it. 
+The Manhattan Project scientists 
+understood that nuclear fission was not 
+a magic potion which only an anointed 
+few had been fortunate enough to 
+stumble upon. They recognized that it 
+was the achievement of scientists from 
+many nations. J. Robert Oppenheimer, 
+scientific director of the project, knew 
+that the Soviets could build their own 
+bomb within a few years should they 
+choose to do so. His assessment was 
+widely shared. 
+. 
+Despite the prevalent view of the 
+scientific community, political leaders 
+preferred to tell the public that the 
+United States had a secret - one it had 
+to keep at all cost. Secretary of State 
+James Byrnes had a political agenda 
+111ore conventional than that of the 
+scientists. He argued in October 1945, 
+and subsequently, that too much atten­
+tion was being paid to "impractical" 
+notions of international control of the 
+atom. He and President Truman 
+pushed a countervailing notion that 
+came to dominate U.S. nuclear policy: 
+They argued that the basic scientific 
+principles of atomic physics might be 
+widely known, but the "engineering" 
+was not. That part, they said, should be 
+kept secret. 
+Despite the Administration's view, 
+the atomic scientists had a substantial 
+impact on Congresional development 
+of an atomic energy statute. Early 
+drafts accepted the free dissemination 
+of scientific information as the basic 
+principle which should govern legis­
+lation in this field. Only information 
+produced by Government laboratories 
+should be restricted. But the atomic spy 
+stories of early 1 946 changed the bal­
+ance of forces in Congress. The 
+emphasis of the bill shifted from infor­
+mation dissemination to information 
+control. The newly formed Special 
+Committee on Atomic Energy decided 
+that because it was not always clear 
+where science leaves otT and tech­
+nology begins, a new category was 
+needed to encompas any scientific and 
+technical information that might re­
+quire restriction. They called it 
+"restricted data. " The new Atomic 
+Energy Commission was given carte 
+blanche to determine what kinds of in­
+formation would fit the category. 
+The desire of the Truman Adminis-
+
+===== PAGE 21 =====
+tration and its supporters in Congress 
+to foster a mystique of secrecy - even 
+against the advice of leading scientists 
+- can best be understood in the con­
+text of the emerging Cold War and its 
+budding competition in the political, 
+economic, and military sectors. 
+As early as the fall of 1 945, a scien­
+tific panel advised Secretary of State 
+Byrnes that a new weapon even more 
+powerful than the A-bomb was tech­
+nically feasible. The scientists feared 
+that construction of such a weapon 
+could also be undertaken by other in­
+dustrially and scientifically advanced 
+nations and that a U.S. decision to 
+develop it might lead to a qualitative 
+and quantitative arms race fraught with 
+the utmost danger. They recom-
+mended immediate international con­
+trol of the atom. Byrnes responded that 
+this new intelligence was all the more 
+reason for American scientists to go 
+back to their drawing boards. Science 
+may have no boundaries, he said, but 
+Stalin did. It was an early presage of 
+President Truman's decision, in 1 950, 
+to order development of the hydrogen 
+bomb. 
+The primary commitment of the na­
+tion's political leadership was not to 
+ending the incipient arms race but to 
+preserving and expanding U.S. global 
+power. The legacy of the Cold War, 
+which gave postwar American im­
+perialism its powerful early thrust, lives 
+on today in the form of the Atomic 
+Energy Act. 
+'Begone! What we do with your Flnt Amendment rights 
+Is none of your business' 
+K onopucJ.:v. Aladi,\On Pre<;,u ( 'onnectton 
+I
+n 1 945, the United States had jus1 
+emerged from the most severe 
+depression in its history. Followinó 
+a prolonged period of economic ex pan· 
+sion during World War I and the post­
+war decade, A merican productive 
+capacity had grown to a point where ar 
+underpaid labor force could no Ionge1 
+absorb enough goods to keep the econ· 
+omy moving. In the depth of the Grea1 
+Depression, unemployment hoveree 
+at around a quarter of the labor fora 
+and the Gross National Product fell tc 
+almost half its 1 929 level. 
+World War II showed that higl: 
+levels of Government spending could 
+keep the economy fro m  such 
+downturns. Though economists in the 
+tradition of John Maynard KeyneƘ 
+argued that Government spendinó 
+could be focused on such social pur­
+poses as public housing or mass transit, 
+economic and political leaders feared 
+that spending for these ends would un­
+dermine the social structure by foster­
+ing greater equality and removing im­
+portant sources of private investment. 
+The postwar solution to that problem 
+was to foster a demand for the products 
+of U.S. capitalism without threateniƙ 
+i ts poli tical underpinnings. Dean 
+Acheson put the problem in a nutshell 
+when he wrote in 1945: 
+"We cannot go through another 
+depression like the Thirties without far­
+reaching consequences for our eco­
+nomic and social system. The problem 
+is one of markets. We can' t consume 
+everything we produce without chang­
+ing our fundamental social structure." 
+As if in confirmation, headlines in 
+Business Week summarized the preva­
+lent business view in early 1946: "U.S. 
+Drive to Stop Communism Abroad 
+Means Heavy Financial Outlays for 
+Bases, Relief, Reconstruction. But in 
+Return, American Business is Bound 
+to Get New Markets Abroad. " 
+An " international Communist con­
+spiracy" helped justify efforts to keep 
+the "free world" open to U .S. exports. 
+It also justified a permanent arms race, 
+which meant lucrative cost-plus con­
+tracts for two-thirds of the fifty largest 
+corporations. 
+Secrecy has helped sustain that proc­
+ess by narrowing the circle of decision­
+makers. The most basic · decisions 
+about the development and deploy­
+ment of new weapons systems have 
+THE PROGRESSIVE I 19 
+
+===== PAGE 22 =====
+been made by a select few. One of 
+them, Herbert Y ark, now a critic of the 
+process, points out that fewer than 100 
+scientists and political leaders made the 
+fateful H-bomb decision. The General 
+Advisory Committee of the Atomic 
+Energy Commission had felt that the 
+H-bomb question was "so filled with 
+serious implications" that it should be 
+decided only as part of broad national 
+policy, and that much of the informa­
+tion needed for a judgment could and 
+should be made public. But the Com­
+mittee's deliberations were never 
+opened to the public. No arms control 
+advocates were present for its debates 
+because none had received the neces­
+sary Government clearance. 
+The mystique of secrecy also has 
+allowed the atomic weapons establish­
+ment to conceal the consequences of its 
+decisions. The test of a large atomic 
+bomb in Nevada in April 1953 led to 
+unexpected radioactive fallout as far 
+east as New York state and to the in­
+gestion of high levels of radioactive 
+iodine by children in southern Utah. 
+Despite knowledge of these dangersȰ 
+Government scientists withheld the 
+facts and ridiculed the concerns of local 
+residents. 
+In a similar fashion, the mystique of 
+secrecy has allowed the Government 
+to withhold information on the safety 
+hazards of nuclear power, an offshoot 
+of its secret weapons program. And the 
+technological connections between 
+nuclear power and nuclear weapons 
+have been consistently shielded from 
+public view. The mystique of secrecy 
+has thus deprived Americans of infor­
+mation and perspectives which would 
+seriously have undermined public con­
+sent to the arms race, the Cold War, 
+and related domestic policies. 
+· In the domestic arena, the atomic 
+secrecy mystique intensified the Cold 
+War mentality of political repression. 
+Alan Barth, an editorial writer for The 
+Washington Post, observed percep­
+tively in 1949: 
+' ' The myth of monopoly im­
+measurably aggravated our sense of 
+vulnerability and insecurity. It created 
+something worse than a 'Maginot 
+Line' complex. It made us feel some­
+what as though we were a community 
+hidden away in some remote mountain 
+fastness approachable only through a 
+secret pass, and thus immune to attack 
+20 
+· NOVEMBER 1 (}79 
+so long as the location of the pass could 
+be kept hidden from strangers. As a 
+result, all strangers seemed to be dan­
+gerous enemies. Even members of the 
+community were potential enemies, 
+those who know the location of the 
+pass most of all, since through treason 
+or indiscretion they might reveal the 
+secret." 
+Within such a psychological climate, 
+the Soviet A-bomb test that broke the 
+American monopoly in September 
+1949 - years before it was expected 
+by political leaders, if not by scientists 
+- along with the arrest of Klaus 
+Fuchs, a British scientist who admitted 
+'Lifting the veU 
+•
+•
+•
+ Is aol aa ead 
+·Ia Itself' 
+passing atomic information to the Rus­
+sians, helped foster an obsessive con­
+cern with secrecy. Although the value 
+of Fuchs's contribution to the Soviet 
+atomic weapons program was ques­
+tionable, his case helped reinforce the 
+popular notion that atomic secrets are 
+embodied in a mysterious formula that 
+am be scribbled on pieces of paper and 
+quickly converted into weapons of 
+mass destruction. 
+The trial, conviction, and execution, 
+some years later, of "atom spies" 
+Ethel and Julius Rosenberg, also ac­
+cused of passing atomic secrets, drove 
+such anxieties deep into the conscious­
+ness of millions of Americans. 
+Public fears of treachery and treason 
+were easily played upo'l to foster hys­
+terical intolerance of those whose 
+ideologies questioned the social order. 
+The political formulations of Senator 
+Joseph McCarthy were rooted in the 
+early policies of the Atomic Energy 
+Commission. 
+T
+oday, the secrecy mystique con­
+tinues to limit the civil liberties of 
+those who would challenge U.S. 
+nuclear policy. Throughout its case 
+against The Progressive, and in subse­
+quent threats to investigate scientists 
+who aided the magazine in its effort to 
+publish "The H-Bomb Secret," the 
+Government has jeopardized those 
+liberties anew in its impassioned 
+defense of the doctrine of "restricted 
+data." 
+The success of the United States, the 
+Soviet Union, China, Britain, and 
+France in crossing the thermonuclear 
+threshold made it clear that the data 
+were not really restricted from those 
+with the will and capacity to make H­
+bombs. As Howard Morland's article 
+demonstrates, the principal barrier to 
+the development of thermonuclear 
+weapons is not ignorance of a secret 
+but the lack of the necesary scientific 
+and industrial capacity. Had the mys­
+tique of secrecy not beclouded the 
+public's understanding of that elemen­
+tary fact, no judge could have held that 
+any article - no matter how accurate 
+or detailed - would give Idi Amin the 
+H-bomb. 
+If there is no secret, and if the 
+Department of Energy knew that, why 
+did the Government assert the op­
+posite so strenuously? Perhaps it is 
+because the secrecy myth serves to sus­
+tain the notion that the key to prevent­
+ing nuclear weapons proliferation is 
+keeping a "secret" out of the hands of 
+other nations. And that notion serves 
+to disguise the fact that our Govern­
+ment is the real nuclear proliferator. 
+W h e n  P r e s i d e n t  Eisenhower 
+broached his "Atoms for Peace" plan 
+in 1953, the Government hoped to 
+market more than 3,000 nuclear reac­
+tors by the end of the century. This 
+goal has been scaled down, but nuclear 
+technology exports are continuing to 
+boom. There are now more · than 200 
+reactors around the globe, most of 
+them American, and each produces 
+about 500 pounds of plutonium -
+enough to make about twenty-five 
+atomic bombs. 
+Lifting the veil of secrecy from the 
+nuclear weapons program would show 
+how the notion of atomic secrecy has 
+been manipulated since the beginning 
+of the nuclear age to chill public debate. 
+But lifting the wraps from the policy of 
+secrecy and the interests it serves is not 
+an end in itself. It is no more than an 
+essential first step in the search for an 
+alternative to the arms race as a basis 
+for U.S. prosperity and security. A 
+basic ingredient of that alternative 
+must be the redistribution of economic 
+resources and economic power. 
+• 
+
+===== PAGE 23 =====
+The other 
+aac:lear weapons c:lab 
+How the H-bomb amateurs did their thing 
+SUDael B. Day Jr. 
+L
+ast winter, as it was preparing to 
+take The Progressive to court to 
+suppress "secret/restricted data" 
+about the hydrogen bomb, the United 
+States Government chose to ignore the 
+fact that the same material had just ap­
+peared in much greater detail in a polit­
+ical magazine written for a technical 
+readership specializing in the science 
+which underlies the design of thermo­
+nuclear weapons. 
+The lawyers and experts who de­
+fended our right to publish "The H­
+Bomb Secret" 
+are still legally re­
+strained from saying whether they 
+complained about the Government's 
+double standard and what they tried to 
+do about lt. But the painstaking efforts 
+of others to bring the material to light 
+eventually forced abandonment of the 
+case. 
+The secrecy rules laid down by Judge 
+Robert W. Warren last March, at the 
+insistence of the Government, made it 
+impossible for participants in the case 
+to draw public attention to "The Secret 
+of Laser Fusion,' '  an unsigned article 
+in the March issue of Fusion magazine, 
+published and distributed unbe­
+knownst to us before publication of 
+Howard Morland's article for 
+The 
+Progressive was blocked on March 9. 
+The editors of Fusion, oblivious to 
+our plan to publish Morland's article in 
+our April issue and to the Govern­
+ment's plan to prevent it, had drawn 
+provocative attention to their own arti­
+cle in an editorial "Note to the 
+Reader": 
+"We fully expect that with the ap-
+Samuel H. Day Jr. is managing editor 
+of The Progressive. 
+pearance of this issue of Fusion maga­
+zine, 
+Energy Secretary J ames 
+Schlesinger and his staf will begin cir­
+culating the story - if not attempting 
+legal prosecution - that the informa­
+tion in 'The Secret of Laser Fusion' is 
+classified. Therefore, we want to make 
+it clear that this article is based on in­
+formation made public by the Soviet 
+Union and readily available in Soviet 
+and other international scientific cir­
+cles, as well as upon information con­
+tained in a scientific paper published by 
+Bernhard Riemann in 1 859." 
+Rather than prosecute Fusion, 
+S,chlesinger chose to suppress 
+The 
+Progressive, whose author, by coinci­
+dence, had selected some of the same 
+"secret/restricted" material to make 
+the same point that information of this 
+sort is readily available to people who 
+know how to look for it. 
+The three scientific concepts 
+specified by the Department of Energy 
+as "secret" were set forth by Morland 
+in layman's terms and by Fusion in 
+more technical language. 
+Although there was no way for 
+others to know what the Department 
+of Energy found objectionable in the 
+Morland article, the relevance of the 
+Fusion article to the case gradually 
+became apparent to a few outsiders. 
+The first to make the connection was 
+a Milwaukee Sentinel reporter, Joe 
+Manning. Hoping to duplicate Mor­
+land's feat, he wrote an explanation of 
+the workings of the hydrogen bomb af­
+ter spending a week reading library 
+sources, one of which was the Fusion 
+article. Manning' s condensation of 
+"The Secret of Laser Fusion" was re­
+markably close to the pertinent Mor-
+land descriptions. His speculative link­
+ing of the two gave a helpful clue to 
+other amateurs in pursuit of the H­
+bomb "secret. " 
+Another hint came with the filing of 
+a "friend-of-the-court" brief by the 
+Fusion Energy Society, publishers of 
+Fusion. In arguing that the principles of 
+thermonuclear weaponry are already 
+well known (though classified in the 
+United States) , the brief repeated the 
+substance of the Fusion article and 
+thereby spread on the open court 
+record a virtual paraphrase of what the 
+court was holding in secret. 
+By this time, the Department of 
+Energy was putting out unintentional 
+hints of its own. 
+In the earliest days of the case, three 
+A r gonne N a t i o n a l  Laboratory 
+physicists, 
+Alex DeVolpi, Gerald 
+Marsh, and George Stanford 
+(our 
+scientific advisers for the Morland arti­
+cle) , filed a "friends-of-the-court" af­
+fidavit documenting public sources 
+from which design principles for the H­
+bomb could be learned. A fourth 
+Argonne scientist, Theodore Postol, 
+also an adviser, submitted two defense 
+affidavits in the same vein. 
+Under the secrecy rules of the case, 
+the Department of Energy had an op­
+portunity to censor all materials. In the 
+case of the Argonne scientists, the De­
+partment let several helpful references 
+slip through, 
+the most valuable of 
+which was a ten-year-old Encyclopedia 
+Americana article by Edward Teller, 
+father of the hydrogen bomb. Dia­
+grams accompanying the Teller article 
+explicitly detail the H-bomb's unusual 
+configuration. 
+At 
+about 
+the 
+same 
+time, 
+the 
+THE PROGRESSIVE I 21 
+
+===== PAGE 24 =====
+Government submitted an affidavit by 
+a nuclear weapons design consultant, 
+Jack Rosengren, depicting Morland's 
+design as not just an ordinary H- bomb 
+(as the author had described it) but as a 
+representation of the most efficient 
+weapon in the U.S. stockpile. This af­
+fidavit, too, escaped censorship. 
+The 
+Argonne scientists 
+reasoned 
+that a careful investigator could con­
+clude from this that the Government 
+had accidentally identified Teller's en­
+cyclopedia diagrams (which them­
+selves had never been cleared for 
+security) as the key to the design of the 
+most efficient H-bomb. 
+Iricensed by what they regarded as 
+security breaches by the Government 
+itself, they spelled this all out in a letter 
+to Senator John Glenn of Ohio, chair­
+man of a Senate subcommittee that 
+oversees national security matters. The 
+scientists asked the Senator to in­
+vestigate the Department of Energy. 
+The Department responded, a month 
+later, by classifying their letter. 
+Glenn and another subcommittee 
+member, Senator C harles Percy of Il­
+linois, had already tangled with the De­
+partment of Energy on another matter 
+involving The Progressive case. Seek­
+ing evidence to bolster the magazine's 
+contention that H-bomb design infor­
+mation is 
+readily available, 
+an in­
+vestigator for the American Civil 
+Liberties Union, Dmitri Rotow (him­
+self an amateur nuclear weapons de­
+signer) , visited the Los Alamos Scien­
+tific Laboratory public library and 
+pulled from the open shelf a highly sen­
+sitive and highly technical H-bomb re­
+port, UCRL-4725. The Department 
+promptly closed the library and re­
+classified the report and an equally sen­
+s i t i v e  c o m p a n i o n  d o c u m e n t , 
+UCRL-5280. 
+Glenn and Percy both expressed 
+amazement. The Government later 
+admitted in court that the two docu­
+ments would have been as valuable to 
+an H-bomb designer as anything in the 
+Morland article. 
+A 
+mong those who followed these 
+developments with an eagle eye 
+was Charles Hansen, a Califor­
+nia nuclear weapons hobbyist. Hansen, 
+a Palo Alto computer programmer, 
+had spent five years writing a book 
+about nuclear weapons. Fascinated by 
+22 I NOVEM B E R  1979 
+the case and enthusiastic in his support 
+of the magazine's cause, he quickly be­
+came a sidewalk superintendent, or­
+chestrating his 
+own 
+campaign 
+of 
+harassment against the Department of 
+Energy. 
+Enlisting the support of his Con­
+gressman, 
+Representative Pete Mc­
+Closkey, Hansen bombarded Depart­
+ment of Energy officialdom with letters 
+challenging their conduct of the case. 
+Throughout the spring he drove the 
+Department's chief classification 
+officer, John Griffin, to distraction by 
+organizing an "H-bomb design con­
+test. ' '  The first entry to be classified by 
+Griffin would be the automatic winner. 
+(The Department threatened to refer 
+the matter to the FBI.) But Hansen's 
+heaviest ammunition was still to come. 
+Before the Department of Energy 
+declared the Argonne scientists' letter 
+to Senator Glenn to be "secret/re­
+stricted data, " 
+Hansen already had 
+moved into high gear. He had secured 
+a copy from one of the half-dozen 
+sources to whom the scientists had sent 
+copies, made copies of his own, and 
+mailed them around the country. One 
+of the recipients, the student-run Daily 
+Californian at Berkeley, defied a De­
+partment of Energy warning and 
+printed the text of the letter. Six other 
+college newspapers later followed suit. 
+Proliferation of the forbidden 
+Argonne letter re-ignited Senator Per­
+cy's interest in the case. Toward the 
+end of the summer an aide contacted 
+Hansen and asked to be kept informed. 
+That was 
+all 
+the 
+encouragement 
+Hansen needed. 
+Within days, 
+eighteen pages of 
+single-spaced type were on their way to 
+Senator Percy. For openers, Hansen 
+drew up a bill of particulars against 
+three Government weapons experts ­
+Edward Teller, George RatQjens of the 
+Massachusetts Institute of Technology, 
+and Theodore Taylor of Princeton -
+saying they, not The Progressive, 
+should be charged with spilling nuclear 
+secrets. But the meat of the letter was 
+in what Hansen called "a brief histo­
+ry . . .  of some of the theoretical ideas 
+which led to the concepts now at issue 
+in The Progressive case. " 
+The " brief history" consisted of a 
+puzzle into which Hansen had carefully 
+fitted pieces from Fusion magazine, the 
+"amicus curiae" brief of the Fusion 
+A11EN1iON SA'RW'x'A'R'D I 
+?toEA 'DiST?ECiA'Rt> M'r' 
+'PREVtOVS ANNOUNCEMENT 
+A'BOUf 'rtf! SK't) FALLiNG ! 
+t-, r - _ .  
+(--;._:-:&-
+Sanders, Milwaukee Journal 
+
+===== PAGE 25 =====
+Energy Society, the Teller diagram, 
+and the Rosengren affidavit. For good 
+measure, he included a diagram drawn 
+with the aid of a tuna fish can and some 
+jar lids. 
+Hansen thoughtfully mailed copies 
+to a half-dozen newspapers - and to 
+the Department of Energy. 
+On August 30, his home-town 
+newspaper, The Peninsula Times-Tri­
+bune of Palo Alto, printed a story 
+about his charges, reproducing the 
+crude diagram he had provided but 
+making no effort to decipher his 
+physics. 
+Other newspapers -
+The 
+Oakland Tribune, The San Jose Mer-
+Publication of Hansen's letter by 
+The Press Connection in Madison, 
+Wisconsin, the following day, coupled 
+with a threat by the Chicago Tribune to 
+do the same unless taken to court, en­
+sured the final triumph of the H-bomb 
+amateurs. 
+On Monday, September 1 7, 
+the 
+Justice Department announced it was 
+abandoning its case against The 
+Progressive. 
+.. orland's purpose in writing the 
+%$· article, and The Progressive's 
+purpose in publishing it, was to 
+dispel the secrecy mystique that pro-
+'Tell Boward I'm sorry 
+U I spoiled it for him' 
+cury News, The Milwaukee Sentinel, 
+and The Wall Street Journal - sat 
+back and wondered whether they had a 
+story. 
+At the Daily Californian, editor 
+Tom Abate and his staff also won­
+dered. They had their answer a few 
+days later when, on September 12, 
+word came that the Hansen letter -
+like the one they printed three months 
+earlier - had just been classified "se­
+cret/restricted data. " 
+On the same day, a Milwaukee nu­
+clear weapons hobbyist, Jerry Fass, in­
+terviewed by the Sentinel's Joe Man­
+ning. checked in with another success­
+ful description of the H-bomb "se­
+.cret, '' but already the fat was in the 
+fire. 
+For a few hectic days the Depart­
+ment of Energy scurried from news­
+paper to newspaper, attempting to re­
+trieve its "secret." But by then it was 
+too late. Already the Hansen letter was 
+multiplying -
+as were the con­
+sequences. Unsure of the Daily 
+Californian's intentions, the Depart­
+ment rushed into Federal court in San 
+Francisco on Saturday evening, Sep­
+tember 1 5, to secure an injunction 
+against the student newspaper. Before 
+the ink was even dry the presses were 
+preparing to roll 2,000 miles away. 
+tects and nourishes the nuclear weap­
+ons program. The weapons, not the 
+" secrets, " were the prime target. 
+Demonstrating that hydrogen bomb 
+design information could be readily ob­
+tained from public sources, and then 
+revealing and commenting on it, was 
+for us.a means to an end. We wanted to 
+raise the level of public consciousness 
+about America's continuing prepara­
+tions for nuclear war. 
+Few 
+of the 
+H-bomb amateurs 
+shared all those assumptions, but their 
+collective efforts helped make our 
+point about the H-bomb secret. 
+The contribution of the Fusion 
+Energy Society toward cracking the 
+Government's case was rich in irony. 
+There could be few groups more 
+ideologically distant from The Pro­
+gressive or more fundamentally at 
+home with Pentagon notions of "na­
+tional security." 
+To the society and to the editors of 
+Fusion magazine, the problem was not 
+with the H-bombs themselves but with 
+secrecy as a mechanism for protecting 
+and strengthening the nation's tech­
+nological lead in H-bombs and other 
+forms of modern weaponry. Not only 
+is secrecy self-defeating in this regard, 
+they argued, but it also retards the na­
+tion's general scientific-industrial prog-
+ress, notably in fusion energy, which is 
+the society's pet project. 
+Thus, by spilling "The Secret of 
+Laser Fusion' ' in an article spiced with 
+thermonuclear fusion concepts they 
+knew to be "secret/restricted data," 
+the Fusion editors hoped to challenge 
+the Department of Energy's classifica­
+tion program. The article, drawn main­
+ly from the international literature 
+(some of it 1 20 years old) , focused 
+tantalizingly and explicitly on the same 
+supposed secrets that were to be at 
+issue in the Morland article. 
+When the Government ignored Fu­
+sion's published report and concen­
+trated instead on suppression of Mor­
+land's unpublished article, the maga­
+zine concluded there was a conspiracy 
+between The Progressive and the De­
+partment of Energy to set up an easy 
+test case that would establish the 
+Government's right to suppres scien­
+tific research and industrial develop­
+ment in the field of fusion energy. (In 
+the Fusion Energy Society's view, we 
+and Energy Secretary Schlesinger were 
+in the same despised environmentalist, 
+anti-technology camp.) 
+Denied a test case of its own, the Fu­
+sion Energy Society jumped into The 
+Progressive case in hopes of upsetting 
+the "conspiracy" by ensuring a victory 
+for The Progressive, not the Govern­
+ment. The society's unsolicited 
+"friend-of-the-court" brief, filed in 
+the open record and loaded with "se­
+cret/restricted data'' culled from scien­
+tific journals, was a loaded cannon 
+pointed at the Government's case. 
+For all their paranoid overtones, the 
+Fusion Energy Society's article and 
+brief were persuasive indictments of 
+the irrationality of the Government's 
+classification program and of the 
+Government' s heavy-handed influ­
+ence on freedom of scientific inquiry 
+and freedom of the press. These were 
+considerations which also weighed 
+heavily with other H-bomb amateurs. 
+None of the four Argonne scientists 
+shared The Progressive's conviction 
+that publication of the Morland article 
+would serve a useful purpose. (Most of 
+them counseled vigorously against 
+publication because they thought Mor­
+land's science was sloppy and his politi­
+cal point dubious.) But the Govern­
+ment's act of suppression made them 
+defenders of our right to publish it. 
+THE PROGRESSIVE I 23 
+
+===== PAGE 26 =====
+'Ya goHa have a note from yer mother' 
+For scientists at Argonne and at the 
+Lawrence Livermore Laboratory who 
+had read the Morland article and knew 
+its publication would be harmless to 
+the national interest, it was easy to sup­
+port publication on First Amendment 
+grounds. And they did so with ded­
+icated energy. Their prestige as nuclear 
+weapons experts blunted the Govern­
+ment's allegations that national 
+security had 
+been endangered and 
+made the First Amendment fight a 
+safer one for others who were unwill­
+ing to take The Progressive's claims on 
+faith. 
+The blunders of the Department of 
+Energy - the closing of a public library 
+and the attempted suppression of 
+citizens' letters to their Senators to 
+cover its own mistakes -
+vastly 
+weakened the Government' s case. 
+Such mistakes demonstrated the ab­
+surdities of the classification program 
+and lent credibility to our argument 
+24 
+NOVEM BER 1979 
+that the Morland material was already 
+in the public domain. But the Depart­
+ment' s bizarre behavior also distorted 
+the issues of the case by suggesting that 
+the answer to the problem lay in more 
+secrecy, rather than less. If there was 
+any lesson Senators Glenn and Percy 
+seemed to draw from the case, it was 
+that. 
+II' s a secret 
+The following footnote from a de­
+fendants' brief in The Progressive 
+case was at first censored by the 
+Government and subsequently 
+released for public filing in the 
+court record: 
+"All electromagnetic radiation 
+travels at the speed of light. Any 
+particulate matter must travel at 
+less than the speed of light. " 
+Ashley, Toledo Blade 
+W
+ill the publication of the Mor­
+land article strengthen the First 
+Amendment by demonstrating 
+that it can be exercised, albeit at great 
+cost, even in so highly sensitized an 
+area as H-bomb secrecy? Will the ex­
+ercise of the right accomplish its in­
+tended purpose of emboldening others 
+to look more closely at the H-bomb? 
+The answers will come later. But first 
+there had to be an answer to the ques­
+tion of the H-bomb secret. It was pro­
+vided by the H-bomb amateurs: 
+There is no secret. 
+What hope there may be that human 
+sanity will yet prevail is best reflected 
+by a message from one amateur to 
+another telephoned to The Progressive 
+on the night the Government dropped 
+its case. 
+"Tell Howard I'm sorry if l spoiled it 
+for hi m , "  said a jubilant Chuck 
+Hansen. "A nd tell him that it wasn' t 
+my best effort. ' '  
+• 
+
+===== PAGE 27 =====
+REFLECTIONS 
+A nation beset 
+by coafasioa · aad fear 
+Boa McCrea 
+0 n September 1 6, The Madison 
+Press Connection published a 
+letter from a citizen to a Senator 
+which contained a general discussion of 
+the design and dynamics of the hy­
+drogen bomb entirely drawn from 
+public sources. The writer's purpose 
+was to underscore the U.S. Govern­
+ment' s untenable posture in The 
+Progressive case and to argue for a ra­
+tional 
+revision of the clasification 
+policy of the Atomic Energy Act, a law 
+written in the era of nuclear monopoly 
+and unsuited to today's need for open 
+discussion of a runaway technology. 
+The purpose of The Press Connec­
+tion in publishing the letter was to ad­
+vance the debate and to demonstrate 
+our own conviction as to the rightness 
+and safety of The Progressive's position 
+by putting our very freedom on the 
+line. We also sought to right the rela­
+tions of press to government by 
+challenging the bizarre theory of 
+"retroactive classification" with a sim­
+ple act of publication. 
+Other, larger newspapers were pre­
+pared to make the same challenge. But 
+we were the first. 
+Today, after assesing press and 
+citizen response, I am almost per­
+suaded that it will take an actual 
+nuclear war somewhere in the world to 
+make Americans wake up to the scien­
+tific realities of the 1980s. 
+Even as it took Three Mile Island to 
+explode the myths of safe nuclear 
+energy and expert infallibility and turn 
+mainstream 
+opinion toward energy 
+Ron McCrea is the editor of The 
+Madison (Wisconsin) Press 
+Connection, in which this article 
+appeared in somewhat longer form. 
+alternatives, it seems dismayingly 
+likely that nothing short of a similar 
+"demonstration effect" 
+can shatter 
+American ignorance about the present 
+state of nuclear weapons proliferation 
+and availability. 
+That may be a premature and overly 
+pessimistic asesment on my part, but 
+I have been stunned to find how many 
+Americans, including many American 
+journalists, are still living in the age of 
+nuclear monopoly, secrets, and the 
+Rosenbergs. The world has changed, 
+knowledge of the means of ultimate 
+'This experieace 
+has left as aU 
+shall:iag oar heads' 
+destruction has become universal, yet 
+Americans are cocooned in illusion. 
+The irony is that while the focus of 
+discussion is the containment of 
+nuclear weapons information -
+a 
+futile exercise at this point in history -
+the urgent issue of · containing the 
+spread of nuclear weapons fuels, which 
+are a byproduct of every atomic reactor 
+we export, is largely a matter of public 
+indifference. Not only are we not dis­
+arming (as we pledged to do eleven 
+years ago in the Nonproliferation 
+Treaty) , we are passing out bullets. 
+And yet it is information that Ameri­
+cans perceive as the threat to their 
+security. 
+Unfortunately, because this illusion 
+is so firmly entrenched, even a nuclear 
+war might not bring home the proper 
+point. Numerous Jetter writers have 
+suggested that if the bombs start falling 
+it will be because people like us and 
+The Progressive had the temerity to 
+write about forbidden things. They do 
+not realize that the Original Sin was 
+committed long ago, that the apple has 
+been off the tree for decades, that all 
+the world has eaten of it, arid that a 
+worldwide act of penance - disarma­
+ment - is necesary immediately to 
+redeem humanity from the hellfires of 
+a rapidly impending atomic Judgment 
+Day. 
+A 
+second sad conclusion I have 
+reached is that another modern 
+technology - the technology of 
+mass media and instant information -
+has made Americans Jes, not more, 
+capable of dealing with life-and-death 
+issues of national policy. After thirty 
+years of saturation bombardment by 
+slogans, messages, and thirty-second 
+spots, we have become a nation of 
+headline readers and grabbers-on-the 
+go, almost disabled when it comes to 
+understanding an event that does not 
+fit into easy categories. 
+Thus, for many people around the 
+country, the story has been: (1) A 
+Wisconsin " alternative" newspaper 
+published "secret" designs for the H­
+bomb; (2) The Government dropped 
+its case against The Progressive because 
+the "secret" was out; and (3) The 
+Government is now trying to find who 
+leaked the " secret" and deciding 
+whom to prosecute. 
+As a result of that simple scenario 
+going out across the country as the es-
+THE PROGRESSIVE I 25 
+
+===== PAGE 28 =====
+sence of the story, the backlash against 
+us in the mail (and in some editorials) 
+has been predictably furious. In a way, 
+I regret that The Progressive chose to 
+title its suppressed story "The H-Bomb 
+Secret: How We Got It, Why We're 
+Telling It." That provocative headline, 
+whose irony has been totally lost in 
+press coverage, set the tone for the 
+whole hysterical non-debate that has 
+occurred in the last several months. 
+The magazine's idea was to point up 
+the contradictions about a "secret" 
+that is not a secret at all - but mass 
+media do not deal in contradictions. 
+They deal in simple categories and op­
+positions - good guys and bad guys, 
+patriots and 
+traitors, secrets and 
+stoolies. 
+I halfway suspect that if The 
+Progressive had simply gone ahead and 
+published Morland's article with some 
+homely title like "A Citizen's Guide to 
+the H-bomb" or "Everything You 
+Wanted to Know About the H-bomb 
+(But Were Afraid to Ask)," the whole 
+flap might have evaporated. 
+The homely headlines would not 
+have expressed The Progressive's 
+challenge to the nuclear establishment, 
+which was, of course, the point, and 
+it' s 
+probably true that James 
+Schlesinger and Griffin Bell, living in 
+their barricaded worlds, would have 
+taken action anyway. 
+But pushing the button of "We've 
+Got a Secret" almost guaranteed that 
+the public discussion would spin out 
+into fantasyland. Modem media have 
+destroyed literacy and stripped us of 
+subtlety. 
+W third paradox is that The Press 
+.Ia Connection is bearing the brunt 
+of the public's vast bittƃrness 
+and cynicism toward the corporate 
+media. 
+Letter after letter accuses us of play­
+ing fast and loose with national security 
+in order to work an angle . . .  to milk 
+publicity for dollars and readers . . .  to 
+sensationalize a grave issue for our 
+own gain. Most painfully to me, they 
+say: You probably did it because you 
+had nothing much to lose. 
+I might add that not only do readers 
+and viewers assume this; virtually ev­
+ery news reporter who came into The 
+Press Connection for interviews about 
+the Hansen letter did also. Inevitably, 
+26 l NOVEMBER 1979 
+there was the question about how we 
+expected the fortunes of The Press 
+Connection to be affected by all the 
+publicity. Some were blunt enough to 
+ask directly whether our motive wasn't 
+strictly commercial. 
+This experience has left us all shak­
+ing our heads. The country is so cyni­
+cal, and the press so jaded itself, that 
+no one can deal with the idea anymore 
+that anyone might do something out of 
+simple conviction. 
+I tried to explain again and again that 
+no one risks a twenty-year prison term 
+for publicity, that the publicity was not 
+something we had asked for or en-
+free press has become most critical in 
+explaining and furthering these move­
+ments, trust in that press is about at its 
+nadir. 
+Even more ironically, press treat­
+ment of a story like ours shows just 
+how well placed that mistrust is. 
+II y last observation is about 
+liberals and conservatives. In a 
+curious way, some of the most 
+clear-eyed understanding of the action 
+of The Press Connection and of the 
+issue of nuclear secrecy has come from 
+conservatives. The only major newspa-
+'The liberal Washiagtoa Post 
+. . .  automatically accepted the 
+official llae oa aaclear secrecy. • 
+• 
+• 
+, 
+joyed, that people on the staff were 
+close to breaking down because of the 
+pressures of trying to produce a news­
+paper in the middle of a media zoo. 
+I told them they were wrong to think 
+that because we were small and 
+strapped we had nothing much to Jose; 
+we had everything to lose, and we were 
+closer to the brink of losing it than, say, 
+the Chicago Tribune, which had an­
+nounced plans to publish the Hansen 
+letter and eventually did so. 
+No one seemed especially con­
+vinced, and I read in this attitude and 
+the attitude of our letter writers the 
+most profound threat of all. 
+If the performance of the media has 
+so jaded and embittered Americans as 
+to believe, as they seem to, that the 
+press will go so far as to sell out the 
+country for private gain and hide 
+behind the First Amendment, then the 
+time is not far away when a govern­
+ment that wishes to restrict the press 
+severely will be able to do so with sub­
+stantial popular support. 
+The cry of "Too much democracy! "  
+is being heard more and more these 
+days, especially as grass-roots move­
+ments pose serious opposition to 
+nuclear power and the corporate per­
+petration of food, energy, housing, and 
+health-care inflation. Ironically, at the 
+moment when the institution of the 
+per in the country to throw down the 
+gauntlet over the Hansen letter was the 
+Chicago Tribune, long the Mighty 
+Wurlitzer of heartland conservatism. 
+The liberal Washington Post, on the 
+other hand, automatically accepted the 
+official line on nuclear secrecy and has 
+called on the Government to prosecute 
+the editors of The Press Connection to 
+the full extent of the law. 
+This turn of affairs makes me wish 
+we had withheld publication and let the 
+Tribune go forward first. In this simple­
+minded society, the two notions of 
+"Chicago Tribune" and "betrayer of 
+national security" could not have fit 
+together in the same peanut-sized 
+compartment. The contradictions 
+would have exploded and people 
+would have been forced, if not to think 
+twice, then to think at least one-and-a­
+half times about what the hell was 
+really going on. 
+Unfortunately, we were not thinking 
+tactically but rather ethically and 
+professionally on that sunny Saturday 
+afternoon when we decided to publish 
+the harmless letter of a citizen to a 
+Senator. As a result, the attention has 
+been ours, the backlash has been ours, 
+and the terribly sobering realizations 
+about the state of national conscious­
+ness have been ours. 
+Make them yours as well. 
+• 
+
+===== PAGE 29 =====
+TBE WAY TBE PRESS SAW IT 
+Here is a sampling of editorial opinion on the Government's 
+abandonment of its First Amendment suit against The 
+Progressive: 
+We need ao •ore such victories 
+We are deeply concerned by the issue of prior restraint raised 
+by The Progressive case, yet we are left with the disturbing 
+conclusion that, if this was a victory for the First Amend­
+ment, we need no more such victories. Our form of govern­
+ment rests on freedom of information protected by the First 
+Amendment. Our national security is vital. The missing in­
+gredient in the dispute was a lack of wisdom and re­
+sponsibility in invoking these claims. 
+- Los A ngeles Times 
+Dispel the cloud 
+The Government's decision to drop its Federal court action 
+against The Progressive leaves unsullied the Warren deci­
+sion . . . .  Warren's drastic ruling was taken without requiring 
+the Government to prove an overriding danger to the nation 
+was involved in an article that was put together from material 
+in the public domain. The public and the press are now left 
+with the Warren ruling. It hangs over the Bill of Rights like a 
+dark cloud. If it is left unchallenged it will remain as a danger­
+ous precedent for future assaults on our constitutional 
+freedoms. 
+- The Capital Times, Madison, Wisconsin 
+The world will aot cruJDble 
+Now that the "secret" is out, the Government says it will 
+drop its suit against The Progressive. Good. The suit should 
+never have been filed. The story is scheduled to be printed in 
+the November Progressive. The world will not crumble. But 
+perhaps some bureaucrats should. 
+- Kenosha (Wisconsin) News 
+Celebration Is premature 
+Victory celebrations on the most important issue in the case 
+- prior restraint of the press - are premature. The Govern­
+ment . . . has not given up its claim of the right to invoke 
+censorship of the publication of supposedly classified infor-
+mation which might violate laws such as the Atomic Energy 
+Act . . . . The fact is that Government attorneys, in this case 
+at least, insisted that supporting information for their argu­
+ments had to be kept secret. This kind of situation places 
+those with the authority to invoke secrecy without justifica­
+tion in possession of power that is potentially more danger­
+ous than a hydrogen bomb. . . . Unless the press challenges 
+the Government under present conditions, censorship can 
+be invoked under the flimsiest pretenses and for purposes 
+that have little or nothing to do with national security or the 
+dissemination of secrets. 
+- Milwaukee Sentinel 
+The act should be rewriHea 
+The Atomic Energy Act, which tries to make information 
+about nuclear power the exclusive possession of a priesthood 
+of bureaucrats and scientists, should be rewritten, not in­
+voked. The act has been used to keep Americans from mak­
+ing informed decisions about nuclear power and weap­
+onry. . . . The Progressive case should spur the Government 
+to come up with new procedures to give the public the nu-
+Morin, The Miami Herald 
+THE PROGRESSIVE I 27 
+
+===== PAGE 30 =====
+clear information it needs, while denying our enemies the in­
+formation they want. 
+- Chicago Sun- Times 
+Tlae Govemm.eal should pi'Osecate 
+The only truly effective way the Government can keep se­
+crets is to keep them. Once they get out, they tend to spread 
+quickly -just as this one was. The only real protections then 
+available against publication of such secrets are the moral 
+constraints felt by those into whose hands they have fallen or 
+the deterring effect of the criminal provisions of the Atomic 
+Energy Act. . . .  In this case, neither was sufficient to prevent 
+publication - the former because too many people thought 
+the Government was carrying secrecy too far and the latter 
+because some people, apparently including the editors of The 
+Press Connection, believe the Government lacks either the 
+will or the ability to prosecute . . . .  While a prosecution of 
+those editors could jeopardize the current classification 
+system and, perhaps, portions of the Atomic Energy Act it­
+self, a decision by the Department of Justice not to prosecute 
+could well turn that act's deterring provisions into a sham. In 
+that event, the Government would be tempted to ignore 
+what it should have learned from this affair about protecting 
+its own secrets and to rely even more on a dangerous system 
+of ineffective prior restraints - which it should in fact aban­
+don. 
+- The Washington Post 
+Uaload dle plstols 
+We congratulate The Progressive and the American Civil 
+Liberties Union for resisting, against the advice even of some 
+customary defenders of a free press. The Government's case 
+simply collapsed when other publications began to print simi­
+lar H-bomb information, found by other amateur students in 
+public sources . .  . . 
+[But] before suffering a technical 
+knockout, the Government had created some pernicious 
+legal theory. Lacking evidence that anyone had stolen H­
+bomb secrets, it claimed the right to suppress all nuclear 
+weapons information on the grounds that it is " born 
+classified" - even if born in the minds of free men. And lest 
+this reading of the law fall, it then proclaimed that "techni­
+cal" informaton - allegedly distinguishable from political 
+ideas - was never entitled to the free speech and press 
+guarantees of the First Amendment. If the courts now avoid 
+ruling on them, these doctrines would lie around, in Justice 
+Jackson's phrase, like loaded pistols. It would be wiser to 
+unload them while they lie within reach. 
+- The New York Times 
+Tlae apec:ter reaaalu latact 
+If the news media are to assert that freedom of the press is 
+absolute, then The Progressive's case was a poor set of facts. 
+Articles about nuclear secrets tend to shift the judicial burden 
+from the Government to prove irreparable harm - where 
+the burden should lie under the Pentagon Papers decision -
+to the media to justify its publication. By the dismissal, bad 
+press law has been avoided. The specter of prior restraint of 
+28 I NOVEMBER 1979 
+HOW TO BUILD AN H-BOMB 
+Conrad. Los Ange/rs Times 
+the media, which is what the First Amendment is all about, 
+remains intact. 
+- Wisconsin State Journal, Madison 
+A polat weD made 
+The real issue is not the need for censorship but the need to 
+get rid of annihilative weapons. By publishing the Hansen let­
+ter, The Press Connection helped to make that point and to 
+uphold freedom of the press. 
+- St. Louis Post-Dispatch 
+A threat to our freedom 
+The threat of proliferation, this assault on the First Amend­
+ment reminds us, lies not just in the physical destruction that 
+may someday occur from the spread ofweapons technology, 
+but in the police state psychology that develops as Govern­
+ment strives to "protect" us from accidents, disasters, or 
+terrorism. In a world dominated both by the arms race and 
+by the growing attachment to nuclear power, the threat to 
+our freedom is as great, or greater, than the threat to our 
+security; and that may be the most important lesson The 
+Progressive has forced on us. 
+- Detroit Free Press 
+Precious IIHie lusdflcalloa 
+There is precious little justification for publishing data con­
+cerning U.S. weaponry which could seriously harm this 
+country. The right to publish does not necessarily extend to 
+
+===== PAGE 31 =====
+everything that is not specifically prohibited by the Govern­
+ment. There should be some room for editorial responsibility 
+in the offices of the news media as well. 
+- Toledo Blade 
+Ceuonldp Is aol lbe aaswer 
+If governments built nuclear weapons simply because they 
+know how, nations with those weapons would include 
+Canada, West Germany, Japan, Sweden, and almost cer­
+tainly others, in addition to nations that have built them for 
+motives involving security and prestige. Proliferation of the 
+information in question has been under way for a genera­
+tion . . . .  The responsibility of governments in possession of 
+nuclear weapons is to negotiate and implement serious steps 
+toward getting rid of them. Pretending that this requirement, 
+the most essential one the world is confronting, can be par­
+tially satisfied by censorship is an evasion of that respon­
+sibility. 
+- The Ann Arbor News 
+& daagerou optloa III opea 
+We'd have preferred to win this case on the basis of a 
+thorough airing in court and a judicial determination that the 
+Government has no business trying to prohibit publication of 
+material it had allowed to slip into the public domain over the 
+years. The time to have protected these H-bomb "secrets" 
+was long ago, by keeping a tighter rein on what the Govern­
+ment itself and its scientists made public. We would have 
+liked for a court to have said so. By backing down now with­
+out a trial, the Government can leave open its option to try 
+again at a time when the facts don't interfere so much with its 
+effort. 
+- Chicago Tribune 
+&a oa .. ated act 
+The information needed to build an atomic bomb - 1É po­
+tent than a hydrogen bomb but still immensely powerful -
+has long been, for all practical purposes, a matter of public 
+~;,.-. 
+The Progressive •avulae ceaterfold 
+D.B. Johnson 
+record. It can be argued that once a country has acquired the 
+A-bomb, the damage is done. We would not argue that there 
+are no secrets the press should not publish. But the Atomic 
+Energy Act, which actually labels some information 
+"classified at birth, " may be outdated and in need of amend­
+ment. 
+- The Seattle Times 
+Eacaplav a terrlltle Hlltack 
+We see the outcome as mainly an avoidance of a terrible 
+precedent that would enlarge the Government's power to 
+engage in secrecy (both justified and unjustified) , impair the 
+ability of the press to disseminate information and reduce the 
+public's defense against 
+government by deceit of the 
+governed .
+•
+.
+.
+ Thus, the Government's abandonment of its 
+case against The Progressive is no ocasion for crowing about 
+a great new breakthrough for freedom of the prÉ. but it is 
+cause for journalists and other citizens alike to breathe a sigh 
+of relief that a dangerous restriction on freedom has ben 
+avoided. 
+- Milwaukee Journal 
+Far froa dear 
+Was the outcome indeed a "clear-cut victory" for the Amer­
+ican public? Have the people no vital interest apart from idle 
+curiosity about how thermonuclear bombs are made? If you 
+believe the Government's contention - not yet decisively 
+rebutted by the magazine or its apologists - that certain of 
+Morland's disclosures might accelerate the proliferation of 
+H-bombs, then you must accept that the public's safety, 
+security, 
+and 
+tranquility were 
+also at 
+issue. 
+National 
+"security" can be a slippery justification . . .  but the abuse of 
+the security argument. does not render it invariably un­
+sound. . . .  It .
+. . is far from clear that we need extensive 
+technical information on H-bombs to debate policies involv­
+ing their posible use. 
+- The Washington Star 
+TM aay Jdi Awlna  
+While Idi Amin has ben removed from the roster of ter­
+rorist effectives . . .  there are still far too many of his ilk . . . .  
+Because . . .  this is the political and criminal reality of today, 
+we return to the basic question of the propriety of the 
+publication of thermonuclear how-to-do-it manuals. The 
+possibility . . .  is that of terrorists armed with small nuclear 
+weapons holding entire communities hostage on threat of 
+catastrophe. 
+- The San Francisco Chronicle 
+Tbe real qaestloa 
+The real question is Government secrecy and whether the 
+people have the right to know not only about the bomb but 
+about the technology and economy that support it and the 
+dangers thereof. Our congratulations to The Press Connec­
+tion and The Progressive. Only through the bold action of a 
+few will the constitutional rights of all Americans be pro­
+tected. 
+- The Portland (Oregon) Observer 
+THE PROGRESSIVE I 29 
+
+===== PAGE 32 =====
+LETTERS ON TBE B·BOMB CONTROVERSY 
+Congratulations - and many thanks -
+are in order from journalists across the 
+country for your successful defense of the 
+constitutional freedoms we all eqjoy. Writ­
+ers and editors like yourselves, who are 
+willing to take chances and do battle in the 
+legal trenches, are the lifeblood of a con­
+tinuing free press in the United States. 
+We at Harrisburg understand your 
+problems only too well. Following the 
+publication in August 1978 of our article, 
+" Meltdown: Tomorrow's Disaster at 
+TMI" (see The Progressive, June 1979) , 
+Walter Creitz, then president of 
+Metropolitan Edison Company, wrote 
+Congressman Gus Yatron expressing his 
+concern that an "article of this ilk . . . [a] 
+highly sensationalized and blatantly dis­
+torted scenario involving nuclear safety" 
+could appear in a magazine receiving 
+Federal CET A funding. Congressman 
+Yatron forwarded Creitz's complaint to 
+the Department of Labor, which subse­
+quently declared us ineligible to receive 
+CET A funds. This decision is still under 
+appeal. 
+No matter that Creitz and Yatron 
+bypassed the prescribed procedures for 
+challenging a CET A grant; no matter that 
+only seven months later Three Mile Island 
+Unit 2 was spewing radiation into the 
+central Pennsylvania atmosphere; no mat­
+ter that the lack of plllnning for such a con­
+tingency - detailed in the article - sud­
+denly became a horrible reality; the 
+nuclear industry, backed up by the 
+Government, was attempting to stifle the 
+truth. 
+We're looking forward to the publica­
+tion of Howard Morland's story. Keep up 
+the good work. 
+Ed Perrone 
+Harrisburg Magazine 
+Harrisburg, Pennsylvania 
+You may think you have the right to print 
+articles about the H-bomb, how to put one 
+30 I NOVEMBER 1979 
+-
+-
+together, etc., but you do not have the 
+right to do so. 
+I ask you to apologize to Almighty God 
+about this sin and that you become Chris­
+tian. If you don't stop publishing about the 
+H-bomb or any other bomb, you can face 
+arrest. If you are a member of the Com­
+munist Party, there is a law against this 
+party since June 23, 1978. 
+Mary Elizabeth Humphrey Williams 
+Grand Rapids, Michigan 
+Of course you should not enjoy such liber­
+ty as to publish the article on the secrets in 
+the U.S. nuclear weapons program. 
+But then, let's do away with U.S.-type 
+democracy first. 
+Alfons Ertelt 
+Monterey Park, California 
+The staff and administration of the Kevin 
+Davis Private Library wish to extend our 
+congratulations to you and your staff upon 
+the publishing of the controversial H­
+bomb article. 
+Our library is dedicated to the infusion 
+and defusion of United States history 
+through scholarly research. We believe 
+your article adds to the annals of American 
+judicial history. For this reason, we would 
+like a copy of the article for our historical 
+archives. 
+G. Kevin Davis 
+Winfield, Jllinois 
+Unbelievable! I am a graduate of the 
+University of Wisconsin and a strong ad­
+vocate of third-consciousness idealism, 
+honesty, and a better world. Yet I could 
+not fathom the rationale behind the pur­
+suit of a cause at the expense of your ac­
+tions. I am all for freedom of the press, but 
+not for possible world destruction, which 
+your article will expedite. Haven't we 
+learned anything from history? There have 
+always been the Hitlers of this world, who 
+will use such tools to meet the ends of 
+'Be reaDy weal to llae Ubruy for boks oa how lo make 
+aa B·bomb . . .  bal llaey were all checked oar 
+Stayska/, Chicago Tribune 
+
+===== PAGE 33 =====
+their crazy, power-hungry, and irrational 
+goals. Thanks to you, you've helped that 
+possibility along. 
+You now probably gloat over your 
+achievement. Was it worth it? Morale of 
+the masses already hangs low from the 
+cloud of doom that hangs over their heads. 
+Many would like to see such weapons gone 
+entirely. 
+You remind me of my younger days, 
+when radical yet unripened youth thronged 
+the streets, riding their white chargers and 
+playing hero for a day with little wisdom to 
+back up their causes. A fight for a cause is 
+good, but again I say at what expense? 
+You fight for freedom but at the same time 
+limit my freedom from fear of a World 
+War III. 
+Congratulations! I feel sadder and more 
+depressed now than I ever have. 
+Cristi Currie 
+West Bend, Wisconsin 
+Congratulation, celebration, jubilation! 
+The Progressive has given a great witness 
+by hanging in there. We are all the better 
+for your conscience and courage. 
+Marjorie Murphy 
+Saxtons River, Vermont 
+Congratulations to all of you upon the vin­
+dication of your great fight for principles of 
+'So mach for a ao-hiHer' 
+Herblock, The Washington Post 
+peace, freedom, justice, and the people's 
+right to know what their Government is 
+doing about nuclear weapons. Principles 
+must not be lost sight of if a nation is to 
+survive in dignity. 
+I couldn't be prouder of The Progressive 
+than I am. You not only have won your 
+own cause but have also helped the weak­
+kneed to get to their feet and fight on. I'd 
+think that those who wrote letters saying 
+The Progressive shouldn't have printed the 
+article ought to reassess their viewpoint, to 
+put it mildly. 
+Betty Daland 
+Milton, Wisconsin 
+Congratulations and best wishes to The 
+Progressive, staf, and friends. It is nice to 
+win one. Hang in there. 
+Stanley Hamilton 
+Sebring, Florida 
+I am impelled to share with you the excite­
+ment I felt when my eye fell on a headline 
+in our Denton Record-Chronicle: "Media 
+Cheer End of H-bomb Litigation.'' Prob­
+ably the Justice Department is relieved to 
+have an "out" to drop its suit against you. 
+Mrs. J.M. Logue 
+Denton, Texas 
+I have yet to be convinced of a reasonable 
+explanation as to why an article on the 
+making of an atomic bomb should be 
+published. On a subject such as this, 
+doesn't my "right" to know seem a little 
+ludicrous? The matter has already been 
+settled that this information could be of 
+use mostly to leading countries such as In­
+dia and Israel who posess the wherewithal 
+to make the device. 
+· 
+With that in mind, one cannot convince 
+me that these countries could possibly 
+glean any new knowledge from a magazine 
+article. These countries already possess top 
+scientists who surely know all there is to 
+know. 
+I am sure I am like a majority of Ameri­
+cans who understand nothing in this highly 
+technical data. Maybe I'm terribly naive, 
+but I go back to my original question: Why 
+would The Progressive wish, in the first 
+place, to print such data? 
+Mary Davis 
+Valencia, California 
+As one who rushed to subscribe to your 
+magazine after hearing of the prior re­
+straint placed against you, Jet me not only 
+congratulate you on the withdrawal of the 
+censorship suit against you but also sub­
+scribe to an additional year's worth of good 
+reading. 
+I only regret that the case did not go to 
+trial (and inevitable appeal to the Supreme 
+Court) where a definitive decision against 
+THE PROGRESSIVE I 31 
+
+===== PAGE 34 =====
+prior restraint and censorship in general 
+would have helped to ensure that our press 
+remains free. As it is, prior restraint has 
+been invoked for six months and upheld 
+by a higher court (in that the appeals court 
+didn't instantly overturn Judge Warren) . 
+The threat that censorship will again be im­
+posed at a later date remains. Please file 
+suit against the Justice Department on the 
+basis that your constitutional rights under 
+the First Amendment were violated. Ask 
+for S l  in punitive damages (to establish the 
+guilt of the Government and clearly define 
+that prior restraint is unconstitutional) and 
+for compensatory damages in an amount 
+great enough to cover your legal costs and 
+other expenses incurred in defending 
+yourself against an illegal action. This 
+should make the Justice Department think 
+twice about future actions of this type. 
+Keep up the good work. 
+Taylor Jarnagh 
+Bemidji, Minnesota 
+Congratulations on the U.S. Govern­
+ment's decision to drop its case. The 
+American people owe you a debt for your 
+valiant fight for freedom of the press. 
+Those who claimed that this case could 
+result in a court decision upholding the 
+G overnment lacked not only your 
+courage, but also your insight into the 
+heart of the issue: If you are afraid to fight 
+for freedom of the press, then you've al­
+ready lost it. 
+Dick Bauer 
+Somerville, Massachusetts 
+No human being, whether as a Govern­
+ment official or in some other position to 
+exercise control, should ever have more 
+than the most necessary minimum of 
+authority over other human beings. My 
+whole life, its actions and observations, 
+testify for me to the significance of Lord 
+Acton's "Power corrupts . . . .  " 
+No matter what the further develop­
+ments, you have succeeded. You have 
+made a contribution of exceeding value. 
+Wanda Lamade 
+Twenty-nine Palms, California 
+The U.S. Government has done you a 
+great service by giving your voice an influ­
+ence beyond your wildest dreams. The 
+least you can do for them is to expand your 
+inquiry into the many skeletons that are 
+still in their closets - to do anything less 
+would be a disservice to humanity! 
+It would be interesting to know how 
+many times the "Born Secret" classifica­
+tion has been used. Around the time that 
+you were in the headlines, a small item was 
+carried by one of the network newscasts 
+about two inventors whose idea for a voice 
+scrambler for CB had just been declared 
+32 I NOVEMBER 1 979 
+"secret" by Uncle Sam. And ifl recall cor­
+rectly, this same fate befell a physics pro­
+fessor a number of years ago; he made 
+some independent theoretical calculations 
+involving laser energy and its possible use 
+as a trigger for fusion power. 
+John Campbell 
+San Jose, Costa Rica 
+There are many good newsmen in the 
+country and there are also the kind that 
+· would do anything to get a story - even to 
+the extent of posibly betraying their own 
+country. 
+Are you really so well informed that you 
+are positive your additional hydrogen 
+bomb disclosure won't aid a foreign coun­
+try? 
+Also, have you set yourself up as a self­
+. appointed censor or "uncensor" in op­
+position to what our Government leader­
+ship recommends? 
+Your kind disgusts me and also scares 
+the hell out of me. 
+Fred C. Morse Jr. 
+A us tin, Texas 
+You call this a First Amendment victory 
+over Federal censors. I call it irresponsible 
+journalism. In all likelihood you have 
+given birth to some hotshot backyard 
+bomber and we'll all be destroyed. 
+Ann McLin 
+New Orleans, Louisiana 
+Congratulations. A victory in the courts 
+would have been sweeter, but a victory is a 
+victory. Even though the Atomic Energy 
+Act still stands, I don't see how the 
+Government will be able to sustain a 
+Wright. Tlw Milwaukee Sentinel 
+prosecution under it in the future. If there 
+is a lesson to be learned from all this (there 
+are many lessons, but this one hasn't been 
+emphasized enough) it is that we owe a 
+great debt to the radical and alternative 
+press - publications like yours and The 
+Press Connection - that have had the 
+courage to say the emperor has no clothes. 
+Robert Friedman 
+New York, New York 
+Two billion dollars, give or take a few 
+million, might get you a neat family-size 
+H-bomb, if you shop around a bit. That in­
+cludes the hardware, raw materials, proc­
+essing, and a copy of The Progressive (or a 
+good high-school physics bok). 
+So, man, was I scared today! Not scared 
+about sensible, steady fellers in the 
+Kremlin and the White House, such as the 
+late Stalin and Nixon, of course. but about 
+some dirty foreign refugee nuts right here 
+in Marin County who maybe read that 
+Progressive rag and squeeze Oak Ridge 
+maybe into the laundry room of the base­
+ment. 
+Glenn B. Meagher 
+Fairfax, California 
+Congratulations on your victory and that 
+of decent American people and the free 
+people of the world. 
+Now I can sleep better, eat better, and 
+work harder to infuse in my students the 
+great spirit of The Progressive, which is 
+also the moving force of America as you 
+and I know it. 
+Tran Van Dinh 
+Philadelphia, Pennsylvania 
+
+===== PAGE 35 =====
+A postscript 
+Boward Morlaad 
+I 
+hope the world recovers from the 
+invention of radio and television. 
+When radio was new, Hitler and 
+Roosevelt used it to mesmerize their 
+respective nations with frenzied 
+speeches and cozy fireside chats. Its 
+modern variant, television, gives a 
+handful of newscasters the power to tell 
+200 million Americans what happened 
+in the course of every day, and few 
+people question their judgment about 
+what was important enough to tell. 
+Although I can hardly stand to watch 
+television myself, I understand that 
+most citizens are so fond of the dancing 
+colored lights on the cathode-ray tube 
+that they can hardly take an idea, per­
+son, or event seriously unles it has 
+been covered by the electronic picture 
+medium. When I tell my friends that I 
+have an overriding concern about the 
+imminence of thermonuclear war, they 
+think I'm living in the past 
+Years have gone by since any "talk­
+ing heads" on the CBS Evening News 
+have expressed such a concern. Walter 
+Cronkite has hardly mentioned nuclear 
+warfare since the Cuban missiles went 
+back to Russia, and he doesn't seem a 
+bit worried about the fact that three 
+officers on any one of our thirty-one 
+Poseidon submarines can start a 
+nuclear war on their own A real 
+danger doesn't become a matter of 
+general concern until Cronkite and his 
+colleagues announce it and describe it 
+in their deadpan, fatherly manner. 
+And so, for some years now, I have 
+nurtured a television fantasy. In my 
+fantasy the network news producers 
+suddenly rediscover the Balance of 
+Terror and shock the nation with word 
+that human civilization has no future 
+unles that future includes nuclear dis­
+armament Sometimes I include a role 
+for myself in the scenario. Walter 
+Cronkite reads the news script: 
+"A young free-lance journalist 
+revealed today that years ago leaders of 
+the United States and the Soviet Union 
+engaged the civilian populations of 
+both nations in a mutual suicide pact. 
+CBS News has learned that, according 
+to the provisions of the pact, a single 
+act of madnes or a simple miscalcula­
+tion on either side could result in 200 
+million deaths and the complete 
+destruction of each nation's industrial 
+capacity, as well as radioactive con­
+tamination of most agricultural lands. 
+Such destruction could take place at 
+any time without warning, and be ac­
+complished within hours.'' 
+The CBS camera slowly zooms in on 
+Walter Cronkite's serious, 
+every­
+thing's-going-to-be-all-right face as he 
+explains that a Presidential commission 
+has ben appointed to investigate the 
+startling allegations, but we should not 
+waste time waiting for the result Every 
+American should immediately refuse 
+to pay war taxes, publicly renounce the 
+use of nuclear weapons, and demand 
+the conversion of war industries to 
+civilian purposes. 
+As they say in New York, "It'll 
+never happen. " Any situation we have 
+lived with for years is not newsworthy, 
+and anything as profitable as the 
+nuclear arms race is too important to 
+make the Evening News. 
+But something almost as improbable 
+did happen last March. An anti-nuclear 
+guerrilla theatre stunt I had worked on 
+for a year came to fruition. By penetrat­
+ing the nation's most glamorous 
+nuclear "secret," I accomplished 
+something many people thought was 
+impossible, and my name became part 
+of the national news. My attorney was 
+besieged with calls from newscasters 
+and talk-show hosts. I appeared several 
+times on national television. For a cou­
+ple of weeks it seemed the whole world 
+wanted to know how I had learned the 
+H-bomb secret and why I wanted to 
+tell it 
+It was flattering suddenly to be taken 
+seriously by strangers - especially by 
+famous strangers whose opinions are 
+trusted by millions of Americans. 
+Many of the interviewers were hostile 
+at first, but their attitude only pointed 
+up the paradox that a magazine which 
+advocates nuclear disarmament was 
+trying to publish an article by an anti­
+nuclear activist - an article revealing 
+"the H-bomb secret." 
+My own objective was merely to 
+strip the mystery away from nuclear 
+weaponry. I hoped that demystification 
+of the Bomb would have a therapeutic 
+effect on America's foreign and eco­
+nomic policies. It was a motive too 
+subtle and too convoluted to be 
+believed, and I soon gave up trying to 
+explain it Instead I tried, whenever 
+possible, to make simpler statements 
+in favor of nuclear disarmament, most 
+of which were edited out of my re­
+ported comments. I managed to slip a 
+few purely symbolic messages past the 
+news censors - my basically honest 
+face to show that I'm a nice guy, and a 
+picture of a nuclear weapon with my 
+shoe sitting on top to show the relative 
+THE PROGRESSIVE I 33 
+
+===== PAGE 36 =====
+size - and to convey my visceral con­
+tempt for the Bomb. The intended 
+message was that nice guys don' t like 
+nukes. 
+I 
+did not set out to prove that the H­
+bomb secret was already public 
+knowledge. I set out to prove that 
+H-bombs are real - that they have 
+size and shape. The secrecy that keeps 
+them out of sight and mind does not 
+remove them from our lives. They are 
+not· score-points in a basketball game 
+between the superpowers; they are in­
+dustrial products. I would rather have 
+relied on a real H-bomb or a set of 
+official blueprints for my description, 
+and the fact that I used publicly availa­
+ble sources and my own imagination 
+diminishes the impact of my account 
+by reducing its credibility and robbing 
+it of concrete detail. 
+It was not surprising that the con­
+troversy quickly focused on peripheral 
+issues - the Government's power to 
+restrain the pres, the sources of my in­
+formation, how the Government got 
+advance word that The Progressive in-
+· 
+tended to publish my story, whether its 
+publication would provide ldi Amin 
+with an H-bomb. 
+The real issue was ignored. It was ig­
+nored for the same reason that none of 
+the recent feature films about Vietnam 
+has made a serious effort to portray the 
+Vietnamese honestly. If the story of the 
+Vietnam war were told from the Viet­
+namese point of view, it would say too 
+much about our leaders that the finan­
+cial backers of feature flms don't want 
+to know, and don't want us to know. If 
+the story of the H-bomb is told without 
+censorship, w e  cannot avoid 
+acknowledging that the blame for the 
+arms race lies with our own govern­
+ment, not with the Russians. America 
+started it, and America bears the pri­
+mary responsibility for perpetuating it. 
+That fact is too true and too close to 
+home to be news. 
+Thus, the real censorship in The 
+Progressive's H-bomb secrecy case was 
+not the deletion of technical informa­
+tion from my article; it was the long­
+s tanding voluntary censorship, 
+especially in the electronic media, 
+which makes it necesary to stage a 
+sideshow in order to call passing atten­
+tion to the most serious crisis our 
+civilization has ever faced. 
+34 I NOVEMBER 1979 
+Patcbwol'k •JSua 
+The publication of the H-bomb arti­
+cle in this issue of The Progressive is 
+certainly a victory for free spech. It is 
+certainly a blow to the mentality em­
+bodied in the secrecy provision of the 
+Atomic Energy Act But there has been 
+no detectable impact on the mad mo­
+mentum of the nuclear arms race. The 
+SALT II debate hinges on the irrele­
+vant presence of a few thousand Rus­
+sians in Cuba. No one even talks about 
+getting rid of the Bomb. 
+Though I have experienced the per­
+sonal frustration of trying to capitalize 
+on a fleeting notoriety in order to raise 
+a substantive issue, the effort has pro­
+duced some positive effects. We are 
+EnKtlhordt, St. Louis Post-Dispatch 
+miles ahead of where we were six 
+months ago, and the peace movement 
+has acquired some of the credibility 
+that has traditionally ben reserved for 
+the Edward Tellers of this world. Ban­
+the-bomb people are 
+increasingly 
+refusing to take a back seat to ban-the­
+reactor people in the anti-nuclear 
+movement. 
+If we keep struggling, 
+some day we may actually hear Walter 
+Cronkite announce a reduction in the 
+number of nuclear weapons. And it 
+may eventually become a "realistic" 
+position to advocate total withdrawal 
+(as in the case of Vietnam) from the 
+suicide pact inherent in the world's 
+nuclear arsenals. 
+• 
+
+===== PAGE 37 =====
+Pressure genera red by radiation - not 
+the direct force of radiation pressure 
+- is the key to the design of the 
+hydrogen bomb. That somewhat 
+esoteric distinction has apparently 
+been the focal point of in camera 
+hearings and court filings in the case 
+of The United Stares vs. The Progres­
+sive, 
+the 
+prior 
+restraint case 
+that 
+delayed 
+publication of my article, 
+"The H-Bomb Secret," for 
+more 
+than six months. 
+In my description last month of 
+how the H-bomb works, I stated that 
+the physical pressure of radiation re­
+Oe..:ted off the inside wall of the bomb 
+casing compresses 
+the fusion fuel 
+package directly. 
+That statement 
+omits an important intermediate step: 
+X- rays from the fission bomb that 
+serves as the H-bomb trigger are ab­
+sorbed by an exotic, high density 
+polystyrene-type foam. The foam is 
+transformed into a highly energized 
+plasma 
+which 
+explodes and 
+com­
+presses the fusion fuel package. 
+Exploding styrofoam is thus an im­
+portant element in the H- bomb 
+detonation sequence which is entirely 
+missing from my account. My account 
+incorrectly attributes the compression 
+effect to radiation pressure. 
+In the diagrams accompanying my 
+article, I showed an empty space be­
+tween the carrot-shaped fusion fuel 
+package and the bomb casing that sur­
+rounds it. That empty space should be 
+filled with hard foam material that ex­
+plodes when it absorbs x-rays, as 
+shown here. 
+This information was released for 
+public filing on September 24, when a 
+Government brief authorized the 
+restoration of certain passages that 
+had been previously deleted from the 
+public version of the August 3 1  brief 
+of defendants Erwin Knoll, Samuel 
+H. Day Jr. , and myself. 
+The pertinent passages, on Page 4 7 ,  
+are as follows: " Essentially, the x-rays 
+produce a plasma of energized matter 
+which 
+pushes 
+on 
+the fusion 
+fuel 
+tamper in much the same way that 
+boiling water produces steam which 
+pushes on the blades of a turbine. But 
+Morland's discussion of the role of 
+radiation coupling in the compression 
+of fusion fuel is as inaccurate as if he 
+said that boiling water turns the blades 
+of a turbine -
+he leaves out the 
+Errata 
+steam . . . .  Morland·î discussiOn of 
+the role of radiation prcswrc is entire­
+ly incorrect. . . .  
+" 
+Even t hough the quotation is from 
+the defendants' own legal brief, none 
+of the defendants had seen that state­
+ment before September 24. A wall of 
+<;ccrecy separates the defendants and 
+their attorneys. The defendants' at­
+torneys 
+were 
+obliged 
+to 
+obtain 
+security clearances in order to read 
+the secret documents the Govern­
+ment was showing to the judge. The 
+defendants 
+refused 
+to apply for 
+security clearances on the grounds 
+that a security clearance is a secrecy 
+agreement which would interfere with 
+the defendants' ability to write about 
+nuclear matters in the future. Tnus 
+the defendants have been informed of 
+such discussions about the technical 
+deficiencies of the article only after 
+the censor has approved. 
+The Government had no obligation 
+to show any secret documents to the 
+judge. The introduction into the court 
+record of technical information that 
+( í' I Y7Y. Howard Morland 1 
+was not included in my article was in­
+itiated by the Government for reasons 
+that are still not clear. 
+It seriously 
+hampered the defense, which may 
+have been part of the reason it was 
+done, and it ultimately resulted in the 
+disclosure of more information that 
+the Government is supposedly trying 
+to keep secret. 
+In addition to the matter of explod-
+ing styrofoam, 
+there are probably 
+technical errors in my description of 
+the fusion fuel capsule of the second-
+ary system. It probably does not con-
+tain any tritium, but it probably does 
+contain, at the center, a one- or two­
+inch diameter rod of highly enriched 
+uranium or plutonium running its 
+length. That rod of fissionable materi-
+al is compressed to supercriticality as 
+the fusion fuel capsule surrounding it 
+is compressed in on i t  by the explod-
+ing styrofoam. It then becomes the 
+second A-bomb trigger which is often 
+mentioned but incorrectly described. 
+It heats the fusion fuel capsule from. 
+the inside while the styrofoam com­
+presses 
+it from 
+· the outside. 
+The 
+Uranium-238 which contributes up to 
+90 per cent of the total explosive 
+energy of the bomb is probably not lo­
+cated in the bomb casing, but- rather is 
+probably confined to the casing of·tbe 
+fusion fuel capsule, where its fissiolf'·  ­
+by high energy neutrons can further 
+add to the heat and pressure which 
+promote fusion. 
+Finally, the fusion fuel inside the 
+plutonium core of the primary system 
+is probably a mixture of tritium and 
+deuterium gas under high pressure. 
+The whole affair illustrates that the 
+secrecy 
+provisions of the 
+Atomic 
+Energy Act are unenforceable, in ad­
+dition to being an unwarranted inter­
+ference with the First Amendment 
+rights to unfettered public discourse. 
+When the Government tries to sup­
+press discussion of i nformation that is 
+in the public domain, at the very least 
+it must confirm the accuracy of the in­
+formation it is trying to suppress. 
+Furthermore, if this case is typical, 
+the Government will eventually re­
+veal publicly more of its "secrets" 
+than are already out if it attempts to 
+take private citizens to court in order 
+to silence them. 
+Howard Morland 
+THE PROGRESSIVE I 35 
+
+===== PAGE 38 =====
+TBE LAST WORD 
+Bonanza 
+Boa Carbon 
+L 
+ast March, shortly after the 
+Government of the United States 
+went to court to muzzle The Pro­
+gressive, a syndicated columnist who 
+shall remain nameless here suggested 
+that our magazine had "goaded and 
+provoked" the Department of Energy 
+into trampling on the First Amend­
+ment so that we could reap a "bonanza 
+of publicity. " It was all, he implied, a 
+get-rich-quick scheme The Progressive 
+had cooked up. 
+We didn' t know whether to laugh or 
+cry - and we had no time to do either. 
+The telephones started ringing right 
+away. Reporters all over the country 
+picked up on the idea that we were get­
+ting rich, and naturally they thought it 
+was a good story. 
+So let me tell you how rich we got, 
+and are still getting. 
+Like most political publications, The 
+Progressive is no stranger to financial 
+adversity. It was founded in 1909, and 
+in these last seventy years it has ex­
+perienced two kinds of times - hard 
+times and terribly hard times. Right 
+now it is experiencing desperate times. 
+Defending the First Amendment has 
+already cost us more than $200,000 -
+and the end is not yet in sight. 
+I joined the staff of The Progressive 
+six years ago, and in those six years the 
+magazine incurred a total of about 
+$ 1,000 in legal costs - an average of 
+$ 165 a year. Except in the most extra­
+ordinary circumstances, 
+The Pro­
+gressive's attorney and chairman of the 
+board, Gordon Sinykin, had never 
+sent us a bill for his legal services - or 
+Ron Carbon is the publisher of 
+The Progressive. 
+36 I NOVEMBER 1979 
+for any other services rendered in his 
+forty-year association wih the maga­
+zine. 
+But an unprecedented First Amend­
+ment case is a most extraordinary cir­
+cumstance, and the distinguished law 
+firm of LaFollette, Sinykin, Anderson, 
+and Munson was in no position to tie 
+up most of its time and talent on a pro 
+bono basis. Even at substantially re­
+duced rates, the legal fees have been 
+formidable. 
+The A merican Civil Liberties 
+Union, which took on the defense of 
+Editor Erwin Knoll and Managing Edi­
+tor Sam Day, charges no legal fees, of 
+course. But the ACLU has financial 
+problems of its own, and out-of-pocket 
+costs - for travel, telephone, printing, 
+and the like - must be reimbursed. 
+In 
+April 
+1978, 
+our travel 
+costs 
+amounted to . . .  zero. 
+Nobody went 
+anywhere. In April 1979, by contrast, 
+our travel expenses for the month 
+came to $4,909. How did we do it? It 
+was easy. Confronted with the need to 
+collect scientific affidavits in support of 
+our position as quickly as possible, I left 
+Madison at 7:30 one Monday morning 
+and flew to Milwaukee, then to San 
+Francisco, drove first to Berkeley, then 
+to Stanford, back to San Francisco, 
+flew down to Los Angeles, drove out 
+to Riverside and back to Los Angeles, 
+flew on to Denver, to Minneapolis, 
+and finally home to Madison - arriv­
+ing at 9: 15 Tuesday evening. Others 
+made similarly frantic - and expen­
+sive - journeys. 
+What does the plus side of the ledger 
+show? Well, circulation has grown ­
+by about 700 subscribers. The problem 
+is that for six months we had neither 
+the time nor the money to pursue our 
+usual subscription promotion program, 
+which under ordinary circumstances 
+would have produced 3,000 or 4,000 
+new subscribers. 
+It is true that we have received a few 
+subscription orders that might not have 
+come in were it not for the First 
+Amendment case. Perhaps a dozen or 
+two reporters entered subscriptions af­
+ter covering the case. And Teri Terry 
+tells me that both the Department of 
+Energy and the FBI have ordered sub­
+scriptions. 
+I could tell you how close we have 
+come on several recent occasions to 
+missing the month-end payroll, or how 
+adept I've become at stalling irate cred­
+itors. 
+But I'd rather tell you, 
+inste;d, 
+about the evening a few weeks ago 
+when several of us had dinner to­
+gether, a block from the magazine's 
+office, and how the waitress, when she 
+brought our check, asked us to con­
+tribute her tip to The Progressive's Le­
+gal Defense Fund. 
+What else can I tell you? That we are 
+living out of suitcases, drinking too 
+much coffee, not seeing enough of our 
+families, smoking too many cigarettes. 
+If that were all it costs to defend the 
+First Amendment, we' d have no 
+problem; we could afford to pay for 
+months or years, if necessary. But it 
+costs money, too - lots ofmoney. The 
+Progressive is $ 125,000 in debt right 
+now, and the figure will surely grow 
+larger before it begins to diminish. So 
+what good is your $ 10 or $25 contribu­
+tion? 
+Well, right now, as you read this last 
+page of the November issue, you are 
+one 
+reader among approximately 
+40,000 subscribers, 
+all of whom 
+presumably care a great deal about 
+such issues as nuclear secrecy, 
+the 
+danger of the arms race, and the state 
+of the First Amendment. So it's simple 
+arithmetic: If you and every one of 
+your fellow subscribers were to send 
+just $20, we could afford to defend the 
+whole Bill of Rights. 
+But, of course, not everyone will 
+send a check. A small number of peo­
+ple will. Please be one of that small 
+number. Soon. 
+• 
+
+===== PAGE 39 =====
+Afterthoughts-March '81 
+As the cover suggests, this reprint 
+contains all of the material on "The 
+H-Bomb Secret" published in The 
+Progressive's November 1979 issue, 
+exactly as it appeared there, along 
+with a brief follow-up piece by Ho­
+ward Morland, published in the De­
+cember 1979 issue, which corrects a 
+few technical errors that appeared 
+in his now famous article. 
+Although our supply of Novem­
+ber 1979 issues is depleted, we still 
+have copies of the May 1979 issue, 
+. which contains much useful material 
+on the background of The Pro­
+gressive's First Amendment case. 
+Of particular interest are two arti­
+cles describing the way most of the 
+scientific community-and much of 
+the nation's press-responded to 
+the Government's unprecedented 
+attempt at censorship. 
+The extremely heavy volume of 
+special orders we have received in­
+dicates that many high school his­
+tory, government, civics, and social 
+studies classes, as well as college and 
+university courses in journalism , 
+mass communications, political 
+science , and law, are studying The 
+Progressive Case and the implica­
+tions it holds for the First Amend­
+ment. Please feel free to write to us 
+about this reprint and copies of the 
+May 1979 issue in quantity for class­
+room use. 
+More than two years after the 
+Government went into court to pre­
+vent 
+publication 
+of 
+Howard 
+Morland's article, two questions are 
+still frequently posed to us: Wha:t 
+was the effect of the legal case on 
+The Progressive, its circulation , its 
+finances? And, knowing what we 
+know,would we do it again? 
+The answer to the first question 
+remains essentially what it was in 
+November 1979-see my "Bonan­
+za" piece from that issue in this re­
+print. Our legal defense of the right 
+to publish ultimately cost us almost 
+$250,Ęa huge sum for The Pro­
+gressive-and two years later we still 
+owe $55,00 of it, gradually reduc­
+ing our indebtedness with the help 
+of contributions from subscribers 
+and other devoted friends of the 
+First Amendment. (Our attempt to 
+recover legal costs from the Govern­
+ment was rebuffed by the same 
+judge who initially restrained us 
+from publishing.) 
+The Progressive's circulation has 
+increased modestly in the last cou­
+ple of years, but that is probably at­
+tributable less to the H-bomb case 
+than to widespread concern about 
+the Reagan Administration and 
+what its policies portend for the fu­
+ture of the country. (And, if you've 
+read the "Bonanza" piece , I'm 
+afraid I 'd have to check the circula­
+tion files to tell you whether the FBI 
+or the Department of Energy re­
+newed their subscriptions; we 
+haven't worried much about it.) 
+When we are asked whether we 
+would do it all again, our reply is un­
+hesitating and unequivocal: Abso­
+lutely. We never believed we had 
+any choice but to resist with all our 
+means a totally unconstitutional, il­
+legal , and irrational attempt at cen­
+sorship. After much reflection , we 
+are more convinced than ever that 
+the Government's claims to secrecy 
+based on considerations of "na­
+tional security" pose a grave threat 
+to democracy. 
+Some of our colleagues in the 
+mass media felt that ours was not a 
+good First Amendment test case, 
+since it involved the emotion­
+charged issue of nuclear secrecy, 
+and since the highest officials of the 
+Federal Government were pre­
+pared to swear-and did swear, to 
+their own subsequent embarrass­
+ment-that publication of Howard 
+Morland's article in The Progressive 
+would injure the United States. But 
+we know there is no such thing as a 
+"good" First Amendment test case: 
+The First Amendment comes under 
+attack only when someone thinks 
+there is an urgent reason for curbing 
+freedom-and it is precisely in those 
+circumstances that the First Amend­
+ment must be upheld. 
+One of our strongest motives for 
+delivering this reprint into your 
+hands-and those of as many other 
+Americans as possible-is to dem­
+onstrate that even a struggling, per­
+petually hard-pressed enterprise 
+like The Progressive can successfully 
+stand up to the mightiest forces in 
+· the Government of the United 
+States when a fundamental issue of 
+freedom is at stake. We believe that 
+attempts to undermine the Bill of 
+Rights are bound to intensify in the 
+months and years ahead. We be­
+lieve it urgently necessary that those 
+attempts be resisted as vigorously as 
+possible, by as many people as pos­
+sible. We hope our experience in 
+successfully defending our right to 
+publish will prove helpful. 
+Ron Carbon, Publisher 

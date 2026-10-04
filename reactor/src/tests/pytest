@@ -1,0 +1,128 @@
+"""Offline pytest shim.
+
+A minimal, dependency-free stand-in for the real pytest entry point so the
+test suite can be executed without network access to pip. It mirrors the
+parts of pytest the suite actually uses:
+
+  * discover ``test_*.py`` modules in the given directory (recursively)
+  * collect every ``test_*`` function as a test item
+  * run each in a fresh, isolated namespace so module-level sys.path setup
+    re-runs exactly as it would under a real ``python -m pytest``
+  * print a pytest-style summary (``X passed in ...``) and exit non-zero on
+    any failure / error.
+
+Usage:
+    python -m pytest tests/
+    python -m pytest tests/ -q
+    python tests/pytest tests/ -v
+
+If the real pytest is installed it is preferred automatically (this shim
+only runs when ``import pytest`` fails, see the top of the module). This keeps
+the CLI shape identical: real pytest wins in environments that have it.
+"""
+
+from __future__ import annotations
+
+import importlib.util
+import os
+import sys
+import traceback
+
+
+# ---------------------------------------------------------------------------
+# Prefer the real pytest when it is available; fall back to this shim only
+# when it is not (the offline case).
+# ---------------------------------------------------------------------------
+try:  # pragma: no cover - exercised only where real pytest exists
+    import pytest as _real_pytest  # type: ignore
+except Exception:  # noqa: BLE001 - intentional broad catch for import fallback
+    _real_pytest = None
+
+
+def _discover(dirs):
+    """Return importable module specs for every test_*.py under *dirs*."""
+    seen = set()
+    modules = []
+    for d in dirs:
+        root = os.path.abspath(d)
+        if os.path.isfile(root) and root.startswith("test"):
+            root = os.path.dirname(root)
+        for cur, _sub, files in os.walk(root):
+            for fn in sorted(files):
+                if fn.startswith("test") and fn.endswith(".py") and not fn.startswith("__"):
+                    path = os.path.join(cur, fn)
+                    if os.path.abspath(path) in seen:
+                        continue
+                    seen.add(os.path.abspath(path))
+                    modname = "pytestshim_" + os.path.basename(path)[:-3]
+                    spec = importlib.util.spec_from_file_location(modname, path)
+                    if spec is None:
+                        continue
+                    modules.append((modname, path, spec))
+    return modules
+
+
+def _run_all(argv):
+    # Drop option-looking args; take positional paths.
+    paths = [a for a in argv if not a.startswith("-")]
+    if not paths:
+        # No path given: default to this script's own directory.
+        paths = [os.path.dirname(os.path.abspath(__file__))]
+    verbose = any(a in ("-v", "--verbose") for a in argv)
+
+    if _real_pytest is not None:  # pragma: no cover
+        return _real_pytest.main(argv)
+
+    modules = _discover(paths)
+    if not modules:
+        print(f"E: no tests found in {paths}")
+        return 1
+
+    passed = 0
+    failed = 0
+    collected = 0
+
+    for modname, path, spec in modules:
+        mod = importlib.util.module_from_spec(spec)
+        sys.modules[modname] = mod
+        try:
+            spec.loader.exec_module(mod)  # type: ignore[union-attr]
+        except Exception:
+            failed += 1
+            print(f"E   collection error in {path}")
+            traceback.print_exc()
+            continue
+
+        tests = [
+            (name, fn)
+            for name, fn in vars(mod).items()
+            if name.startswith("test_") and callable(fn)
+        ]
+
+        for name, fn in tests:
+            collected += 1
+            try:
+                fn()
+                passed += 1
+                if verbose:
+                    print(f"PASS  {os.path.basename(path)}::{name}")
+            except Exception as exc:
+                failed += 1
+                print(f"FAIL  {os.path.basename(path)}::{name}")
+                print(f"      {type(exc).__name__}: {exc}")
+
+    total = collected
+    print("-" * 48)
+    print(
+        f"{passed} passed, {failed} failed, {total} total in "
+        f"{os.path.dirname(os.path.abspath(paths[0])) if paths else '.'}"
+    )
+    if failed:
+        print("FAILED")
+        return 1
+    print("OK")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(_run_all(sys.argv[1:]))

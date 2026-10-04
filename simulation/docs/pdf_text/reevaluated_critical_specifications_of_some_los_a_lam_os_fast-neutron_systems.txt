@@ -1,0 +1,1205 @@
+# Source: Reevaluated Critical Specifications of Some Los A lam os Fast-Neutron Systems.pdf
+# Method: extract_with_pymupdf
+
+===== PAGE 1 =====
+/^ ' 3 ;^
+0.
+■A ^ U B ^
+> A r  i ' ^
+LOS ALAMOS SClENTIFiC LABORATORY 
+University of California
+LOS A L A M O S  
+•  
+NEW M E X I C O
+R eevaluated Critical Specifications 
+o f  S o m e  Los A lam os Fast-Neutron Systems
+UNITED STA'’£S 
+AlC/v.'-C ENERGY CO W W iSSiON  
+CONTRACT W - 7 4 0 5 - E N G  36
+
+===== PAGE 2 =====
+DISCLAIMER 
+ 
+This report was prepared as an account of work sponsored by an 
+agency of the United States Government.  Neither the United States 
+Government nor any agency Thereof, nor any of their employees, 
+makes any warranty, express or implied, or assumes any legal 
+liability or responsibility for the accuracy, completeness, or 
+usefulness of any information, apparatus, product, or process 
+disclosed, or represents that its use would not infringe privately 
+owned rights.  Reference herein to any specific commercial product, 
+process, or service by trade name, trademark, manufacturer, or 
+otherwise does not necessarily constitute or imply its endorsement, 
+recommendation, or favoring by the United States Government or any 
+agency thereof.  The views and opinions of authors expressed herein 
+do not necessarily state or reflect those of the United States 
+Government or any agency thereof. 
+
+===== PAGE 3 =====
+DISCLAIMER 
+ 
+Portions of this document may be illegible in 
+electronic image products.  Images are produced 
+from the best available original document. 
+ 
+
+===== PAGE 4 =====
+Written: 
+June 1969 
+Distributed: 
+September 1969
+LA-4208
+U C -46, CRITICALITY 
+STUDIES 
+TID-4500
+LOS ALAMOS SCIENTIFIC LABORATORY 
+of the 
+University of California
+L OS  A L A M O S  
+•  
+N E W  M E X I C O
+R eevaluated Critical Specifications 
+of S o m e  Los A lam os Fast-Neutron Systems
+by
+G. E. H a n s e n
+H. C. Paxton
+L E G A L  
+N O T I C E
+This report was prepared as aa account of Government sponsored w^rk. Neither the United 
+States, nor the Commission, nor any person acting on bebaU of the Commission:
+A. Makes anywarranty or representation, expressed or implied, with respect to the accu­
+racy, completeness, or usefulness of the information contained in this report, or that the use 
+of any information, apparatus, method, or process disclosed in this report may not infringe 
+privately owned rights; or
+B. Assumes any liabilities with respect to the use of, or for damages resulting from the 
+use of any information, apparatus, method, or process disclosed in this report.
+As used in the above, “ person acting on behalf of the Commission”  includes any em ­
+ployee or contractor of Uie Commission, or employee of such contractor, to the extent that 
+such employee or contractor of the Commission, o r employee of such contractor prepares, 
+dissem inates, o r provides access to, any information pursuant to his employment or contract 
+with the Commission, or his employment with such contractor.
+
+===== PAGE 5 =====
+REEVALUATED CRITICAL SPECIFICATIONS 
+OF SOME LOS ALAMOS FAST-NEUTRON SYSTEMS
+by
+G. E. Hansen and H. C. Paxton
+ABSTRACT
+The desire for more detailed critical specifications of Los Alamos 
+fast-neutron assemblies than was required originally has led to the 
+reevaluation of a number of published critical masses. In each case, there is 
+id e a liz a tio n  to  the appropriate one-dimensional or two-dimensional 
+representation. Minor changes of some published critical specifications result 
+either from improvement of data upon which corrections are based or from 
+more detailed accounting of com ponent dimensions than was originally 
+believed to be justified.
+R easons fo r R eevaluation
+D uring the decade or tw o after critical masses o f Los 
+Alam os fast-neutron system s w ere form ulated, dem ands 
+upon such data as check-points for calculations have 
+becom e m ore stringent. In the early days, simplified 
+one-dim ensional representation was em phasized, and 
+agreem ent o f calculation w ithin a percent or so was 
+considered excellent. N ow , w ith practical com putational 
+techniques for m ultidim ensional system s, and refined 
+cross-section sets, we have been asked for m ore detailed 
+critical specifications than had been previously available. 
+Users o f the M onte Carlo m ethod, in particular, have 
+indicated a preference for uncorrected descriptions o f 
+critical systems.
+A s 
+a 
+re s u lt, we have reexam ined the critical 
+specifications o f a num ber o f fast assemblies th a t have 
+m ost frequently been com pared w ith calculation. In 
+each case, how ever, there has been idealization to the 
+appropriate 
+one- or tw o-dim ensional representation, 
+because correction to such a form  is usually no less 
+certain than a m ore detailed description. The reason for 
+th is  
+c la im  
+is 
+th a t 
+the principal uncertainty of 
+interpreting a critical m easurem ent is associated w ith 
+d im en sio n s th a t are know n little b etter than to  
+fa b ric a tio n  tolerances, w hich im plies a significant 
+uncertainty o f effective density.
+C orrections o f the first few critical masses are treated
+in sufficient detail to illustrate m ethods o f handling and 
+the resulting m agnitudes. One purpose is to support the 
+claim th a t these corrections do n o t necessarily im ply a 
+loss o f accuracy. A nother purpose is to explain m inor 
+changes o f some critical mass values th at have been 
+published. ‘ In brief, m ost o f these changes result either 
+from  im provem ent o f data upon w hich corrections are 
+based, or from  m ore detailed accounting o f dim ensions 
+than was originally believed to be justified.
+Bare U(94) Critical Mass from  Subcritical M easurem ent
+C e rta in  subcritical experim ents have established 
+critical conditions as precisely as can be done w ith the 
+m ore versatile critical assemblies. The requirem ent is 
+t h a t  
+i t  
+b e  
+p o s s ib le  
+to  
+e x tr a p o la te  
+fro m  
+a 
+h ig h -m u ltip lic a tio n  assembly (say, M >  
+100) to 
+criticality while m aintaining a well-defined geom etry. 
+U ncertainties introduced by the extrapolation m ay be 
+no greater than those associated w ith corrections for 
+control perturbations, sample cavities, etc., w hich are 
+custom ary in assemblies designed for critical operation. 
+Spheres, in particular, are usually perturbed less w hen 
+intended for subcritical m easurem ents than w hen used as 
+critical assemblies.
+The Bare Assembly. One o f the better m easurem ents 
+o f this sort was w ith a split-hem isphere assembly similar
+
+===== PAGE 6 =====
+in appearance to  th at o f Fig. 1.^ The objective was to 
+establish the critical mass o f U (94) for dim ensioning the 
+w ell-known Lady Godiva. The upper set o f nesting 
+U (94) hem ispheres was supported by a diaphragm  o f
+O.OlS-in.-thick stainless steel, and the low er set rested on 
+a thin-w all alum inum  cylinder. By rem ote control, the 
+low er stack o f hem ispheres was raised to contact the 
+diaphragm  for each m easurem ent o f the m ultiplication 
+o f neutrons from  a small near-central source. Observed 
+linearity betw een reciprocal m ultiplication and sphere 
+radius guided the extrapolation to  criticality; duplicate 
+m e a s u re m e n ts  w ith a second diaphragm  betw een 
+h e m is p h e re s  
+p ro v id e d  
+a 
+m e a n s  
+o f  c o rre c tin g  
+m ultiplication values to zero separation o f the uranium  
+halves.
+N
+6.8553 in. diam
+6.5047
+6.4982
+6.1043
+4.9557
+4.9456
+0.83
+0.084 kg U(93.26)
+9 .4 2 6  kg U(93.90)
+17.0 65 kg U(93.95) 
+7.438 kg U(93,58) 
+7.574 kg U(93.89)
+Fig.
+1. A Planet-machine setup with plutonium 
+hemispheres in U(93) shells. The stainless-steel 
+diaphragm supporting the upper part o f the 
+subcritical assembly is 0.0l5-in. thick.
+The idealized final configuration, for w hich the 
+m ultiplication was 143 (corrected to  193 for zero gap), 
+is represented in Fig. 2. The indicated masses are for 
+shell pairs, and the m aterial density, 18.806 ± 0.008 
+g /cm ^, is the average m easured by liquid im m ersion for 
+some o f these shells and a num ber o f similarly fabricated 
+parts. Because masses and density are know n m ore 
+precisely than shell thicknesses, the radii show n were 
+adjusted about nom inal values to give proper shell 
+v o lu m e s . 
+T h e  
+e x tra p o la tio n  to  criticality (w ith 
+diaphragm  rem oved) is the equivalent o f adding to  the 
+outside o f the configuration o f Fig. 2 a close-fitting 
+0.74-kg shell o f U (93.86) at the average sphere density,
+18.66 g/cm ^, for a total o f 52.33 kg.
+C orrections. C orrection for a defect in the m odel 
+w ith uniform  shell spacing (Fig. 2), w hich results from  
+low er hem ispheres actually in contact as illustrated by
+Material density 18.806 g/cm^
+Fig. 2. Idealized final configuration o f subcritical U(94) 
+sphere.
+Fig. 3, reduces this surface mass by 0.11 kg.* O pposed 
+to this change is a series o f additions com pensating for 
+incidental reflection: +0.10 for the alum inum  supporting 
+cylinder and fram ew ork, estim ated from  effects o f 
+adding structures to o th er assemblies and checked by 
+extrapolated reactivity-coefficient curves show n in Fig. 
+4;** +0.04 kg for the Kiva walls as m easured by moving 
+G o d iv a  
+o u td o o r s , 
+a n d  
++0.01 
+kg calculated for
+*Figure 3 exaggerates the nature of the model deficiency. 
+Godiva reactivity coefficients for 
+and ^ 
+as functions of 
+radius^ provide the basis for estimating the surface-mass effect 
+of raising the two inner pieces so that they contact the 
+diaphragm. The surface-mass equivalent of material added and 
+subtracted to account for the shift of position is obtained by 
+numerical integration. Uncertainties of dimensions justify no 
+more than the first-order correction obtained by this process. In 
+general, corrections for internal voids, for departures from 
+spherical shape, and for structural or coating materials are 
+obtained by similar integration.
+**Measured reactivity changes of these added structures agree 
+reasonably well with results from numerical integration of 
+extrapolated reactivity-coefficient curves over the structure 
+volume. The extrapolation to large distances beyond the fissile 
+surface. Fig. 4, connects observed curves smoothly with the r 
+“radar” relation that applies to objects of limited dimension (for 
+extended surfaces such as walls and floor the reactivity effect is 
+expected to depend upon the inverse square of the distance).
+
+===== PAGE 7 =====
+0.008
+D ia p h r a g m
+s u p po rt
+Fig. 3. Exaggerated defect o f the shell model shown in Fig. 2; gaps on the parting plane are introduced by lower shells 
+in contact.
+atm ospheric reflection. The net effect, an increase o f the 
+added shell mass to 0.78 kg, gives a total corrected 
+critical mass of 52.37 kg uranium  for the uniform  shell 
+m odel show n in Fig. 2.
+C ritica l 
+M ass 
+o f 
+H om ogeneous Sphere. 
+The
+equivalent critical mass of a solid sphere at m aterial 
+density can now be obtained by using uranium  reactivity 
+coefficients to  give the surface-mass reduction that 
+w ould be equivalent to filling all voids o f the described 
+configuration. The result is a critical mass o f 51.92 kg 
+for a sphere of U (93.86) at a density of IS.SOg g/cm ^.
+U ranium  im purities were about 400 parts per million 
+by w eight, of w hich the m ajor contributors were carbon 
+('^ 1 6 0  ppm ), silicon ('v U Q  ppm ), and iron (^ 7 0  
+ppm ).* 
+Again, reactivity coefficients^ show th at the 
+presence of the im purities decreases the critical mass 
+0.023 kg. Thus, for pure uranium , the critical mass 
+becom es 51.94 kg, w ith density unchanged.
+The uncertainty of the bare-sphere critical mass that 
+has been deduced arises from  the extrapolation to 
+criticality and the described corrections. Expressed in 
+term s of percent critical mass, these effects are:
+Critical extrapolation 
+-t(2.00 ± 0.20)%
+Diaphragm correction 
+- (0.58 ± 0.06)%
+Incidental reflection 
++(0.29 ± 0.15)%
+O
+CL>
+OU
+oo
+CD
+a
+o<D
+^Presumably the shells, as well ras parts of Lady Godiva, were of 
+virgin material; where the metal is recycled, as for some recent 
+components, impurities are usually about twice those shown.
+Fig. 4. Relative contributions o f external material to the 
+reactivity o f a critical bare sphere. Measured 
+values near the sphere surface connect 
+smoothly with the r^^ relation that applies to 
+objects o f limited size at large distances r.
+
+===== PAGE 8 =====
+Model defect 
+-(0.21 + 0.07)%
+Filling Voids 
+-(0 .8 7  ± 0.17)%
+Im purity removal 
++(0.04 ± 0.00)%
+Im p recisio n  
+o f the next-to-last item  includes the 
+unnam ed source o f error, 
+i.e., uncertainty 
+o f shell
+description, so it seems reasonable to assign a probable
+error of ± 0.3% to the quoted critical mass for either the 
+solid sphere or the shell m odel.
+For the above account, all original corrections were 
+reevaluated, and the resulting 51.94 ± 0.16 kg U (93.86) 
+at a density o f 18.80^ disagrees som ew hat w ith the 
+form erly p u b lish e d '’^ critical mass o f 51.6 ± 0.2 kg for 
+U (93.86) at a density rounded o ff to  18.81 g/cm ^. The 
+difference arises mainly because the earlier value was 
+deduced from  a crude average density estim ate before 
+reactivity coefficients and effects o f incidental reflection 
+were well established. A ssum ptions th at the latter was 
+negligible and th at voids could be corrected as though 
+they were uniform ly distributed were n o t quite valid.
+Bare U (94) Critical Mass from Godiva
+Critical specification o f a bare U (94) sphere had also 
+been derived from L ady Godiva m easurem ents before the 
+b e s t 
+correction inform ation existed. C onsequently, 
+revised corrections appear in the follow ing account.
+The m ost nearly spherical form  o f Lady Godiva 
+consisted of the m ajor parts identified in Fig. 1 o f Ref. 
+2, essentially a 6 .848-in.-diam  sphere interrupted by a 
+0 .100-in. cylindrical step in the upper portion and a 
+0 .0 9 3 -in . 
+s te p  
+in  
+th e  
+lo w e r section. W ith 
+14 
+m ass-adjustm ent plugs (identified in the figure as “ A ” 
+size) filling out the surface and w ith close-fitting 
+glory-hole plugs inserted to achieve the m ost com pact 
+form , the total mass o f U (93.71) was 52.905 kg.^ This 
+system  was critical w ith one control rod retracted, and 
+criticality was again achieved w ith control rods fully 
+inserted and seven m ass-adjustm ent plugs rem oved 
+(0.343 kg at an average position slightly w ithin the 
+s u r fa c e ). 
+F ro m  
+m e a s u re d  reactivity coefficients, 
+how ever, it is now  know n th at rem oval o f these plugs is 
+equivalent to the rem oval o f 0.506 kg spread over the 
+surface, or to shrinking the surface by 0.011 in.
+R eactivity coefficients o f Ref. 3 also provide a m eans 
+o f correcting for the effects o f steel supports threaded 
+into the G odiva body (+0.081 kg surface uranium ) and 
+for adjusting from  the distorted sphere to  a true 
+sphere (-0.151 kg surface uranium ). C om pensation for 
+incidental reflection by fram ew ork (from  Fig. 4), the 
+b u ild in g  
+(f r o m  
+o u td o o r m easurem ent), and the 
+atm osphere (com puted) is estim ated to add a further 
+0.073 kg. Like the shells, im purity correction adds 0.023 
+kg. The resulting critical mass is 52.42 kg for a sphere o f 
+U (93.71) at an average density now  estim ated to be
+18.74 g/cm ^. (The published^ value, 18.71 g/cm ^ was 
+based on a nom inal tally o f voids and an assumed
+m aterial density o f 18.79 instead o f the 
+18.80e 
+subsequently m easured for similarly fabricated uranium  
+parts. The value 18.73 g/cm^ results from  adjustm ent to 
+the b etter m aterial density, and the nom inal envelope 
+volum e and enclosed mass give 18.75 g/cm ^.) In this 
+case, the uncertainty o f critical mass arising from  the 
+outlined corrections and irrcproducibility is about ± 
+0.2%, as com pared w ith a similar probable error that 
+should be associated w ith the uncertainty o f average 
+density and o f void distribution. Again, an overall 
+probable error o f ± 0.3% is indicated. The new critical 
+specification from  Godiva, 52.42 kg ± 0.3% for a sphere 
+o f U (93.71) at an average density o f 18.74 g/cm ^, 
+com pares w ith a published^ value 52.2; 
+± 0.1 kg 
+U (93.71) at an average density o f 18.7i g/cm ^.
+C om parison w ith Shell Results. To intercom pare 
+th e s e  
+c r itic a l 
+m asses and those from  the 
+shell 
+m easurem ents, we note th at the critical specification of 
+a bare system  can be converted to apply to any other 
+density by m eans o f the exact relation th at critical mass 
+is inversely proportional to the square o f the density if 
+shape is preserved. F urther, adjustm ent for a m oderate 
+change o f ^ ^ * U enrichm ent m ay be accom plished by the 
+em pirical expression th at total critical mass is inversely 
+proportional to the 1.72 pow er o f the enrichm ent.^ For 
+a choice o f 93.8%  
+enrichm ent and 18.75 g/cm  ^ 
+density, these relations lead to the following critical 
+masses:
+old 
+new
+Lady Godiva 
+51.9 + 0.1 kg 
+52.28 + 0.3%
+shell experim ent 
+52.0 ± 0 .2  kg 
+5 2 .3 1 + 0 .3 %  
+In other w ords, results o f our reevaluation indicate that 
+the early published values o f bare-sphere critical masses 
+for enriched uranium  are 0.3 kg low. The new critical 
+mass, how ever, differs from  the old in th at it applies to a 
+truly isolated sphere o f pure uranium .
+To com plete the specification o f the uranium  used 
+for b o th  sets o f m easurem ents, the 
+content was
+1.02 wt%, a value th at is insensitive to few -percent 
+differences o f 
+enrichm ent. Unlike some current
+enriched uranium , this old m aterial contained no
+Jezebel Bare Spheres
+C ritical masses derived from  the three Jezebel 
+systems, Pu (4.5%  "'*°Pu), Pu(20%  ^^°P u ), and 
+were also reevaluated by m eans o f the correction 
+techniques th a t have been discussed. Results were 
+som ew hat greater than form erly published values for the 
+Pu(4.5%  ^'*°Pu) assembly'* and for 233(j;5 no value for 
+Pu(20%  ^ ‘*°Pu) had appeared in the literature.
+Unlike the U (94) assemblies, all Jezebel parts were 
+c o a te d  
+w ith  
+o^O .005-in.-thick nickel to prevent 
+contam ination by the highly a-active m aterials (see Fig. 
+5). A lthough nickel weights were know n precisely, the 
+d is trib u tio n  was uncertain. C onsequently, uniform
+
+===== PAGE 9 =====
+Gross moss-odjustment 
+n 
+disk
+Piano wire
+guides
+Air outlet
+Control 
+rod
+Center section 
+clonnp—
+Center support 
+lugs
+Glory hole
+ 
+Lower safety
+block
+Mass adjustment 
+p lu g s —^
+Dovetail collet
+A ir  inlet
+Fig. 5. Tlw active portion o f original Jezebel, 
+that ride on taut wires.
+the bare plutonium assembly. Cooling air blows out o f the locating arms
+thickness was assum ed in apportioning the nickel 
+b e tw e e n  
+ex tern al and internal surfaces. 
+Lack o f 
+planeness, how ever, was assum ed to introduce an average 
+0.001-in. gap betw een each o f the three principal pairs 
+o f internal surfaces.
+Average 
+densities were established by adjusting 
+m easured m aterial densities to  allow for the nom inal 
+volum e o f internal nickel coating and voids. Voids 
+rem aining after correction for internal nickel were 
+redistributed uniform ly (w ith com pensating surface-mass 
+adjustm ent. Ref. 3) so th at values o f average density 
+were retained.*
+*A restatement of the inverse-square relationship between 
+density and critical mass is that a given mass increment is three 
+times as effective when distributed uniformly as it is when added 
+to the surface.
+As shown in Figs. 6, 7, and 8, the three Jezebel 
+systems differed som ew hat in shape, w hich led to 
+different corrections for asphericity. F urther, alum inum  
+adapters required to fit the thin steel clamps (Fig. 5) to 
+the small 
+parts added to the incidental reflection 
+for th at assembly. O therw ise, corrections were similar.
+Captions o f Figs. 6, 7, and 8 give the critical or 
+slightly subcritical Jezebel configurations from  w hich 
+c r itic a l 
+m a sse s 
+are 
+d e riv e d - 
+A lso  shown 
+are 
+corresponding masses corrected for the filling o f m ajor 
+voids left by missing m ass-adjustm ent plugs or glory-hole 
+inserts, and by retracted control rod. These corrections 
+rely upon calibrations o f the control rod and plugs.
+T h e  
+fu rth e r corrections for asphericity, nickel 
+c o a tin g , 
+in c id e n ta l 
+r e f le c tio n  
+b y  
+clam ps and 
+surroundings, hom ogenization, etc., are listed in Table I. 
+The resulting critical masses apply to isolated bare 
+spheres o f uniform  plutonium  or uranium .
+
+===== PAGE 10 =====
+T able!. JEZEBEL CORRECTIONS TO IDEALIZED SPHERES
+Pu(4.5% ^ "°P u )
+Config. A
+Config. B
+P u f2 0 % "‘*°Pu)
+2 3 3 y
+Critical mass, kga
+16.761
+16.784
+19.173
+16.252±0.
+(D ensity, g/cm ^)
+(15.61)
+(15.60)
+(15.73)
+( I 8 .424)
+Corrections, kg;
+A sphericity
+-0.033
+-0.047
+-0.063
+-0.044
+Internal Ni and
+hom ogenization
+0.047b
+0.033®
+0.062
+0.023
+Equatorial band
+0.045
+0.045
+0.058
+0.110
+Polar supports
+0.117
+0.117
+0.145d
+0.108
+External Ni
+0.074
+0.074
+0.070
+0.072
+Fram ew ork
+0.002
+0.002
+0.002
+0.002
+Kiva reflection
+0.010
+0.010
+0.012
+0.008
+Air reflection
+0.004
+0.004
+0.005
+0.004
+Trace impurities®
+-0.001
+-0.001
+-0.001
+0.000
+Elevated tem p.
+-0.007
+-0.007
+-0.007
+0.000
+Critical mass of
+17.019
+17.014
+hom ogeneous sphere,
+(15.61)
+(15.61)
+kg alloy
+17.02±0.6%
+19.46±0.8%
+16.53±0.4%
+(D ensity, g alloy/cm ^)
+(15.61)
+(15.73)
+( 18.424)
+^ Major cavities rem oved.
+M easured m inus 144 g equivalent o f 0 .0 10-in .-thick Ni on one parting plane com pares \vith 
+calculated m inus 142 g.
+Includes correction to p = 15.61 g/cm ^.
+d M easured 75 g equivalent o f upper polar support com pares w ith calculated 78 g.
+® Pu im purities are about 600 ppm  (170 ppm  C, 230 ppm  0, 115 ppm  Fe); 
+im purities are similar to those o f Godiva.
+
+===== PAGE 11 =====
+C o n t r o l  r o d
+r y
+no le 
+l e d )
+o s s - a d j u s t m e n t
+p l u g s ( 5 )
+M a s s - a d j u s t m e n t
+p l u g s ( 8 )
+P o l a r  d i s k
+C o ntro l rod
+Glory hole
+M o s s -a d j ustm ent 
+plugs(3)
+Fig. 6. Jezebel Pu (4.5% ^^^Puj.
+Configuration A, 16.751 kg alloy:
+no polar d isk: subcritical 0.43 lower 
+mass-adjustment plug (or 10 g alloy at 
+surface) with all mass-adjustment plugs in 
+place and control rod fully inserted; critical 
+mass is 16.761 kg alloy at average density 
+15.61 g jc m f
+Configuration B, 16.909 kg alloy:
+tw o 
+polar 
+disks; critical with 6 lower 
+mass-adjustment plugs removed, and control 
+r o d  r e t r a c t e d  
+1 . 3 7 5  in.; with all 
+mass-adjustment plugs in place and control 
+rod fully inserted, critical mass is 16.784 kg 
+alloy at average density 15.60 g/cm^.
+C o n t r o l  r o d
+I n s e r t
+Gl o r y  h o l e
+M a s s - a d j u s t m e n t
+p l u g s ( 5 )
+Fig. 7. Jezebel Pu (20%> 
+Pu). Critical with insert in 
+place, 5 lower mass-adjustment plugs removed, 
+and control rod retracted 1.558 in., actual 
+m a s s  
+1 9 . 3 6 9  
+k g a l l o y ,  w i t h  all 
+mass-adjustment plugs in place and control 
+rod fully inserted, critical mass is 19.173 kg 
+alloy at average density 15.73 gjcm^.
+F'ig. 8. Jezebel 
+U.
+Configuration A, 16.556 kg uranium:
+25isupercritical with 3 mass-adjustment plugs 
+removed, 1.6-in.-longglory-hole filler removed 
+from end, control rod fully inserted; with all 
+mass-adjustment plugs in place and glory hole 
+filled, critical mass is 16.235 kg uranium at 
+average density 18.424 g/cm^.
+Configuration B, 16.651 kg uranium;
+subcritical Fwith 0.015-in. equatorial gap, all 
+mass-adjustment plugs in place, 0.5-in.-long 
+cavity at glory-hole center, control rod fully 
+inserted; with gap removed and glory hole 
+filled, critical mass is 16.269 kg uranium at 
+average density 18.424 gjcm^.
+.Mean critical mass is 16.252 kg uranium at p(U) = 
+18.424 slem ^.
+Q uoted probable errors arise predom inately from 
+uncertainties o f effective densities. The density of
+S-phase* plutonium  is m uch more variable than th at of 
+uranium , and the alpha heating interferes w ith precise 
+m easurem ent. The value for Pu (20%  ^'*°Pu) was 
+obtained from  small samples that m ay no t have been 
+representative, whereas th at for Pu (4.5%  ^‘*°Pu) is from  
+m a jo r 
+p a rts  m easured w ith a precision o f ±0.2% 
+(equivalent to  ±0.4% o f critical mass).
+Critical specifications o f isolated bare spheres, which 
+w e re 
+d e riv e d  
+fro m  
+Jezebel assemblies, may 
+be 
+sum m arized as follows.
+^Actually some a-phase plutonium may be retained in these 
+relatively large components.
+
+===== PAGE 12 =====
+Pu(4.5 at% ^'* °P u ,0 .3  a tro ^ '^ 'P u ), 1.02 w t% G a: 
+m „(alloy) = 17.02 kg ± 0.6% atp(alloy) = 15.61 g/cm ^.
+Pu(20.1 at% ^'*°Pu, 3.1 at% 
+'P u , 0.4 at% ^‘*^Pu),
+1.01 wt% Ga:
+nic(alloy) = 19.46 kg ± 0.8% at p(alloy) = 15.73 g/cm ^.
+U (98.13 a t% “
+^U , 1.24 at% ^^'*U , 0.03 a t% “
+®U,
+0.60 at%^='®U);
+m c(U) = 16.53 kg + 0.4% at p(U ) = 18.424 g/cm^ •
+The critical mass o f the first plutonium  com position 
+and o f 2 3 3 u  
+com pared w ith earlier published
+values'* 
+by m eans o f the simple density conversion th at 
+applies to  bare systems. B oth new  values represent 
+increases, as show n below .
+Critical mass to tal (kg) 
+literature 
+revised
+P u(4.5%  ^‘' “Pu), 
+p(alloy) = 15.82 g/cm^ 
+“
+^ U ,p (U )=  18.45 g/cm^
+O ther U nreflected Systems
+16.45 ± 0.3%  16.57 + 0.6% 
+16.40 + 0.3%  16.48 + 0.4%
+Am ong a large num ber o f unreflected systems 
+reported in a com pilation “ Los Alam os Critical-Mass 
+D ata” ,' 
+only a few other exam ples are considered 
+sufficiently precise or o f general enough interest for 
+inclusion here. A lthough th a t com pilation includes no 
+corrections for Kiva reflection, changes to account for 
+this effect are generally small w ith respect to probable 
+errors.
+N e v e rth e le s s , 
+th e  
+fo llo w in g  illustrations are 
+recorrected, to  the best o f our ability, for the influence 
+o f surroundings. For this purpose, we generalize the 
+m easured effect o f Kiva reflection on G odiva to  apply to 
+assemblies o f other shapes, sizes, and m aterials.* Because
+similar locations in a Kiva are assum ed, results are only 
+approxim ate.
+Spheres of 6-Phase P lutonium  and 
+in U (93).
+R eported critical thicknesses o f U (93) surrounding
+6 -p h a se  
+p lu to n iu m  and 
+spheres® 
+m ade no
+allowance for reflection by a supporting cylinder, the 
+assembly m achine, or the Kiva. Because assemblies and 
+m ounts were like the subcritical U (94) sphere discussed 
+earlier, it was assumed th at surroundings contributed the 
+same reflector saving (a relation approxim ated by the 
+K iva-reflection form ula, for these small systems). The 
+re s u lt, an increase o f critical 
+thickness by
+0.003-in., leads to  the follow ing revised specifications.
+Sphere o f 8.471 kg Pu alloy, 4.9 at% ^ * °P u, 0.31 at%
+2 ^ ' Pu, 1.0 wt% Ga, p(aJloy) = 15.77 g g /cm ^ ; 
+critical w hen surrounded intim ately by U (93.2),p(U ) =
+18.80 g /cm ^, at a thickness o f 0.655 in. ± 1%.
+Sphere o f 7.601 kg U (98.2 wt% ^ ”
+U), 1.1 w t% ^ ^ ''U ,
+0.7 wt% ^ ^ ® U, p(U ) = 18.644 g /cm ^;
+critical w hen surrounded intim ately by U (93.2), p(U ) =
+18.80 g /cm ^, at a thickness o f 0.783 in. ± 1%.
+Sphere o f 10.012 kg U (98.2 w t% ^ ^ ^ U ), 1.1 w t% ”
+‘*U,
+0.7 w t% ^^ ® U ,p (U )=  18.62i g /c m ^
+critical w hen surrounded intim ately by U (93.2), p(U ) =
+18.80 g /cm ^, at a thickness o f 0.481 in. ± 1%.
+Trace im purities, w hich are similar to  those of 
+Godiva and Jezebel m aterials, have negligible influence 
+on these critical specifications.
+C ylinders o f Mixed U (93) and N orm al U ranium . Two
+o f the so-called Jem im a critical assemblies can be 
+d e s c r ib e d  
+w ith  
+re a so n a b le  precision.’ 
+B oth are 
+10.50-in.-diam  cylinders consisting o f interleaved plates 
+o f U (93.4) (each 0.316-in. thick) and norm al uranium  
+(each 0.237-in. thick). Pairs o f the tw o kinds o f plates.
+*The expression used for effect of Kiva reflection on the 
+geometric buckling of a bare assembly is
+^
+ = - 0 .7 2  X 1(T® B’ V 6 ,
+B 
+^
+For critical cylinders, in which both flux and adjoint may be
+expressed as Jo(Bj-r) cos 
+relation
+yjj  
+V,B’ 5/A^ 
+.
+Bz z, we obtain the approximate
+where 6 is the extrapolation distance and 
+is the critical 
+volume. It was assumed that the fractional change of k is 
+proportional to the leakage probability (P l), the surface area of 
+the critical assembly (Ag), and the ratio of the effectiveness of a 
+neutron entering the assembly surface to that of the average 
+neutron produced by fission (Js/y), or
+AB’
+B’
+1_
+P,
+Sk
+k
+A cTs/ t
+a plausible form in that it is the ratio of extrapolation distance 
+to a critical dimension Ac/V cB’ . This gives the expression stated 
+originally when the proportionality constant is evaluated from 
+the measured effect of Kiva reflection on Godiva.
+
+===== PAGE 13 =====
+w ith U (94) at the base, led to a squat assembly for 
+w hich the average 
+content was 53.3 wt%. For the 
+other assembly (near-equilateral), which averaged 37.5 
+wt% 
+U, each unit was a U (94) plate sandw iched 
+betw een tw o norm al plates (a “ trip let”).
+R eported critical data were corrected for reflection 
+by the principal support, b u t not for the effects o f other 
+parts o f the assembly m achine or o f the Kiva. C orrection 
+for the rem aining incidental reflection, estim ated to  be 
+a b o u t 0.4% , is included in the follow ing critical 
+specifications.
+Bare 10.50-in.-diam cylinder averaging U (53.33); 
+critical mass 92.32 kg U (93.41) and 70.30 kg norm al 
+uranium  as 10.97 plate pairs (±0.5% ), mean density
+18.83 g/cm ^.
+Bare 10.50-in.-diam cylinder averaging U (37.46); 
+critical mass 106.27 kg U (93.43) and 161.80 kg norm al 
+uranium  as 12.63 plate triplets (±0.5% ), mean 
+density 18.88 g/cm ^.
+The densities assigned here are about 0.7% greater 
+than the estim ated values quoted before. The present 
+values are consistent w ith the nom inal mass and volum e 
+o f a stack o f m easured height, also w ith the m aterial 
+density given earlier for U (94) shells w hen adjusted by 
+the ratio o f nom inal to m easured stack heights.
+O th e r bare cylindrical assemblies listed in the 
+c o m p ila tio n  
+o f  L o s 
+A la m o s 
+d a t a ' 
+consist o f 
+^3-m m -thick U (93) plates interleaved w ith plates o f a 
+num ber o f other m aterials. Significant warpage o f the 
+U (93) usually resulted in density uncertainties that 
+overshadow  corrections for reflection by Kiva and 
+fram ew ork o f the m achine (corrections for supports 
+have been incorporated). In general, critical masses vs 
+U (93) co n ten t scatter from  .smooth curves by about ± 
+1%.
+N ot included in the com pilation, are data reported 
+by Chezem  and Lozito® for bare 2 1 .0-in.-diam uranium  
+cylinders w ith average 
+contents o f 16.01 wt%,
+14.11 wt%, 12.32 wt%, and 10.90 wt%. A lthough the 
+thin, som ew hat w arped, U (93) plates were m ixed w ith 
+norm a! uranium  in these subcritical- system s, careful 
+m easurem ents o f stack heights established average 
+densities reasonably well. F urther, critical masses were 
+corrected as well as possible for all incidental reflection. 
+Thus, the data listed in Table II are consistent w ith 
+published values.
+calculations have also been reexam ined. The principal 
+reason is to take into account, as well as possible, the 
+clearances betw een com ponents such as core 
+and 
+reflector. The presence o f a reflector, o f course, reduces 
+th e  
+in flu e n c e  o f incidental reflection upon 
+core 
+size.
+Spheres o f U (93), Plutonium , and 
+in Thick
+U ranium . 
+Critical masses reported for the F lattop 
+assemblies^ have been m odified slightly to include the 
+effect o f a 0,004-in. to 0.005-in. gap betw een cores and 
+r e f le c to r . 
+T h e  
+th r e e  
+c o re s  
+w e re  
+reflected by 
+19.00-in.-diam norm al uranium  at a density o f 19.0 
+g/cm ^. Critical masses are;
+17.84 ± 0.04 kg U (93.24) at the uranium  density 18.62 
+g/cm^ (reflector thickness 7.09 in.);
+6.06 ± 0.03 kg Pu alloy, 4.80 wt% ^ ‘" 'P u . 0.30 wt%
+Pu, 1.10 wt% Ga, at the alloy density 15.53 g/cm^ 
+(reflector thickness 7.72 in.);
+5.74 + 0.03 k g ^ ^ "U (9 8 .1 3  wt%), 1.24 w t% ^^'*U ,
+0.03 wt% ^ ^ ^ U, 0.60 wt% ^ ^ * U, at the uranium  
+density 18.42 g/cm^ (reflector thickness 7.84 in.).
+S o m e  
+O th e r R eflected U (94) Spheres. 
+Critical 
+configurations o f a num ber o f reflected U(94) spheres 
+w ere established by 
+subcritical m easurem ents with 
+split-reflector assemblies illustrated in Fig. 9. Unlike the 
+bare subcritical assembly considered earlier (Figs. 1 and 
+2), no diaphragm  com plicated the pattern o f gaps 
+betw een hem ispherical shells o f core and reflector.
+In particular, critical masses o f U (94) reflected by 
+3.92-in., 1.76-in., and 0.70-in.-thick norm al uranium  
+have been quoted as precision v a lu e s.'’" 
+(A fourth 
+m em ber o f this series is no t considered here because the 
+n e u tr o n  m ultiplication 
+attained is insufficient 
+for 
+reliable extrapolation to criticality.) The incentive for 
+re e x a m in a tio n  
+o f  th e s e  
+d a ta  
+is 
+a 
+subsequent 
+generalization of reactivity coefficients* which perm its 
+correction for effects o f filling gaps w ithin the core and 
+betw een core and reflector. Sizes of gaps are estim ated 
+by adjusting nom inal dim ensions o f shells to give 
+consistency betw een masses and usual m aterial densities. 
+The revised specifications follow.
+R eflected Assemblies
+Those critical specifications o f Los Alamos reflected 
+assemblies w hich are m ost com m only used for checking
+*The generalization is a scmiempirical scaling of void-coefficient 
+distributions within U(94) cores, which provides a means of 
+interpolating between the known distributions of Godiva and 
+Topsy.
+
+===== PAGE 14 =====
+t
+I
+:3
+' /
+..I- 
+■'
+m ,
+,  
+.>*
+11''4.'-v
+' 
+'-ii W  
+■ I  ,-:• 
+■
+■ .£kmT
+s-*--; 
+-’ , 
+r-.-:
+'V;;- •
+m^Uim
+'.f
+"'t '
+-'- • 
+i'-w-
+» ^ 5 ; ; a -  
+• '
+u M
+i /
+Fig. 9. Set-up for subcritical experiments with reflected U(94) spheres; the entire core o f spherical shells rests in the 
+lower reflector hemisphere.
+10
+
+===== PAGE 15 =====
+Table II. CRITICAL SPECIFICATIONS OF 2I .00-IN.-DIAM 
+BARE CYLINDERS AVERAGING U (I0 .9 ) TO U (16.0)
+Av.
+16.01
+14.11
+12.32
+10.90
+Nom inal 
+stack unit
+0.591-in
+0.118-in
+0.709-in
+0.118-in
+0.591-in
+0.118-in
+0.236-in
+0.709-in
+0.118-in
+1.182-in
+0.118-in
+.U (norm )
+.U (93.3)
+U (norm )
+U (93.3)
+.U (norm )
+U (93.3)
+.U (norm )
+.U (norm )
+.U (93.3)
+.U (norm )
+.U (93.3)
+M ass/unit,
+k g U
+76.1
+87.0
+100.4
+224.8
+Av. density, 
+g/cm^
+18.68
+18.41
+18.64
+18.63
+F raction crit. 
+h t. attained
+0.965
+0.977
+0.983
+0.764
+Critical mass, 
+k g U
+1450±0.9%
+1828±0.7%
+2535±0.5%
+4952±2.5%
+In close-fitting 3.93-in.-thick norm al uranium  
+(p = 19.00 g/cm ^), the critical mass o f a U (93.90) 
+sphere at p(U ) = 18.69 g/cm^ is 19.82 kg U±0.5%.
+In close-fitting 1.742-in.-thick norm al uranium  
+(p = 18.67 g/cm^ because of gaps in reflector), 
+the critical mass o f a U (93.99) sphere at p(U ) =
+18.67 g/cm^ is 26.56 kg U ± 0.5%.
+In close-fitting 0.683-in.-thick norm al uranium  
+(p = 19.00 g/cm ^), the critical mass o f a U (93.91) 
+sphere at p(U ) = 18.70 g/cm^ is 36.53 kg U ± 0.5%.
+A lthough there are differences in detail, these critical 
+specifications are equivalent to the published data to 
+w ithin the quoted probable errors.
+O ther reflectors for w hich U (94) critical masses were 
+established similarly are approxim ately 2-in. and 4-in. 
+thicknesses o f tungsten (90 wt%), zinc, copper, cast iron, 
+graphite, beryllium , beryllium  oxide, and nickel silver 
+(40 wt% Cu, 32 wt% Ni, and 28 wt% Zn), and about 
+2-in. thicknesses of thorium  and nickel.*’® Only the 
+systems reflected by nickel and copper have been 
+selected for review, the first because of an error in 
+quoted density o f nickel* and the others to illustrate the 
+influence of detailed accounting o f gaps betw een shells, 
+and of effective densities.
+*Another density error appears in Ref. 1, item 2 of Table ICl, a 
+thorium-reflected plutonium core. The thorium density should 
+be 11.58 g/cm®, instead of 11.9 g/cm^.
+In the new specifications th at follow, there is no 
+correction for trace im purities, which are similar to 
+those o f Godiva. The large error assigned to the first 
+item  is associated w ith a relatively low value o f final 
+m ultiplication.
+Close-fitting “A ” nickel reflector, p = 8.90 g /cm ^, 
+1.945-in. thick:
+mass o f critical U (93.8) sphere, p(U ) = 18.38 g/cm ^. 
+is 29.27 k g ±  1.5%.
+Close-fitting copper (99.92 wt%) reflector, p= 8.88 
+g/cm ^, 1.980-in. thick:
+mass o f critical U (93.8) sphere, p(U ) = 18.38 g/cm^ , 
+is 28.14 kg ± 0.7%.
+Close-fitting copper (99.92 wt%) reflector, p= 8.88 
+g/cm ^, 4.158-in. thick:
+mass o f critical U (94.0) sphere, p(U ) = 18.43 g/cm ^, 
+is 22.17 kg ±0.9% .
+The results for copper reflectors, although differing 
+in detail from  published critical specifications, represent 
+small overall changes. Effectively, the critical mass has 
+been raised 0.1 kg for nom inal 2-in.-thick copper, and 0.3 
+kg for 'v  4-in.-thick copper.
+U (I6 ) Cylinder in 3-in.-thick Normal Uranium.
+Analogous to the bare uranium  cylinders o f interm ixed 
+U (93) and norm al 
+uranium  is a uranium -reflected
+11
+
+===== PAGE 16 =====
+critical cylinder averaging about 16% 2 3 s y  lu o  
+the bare system s, this assembly is reviewed for persons 
+w ho wish to  check tw o-dim ensional com putations. The 
+15 .O O -in .-d ia m  
+c o re  
+c o n s is ts  
+o f  a lte r n a tin g  
+0 .5 8 9 - in .- th ic k  
+p la te s  
+o f  n o rm a l uranium  and 
+0.119s-in.-thick plates o f U (93.355), starting w ith 
+norm al uranium  at the base. Thicknesses o f norm al 
+uranium  reflector are 3.00 in. on the base, 2.96 in. on 
+top, and 2.99 in. on the lateral surface (adjusted slightly 
+to elim inate a radial O.OOTs-in. gap betw een core and 
+reflector).
+The average mass o f a pair o f norm al and enriched 
+p la te s is 38.90 kg and the com position averages 
+U (16.19). The best value o f critical num ber o f pairs is 
+17.57 (vs 17.8 on w hich published specifications were 
+based), w hich corresponds to a critical mass o f 683 kg 
+uranium  at an estim ated core density o f 18.7s g/cm ^. 
+U ncertainty of the density value is the principal reason 
+for assigning a probable error o f ± 0.5% to the critical 
+mass.
+High-Density Plutonium Sphere in Water. A reliable 
+value o f the critical mass o f an a-phase plutonium  sphere 
+w ith w ater reflector was established by subcritical 
+m easurem ents after the com pilation o f Los Alam os data 
+appeared. “  A uniform  sphere o f high-purity m aterial 
+w as 
+p re p a re d  especially for this experim ent and 
+rem achined for observing the effect o f mass change.
+Perturbations from  w ater displaced by a Plexiglas 
+support (evaluated experim entally) and by a thin 
+Plexiglas shell intim ately surrounding the plutonium  
+(evaluated by detailed com putation) led to a 1.2% 
+correction o f critical mass. As indicated by constant 
+neutron m ultiplication w hen the sphere was covered by 
+m ore than 6 in. o f w ater, the 10-in. m inim um  reflector 
+thickness is effectively infinite.
+The resulting critical mass, 5.79 kg + 0.5%, applies to 
+a w ater-reflected sphere o f Pu(94.5 at% ^^®Pu) for 
+w hich the plutonium  density is 19.74 g/cm^ at 20°C. 
+The rem aining isotopic content is 5.18 at% ^ ‘*°Pu, 0.30 
+at% ^'* 'P u , and 0.02 at% ^'*^Pu. D etectable trace 
+im purities, in parts per million by w eight, are am ericium , 
+90; tungsten, 60; carbon, 25; oxygen, 20; silicon, 7; iron, 
+5; nickel, 4; nitrogen, 4; copper, 3; thorium , 3; 
+m a g n e s iu m , 
+1; gallium , 0.5; alum inum , 0.5; and 
+manganese, 0.2.
+12
+
+===== PAGE 17 =====
+REFERENCES
+1. 
+H. C. Paxton, “Los Alamos Critical-Mass Data,” USAEC 
+Report LAMS-3067, Los Alamos Scientific Laboratory 
+(May 1964).
+7. 
+H. C. Paxton, “Bare Critical Assemblies of Oralloy at 
+Intermediate Concentrations of U-235,” USAEC Report 
+LA-1671, Los Alamos Scientific Laboratory (May 1954).
+2. 
+R. 
+E. 
+P eterson , 
+“ Lady Godiva: An Unreflected 
+U ranium -235 
+C ritical Assembly,” USAEC Report 
+LA-1614, Los Alamos Scientific Laboratory (September 
+1953).
+3. 
+L. B. Engle, G. E. Hansen, and H. C. Paxton, “Reactivity 
+Contributions of Various Materials in Topsy, Godiva, and 
+Jezebel,” Nucl. Sci, and Eng. 8, 543-569 (1960).
+4. 
+G. A. Jarvis, G. A. Linenberger, J. D. Orndoff, and H. C. 
+Paxton, “Two Plutonium-Metal Critical Assemblies,” 
+Nucl. Sci. and Eng. 8, 525-531 (1960).
+5. 
+G. 
+E. 
+H ansen, 
+“ Statu s o f C om putational and 
+Experimental Correlations for Los Alamos Fast-Neutron 
+Critical Assemblies,” Physics o f Fast and Intermediate 
+Reactors, 1, 445-455, IAEA, Vienna (1962).
+8. 
+C. G. Chezem and E. J. Lozito, “Investigation of the 
+Criticality of Low-Enrichment Uranium Cylinders,” Nucl. 
+Sci. and Eng. 33, 139 (1968).
+9. 
+G. E. Hansen, H. C. Paxton, and D. P. Wood, “Critical 
+Masses of OraEoy in Thin Reflectors,” USAEC Report 
+LA-2203, Los Alamos Scientific Laboratory (July 1958).
+10. 
+J. J. Neuer, “Critical Assembly of Uranium Metal of an 
+Average 
+Concentration of 16-1/4%,” USAEC 
+Report LA-2085, Los Alamos Scientific Laboratory (Jan. 
+1957).
+11. 
+D. R. Smith and W. U. Geer, “Critical Mass of a 
+Water-Reflected Plutonium Sphere,” to appear in Nuclear 
+Applications.
+E. A. Plassmann and D. P. Wood, 
+Thicknesses for Spherical 
+Nucl. Sci. and Eng. 8, 615-620 (1960).
+‘Critical Reflector 
+and Fu^^® Systems,”
+13

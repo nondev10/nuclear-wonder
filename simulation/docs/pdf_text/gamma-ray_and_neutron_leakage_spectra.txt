@@ -1,0 +1,1465 @@
+# Source: Gamma-Ray and Neutron Leakage Spectra.pdf
+# Method: extract_with_pymupdf
+
+===== PAGE 1 =====
+Gamma-Ray and Neutron Leakage Spectra 
+Calculated for Unshielded Reactors 
+tJfJl-liVllTHD 
+L 
+mm 
+Los Alamos National Laboratory is operated by the University of California for 
+the United States Department of Energy under contract W-7405-ENG-36. 
+
+===== PAGE 2 =====
+DISCLAIMER 
+ 
+This report was prepared as an account of work sponsored by an 
+agency of the United States Government.  Neither the United States 
+Government nor any agency Thereof, nor any of their employees, 
+makes any warranty, express or implied, or assumes any legal 
+liability or responsibility for the accuracy, completeness, or 
+usefulness of any information, apparatus, product, or process 
+disclosed, or represents that its use would not infringe privately 
+owned rights.  Reference herein to any specific commercial product, 
+process, or service by trade name, trademark, manufacturer, or 
+otherwise does not necessarily constitute or imply its endorsement, 
+recommendation, or favoring by the United States Government or any 
+agency thereof.  The views and opinions of authors expressed herein 
+do not necessarily state or reflect those of the United States 
+Government or any agency thereof. 
+
+===== PAGE 3 =====
+DISCLAIMER 
+ 
+Portions of this document may be illegible in 
+electronic image products.  Images are produced 
+from the best available original document. 
+ 
+
+===== PAGE 4 =====
+An Affirmative Action/Equal Opportunity Employer 
+DO m i^CROFILM 
+THIS PAGE 
+This report was prepared as an account of work sponsored by an agency of the 
+United Slates Government. Neither the United States Government nor any agency thereof, 
+nor any of their employees, makes any warranty, express or implied, or assumes any legal 
+liability or responsibility for the accuracy, completeness, or usefulness of any information, 
+apparatus, product, or process disclosed, or represents that its use would not infringe 
+privately owned rights. Reference herein to any specific commercial product, process, or 
+service by trade name, trademark, manufacturer, or otherwise, does not necessarily constitute 
+or imply its endorsement, recommendation, or favoring by the United States Government 
+or any agency thereof. The views and opinions of authors expressed herein do not necessarily 
+state or reflect those of the United States Government or any agency thereof. 
+
+===== PAGE 5 =====
+LA—11807 
+DE90 010199 
+Gamma-Ray and Neutron Leakage Spectra 
+Calculated for Unshielded Reactors 
+James Terrell 
+DISCLAIMER 
+This report was prepared as an account of work sponsored by an agency of the United States 
+Government. Neither the United States Government nor any agency thereof, nor any of their 
+employees, makes any warranty, express or implied, or assumes any legal liability or responsi-
+bility for the accuracy, completeness, or usefulness of any information, apparatus, product, or 
+process disclosed, or represents that its use would not infringe privately owned rights. Refer-
+ence herein to any specific commercial product, process, or service by trade name, trademark, 
+manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recom-
+mendation, or favoring by the United States Government or any agency thereof. The views 
+and opinions of authors expressed herein do not necessarily state or reflect those of the 
+United States Government or any agency thereof. 
+h 
+Los Alamos National Laboratory 
+Los Alamos.New Mexico 87545 
+.•Q.N O r THia DOOUMer-vl iS w-^^.iv 
+MASTER 
+
+===== PAGE 6 =====
+GAMMA-RAY AND NEUTRON LEAKAGE SPECTRA CALCULATED FOR UNSHIELDED REACTORS 
+by 
+JAMES TERRELL 
+ABSTRACT 
+The spectra of neutrons and gamma rays escaping 
+from unshielded reactors have been calculated for a 
+n'omber of simplified cases. Such spectra are important 
+in connection with reactors operating in space orbit 
+around the earth, which would normally have little or 
+no heavy shielding. Reactors in space, such as the 
+Soviet RORSAT spacecraft, have caused considerable 
+interference with the operations of other spacecraft. 
+Knowledge of the characteristics of their leakage 
+spectra may be useful in understanding or minimizing 
+such interference. 
+The Monte 
+Carlo Neutron-Photon 
+(MCNP) code 
+developed at Los Alamos has been used in these 
+calculations. 
+In the cases considered here the 
+critical assembly is assumed to have spherically 
+symmetrical 
+geometry, 
+with 
+a 
+central 
+core 
+of 
+fissionable material surrounded by one or more shells 
+of other material. The outer shells considered include 
+beryllium, beryllium oxide, sodium, potassium, lithium, 
+lithium hydride, and iron. 
+The results obtained, 
+presented as graphs, show that a number of materials 
+that may be used in space reactors should lead to 
+distinctive gamma-ray and neutron leakage spectra. 
+Measurements of such spectra might well be useful in 
+characterizing an unknown reactor type. 
+I. INTRODUCTION 
+The leakage spectra from unshielded nuclear reactors are important 
+in connection with reactors operating in orbital space. A number of 
+such reactors have already been put into use, primarily in Soviet Radar 
+Ocean Reconnaissance Satellites (RORSATs). Reactor-powered satellites, 
+such as the SP-100 test reactor, may be launched again by the United 
+States. Such reactors would normally have little no shielding because 
+of weight considerations. 
+Little experimental work has been done on leakage spectra, it 
+appears. Unshielded reactors are difficult to work with; such critical 
+assemblies as Godiva, used at Los Alamos for many years, emit neutrons 
+and gamma rays in a very short burst, leading to major problems in 
+measuring the spectra. The calculations of such spectra that have been 
+
+===== PAGE 7 =====
+done have been primarily of the group variety, in which the energy 
+groups typically cover many MeV, and are not useful in precise 
+evaluation of spectra from different types of reactors. A significant 
+feature of an unshielded reactor is that the spectra are characteristic 
+of the reactor type rather than of the shielding, and are furthermore 
+of high intensity and relatively undegraded energy. 
+Unplanned observations of gamma-radiation from orbiting Soviet 
+Cosmos/RORSAT reactors, or of positrons produced by the gamma rays, 
+have been made, however, starting in 1980. The declassified results of 
+such observations, made by means of the gamma-ray spectrometer on the 
+Solar Maximum Mission satellite, have recently been published (Rieger 
+et al. 1989, Share et al. 1989, Hones and Higbie 1989). In addition, a 
+balloon-borne gamma-ray telescope has made spectral measurements of 
+several simultaneously-orbiting Soviet reactors (O'Neill et al. 1989). 
+It is not clear that individual gamma-ray lines can be identified in 
+these spectra, except for the 511-keV positron annihilation line. 
+However, the number and intensity of these orbiting sources have been 
+sufficient to interfere considerably with the operations of Solar 
+Maximum Mission, Ginga, and perhaps other satellites. 
+The purpose of the present calculations is to give some idea of 
+the neutron and gamma-ray spectra to be expected from various types of 
+unshielded reactors. 
+The Monte Carlo Neutron-Photon (MCNP) program 
+developed at Los Alamos has been used in these calculations. 
+The 
+results obtained show that a number of materials that may be used in 
+reactors should lead to quite distinctive spectra. 
+II. THE MCNP PROGRAM 
+The MCNP program—a Monte Carlo code for neutron and photon 
+transport—was developed at Los Alamos over the course of many years. 
+In recent years its development has been due to the efforts of the 
+Radiation Transport Group (X-6) of the Los Alamos National Laboratory 
+(Briesmeister 1986). 
+MCNP follows the paths of large numbers of 
+individual neutrons and photons through a specified three-dimensional 
+material assembly by means of random choices of type of interaction 
+(fission, scattering, absorption,...), path length, scattering angle, 
+and so on. 
+The cross sections that determine the probabilities are 
+based on ENDF/B-V (Evaluated Neutron Data File) evaluations (Garber 
+1979), and are intended to represent the best knowledge—or guesses—as 
+to the neutron and photon interactions involved (Soran and Seamon 
+1980). 
+For photons the types of interaction used include incoherent and 
+coherent scattering, pair production with emission of annihilation 
+radiation, 
+and photoelectric 
+absorption 
+followed 
+by 
+fluorescent 
+emission of lower-energy photons. The random choices made in the Monte 
+Carlo calculation result in spectra that have the same sort of counting 
+fluctuations in each energy channel as in actual or hypothetical 
+measurements, without, it is hoped, the systematic 
+errors that 
+characterize actual detectors. Standard deviations are calculated for 
+each energy channel, based on the weighted number of counts. 
+The 
+2 
+
+===== PAGE 8 =====
+results in this paper are presented primarily as graphs, with a 
+resolution of 10 keV in most cases, except where noted. 
+It should be noted that these MCNP calculations take no account of 
+delayed fission gamma rays, fission-product gamma rays, or gamma rays 
+from fissile materials (uranium and plutonium) or from reactor 
+materials activated by neutrons. The effect of delayed fission and 
+fission product gamma rays, in particular, would be to raise the level 
+of the continuum. It is hoped that these omitted photons would not 
+greatly alter the leakage spectra of a reactor in space, but in any 
+case they would depend on the power and operational history of the 
+reactor. 
+In all cases considered here, the critical assembly is assumed to 
+have spherically symmetric geometry, with a central core of fissionable 
+material surrounded by one or more shells of other material. The outer 
+shells 
+considered 
+include 
+beryllium, 
+beryllium 
+oxide, sodium, 
+potassium, lithium, lithium hydride, and iron. An example of such a 
+geometry is shown in Fig. 1. The radius of the central core, which is 
+assumed to be ^ssy j.^ most cases, is adjusted to give approximate 
+criticality to the assembly. The results obtained show that a number 
+of materials that may be used in reactors should lead to quite 
+distinctive neutron or photon spectra. 
+III. COMPUTED REACTOR LEAKAGE SPECTRA: ENRICHED URANIUM (GODIVA) 
+The simplest spherically-symmetrical case is a bare sphere of 
+fissionable material, such as the Godiva critical assembly that has 
+been extensively investigated at Los Alamos. 
+This assembly, in 
+idealized form, is a sphere of enriched uranium, taken here to be 
+93.77% 235u, 5.20% ^ssy^ ^nd 1.03% 234u (atom fractions), with a radius 
+of 8.7407 cm. 
+With the density taken to be 18.742 g/cm^, this 
+corresponds to a mass of 52.43 kg. These specifications are based on 
+the experimental determination of the critical mass for Godiva, after 
+correction for voids, reflection, and other departures from ideal 
+assumptions; the result was a critical mass of 52.43 ± 0.23 kg for the 
+density assumed here (Hansen and Paxton 1969). 
+The multiplication 
+factor (neutron multiplication per generation) for this geometry, for 
+40 generations of 3000 neutrons each, was calculated by the MCNP code 
+to be k = 0.997 ± 0.002 (the uncertainties used in this report are 
+standard deviations). 
+Determination of the critical mass was not a high priority of the 
+present calculations, but it ' is encouraging to note the excellent 
+agreement of calculation and experiment: the value of k should be 1.0 
+for a critical mass. The neutron and gamma-ray leakage spectra, which 
+are of most interest in this report, should be independent of the 
+density for a critical mass of given material in a specified shape. 
+Thus the dimensions, densities, and critical masses assumed in the 
+calculations presented here should have no effect on the leakage 
+spectra of photons and neutrons, so long as the the assembly is 
+critical and the relative radii and densities are unchanged. 
+3 
+
+===== PAGE 9 =====
+Figure 2. shows the calculated prompt fission photon spectrum 
+emitted by the assembly, per fission neutron. 
+This particular 
+calculation took 6.8 minutes on a Cray-1 computer. 
+In MCNP 
+calculations the fission gamma-ray spectrum is smooth and approximately 
+exponential (Stewart and Hunter 1972), but only for fission induced by 
+neutrons of less than 1.08 MeV energy. For neutrons of higher energy 
+the photon spectrum produced has steps at 0.5-MeV energy intervals, 
+above 1 MeV. Some evidence may be seen in Fig. 2 of these steps, 
+artifacts of the calculation. 
+They smooth out and vanish with 
+sufficient scattering material outside the fission source. 
+The total yield of gamma rays is 0.137 ± 0.002 photons per fission 
+neutron, or 0.358 photons per fission, using v = 2.616 neutrons/fission 
+for this case. This value of v is given by the MCNP calcuation for 
+this fast reactor, and is of course higher than the thermal fission 
+value of 2.43; the value of v increases by about 1 neutron per 7 MeV of 
+energy of the neutrons inducing fission (Terrell 1962, 1965). 
+Figure 3 shows the neutron leakage spectrum calculated for the 
+Godiva fast reactor assembly. It is a slightly degraded version of the 
+fission neutron spectrum, with no other characteristic features 
+apparent. 
+The fission neutron spectrum is well represented by a 
+Maxwellian spectrum, N(E) = E^/^e 
+' , in which E is the neutron energy 
+and T is a parameter equal to 2/3 of the average energy (Terrell 1959, 
+1962). The average energy of fission neutrons is about 2 MeV, and the 
+maximum in the spectrum is at about 1/3 of the average energy, as 
+expected for a Maxwellian distribution of fission neutrons. For Godiva 
+the peak in the neutron leakage spectrum occurs at a lower energy, 
+-0.45 MeV from this calculation. However, the spectrum retains its 
+exponential character, as seen in Fig. 4, a semi-logarithmic plot of 
+the data of Fig. 3, with 100-keV resolution. 
+IV. 2 39pu CRITICAL ASSEMBLY 
+The photon and neutron leakage from a ^^^Vn critical assembly were 
+calculated by the same MCNP methods used for ^BSy. jf the density of 
+plutonium is taken to be 19.84 g/cm^, a radius of 4.9 cm is found to be 
+near-critical, with a multiplication factor k = 0.988 ± 0.003, based on 
+40 generations of 3000 neutrons each. 
+The total mass of this 
+hypothetical near-critical assembly is 9.777 kg. The density assumed 
+is that of a-phase plutonium. As Hanson and Paxton (1969) note, the 
+critical mass is proportional to the inverse square of the density for 
+a given shape. If the density had been taken to be that of 8-phase 
+plutonium (p = 15.61 g/cm^), the corresponding near-critical mass would 
+have been 15.79 kg. More accurate agreement with the experimental 
+critical mass would have been obtained if the calculation had assumed a 
+radius of 5.0 cm instead of 4.9 cm, which would then have increased the 
+mass by ~6%, to 16.7 kg, and might have yielded k = 1.0. This is in 
+reasonable 
+agreement 
+with 
+the 
+corrected 
+experimental 
+result 
+(17.02 ± 0.15 kg) found with the Jezebel critical assembly (Hansen and 
+Paxton 1969), especially considering that the plutonium used there 
+contained 4.5% (atom fraction) 240pu_ 
+4 
+
+===== PAGE 10 =====
+Figure 5 shows the gamma-ray spectrum calculated as escaping from 
+this 239pu assembly. It is similar to that for ^ssy^ with a prominent 
+511-keV line due to positron annihilation, and with fluorescence lines 
+near 100 keV. 
+The spectrum of neutrons escaping from this plutonium assembly is 
+shown in Fig. 6. 
+The spectrum is similar to that from the 235u 
+assemblies, although somewhat higher in energy, as would be expected 
+from the higher value of v", 3.181 (Terrell 1959, 1962, 1965), as well 
+as from the smaller mass. The leakage spectra of photons and neutrons 
+from a 239pu reactor assembly are seen to be generally very similar to 
+those from a ^ssy assembly, although slightly higher in average energy 
+and number. As will be evident in the remainder of this report, much 
+more distinctive differences in spectra are produced by the presence of 
+other elements in the reactor, used as coolants, reflectors, or 
+structural elements. 
+V. 2 35u CRITICAL ASSEMBLY 
+The results to be presented in the balance of this report are 
+based on a spherical critical assembly of pure ^ssy (or uranium nitride 
+in one case), surrounded by concentric spherical shells of various 
+materials. The choice of pure 235u ^j^s made, not because this material 
+is apt to be used, but for computational simplicity. 
+No obvious 
+difference in the resulting spectra has been found, as may be seen in 
+Figs. 7 and 8. The spherical radius is taken to be 8.5 cm, slightly 
+smaller than that assumed for the Godiva assembly. This is found to 
+give an appropriate critical multiplication factor, k = 0.999 ± 0.003, 
+for a density of 18.73 g/cm^ and a total mass of 48.18 kg. 
+The photon spectrum is shown in Fig. 7, with the 10-keV resolution 
+used in most of these calculations. In this case as in others, the 
+spectrum above 4 MeV is not shown if there are no significant features 
+above this energy. 
+Figure 8 shows the neutron leakage spectrum from the 2 35u 
+assembly. These results for the neutron spectrum, as for the photon 
+spectrum, are very similar to those for Godiva. 
+VI. 235UN CRITICAL ASSEMBLY 
+The leakage spectra from a sphere of uranium nitride were 
+investigated as a slightly more complicated case. This material, in 
+pellet form, may be used in the SP-100 space nuclear reactor. After 
+several preliminary trials, a 12.0-cm sphere of ^BSy^ was specified, at 
+a density of 13.6 g/cm^; the nitrogen was assumed to be ^^N (the 
+natural isotopic mixture is 99.63% ^^N). An MCNP run of 20 generations 
+of 3000 neutrons each then gave the multiplication factor as 
+k = 1.029 ± 0.003. Thus the assumed mass of 98.44 kg (including 92.90 
+kg of uranium) turned out to be somewhat above critical mass; probably 
+11.7 cm would have been the best choice of radius. 
+5 
+
+===== PAGE 11 =====
+The resultant spectrum of escaping photons is shown in Fig. 9. 
+The results are not greatly different from the case of pure 235^ 
+previously discussed. 
+Figure 10 shows the spectrum of escaping neutrons from this 
+hypothetical assembly. 
+This is noticeably different from previous 
+cases, with a number of dips and peaks due to the presence of nitrogen. 
+Thus the principal difference between the leakage spectra from 
+critical assemblies of 235UN and of 235u is the more irregular shape of 
+the neutron spectrum, due to resonances in the ^''N cross section; a 
+significant fraction of the fission neutrons (2.7%) are captured by the 
+nitrogen. 
+VII. 235u -I- Li CRITICAL ASSEMBLY 
+The effect of surrounding a uranium sphere with a spherical shell 
+of lithium was investigated, using the same methods as in the simpler 
+cases. 
+Lithium metal has been, used or proposed as a coolant for 
+various reactors, including SP-100. For the present calculation, a 
+shell of natural lithium with a thickness of 10 cm and density 
+p = 0.534 g/cm^ is assumed to surround the 235u sphere, with no gap. 
+The uranium, with a density taken to be p = 18.73 g/cm^, was varied in 
+radius until an approximately critical size was determined. 
+The 
+resulting radius of 8.0 cm corresponds to a critical mass of 40.17 kg. 
+An MCNP calculation involving 40 generations of 3000 neutrons each gave 
+the multiplication factor as k = 1.005 ± 0.002. 
+The spectrum of escaping gamma rays, shown in Fig. 11, is similar 
+to that found for bare spheres of 2 35u or ^^^?u, 
+except for one 
+conspicuous difference—the huge gamma-ray peak at 0.478 MeV. 
+The spectrum of neutrons leaking from this hypothetical reactor is 
+shown in Fig. 12, and is obviously much more distinctive (due to 
+scattering in lithium) than the bare-assembly cases discussed above. 
+It has a large low-energy peak at about 170 keV, followed by a 
+conspicuous dip. 
+VIII. 235u -I- 7LiH CRITICAL ASSEMBLY 
+The effect of LiH as a moderator (or shadow shield, as proposed 
+for SP-100) on these leakage spectra was investigated in another set of 
+runs. The lithium was assumed to be isotopically separated ''Li, in 
+order to avoid the propensity of ^Li for capturing neutrons. The 
+lithium hydride shell was taken to be 10 cm thick at a density of 
+p =0.74 g/cm^, and the radius of the uranium core (with density taken 
+to be 18.73 g/cm^) was adjusted until the assembly was approximately 
+critical. This resulted in a core radius of 6.7 cm and a corresponding 
+mass of 23.60 kg, yielding k = 1.003 ± 0.002 for a 40-generation run of 
+3000 neutrons. 
+6 
+
+===== PAGE 12 =====
+Figure 13 shows the resulting gamma-ray spectrum, which is even 
+more interesting than previous cases. The presence of hydrogen in the 
+outer shell produces thermal neutrons for the first time in this series 
+of calculations. The result is prominent thermal-neutron capture lines 
+for ''Li and ^H. 
+Also apparent in this gamma-ray spectrum are the 
+-100-keV 
+fluorescent 
+(photoelectric) 
+lines from uranium and the 
+increased yield of low-energy photons (under 400 keV) also seen in the 
+lithium-shell case (Fig. 11). These low-energy photons are produced by 
+scattering of photons in LiH, and are scattered back into the uranium 
+as well as to the outside, as determined from tallies at the uranium 
+surface (not shown). 
+It should be noted that the gamma-ray line energies given in the 
+caption and elsewhere in this report are the ENDF/B-V evaluations 
+(Garber 1979) used in the MCNP code 
+(Little 1988), and may not 
+necessarily agree with those tabulated elsewhere, such as by Lone, 
+Leavitt, and Harrison (1981). 
+The neutron leakage spectrum from this reactor assembly is shown 
+in Fig. 14. It is quite different from previous cases because of the 
+thermalizing effect of the hydrogen. 
+The result is a very large 
+low-energy yield, well off scale in the figure. 
+IX. 2 35u -h Na CRITICAL ASSEMBLY 
+The effect of sodium as a coolant on the reactor leakage spectrum 
+was investigated in another series of runs. 
+It was assumed that a 
+10-cm layer of ^^Yia, at a density p = 0.971 g/cm^, surrounds the 235u 
+core. Near-criticality was found to occur for a radius of 8.0 cm for 
+the uranium, corresponding to a mass of 40.17 kg; the multiplication 
+factor was found to be k = 0.998 ± 0.002, from a 40-generation run of 
+3000 neutrons. 
+Figure 
+15 shows 
+the 
+resultant 
+gamma-ray 
+leakage 
+spectrum. 
+Downscattering has had a noticeable effect, but its most conspicuous 
+feature is the 440-keV line due to inelastic scattering of neutrons in 
+23Na. 
+The spectrum of neutrons escaping from this critical assembly, 
+shown in Fig. 16, is distinguished by a number of prominent dips and 
+peaks due to resonances. 
+X. 235u + K CRITICAL ASSEMBLY 
+The effect of potassium as a coolant on the leakage spectra was 
+investigated in an MCNP calculation using 40 generations of 3000 
+neutrons. The 235^ core was assumed to be a sphere of 8.0 cm radius, 
+surrounded by a spherical shell of potassium, 10 cm thick, with density 
+p = 0.862 g/cm^ . 
+The mass of uranium amounted to 40.17 kg; the 
+assembly was found to be slightly subcritical, with k = 0.966 ± 0.002. 
+7 
+
+===== PAGE 13 =====
+Figure 17 shows the calculated spectrum of escaping gamma rays, 
+which is characterized primarily by a number of inelastic scattering 
+lines. 
+The spectrum of leakage neutrons, shown in Fig. 18, is similar to 
+a slightly degraded fission neutron spectrum, except for resonance 
+structure near the peak. 
+An MCNP run was also made using a spherical shell of a 
+sodium-potassium (NaK) mixture, which has been used in some reactors 
+for cooling. 
+As might be expected, the effects on the photon and 
+neutron leakage spectra (not shown) combined the characteristics of the 
+two metals as described above. 
+XI. 235u + Be CRITICAL ASSEMBLY 
+The effect of berylliimi as a reflector of leakage neutrons was 
+investigated in another MCNP run, involving 29 generations of 6000 
+neutrons each; this run, involving more than the usual number of 
+neutron tracks, took 19.7 minutes of Cray-1 time. It was assumed that 
+the 2 35u core (p = 18.73 g/cm^) was surrounded by a spherical shell of 
+^Be, 10 cm thick, at a density of 1.848 g/cm^. 
+Criticality of this 
+assembly (k = 0.997 ± 0.002) was found to occur for a core radius of 
+5.6 cm of uranium (13.78 kg). Thus the beryllium reflector had a large 
+effect in decreasing the critical mass of uranium, as expected, from 
+the unreflected value of 48.18 kg. 
+The resultant gammia-ray spectrum, shown in Figs. 19 and 20, is 
+considerably different from previous cases. 
+This and other cases 
+involving beryllium are characterized by strong downscattering of the 
+escaping photons. 
+The spectrum of escaping neutrons, shown in Fig. 21, is also quite 
+different from previous cases, with the exception of ''LiH (Fig. 14) . 
+Strong scattering of fission neutrons produces a very high peak at low 
+energies, off scale in this figure. Thus the neutron spectrum for a 
+beryllium-reflected critical assembly should be quite distinctive, and 
+would doubtless be so even for a thinner reflector. 
+XII. 2 35u -I- BeO CRITICAL ASSEMBLY 
+A beryllium reflector might well be made of BeO; thus an MCNP run 
+was made to investigate the resultant spectra, using 40 generations of 
+3000 neutrons each. The 235u core was surrounded by a BeO shell 10 cm 
+thick, of density p =3.01 g/cm^. Criticality (k = 1.000 ± 0.002) was 
+found to occur for a 5.3 cm radius of the uranium sphere, for a 
+resultant critical mass of 11.68 kg. 
+8 
+
+===== PAGE 14 =====
+The gamma-ray spectrum for this case, shown in Figs. 22 and 23 
+(both with 10-keV resolution) , is in most respects similar to the 
+leakage spectrum for a pure beryllium reflector. 
+The neutron leakage spectrum for BeO (Fig. 24) is somewhat similar 
+to the beryllium-reflector case, though more complicated. In addition 
+to the absorption dips due to beryllium resonances there are a number 
+of conspicuous dips due to oxygen. 
+XIII. 235u -I- Na + Be CRITICAL ASSEMBLY 
+An MCNP run was made to investigate the combination of sodium 
+coolant and beryllium reflector, for a critical assembly. The 235u 
+core was assumed to be surrounded by a shell of sodium 5.0 cm thick 
+(p = 0.971 g/cm^), and by an outer shell of beryllium 10 cm thick 
+(p = 1.848 g/cm3). Criticality (k = 1.001 ± 0.002) was found to occur 
+for a core radius of 6.5 cm, corresponding to a critical mass of 21.55 
+kg. This longer MCNP run took 25.38 minutes of Cray-1 time to cover 60 
+generations of 3000 neutrons each. 
+The resultant gamma-ray leakage spectrum, shown in Figs. 25 and 
+26, has more similarity to the 235u + Be case (Fig. 19 and 20) than to 
+the 235u + Na case (Fig. 15). 
+The neutron leakage spectrum, shown in Fig. 27, is very similar to 
+that for the beryllium, reflector alone (Fig. 21), with the huge peak at 
+low energies and the same minima due to resonances. 
+XIV. 235u + K + Be CRITICAL ASSEMBLY 
+A similar investigation was made for spherical shells of potassium 
+and beryllium surrounding the 235u core. The potassium was taken to be 
+5 cm thick, with density p = 0.862 g/cm^, and the outer beryllium shell 
+10 cm thick, with p = 1.848 g/cm^. The calculation (60 generations of 
+3000 neutrons each) was done for the slightly 
+supercritical 
+(k = 1.010 ± 0.002) assumption of a 6.7-cm radius uranium core 
+(p = 18.73 g/cm^, corresponding to 23.60 kg). 
+The resulting spectrum of escaping photons, shown in Figs. 28 and 
+29, has a general resemblance to the previous 235u -i- Na + Be run, 
+although the low-energy peak around 50 keV is somewhat less prominent. 
+The most significant difference is the large number of sharp spectral 
+lines for this case. It is not likely, of course, that experimental 
+observations, perhaps under difficult conditions, would exhibit 
+similarly high energy resolution (10 keV in both Figs. 28 and 29). 
+The neutron leakage spectrum, shown in Fig. 30, is rather similar 
+to that for 235u -i- Na + Be (Fig. 27), with minima at 0.63, 0.82, and 
+2.7 MeV due to beryllium resonances. 
+9 
+
+===== PAGE 15 =====
+XV. 235u-i-Fe + Be CRITICAL ASSEMBLY 
+A final MCNP run was made for a reactor assembly including iron, 
+since this element is likely to be used as structural material. The 
+iron was taken to be present as a 5-cm thick shell (p = 7.874 g/cm^), 
+surrounded by an outer shell of beryllium (p = 1.848 g/cm^) also 5 cm 
+thick. 
+Criticality was found for a 235u core of 6.5 cm radius 
+(k = 1.002 ± 0.002), giving a critical mass of 21.55 kg. The MCNP run 
+involved 50 generations of 3000 neutrons. 
+The escaping photon spectrum, seen in Figs. 31 and 32, is 
+conspicuous for the large number of sharp spectral lines, mostly due to 
+inelastic neutron scattering in iron. The most conspicuous feature of 
+the spectrum is the strong inelastic scattering line at 847 keV, but 
+numerous other inelastic lines are also visible. 
+Four beryllium 
+capture lines are noticeable. It is not clear why some beryllium lines 
+are apparent in some spectra and not in others. 
+There may be 
+differences in the spectrum of neutrons interacting, particularly if 
+nonthermal 
+reactions 
+occur, or 
+statistical 
+fluctuations may be 
+responsible in some cases. 
+The broad peak around 100 keV is due to Compton downscattering in 
+the beryllium, as has been verified by determination of the spectrum of 
+photons entering the iron from the outer beryllium shell (not shown). 
+The photon spectrum leaving the uranium has prominent fluorescence 
+lines near 100 keV, and a much more prominent 511-keV positron line 
+than finally escapes from the reactor assembly (also not shown, but 
+similar to the spectrum from bare 235^, Tig. 7). 
+The spectrum of neutrons escaping from this assembly is shown in 
+Fig. 33, and is largely similar to that from other critical assemblies 
+using beryllium reflectors. 
+A short run made for 235y + J^JQ revealed no distinctive features in 
+the leakage spectra. 
+XVI. CONCLUSIONS 
+The numerous hypothetical 
+reactor 
+(critical assembly) cases 
+considered in this paper are not intended to be exhaustive, merely 
+representative. 
+It is not likely that any of these graphs will 
+coincide with actual experimental data when obtained, particularly in 
+terms of available energy resolution, but it is hoped that some 
+features at least will turn out to be characteristic of the reactor 
+materials. 
+The distinctive features shown here in many neutron or 
+photon spectra may well be useful in characterizing an unknown reactor 
+type if data should become available. 
+10 
+
+===== PAGE 16 =====
+XVII. ACKNOWLEDGEMENTS 
+For assistance with the MCNP code I am indebted to a number of 
+persons in Group X-6 of Los Alamos National Laboratory, especially to 
+John S. Hendricks, Robert C. Little, Robert G. Schrandt, and Robert 
+E. Seamon. Valuable advice on reactor properties has been given to me 
+by Joseph L. Sapir, Ellen M. Leonard, Dale M. Holm, Thomas F. Wimett, 
+Gordon E. Hansen, and David R. Smith, all of this Laboratory. This 
+work was stimulated by the continuing interest of W. Robert Scarlett 
+and George J. Berzins, of SST-Division, and was supported by the 
+U.S. Department of Energy. 
+REFERENCES 
+BNL 325: D. I. Garber and R. R. Kinsey 1976, "Neutron Cross 
+Sections (Third Edition)," report BNL 325, National Neutron Cross 
+Section Center, Brookhaven National Laboratory, Upton, New York 11973. 
+J. F. Briesmeister 1986, Editor, "MCNP~A General Monte Carlo Code 
+for Neutron and Photon Transport, Version 3A," Los Alamos National 
+Laboratory manual LA-7397-M, Revision 2. This manual, and the MCNP 
+code, are available from the Radiation Shielding Information Center, 
+P. 0. Box X, Oak Ridge, Tennessee 37831. 
+J. L. Durell, V. Metag, R. Repnow, A. N. James, J. F. Sharpey-
+Schafer, and P. von Brentano 1974, Nuclear Physics A219, 1-19: "Decay 
+Modes and Lifetimes of Levels in ^SR Below 7.3 MeV Excitation." 
+D. Garber 1979, Editor, "ENDF/B Summary Documentation (ENDF-201, 
+Third Edition)," report BNL-NCS-17541, National Nuclear Data Center, 
+Brookhaven National Laboratory, Upton, New York 11973. 
+G. E. Hansen and H. C. Paxton 1969, Los Alamos Scientific 
+Laboratory report LA-4208: "Reevaluated Critical Specifications of 
+Some Los Alamos Fast-Neutron Systems." 
+E. W, Hones 
+and 
+P. R. Higbie 
+1989, Science 
+244, 448-451: 
+"Distribution and Detection of Positrons from an Orbiting Nuclear 
+Reactor." 
+R. C. Little 1988, personal communication, based on ENDF/B-V data 
+files used by the MCNP code. 
+M. A. Lone, R. A. Leavitt, and D. A. Harrison 1981, Atomic Data 
+and Nuclear Data Tables 26, 511-559: "Prompt Gamma Rays from Thermal-
+Neutron Capture." 
+T. J. O'Neill, 
+A. D. Kerrick, 
+F. Ait-Ouamer, 
+0. T. Tumer, 
+A. D. Zych, and R. S. White 1989, Science 244, 451-454: "Observations 
+of Nuclear Reactors on Satellites with a Balloon-Borne Gamma-Ray 
+Telescope." 
+11 
+
+===== PAGE 17 =====
+E. Rieger, W. T. Vestrand, D. J. Forrest, E. L. Chupp, G. Kanbach, 
+and C. Reppin 1989, Science 244, 441-444: "Man-Made Transients Observed 
+by the Gamma-Ray Spectrometer on the Solar Maximum Mission Satellite." 
+G. H. Share, J. D. Kurfess, K. W. Marlow, and D. C. Messina 1989, 
+Science 244, 444-448: "Geomagnetic Origin for Transient Particle Events 
+from Nuclear Reactor-Powered Satellites." 
+P. D. Soran 
+and 
+R. E. Seamon 
+1980, Los Alamos 
+Scientific 
+Laboratory report LA-8374-MS: "Graphs of the Cross Sections in the 
+Recommended Monte Carlo Cross Section Library at the Los Alamos 
+Scientific Laboratory." 
+L. Stewart and R. E. Hunter 1972, Los Alamos Scientific Laboratory 
+report LA-4918: "Evaluated Neutron-Induced Gamma-Ray Production Cross 
+Sections for 235u and 238u." 
+J. Terrell 1959, Phys. Rev. 113, 527-541: "Fission Neutron Spectra 
+and Nuclear Temperatures." 
+J. Terrell 1962, Phys. Rev. 127, 880-904: "Neutron Yields from 
+Individual Fission Fragments." 
+J. Terrell 1965, pp. 1-24 in Physics and Chemistry of Fission, 
+Proceedings of the I.A.E.A. Symposium on the Physics and Chemistry of 
+Fission (I.A.E.A., Vienna, 1965): "Prompt Neutrons from Fission." 
+12 
+
+===== PAGE 18 =====
+Figure 1: Example of a critical assembly 
+{^^^U + Na + Be), simplified 
+to spherical geometry for MCNP calculations. 
+13 
+
+===== PAGE 19 =====
+GODIVn (U235 93,77°/, 8.74CM RRDIUSJ 
+LJ 
+_ 1 
+CJ 
+1 — 1 
+h -
+Q i 
+cn 
+LL. 
+\ 
+> 
+LJ 
+5= 
+>-' 
+J 
+_ ] 
+C\J 
+t ^ 
+o 
+m 
+CM 
+o 
+-r' 
+CM 
+o 
+o 
+CM 
+r i 
+CD 
+^-' 
+o 
+fNJ 
+' ' 
+O 
+on 
+o 
+o 
+•>r' 
+o 
+o 
+o 
+o 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 2: GODIVA. 
+The spectrum is essentially a fission gamma-ray 
+spectrum, modified by absorption and scattering. Clearly apparent here 
+are the sharp line at 0.511 MeV due to pair-production absorption of 
+photons (0.002 positron-annihilation photons per fission neutron), and 
+fluorescent photons of 98, 115, and 117 keV (Little 1988) produced by 
+the photoelectric absorption process in 235^^ Some evidence may be 
+seen of steps at 0.5-MeV energy intervals above 1 MeV, which are 
+artifacts of the calculation. 
+They smooth out and vanish with 
+sufficient scattering material outside the fission source. The energy 
+resolution of the results shown is 10 keV; actual experimental results 
+would undoubtedly be less well resolved. The total yield of gamma rays 
+is 0.137 ± 0.002 photons per fission neutron, or 0.358 photons per 
+fission, using v = 2.616 neutrons/fission for this case. The average 
+energy of the leakage photons is 1.364 MeV. 
+14 
+
+===== PAGE 20 =====
+GODIVn (U235 93.77X, 8.74Cli RRDIUS) 
+0.0 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+4.0 
+Figure 3: GODIVA. 
+The spectrum of leakage neutrons is a slightly 
+degraded fission-neutron spectrum, shown here with 10-keV energy 
+resolution. The total number of neutrons escaping is calculated to be 
+0.578 ± 0.001 per fission neutron, or 1.51 per fission, including some 
+(n,2n) neutrons. One neutron per fission is, of course, absorbed in 
+producing the next fission, so that almost all of the rest of the 2.516 
+fission neutrons escape in this case. 
+The average energy of the 
+neutrons leaking out is found here to be 1.689 MeV, somewhat reduced 
+from the 2.047 MeV initial average energy. 
+15 
+
+===== PAGE 21 =====
+GODIVR (U235 93,777.. 8.74CM RRDIUS) 
+3.0 
+4.0 
+5.0 
+6.0 
+NEUTRON ENERGY (MEV) 
+8.0 
+Figure 4: GODIVA. The neutron spectrum of Fig. 3 shown as a semi-
+logarithmic plot, with energy resolution of 100 keV (the usual energy 
+resolution in these figures is 10 keV). The "particles" in the 
+ordinate captions of all these figures are fission neutrons. 
+16 
+
+===== PAGE 22 =====
+PU239 4.9CM RADIUS 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 5: 239pu_ •ji^g leakage gamma-ray spectrum is similar to that for 
+235u^ with a prominent 511-keV line due to positron annihilation (0.003 
+photons/neutron), and fluorescence lines near 100 keV. The energies of 
+these fluorescent photons as used in MCNP calculations are 17, 100, 
+103, 117, and 121 keV (Little 1988) . The average energy of this 
+spectrum is 1.387 MeV. The number of photons escaping is found to be 
+0.200 ± 0.002 per fission neutron, or 0.636 ± 0.006 per fission using 
+the calculated value v = 3.181 (the thermal value is 2.891). The 
+larger number of photons escaping than for the 235u case is doubtless 
+due to the smaller size of the critical assembly. 
+17 
+
+===== PAGE 23 =====
+PU239 4,9CM RADIUS 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+4.0 
+Figure 6: 239pu_ 
+-^Yie neutron spectrum has a peak near 0.5 MeV and an 
+average energy of 1.9338 MeV, reduced somewhat from the initial value, 
+2.159 MeV. The spectrum is similar to that from the 235u assemblies, 
+although somewhat higher in energy, as would be expected from the 
+higher value of v, 3.181 (Terrell 1959, 1962, 1965). 
+The number of 
+neutrons escaping is found to be 0.676 ± 0.001 per fission neutron, or 
+2.152 per fission. 
+18 
+
+===== PAGE 24 =====
+U235 (R=8.5CM) 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 7: 235u_ Photon leakage spectrum, with 10 keV resolution. The 
+spectrum is essentially indistinguishable from that for the Godiva 
+assembly (Fig. 2), except for larger statistical fluctuations due to a 
+shorter Cray-1 run (92 seconds, for 10 generations of 3000 neutrons 
+each) . The gamma-ray spectrum, as in Fig. 2, exhibits the positron 
+annihilation line at 511 keV (0.003 photons/fission neutron) and the 
+fluorescent lines around 100 keV. The average photon energy is 1.382 
+MeV in this case. The number of photons escaping is 0.146 ± 0.003 per 
+fission neutron, or 0.380 per fission, using v = 2.611 neutrons/per 
+fission as given by this calculation. 
+These results are all 
+essentially the same as for the Godiva assembly, with 94% 235u_ 
+19 
+
+===== PAGE 25 =====
+U235 (R=8.5CM) 
+0.0 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+4.0 
+Figure 8: 235u_ Neutron leakage spectrum. The average energy for this 
+neutron spectrum is 1.703 MeV, reduced by scattering from the initial 
+value of 2.037 MeV. The average number of neutrons escaping from the 
+assembly is found to be 0.579 ± 0.002 per fission neutron, or 1.51 per 
+fission. This is essentially the same as for the Godiva assembly 
+(Fig. 3), except for the expected larger statistical fluctuations. 
+20 
+
+===== PAGE 26 =====
+U235N 12-OCM RRDIUS 
+0.0 
+0.5 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 9: 235UN. The photon spectrum is essentially indistinguishable 
+from that for 235u alone (Figs. 2 and 7), with the same photoelectric 
+fluorescence and positron annihilation lines. The total yield of 
+escaping photons is found to be 0.135 ± 0.002 photons per fission 
+neutron, with an average energy of 1.356 MeV. 
+21 
+
+===== PAGE 27 =====
+U235N 12.0CM RADIUS 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+3.5 
+4.0 
+NEUTRON ENERGY (MEV) 
+Figure 10: ^ssyfj. The neutron spectrum is noticeably different from 
+previous examples, with a number of obvious dips and peaks due to 
+resonances in the neutron total cross section of nitrogen (BNL 325) . 
+The dips in the neutron spectrum occur at energies of 0.43, 0.64 
+(following a peak at 0.61), 1.04, 1.12 MeV, and a number of less 
+pronounced locations. The neutron yield is 0.532 ± 0.001 per fission 
+neutron, with an average energy of 1.629 MeV for the escaping neutrons, 
+compared to the 2.026 MeV initial energy, and with v = 2.520. 
+22 
+
+===== PAGE 28 =====
+U235+LI 8CM+10CM 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+4.0 
+Figure 11. ^ssy + Li. The photon spectrum has a huge peak at 0.478 
+MeV, with a strength of 0.024 photons per fission neutron. This sharp 
+line is produced in part by inelastic scattering of neutrons in "^Li, 
+which makes up 92.5% (atom fraction) of natural lithium. Much of the 
+strength of this line is also due to capture of 1.6% of the fission 
+neutrons by the 7.5% of ^Li present, which excites the same level in 
+''Li. 
+The capture of neutrons by ''Li here is negligible (0.000005 
+captures per fission neutron). The capture of neutrons by ^Li is, of 
+course, the reason why isotopically separated ''Li is preferred as a 
+coolant. 
+The gamma-ray spectrum includes the usual fluorescence 
+photons at about 100 keV, and the positron annihilation line at 511 
+keV, at a strength of 0.0013 photons per fission neutron. 
+The 
+integrated gamma-ray spectrum gives a total yield for this assembly of 
+0.204 ± 0.002 photons/neutron, with an average energy of 1.073 MeV. 
+23 
+
+===== PAGE 29 =====
+U235+LI 8CM+10CM 
+.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+3.5 
+Figure 12: 235u + Li. The distinctive neutron spectrum includes many 
+more low-energy neutrons, due to scattering in lithium. There is also 
+a very conspicuous dip in the vicinity of 0.26 MeV, which is the 
+position of a large peak in the ^Li and ''Li total cross sections, as 
+well as in the ^Li(n,t)a cross section (BNL 325). The total number of 
+neutrons escaping is found to be 0.559 ± 0.001 per fission neutron, 
+with an average energy of 1.361 MeV. The initial energy of these 
+neutrons was 2.052 MeV, with v = 2.590. 
+24 
+
+===== PAGE 30 =====
+U235+LIH 6.7CM+10CM (LIZ) 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+Figure 13: ^35^ + ''LiH. The photon spectrum shows prominent thermal 
+neutron capture lines. The ''Li capture line, at 2.073 MeV, has a total 
+yield of 0.0068 photons/neutron; the ^H capture line at 2.225 MeV 
+amounts to 0.057 photons/neutron. 
+The fractional loss of fission 
+neutrons to such captures amounts to 0.0136 in ''Li and 0.125 in ^H. 
+This large influence of ^H capture is of course a good reason for using 
+deuterium in reactors. The ''Li(n,n') inelastic scattering line at 
+0.478 MeV is still prominent (0.015 photons/neutron) as in the previous 
+case. The positron annihilation line at 0.511 MeV has a strength in 
+this case of 0.005 photons/neutron. There is also an inconspicuous 
+line at 1.052 MeV due to capture of neutrons in ''Li. The total 
+gamma-ray photon yield for this ''LiH case amounts to 0.566 ± 0.003 
+photons/neutron; the average energy of the photons is 1.111 MeV. 
+25 
+
+===== PAGE 31 =====
+U235+LIH 6.7CM+10CM (LIZ) 
+.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+Figure 14: 235y + 7L-i_H_ 
+The neutron leakage 
+spectrum 
+is quite 
+different from any calculated in previous cases because of the neutron 
+downscattering and thermalizing occurring in the hydrogen. 
+The 
+conspicuous dip at 0.26 MeV, due to the neutron total cross section 
+peak in ''Li, is as obvious as in the previous case (Fig. 12) . However, 
+the present spectrum rises to a tremendous peak at the lowest energies, 
+and there is a significant near-thermal component of neutrons (energy 
+<1 keV) amounting to 0.212 ± 0.001 escaping per fission neutron. The 
+thermal peak is thus well off scale in this figure. The total yield of 
+leakage neutrons integrates to a value of 0.413 ± 0.001 per fission 
+neutron, of which more than half are thus near-thermal. The average 
+energy of the neutrons escaping is 0.627 MeV, considerably reduced from 
+the initial fission neutron energy of 2.038 MeV, with v = 2.558. 
+26 
+
+===== PAGE 32 =====
+U235+NR 8CM+10CM 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+4.0 
+Figure 15: 2 35u + j^a_ The photon spectrum includes the usual broad 
+fission gamma-ray spectrum, with a considerable number of photons 
+reduced to energies <500 keV, as well as a small 100-keV peak and the 
+511-keV line at 0.0015 photons/neutron. The most conspicuous feature 
+is the 440-keV line (0.016 photons per fission neutron), due to 
+inelastic scattering of neutrons in ^s^^^ The wide base around this 
+line is not understood. The average energy of the leakage photons is 
+0.944 MeV, and the yield is calculated to be 0.234 ± 0.002 per fission 
+neutron. 
+27 
+
+===== PAGE 33 =====
+U235+NR 8CM+10CM 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 16: 235u + ^a. The neutron spectrum is generally similar to the 
+spectrum from bare critical assemblies, except for the presence of a 
+number of prominent dips and peaks caused by resonances in the 2 3^3 
+total neutron cross section (BNL 325). Minima appear in this spectrum 
+at 0.053, 0.21, 0.24, 0.30, 0.40, 0.45, 0.70, 0.79, 0.90, and 1.60 MeV. 
+There is also a conspicuous peak at 0.52 MeV due to the corresponding 
+minimum in the 23^3 neutron cross section. The average energy of these 
+escaping neutrons is 1.542 MeV, and the yield is calculated to be 
+0.578 ± 0.001 neutrons per fission neutron. The initial energy of 
+these neutrons was 2.051 MeV, with v = 2.611. 
+28 
+
+===== PAGE 34 =====
+U235+K 8CM+10CM 
+o 
+LJ 
+_J 
+O 
+1 
+1 
+E—' 
+cr: 
+CL 
+\ 
+> 
+( j j 
+> - H 
+_J 
+_ 1 
+0 1 
+LD 
+CM 
+O 
+O 
+rs) 
+o 
+in 
+' ' 
+a 
+o 
+b-^ 
+in 
+o 
+o 
+o 
+o. 
+0.0 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 17: 235u + j^_ The photon leakage spectrum is characterized by a 
+number of inelastic scattering photon lines, in addition to the usual 
+511-keV positron-annihilation line. The K(n,n') lines have energies of 
+2.526, 2.817, 3.021, 3.603, 3.879, and 3.935 MeV (Little 1988). The 
+strongest of these lines (2.817 MeV) has a yield of 0.0013 photons per 
+fission neutron. All these lines are due to inelastic scattering in 
+39K (Durell et al. 1974), which constitutes 93.2% (atom fraction) of 
+natural potassium. The average energy of this spectrum is 1.201 MeV, 
+and the yield is calculated as 0.146 ± 0.002 photons per fission 
+neutron. 
+29 
+
+===== PAGE 35 =====
+U235+K 8CM+10CM 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+3.5 
+4.0 
+NEUTRON ENERGY (MEV) 
+Figure 18: 235u + K. The spectrum of escaping neutrons has the general 
+appearance of a slightly degraded fission-neutron spectrum, except for 
+a more complicated structure near the peak of the spectrum. There are 
+minor peaks at 0.26, 0.32, and 0.42 MeV (or, conversely, minima at 
+0.25, (3.28, 0.30, 0.36, and 0.49 MeV), plus less prominent variations, 
+all evidently due to resonances in the potassium neutron cross section 
+(BNL 325). The yield of these escaping neutrons is 0.586 ± 0.001 per 
+fission neutron, and the average energy is 1.632 MeV, compared to the 
+initial fission spectrum energy of 2.034 MeV (v = 2.700) . 
+30 
+
+===== PAGE 36 =====
+U235+BE 5.6CM+10CM 
+0.0 
+1.5 
+PHOTON 
+2.0 
+2.5 
+3.0 
+ENERGY (MEV) 
+4.0 
+Figure 19: 235u + Be. The photon leakage spectrum has a prominent 
+broad maximum in the spectrum at - 60 keV, extending up to 20 keV, 
+evidently due to multiple Compton scattering of fission gamma rays in 
+the beryllium. The external yield of photons amounts to 0.343 ± 0.002 
+per fission neutron, and the average energy is reduced to 0.920 MeV. 
+In addition to the usual 511-keV positron decay line, there are sharp 
+spectral lines due to neutron capture in ^Be at 3.368, 3.444, and 6.810 
+MeV (see Fig. 20). 
+31 
+
+===== PAGE 37 =====
+U235+BE 5.6CM+10CM 
+0.0 
+1.0 
+2.0 
+3.0 
+4.0 
+5.0 
+PHOTON ENERGY (MEV) 
+6.0 
+7.0 
+Figure 20: 235u + gg^ Escaping gamma rays in this figure represent the 
+same data as in Fig. 19, except that a broader energy range is shown. 
+There are lines due to neutron capture in beryllium at 3.368, 3.444, 
+and—most prominently—at 6.810 MeV. The yield of this highest-energy 
+line amounts to 0.00053 photons per fission neutron. It should be 
+noted that the energy resolution here is 20 keV, which makes sharp 
+spectral lines appear lower in yield than with the 10-keV resolution 
+used in most other figures. 
+32 
+
+===== PAGE 38 =====
+U235+BE 5.6CM+10CM 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+Figure 21: 235u + Be. The neutron leakage spectrum shows a tremendous 
+maximum at the lowest neutron energies, because of multiple scattering 
+of the fission neutrons in the beryllium reflector. 
+The neutron 
+spectrum below 80 keV, off scale in this figure, rises to a value of 
+7.5/MeV for the 1-10 keV range, and to 135/MeV below that. The total 
+yield of neutrons for this case is 0.584 ± 0.001 per fission neutron, 
+of which 0.135 ± 0.001 have energy less than 1 keV. 
+The neutron 
+spectrum also shows conspicuous minima at 0.63, 0.82, and 2.7 MeV, all 
+due to resonances in the ^Be neutron cross section (BNL 325) . There is 
+a broad maximum near 1.5 MeV due to a minimum in the neutron cross 
+section. The average energy of escaping neutrons for this case is 
+0.688 MeV, considerably reduced from the initial value of 2.027 MeV. 
+The average number of neutrons per fission is v = 2.570, of which 2.51% 
+are captured in the beryllium. 
+33 
+
+===== PAGE 39 =====
+U235+BE0 5.3CM+10CM 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+4.0 
+Figure 22: 235u + BeO. The photon leakage spectrum is rather similar 
+to that for pure beryllium (Figs. 19 and 20), except for the lower 
+intensity and the less visible lines. The yield of photons is found to 
+be 0.248 ± 0,002 per fission neutron, with an average energy of 0.843 
+MeV. The sharp spectral lines seen for 235u + Be (3.368, 3.444, and 
+6.810 MeV) are still present, but at reduced intensity. The spectrum 
+above 4 MeV is displayed in Fig. 23. 
+34 
+
+===== PAGE 40 =====
+U235+BE0 5.3CM+10CM 
+2.0 
+3.0 
+4.0 
+PHOTON ENERGY 
+5.0 
+(MEV) 
+7.0 
+Figure 23: 235^ + BeO. The photon leakage spectrum is the same as in 
+the previous figure, with the same 10-keV resolution, but covering a 
+wider energy range. 
+The sharp lines are noticeably reduced in 
+intensity from the pure beryllium case. 
+The 6.810-MeV line from 
+neutron capture in Be, for example, is reduced to 0.00022 ± 0.00004 
+photons per fission. An additional line is seen at 6.131 MeV, with 
+equal intensity, from inelastic neutron scattering in ^^0. 
+35 
+
+===== PAGE 41 =====
+U235+BE0 5.3CM+10CM 
+.0 
+1.5 
+2.0 
+2.5 
+3.0 
+3.5 
+4.0 
+NEUTRON ENERGY (MEV) 
+Figure 24: 2 35u + BeO. The neutron leakage spectrum has the features 
+of the pure beryllium case (Fig. 21), plus additional characteristics 
+due to oxygen. There is a similar peak at low energies, with an 
+average energy of 0.693 MeV. The total yield is 0.570 ± 0,001 leakage 
+neutrons per fission neutron, of which 0.116 ± 0.001 have energy less 
+than 1 keV. The neutron spectrum has, in addition to the dips at 0.63, 
+0.82, and 2.7 MeV seen for beryllium absorption, conspicuous minima at 
+0.44, 0.99, 1.31, 1.65, 1.84, and 1.91 MeV, plus a peak at 2.35 MeV. 
+All these are believed due to peaks and dips in the ^^0 neutron cross 
+section (BNL 325). The average energy of the initial fission neutron 
+spectrum was 2.048 MeV, with v = 2.563, 
+36 
+
+===== PAGE 42 =====
+U235+NR+BE 6„5CM+5CM+10CM 
+1.5 
+PHOTON 
+2.0 
+2.5 
+3.0 
+ENERGY (MEV) 
+Figure 25: 235u + Na + Be. The photon leakage spectrum has 'consid-
+erable similarity to the beryllium-reflector case without sodium 
+(Figs. 19 and 20) . There is a broad maximum at ~50 keV and the usual 
+511-keV positron annihilation line, overshadowed by the 440-keV line 
+due to inelastic scattering in sodium (with yield 0.0013 ± 0.0001 per 
+fission neutron). Noticeable high-energy lines due to thermal neutron 
+capture in sodium are seen at 3.370, 3.588, 3.981, 5.618, and 6.396 MeV 
+(see also Fig. 26) . These lines would not have been evident without 
+the low-energy neutrons produced by the beryllium reflector. Also 
+apparent are beryllium neutron-capture lines at 2.590, 3.368, 3.444, 
+and particularly 6.810 MeV (with an intensity of 0.0013 ± 0.0001 
+photons per neutron). 
+The total yield of photons amounts to 
+0.364 ± 0.002 per fission neutron, and the average energy is 0.806 MeV. 
+37 
+
+===== PAGE 43 =====
+U235+NR+BE 6.5CM+5CM+10CM 
+0.0 
+2.0 
+3.0 
+4.0 
+PHOTON ENERGY 
+5.0 
+(MEV) 
+7.0 
+Figure 26: 235u + Na + Be. The photon leakage spectrum represents the 
+same data as in the previous figure, except for lower energy resolution 
+(20 keV instead of 10 keV) and the wider energy range, showing the 
+higher-energy capture lines at 5.618, 6.396, and 6.810 MeV. 
+38 
+
+===== PAGE 44 =====
+U235+NR+BE 6.5CM+5CM+10CM 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 27: 235u + Na + Be. The spectrum of escaping neutrons shown 
+here is reminiscent of the 235u + Be result (Fig. 21), with its huge 
+peak at the lowest energies due to the beryllium reflector. There are 
+also, as before, the minima due to beryllium resonances at 0.63, 0.82, 
+and 2.7 MeV, and the broad maximum near 1.5 MeV. The total yield of 
+escaping neutrons amounts to 0.572 ± 0.001 per fission neutron, of 
+which 0.193 ± 0.001 have energy <1 keV. The average energy of this 
+leakage-neutron spectrum is 0.570 MeV, much reduced from its initial 
+value of 2.035 MeV, with v = 2.570. 
+39 
+
+===== PAGE 45 =====
+U235+K+BE 6.ZCM+5CM+10CM 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 28: 235u + K + Be. 
+The most significant difference of this 
+photon leakage spectrum from most other cases is the large number of 
+sharp spectral lines, due to capture (doubtless for near-thermal 
+neutrons) or inelastic scattering in potassium. The 0.511-keV positron 
+annihilation line is present, as usual. 
+There are potassium 
+neutron-capture lines at 0.768, 1.618, 2.590 (also due to beryllium), 
+2.998, 3.040, 3.380 + 3.398, 3.598, 3.630, 4.002, 4.138, 4.388, 4.500, 
+4.658, 4.770, 5.018, 5.058, 5.178, 5.388, 5.508, 5.569, 5.746, 7.000, 
+7.768, and 9.390 MeV (see Fig. 29 for lines above 4 MeV). Also evident 
+are potassium inelastic scattering lines at 2.526, 2.817, and 3.021 
+MeV. Beryllium neutron-capture lines appear at 2.590, 3.368, 3.444, 
+5.958, and most strongly at 6.810 MeV. The total yield of escaping 
+photons amounts to 0.297 ± 0.002 photons per fission neutron, with an 
+average energy of 0.954 MeV. 
+40 
+
+===== PAGE 46 =====
+U235+K+BE 6.ZCM+5CM+10CM 
+3.0 
+PHOTON 
+4.0 
+5, 
+ENERGY 
+0 
+6.0 
+(MEV) 
+7.0 
+8.0 
+Figure 29: 2 35u + K + Be. The spectrum of leakage photons is the same 
+as in Fig. 28, with the same 10-keV resolution, but shown here up to 8 
+MeV. 
+There are potassium neutron-capture lines visible at 0.768, 
+1.618, 2.590 (also due to beryllium), 2.998, 3.040, 3.380 + 3.398, 
+3.598, 3.630, 4.002, 4.138, 4.388, 4.500, 4.658, 4.770, 5.018, 5.058, 
+5.178, 5.388, 5.508, 5.569, 5.746, 7.000, 7.768, and 9.390 MeV, the 
+last line not appearing in the figure. Also evident are potassium 
+inelastic scattering lines at 2.526, 2.817, and 3.021 MeV. Beryllium 
+neutron-capture lines appear at 2.590, 3.368, 3.444, 5.958, and most 
+strongly at 6.810 MeV (with yield 0.0010 ± 0.0001). 
+41 
+
+===== PAGE 47 =====
+U235+K+BE 6.ZCM+5CM+10CM 
+0.0 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 30: 235u + K + Be. 
+The neutron leakage spectrum is rather 
+similar to that for 235u + Na + Be (Fig. 27), with minima at 0.63, 
+0.82, and 2.7 MeV due to beryllium resonances. The total yield is 
+0.561 ± 0.001 neutrons per fission neutron, and the average energy 
+amounts to 0.603 MeV, much reduced from the initial average energy of 
+2.035 MeV, with v = 2.550. Of these escaping neutrons a considerable 
+portion (0.176 ± 0.001) have <1 keV energy. Thus these near-thermal 
+neutrons reach a level of 176 neutrons/MeV, well off scale in this 
+figure. 
+42 
+
+===== PAGE 48 =====
+U235+FE+BE 6.5CM+5CM+5CM 
+0.0 
+0.5 
+1.0 
+1.5 
+2.0 
+2.5 
+3.0 
+PHOTON ENERGY (MEV) 
+3.5 
+4.0 
+Figure 31: 235u + Fe + Be. Spectrum of escaping photons. The most 
+prominent line, by far, is the 5 6Fe(n,n') peak at 0.847 MeV, which has 
+a yield of 0.0210 ± 0.0004 photons/neutron. 
+Other iron inelastic-
+scattering lines are seen at 1.238, 1.408, 1.811, 2.113, 2.273, 2.523, 
+2.598, 2.755, 3.202, 3.663, and 4.120 MeV (lines above 4 MeV are shown 
+in Fig. 32). Beryllium capture lines are apparent at 2.590, 2.752, 
+3.368, and 6.810 MeV. The broad peak around 100 keV is due to Compton 
+downscattering in the beryllium. The total yield of escaping photons 
+is found to be 0.146 ± 0.001, with an average energy of 0.952 MeV. 
+43 
+
+===== PAGE 49 =====
+U235+FE+BE 6.5CM+5CM+5CM 
+3.0 
+4.0 
+5.0 
+6.0 
+PHOTON ENERGY (MEV) 
+Figure 32: 2 35u + Fe + Be. The photon spectrum here represents the 
+same data as in Fig. 31, except for the wider energy range; the energy 
+resolution is 20 keV, instead of 10 keV in the previous figure. Iron 
+inelastic-scattering lines are seen at 0.847, 1.238, 1.408, 1.811, 
+2.113, 2.273, 2.523, 2.598, 2.755, 3.202, 3.663, and 4.120 MeV. There 
+is also a conspicuous iron neutron-capture line at 7.64 MeV, with a 
+total yield of 0.00094 ± 0.00008 photons/neutron. Beryllium capture 
+lines are apparent at 2.590, 2.752, 3.368, and 6.810 MeV. 
+44 
+
+===== PAGE 50 =====
+U235+rE+BE 6.5CM+5CM+5CM 
+1.5 
+2.0 
+2.5 
+3.0 
+NEUTRON ENERGY (MEV) 
+4.0 
+Figure 33: 235^ + Fe + Be. The neutron leakage spectrum is similar to 
+that from other beryllium-reflected critical assemblies. The same 
+minima due to beryllium elastic-scattering resonances are apparent, at 
+0.63, 0.82, and 2.7 MeV, as is the tremendous increase at low energies 
+due to reflection. 
+The total yield of neutrons amounts to 
+0.562 ± 0.001, of which 0.0501 ± 0.0005 have energy <1 keV. 
+The 
+average external neutron energy is 0.729 MeV, reduced from the initial 
+average energy of 2.039 MeV, with v = 2.580. 
+45 

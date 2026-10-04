@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated reports (reproducible from the CLI; keep the code, not the bytes)
+reactor/reports/*.json
+reactor/src/reports/*.json
+simulation/reports/*.json
+simulation/sim/reports/*.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# OpenMC (optional dependency) — its runtime caches
+OpenMC*/
+mc_results/

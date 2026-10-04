@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L8,4.5 L1,8 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="arwB" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L8,4.5 L1,8 Z" fill="#1a5276"/>
+    </marker>
+    <pattern id="steel" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#dfe6ec"/>
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#9fb0bf" stroke-width="1.4"/>
+    </pattern>
+    <pattern id="hex" width="48.5" height="42" patternUnits="userSpaceOnUse">
+      <polygon points="24.25,1.5 46.5,12.75 46.5,33.25 24.25,40.5 1.5,33.25 1.5,12.75" fill="none" stroke="#1a5276" stroke-width="1.4"/>
+      <circle cx="24.25" cy="18.5" r="3.4" fill="#1a5276"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="900" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">Pu-239 CANDU Breeder - Core Cross-Section</text>
+  <text x="600" y="62" text-anchor="middle" font-size="12.5" fill="#4a5568" letter-spacing="0.5">Sodium-cooled heavy-water moderated heterogeneous net breeder (Scheme 2, blueprint reference case) - CAD section view</text>
+  <line x1="60" y1="74" x2="880" y2="74" stroke="#222" stroke-width="1"/>
+
+  <!-- ============ REACTOR ASSEMBLY ============ -->
+  <!-- Control rod drives (external, above top reflector) -->
+  <g>
+    <line x1="430" y1="110" x2="430" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="550" y1="110" x2="550" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="670" y1="110" x2="670" y2="186" stroke="#222" stroke-width="3"/>
+    <line x1="430" y1="186" x2="430" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <line x1="550" y1="186" x2="550" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <line x1="670" y1="186" x2="670" y2="640" stroke="#c0392b" stroke-width="3.5"/>
+    <rect x="400" y="88" width="180" height="22" fill="url(#steel)" stroke="#222" stroke-width="1.4"/>
+    <text x="490" y="103" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">control rod drive x8</text>
+  </g>
+
+  <!-- Top reflector (heavy water + steel) -->
+  <rect x="325" y="186" width="350" height="44" fill="url(#steel)" stroke="#222" stroke-width="1.6"/>
+  <line x1="330" y1="230" x2="670" y2="190" stroke="#1a5276" stroke-width="1" opacity="0.5"/>
+  <text x="500" y="213" text-anchor="middle" font-size="11" fill="#1a5276" font-weight="600">top reflector (D2O + steel)</text>
+
+  <!-- Biological steel shield (outer) -->
+  <rect x="305" y="230" width="390" height="480" fill="none" stroke="#222" stroke-width="6"/>
+  <!-- Thermal shield (Na-490) gap ring -->
+  <rect x="337" y="262" width="326" height="416" fill="#e8edf2" stroke="#34495e" stroke-width="2"/>
+  <line x1="343" y1="268" x2="343" y2="672" stroke="#c0392b" stroke-width="3.2" stroke-dasharray="5 5"/>
+  <line x1="657" y1="268" x2="657" y2="672" stroke="#c0392b" stroke-width="3.2" stroke-dasharray="5 5"/>
+
+  <!-- Moderator pool (heavy water) -->
+  <rect x="357" y="282" width="286" height="376" fill="#eef4fb" stroke="#1a5276" stroke-width="1.6"/>
+
+  <!-- Calandria cell: honeycomb lattice -->
+  <rect x="389" y="314" width="222" height="312" fill="url(#hex)" stroke="#1a5276" stroke-width="1.8"/>
+  <!-- highlight a few fuel channels -->
+  <circle cx="438" cy="363" r="6.5" fill="#fff" stroke="#1a5276" stroke-width="1.4"/>
+  <circle cx="547" cy="461" r="6.5" fill="#fff" stroke="#1a5276" stroke-width="1.4"/>
+
+  <!-- Bottom reflector (heavy water + steel) -->
+  <rect x="325" y="710" width="350" height="44" fill="url(#steel)" stroke="#222" stroke-width="1.6"/>
+  <text x="500" y="737" text-anchor="middle" font-size="11" fill="#1a5276" font-weight="600">bottom reflector (D2O + steel)</text>
+
+  <!-- ============ SODIUM COOLANT LOOP ============ -->
+  <!-- Hot leg: core right wall -> S-HX -->
+  <path d="M 700 360 L 790 360 L 790 420 L 1010 420" fill="none" stroke="#c0392b" stroke-width="8"/>
+  <path d="M 790 360 L 790 420" stroke="#c0392b" stroke-width="2" opacity="0.6"/>
+  <!-- Cold leg: S-HX -> pump -> core left wall -->
+  <path d="M 1010 560 L 790 560 L 790 620 L 300 620 L 300 360" fill="none" stroke="#1a5276" stroke-width="8"/>
+  <!-- Sodium pump -->
+  <g>
+    <rect x="755" y="500" width="70" height="80" fill="#fff" stroke="#1a5276" stroke-width="2.4"/>
+    <circle cx="790" cy="540" r="24" fill="none" stroke="#1a5276" stroke-width="2.4"/>
+    <path d="M 790 540 L 772 528 M 790 540 L 808 528 M 790 540 L 790 558" stroke="#1a5276" stroke-width="2"/>
+    <text x="790" y="596" text-anchor="middle" font-size="11" font-weight="600" fill="#1a5276">sodium pump</text>
+  </g>
+  <!-- S-HX heat exchanger -->
+  <g>
+    <rect x="1010" y="405" width="150" height="170" fill="#fff" stroke="#1a5276" stroke-width="2.4"/>
+    <line x1="1010" y1="445" x2="1160" y2="445" stroke="#1a5276" stroke-width="1.4"/>
+    <line x1="1010" y1="540" x2="1160" y2="540" stroke="#1a5276" stroke-width="1.4"/>
+    <g stroke="#c0392b" stroke-width="1.5" fill="none">
+      <path d="M1030 420 h60 M1030 430 h60 M1030 450 h60 M1030 460 h60"/>
+      <path d="M1030 490 h60 M1030 500 h60 M1030 520 h60 M1030 530 h60"/>
+    </g>
+    <text x="1085" y="392" text-anchor="middle" font-size="11" font-weight="600" fill="#1a5276">S-HX</text>
+    <text x="1085" y="592" text-anchor="middle" font-size="10.5" fill="#1a5276">(sodium heat xchg, 2-loop Na)</text>
+  </g>
+  <!-- flow arrows -->
+  <line x1="748" y1="360" x2="770" y2="360" stroke="#c0392b" stroke-width="8" marker-end="url(#arw)"/>
+  <line x1="340" y1="620" x2="362" y2="620" stroke="#1a5276" stroke-width="8" marker-end="url(#arwB)"/>
+  <text x="845" y="350" font-size="10" fill="#c0392b" font-weight="600">hot Na leg (outlet)</text>
+  <text x="360" y="642" font-size="10" fill="#1a5276" font-weight="600">cold Na leg (inlet)</text>
+
+  <!-- ============ DIMENSIONING ============ -->
+  <!-- R radius (core diameter) across calandria -->
+  <g stroke="#333" stroke-width="1.2" fill="#333">
+    <line x1="389" y1="300" x2="389" y2="288"/>
+    <line x1="611" y1="300" x2="611" y2="288"/>
+    <line x1="389" y1="294" x2="611" y2="294" marker-end="url(#arwB)" marker-start="url(#arwB)"/>
+    <line x1="389" y1="294" x2="389" y2="286" stroke-width="1.2"/>
+  </g>
+  <text x="500" y="291" text-anchor="middle" font-size="11.5" fill="#222" font-weight="600">2R = 5.0 m (core dia)</text>
+
+  <!-- H height along right of reactor -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="702" y1="230" x2="716" y2="230"/>
+    <line x1="702" y1="710" x2="716" y2="710"/>
+    <line x1="710" y1="230" x2="710" y2="710" marker-end="url(#arwB)" marker-start="url(#arwB)"/>
+  </g>
+  <text x="735" y="475" text-anchor="middle" font-size="11.5" fill="#222" font-weight="600" transform="rotate(-90 735 475)">H = 3.0 m (core section)</text>
+
+  <!-- calandria cell pitch + tube callouts -->
+  <g stroke="#1a5276" stroke-width="1.2">
+    <line x1="438" y1="343" x2="438" y2="330"/>
+    <line x1="438" y1="343" x2="474" y2="343"/>
+    <line x1="474" y1="343" x2="474" y2="330"/>
+  </g>
+  <text x="456" y="326" text-anchor="middle" font-size="10.5" fill="#1a5276">p = 90 mm pitch</text>
+  <text x="438" y="300" text-anchor="middle" font-size="10.5" fill="#1a5276">cell OD 190 / ID 180</text>
+
+  <!-- ============ LEADER LINE LABELS ============ -->
+  <g font-size="13" fill="#1a1a1a">
+    <!-- Left side labels -->
+    <g stroke="#222" stroke-width="1.1">
+      <line x1="150" y1="205" x2="325" y2="205"/>
+      <line x1="150" y1="400" x2="345" y2="430"/>
+      <line x1="150" y1="470" x2="430" y2="460"/>
+      <line x1="150" y1="540" x2="420" y2="545"/>
+      <line x1="150" y1="610" x2="320" y2="480"/>
+    </g>
+    <g fill="#1a1a1a">
+      <rect x="30" y="193" width="120" height="24" fill="#fff" stroke="#ccc"/>
+      <text x="36" y="210">calandria cell</text>
+    </g>
+    <rect x="30" y="388" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="405" fill="#1a5276">fuel channel</text>
+    <text x="36" y="405" dy="16" fill="#4a5568" font-size="11">(U-238 / THU)</text>
+
+    <rect x="30" y="458" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="475" fill="#1a5276" font-size="12.5">moderator pool</text>
+    <text x="36" y="491" fill="#4a5568" font-size="11">(heavy water D2O)</text>
+
+    <rect x="30" y="528" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="545" font-size="12.5">steel shield</text>
+    <text x="36" y="561" fill="#4a5568" font-size="11">(biological Na-steel)</text>
+
+    <rect x="30" y="598" width="120" height="24" fill="#fff" stroke="#ccc"/>
+    <text x="36" y="615" font-size="12.5">reflector</text>
+    <text x="36" y="631" fill="#4a5568" font-size="11">(axial D2O + steel)</text>
+  </g>
+
+  <!-- ============ DIMENSIONS LEGEND (right) ============ -->
+  <g>
+    <rect x="900" y="180" width="270" height="404" fill="#fff" stroke="#222" stroke-width="1.4"/>
+    <text x="915" y="205" font-size="14" font-weight="700" fill="#1a1a1a">Dimensions / Key Values</text>
+    <line x1="915" y1="214" x2="1155" y2="214" stroke="#ccc" stroke-width="1"/>
+    <g font-size="12.5" fill="#2c3e50">
+      <text x="915" y="238">R (core radius)      2.5 m</text>
+      <text x="915" y="262">H (core height)      3.0 m</text>
+      <text x="915" y="286">cell pitch p         90 mm</text>
+      <text x="915" y="310">calandria tube     190/180 mm</text>
+      <text x="915" y="334">fuel channel dia   54 mm</text>
+      <text x="915" y="358">sodium dT           350 K</text>
+      <text x="915" y="382">total power        50 MWth</text>
+      <text x="915" y="406">Pu-239 target      5 kg/yr</text>
+    </g>
+    <line x1="915" y1="424" x2="1155" y2="424" stroke="#ccc" stroke-width="1"/>
+    <g font-size="11.5" fill="#2c3e50">
+      <text x="915" y="446">k-inf (lattice)      1.0037</text>
+      <text x="915" y="468">breeding ratio BR    0.9428</text>
+      <text x="915" y="490">Pu-239 production  1.38e-2 kg/d</text>
+      <text x="915" y="512">max fuel temp      ~432 C</text>
+      <text x="915" y="534">thermal margin     ~444 K</text>
+      <text x="915" y="556">fuel elements N    300</text>
+    </g>
+    <!-- legend swatches -->
+    <rect x="915" y="566" width="16" height="10" fill="url(#steel)" stroke="#222" stroke-width="0.8"/>
+    <text x="938" y="575" font-size="11" fill="#4a5568">steel / Na-490</text>
+    <line x1="1030" y1="571" x2="1054" y2="571" stroke="#c0392b" stroke-width="3"/>
+    <text x="1060" y="575" font-size="11" fill="#4a5568">hot Na leg</text>
+  </g>
+
+  <!-- footnote -->
+  <text x="900" y="720" font-size="11" fill="#4a5568">Blueprint reference case - values from src/{neutronics,channel_model,thermal_hydraulics,reactor}.py and docs/reactor_design.md.</text>
+</svg>
